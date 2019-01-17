@@ -1,0 +1,9 @@
+{
+	"plugins": ["theme-gestalt", "theme-default", "mathjax"],
+	"pluginsConfig": {
+		"theme-gestalt": {
+			"logo": "https://i.ibb.co/ZMhxdgk/custom-1.png",
+			"excludeDefaultStyles": false
+		}
+	}
+}

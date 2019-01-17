@@ -1,0 +1,8 @@
+/_book/
+/node_modules/
+/book.pdf
+/book.mobi
+/book.epub
+
+.DS_Store
+/.DS_Store

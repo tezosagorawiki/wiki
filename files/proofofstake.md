@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Proof of Stake"
+date:   2019-01-07 12:14:18
+---
+# Proof of Stake
+
+## What is Proof-of-Stake?
+
+Proof-of-Stake (PoS) generally refers to a category of algorithms used to come to consensus in a blockchain system. In reality, Proof-of-Stake is more accurately a mechanism to prevent Sybil-attacks (prevent a single participant from masquerading as N others). In a PoS system, a participant's vote in a system is linked directly to the number of coins they have, so a person who only has 100 coins cannot pretend to be 1000 different people with 100 coins each.
+
+For a blockchain to make progress, new blocks must be created and added to chain. Who has the right to make these new blocks? In a Proof-of-Work system, miners compete for this right by expending computing power to solve random cryptographic puzzles — where the winner gets to create the next block, and earn some reward for doing so. In this paradigm, the more computing power a miner has, the more likely he is to create the next block. On the other hand, PoS systems revolve around the idea that the more coins a miner/validator/block producer has, the more likely he is to create the next block. 
+
+Broadly, there are 2 classes of proof-of-stake algorithms:
+
+1. **Chain-based Proof-of-Stake**
+
+    Like Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain (longest/heaviest chain). However, instead of randomly selecting a validator based on who solves the cryptographic puzzles first, they are randomly selected weighted by how many coins they lock-up as stake.   
+
+2. **Byzantine Fault Tolerant (BFT) Proof-of-Stake**
+
+    Instead of a lucky validator getting the right to create a block which every other participant should accept, BFT systems introduce the idea of *proposing* and *accepting.* Like the chain-based PoS system, a randomly selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until all honest validators come to some agreement. Once they are in agreement, they accept the block and it becomes finalized as the latest block. 
+
+# What consensus algorithm does Tezos use? {#consensus}
+
+Tezos uses a chain-based PoS algorithm for consensus called [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we break it up into 3 main sections:
+
+1. Block Creation (Baking) 
+
+    Block creation is the way the blockchain makes progress. In Tezos, participants who create blocks are called Bakers. Bakers contribute their computing power to the network to validate transactions. By doing so, they are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). 
+
+    To be considered a baker, a participant needs to own at least 10,000 XTZ (1 roll). The more rolls someone has, the higher his chances are at being given the rights to bake the next block. If there are 10 rolls activated at some point in time and you own 2/10 of those rolls, you have a 20% chance of being given the rights to create the next block. This means that if you have 10,000 XTZ or 19,999 XTZ, you have the same baking rights in the system.  
+
+    Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
+
+        Priority1 = Roll 6 
+        Priority2 = Roll 9
+        Priority3 = Roll 4
+        Priority4 = Roll 3
+        .
+        .
+        .
+        Priority10 = Roll 7  
+
+    This means that the person who owns Roll 6 will have first priority in proposing the block.     If he does not create and broadcast a block within 1 minute, the person who owns Roll 9 can take over. By owning more rolls, your chances of being high priority will naturally be higher than someone with fewer rolls. 
+
+    To bake, you will need to put up a security deposit (your "Proof of Stake") of 512 XTZ per block created that is locked up for 5 cycles (~14 days). This deposit can get slashed if the baker double bakes (Nothing-at-stake problem). 
+
+2. Delegating 
+
+    If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, he can delegate his coins to a baker. Delegating lets coin holders "lend" their coins to a baker so that the baker will have a higher probability of being selected, and the baker will in turn share the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins and hence the baker cannot spend the XTZ delegated to it, ensuring that bakers cannot run away with other people's money. 
+
+    Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on baking rewards for people who delegate with them. A full list of public baking services can be found [here](https://mytezosbaker.com/).
+
+3. Fork Choice Rule
+
+    The last part of understanding the Tezos consensus algorithm is understanding how the protocol decides which chain fork is the "correct" one. Bitcoin's fork choice rule is simple — the longest chain is the canonical chain. Tezos picks the canonical chain based on a different scoring mechanism: the number of bakers that endorsed the block. Previously we mentioned that bakers are given baking rights to create blocks, but bakers are also given the second responsibility of endorsing blocks. At every block height, 32 random rolls are selected to endorse a block, and the block with the most endorsements is treated as the canonical block. 
+
+    When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are all incentivized to endorse the block which they believe other bakers will also endorse — high priority blocks. Much like baking blocks, endorsing blocks also require bakers to stake 64 XTZ per endorsement to prevent the Nothing-at-stake problem.  
+
+TLDR; the Tezos PoS protocol uses a chain-based PoS algorithm where endorsements are used to rank chain forks to decide which one is the canonical chain. Bakers (people who own 10,000 XTZ) are given the responsibility of creating blocks and endorsing blocks, while having to stake some of their own capital to incentivize honest behavior.  
+
+# What is the Nothing-at-stake problem and how does Tezos solve it? {#nothing-at-stake}
+
+In PoW systems, when there are 2 chain forks, a miner has 2 options — he can either split his mining power between the two forks or mine on a single fork. However, in PoS systems, there is no concept of mining power, so validators can sign multiple blocks at the same block height. Hence, validators can generate and maintain multiple forks at no cost to them. 
+
+To solve this problem, the Tezos protocol includes some slashing conditions that will cause bakers that bake or endorse multiple blocks of the same height (vote on multiple forks) to lose their security deposit. If someone observes another baker "double-baking", he can include an accusation in a future block that contains the evidence. This will cause the "double-baker" to forfeit his security deposit and future reward up to that point in the cycle. Half of this gets burned, and the other half goes to the accuser in the form of a block reward. This incentivizes bakers to keep check on other bakers and accuse them when observing a double-bake. Because of this, bakers will not want to bake or endorse blocks on multiple forks for risk of losing their coins, solving the nothing-at-stake problem. 
+
+# Do transactions have finality? {#finality}
+
+No. As a rule of thumb, 30 confirmations is a good number (30 minutes). Since Tezos uses a chain-based PoS consensus algorithm, there is always a possibility of a chain reorganization, so we must wait some number of confirmations before we can be extremely confident that a transaction will not be reversed.  
+
+Essentially, from the missing endorsements, missing blocks, and from the future assigned baking rights, you can tell whether or not an actor controlling X% of the rolls can reorganize a given block.
+
+# How scalable is Tezos? {#scalability}
+
+Currently, Tezos does around 30-40 transactions per second. 
+
+This [blog post](https://hackernoon.com/scaling-tezo-8de241dd91bd) by Arthur Breitman highlights different possible ideas on how to increase this number to >1,000 transactions per second, including Layer 2 technologies (Lightning, Plasma) and Zero-knowledge Proofs.  
+
+# What is the roadmap for improving scalability? {#roadmap}
+
+There is no "roadmap" per se. Instead, using Tezos' on-chain governance systems, the community votes on different proposals to upgrade the protocol. Because of this, Tezos can swap out the consensus protocol through an on-chain vote without requiring a hard fork. Newer consensus algorithms like Algorand or Tendermint which have finality and higher throughput will be able to be used on Tezos.
