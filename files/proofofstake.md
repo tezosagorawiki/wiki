@@ -58,19 +58,21 @@ Tezos uses a chain-based PoS algorithm for consensus called [Liquid Proof-of-Sta
 
     When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are all incentivized to endorse the block which they believe other bakers will also endorse — high priority blocks. Much like baking blocks, endorsing blocks also require bakers to stake 64 XTZ per endorsement to prevent the Nothing-at-stake problem.  
 
-TLDR; the Tezos PoS protocol uses a chain-based PoS algorithm where endorsements are used to rank chain forks to decide which one is the canonical chain. Bakers (people who own 10,000 XTZ) are given the responsibility of creating blocks and endorsing blocks, while having to stake some of their own capital to incentivize honest behavior.  
+**To summarize:** the Tezos PoS protocol uses a chain-based PoS algorithm where endorsements are used to rank chain forks to decide which one is the canonical chain. Bakers (people who own 10,000 XTZ) are given the responsibility of creating blocks and endorsing blocks, while having to stake some of their own capital to incentivize honest behavior.  
 
 # What is the Nothing-at-stake problem and how does Tezos solve it? {#nothing-at-stake}
 
-In PoW systems, when there are 2 chain forks, a miner has 2 options — he can either split his mining power between the two forks or mine on a single fork. However, in PoS systems, there is no concept of mining power, so validators can sign multiple blocks at the same block height. Hence, validators can generate and maintain multiple forks at no cost to them. 
+In PoW systems, when there are 2 chain forks, a miner has 2 options — he can either split his mining power between the two forks or mine on a single fork. However, in PoS-secured systems, there is no concept of hash power, so validators can theoretically sign multiple blocks at the same block height. Hence, in a naively implemented PoS network, validators can generate and maintain multiple forks at no cost to them.
 
-To solve this problem, the Tezos protocol includes some slashing conditions that will cause bakers that bake or endorse multiple blocks of the same height (vote on multiple forks) to lose their security deposit. If someone observes another baker "double-baking", he can include an accusation in a future block that contains the evidence. This will cause the "double-baker" to forfeit his security deposit and future reward up to that point in the cycle. Half of this gets burned, and the other half goes to the accuser in the form of a block reward. This incentivizes bakers to keep check on other bakers and accuse them when observing a double-bake. Because of this, bakers will not want to bake or endorse blocks on multiple forks for risk of losing their coins, solving the nothing-at-stake problem. 
+To solve this problem, the Tezos protocol includes some slashing conditions that will cause bakers that bake or endorse multiple blocks of the same height (vote on multiple forks) to lose their security deposit. If someone observes another baker "double-baking", he can include an accusation in a future block that contains the evidence. This will cause the "double-baker" to forfeit his security deposit and future reward up to that point in the cycle. Half of this gets burned, and the other half goes to the accuser in the form of a block reward. This incentivizes bakers to keep check on other bakers and accuse them when observing a double-bake. Because of this, bakers are disincentivized to bake or endorse blocks on multiple forks for risk of losing their coins, minimizing the risk of the nothing-at-stake problem.
 
-# Do transactions have finality? {#finality}
+# Do Tezos transactions have finality? {#finality}
 
-No. As a rule of thumb, 30 confirmations is a good number (30 minutes). Since Tezos uses a chain-based PoS consensus algorithm, there is always a possibility of a chain reorganization, so we must wait some number of confirmations before we can be extremely confident that a transaction will not be reversed.  
+No. In the current Tezos protocol, 30 confirmations (30 minutes) may be considered a good rule of thumb for considering a transaction final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain reorganization remains, so we must wait some number of confirmations before we can be extremely confident that a transaction will not be reversed.
 
-Essentially, from the missing endorsements, missing blocks, and from the future assigned baking rights, you can tell whether or not an actor controlling X% of the rolls can reorganize a given block.
+Essentially, from the missing endorsements, missing blocks, and from the future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls can reorganize a given block.
+
+Multiple efforts are underway to explore new consensus algorithms for Tezos which would significantly reduce the time to finality. For example, adopting Tendermint for block acceptance would involve [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) on each block, meaning that each new block would have finality.
 
 # How scalable is Tezos? {#scalability}
 
