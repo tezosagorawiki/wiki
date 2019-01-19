@@ -22,6 +22,8 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
     For developers building on Tezos, upgradability provides a stronger assurance that a protocol will exist long into the future. Tezos was built to stand the test of time.
     
+    For details of the amendment mechanism, see [this post](https://medium.com/tezos/amending-tezos-b77949d97e1e).
+    
 2. **Proof-of-Stake**
 
     Baking is to Tezos what mining is to Bitcoin. 
