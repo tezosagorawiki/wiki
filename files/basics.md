@@ -8,11 +8,11 @@ General FAQ
 
 # What is Tezos? {#intro}
 
-Tezos is a new blockchain network that supports smart contracts and a platform to build decentralized applications. 
+Tezos is a new blockchain-based cryptocurrency and a smart contracts platform for building decentralized applications. 
 
 # What is XTZ? {#xtz}
 
-XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ becomes programmable money through smart contracts on the Tezos blockchain.   
+XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ is programmable money by smart contracts on the Tezos blockchain.   
 
 # What makes Tezos unique or interesting? {#unique}
 
@@ -30,15 +30,17 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
     Tezos launched in June 2018 as one of the first major blockchain network in which block publishing rights are allocated by stake. Contrast this with Bitcoin, in which block publishing rights are allocated by mining (i.e. proof-of-work). Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in the consensus process. 
     
-    Proof-of-stake also offers greater protections against 51% attack, as an attacker must acquire (at great cost) greater than 51% of the stake, rather than 51% of the hash power.
+    Proof-of-stake aims to increase the cost of 51% attacks, increase scalability, and avoid the environmentally waste of proof-of-work.
     
     As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
 
-2. **Formal Verification**
+2. **Smart Contract Security and Formal Verification**
 
-    The Tezos smart contract language, Michelson, was designed with formal verification and security in mind. Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant value (e.g. tokenized assets, loans, etc.), which require guarantees that value will not be lost or frozen due to bugs in the contract.
+    No system can be universally secure. However, Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind. 
+    
+    Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant value (e.g. tokenized assets, loans, etc.), which require guarantees that value will not be lost or frozen due to bugs in the contract.
 
-# What shortcomings of other blockchains is Tezos solving? {#shortcomings}
+# What shortcomings of other blockchains does Tezos address? {#shortcomings}
 
 Many open-source software projects (blockchains included) face difficulties in upgrading themselves. There are 3 generalizable problems facing blockchain networks:
 
@@ -62,9 +64,11 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     
     Avoiding contentious forks can preserve value and coordination around one network, making Tezos an especially interesting blockchain for issuing digital assets.
 
-2. **Trustless Financial Contracts**     
+2. **Trust-minimized Financial Contracts**     
 
-    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand an extremely high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be lost permanently and the governance of decentralized networks is even more experimental than the underlying technology itself. Another famous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, which later caused the community to fork.
+    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand an extremely high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving.
+    
+    For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be lost permanently and the governance of decentralized networks is even more experimental than the underlying technology itself. Another famous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, which later caused the community to fork.
 
     A list of Ethereum issues that resulted in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
 
