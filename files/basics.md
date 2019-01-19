@@ -50,7 +50,7 @@ Many open-source software projects (blockchains included) face difficulties in u
 
 These challenges are of great consequence for blockchains networks, many of which aim to become major, internet-native value protocols with many downstream projects affected by decisions about the base layer. Tezos was aimed to address these problems through its on-chain governance mechanism. Anyone can propose upgrades and invoice the network for developing it, any coin holder in the system can participate to approve/reject the upgrade, and Tezos nodes will automatically switch to the latest version of the protocol without the need off-chain communication.
 
-# What use cases are uniquely suited for Tezos? {#use-case}
+# What are some use cases for Tezos? {#use-case}
 
 Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications are uniquely suited for Tezos. Here are some examples: 
 
