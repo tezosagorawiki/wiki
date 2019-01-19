@@ -8,49 +8,61 @@ General FAQ
 
 # What is Tezos? {#intro}
 
-Tezos is a new blockchain that supports smart contracts and offers a platform to build decentralized applications. 
+Tezos is a new blockchain network that supports smart contracts and a platform to build decentralized applications. 
 
 # What is XTZ? {#xtz}
 
-XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the base currency of the Tezos blockchain. XTZ aims to become programmable money through smart contracts on the Tezos blockchain.   
+XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ is programmable money through smart contracts on the Tezos blockchain.   
 
-# Why is Tezos unique or interesting? {#unique}
+# What makes Tezos unique or interesting? {#unique}
 
-1. **Self-Amendment**
+1. **Self-Amendment and upgradability**
 
-    Tezos can upgrade itself through a series of votes. This means that forks are less common and stakeholders in the network are kept together over time. A robust network which can constantly upgrade itself will stand the test of time.  
+    Tezos can upgrade itself through an in-protocol amendment process without the need for a hard fork. This is designed to accelerate innovation, reduce the likelihood of contentious hard forks, and to better coordinate stakeholders within one network over time.
+    
+    For developers building on Tezos, upgradability provides a stronger assurance that a protocol will exist long into the future. Tezos was built to stand the test of time.
+    
+2. **Proof-of-Stake**
+
+    Baking is to Tezos what mining is to Bitcoin. 
+    
+    Tezos launched in June 2018 as one of the first major blockchain network in which block publishing rights are allocated by stake. Contrast this with Bitcoin, in which block publishing rights are allocated by mining (i.e. proof-of-work). Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in the consensus process. 
+    
+    Proof-of-stake also offers greater protections against 51% attack, as an attacker must acquire (at great cost) greater than 51% of the stake, rather than 51% of the hash power.
+    
+    As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
 
 2. **Formal Verification**
 
-    Smart contracts on Tezos can be mathematically proven to be correct or bug-free. Large financial contracts (vaults, loans, etc.) that hold a lot of money require guarantees that the money will not be lost or frozen due to bugs in the contract. 
+    The Tezos smart contract language, Michelson, was designed with formal verification and security in mind. Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant value (e.g. tokenized assets, loans, etc.), which require guarantees that value will not be lost or frozen due to bugs in the contract.
 
 # What shortcomings of other blockchains is Tezos solving? {#shortcomings}
 
-Many open-source software projects (blockchains included) face the difficulty of upgrading themselves. There are 3 main problems here:
+Many open-source software projects (blockchains included) face difficulties in upgrading themselves. There are 3 generalizable problems facing blockchain networks:
 
-1. A few volunteers maintain these open-source projects for little to no monetary gain, leading to slow progress or even stagnation. An example would be development of [Ethereum 2.0](https://twitter.com/preston_vanloon/status/1075174335554469888).
+1. A few volunteers maintain these open-source projects for little to no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are limited by having to seek funding by donation or by venture capital, which may have incentives misaligned with the overall network.
 
-2. Upgrades are generally approved or declined by a small committee of people, who may or may not have aligned interests with the rest of the users of the project.
+2. Technical roadmaps (or lack thereof) are governed by a small committee of people, who may or may not have aligned interests with the rest of the users of the project.
 
-3. Upgrades often require every participant to run download and run new software (hard fork). This requires mass coordination through [social media](https://twitter.com/econoar/status/1081294794461044737) or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed less frequently. 
+3. Upgrades often require every node operator to run download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed less frequently. 
 
-These problems are more dire for blockchains, as they can become billion-dollar networks. Tezos solves these problems by having an on-chain voting mechanism. Anyone can propose upgrades and put a price tag for developing it, any coin holder in the system can vote to approve/reject the upgrade, and Tezos nodes will automatically switch to the latest version of the protocol without requiring any communication. 
+These challenges are of great consequence for blockchains networks, many of which aim to become major, internet-native value protocols with many downstream projects affected by decisions about the base layer. Tezos was aimed to address these problems through its on-chain governance mechanism. Anyone can propose upgrades and invoice the network for developing it, any coin holder in the system can participate to approve/reject the upgrade, and Tezos nodes will automatically switch to the latest version of the protocol without the need off-chain communication.
 
 # What use cases are uniquely suited for Tezos? {#use-case}
 
-Smart contract platforms like Tezos or Ethereum allow for any type of code to be executed in a trustless manner. However, certain applications would be uniquely suited to be built on Tezos instead of other blockchains. Here are some examples: 
+Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications are uniquely suited for Tezos. Here are some examples: 
 
 1. **Digital assets**
     
-    Assets like digital money, real estate tokens, stablecoins, digital collectibles, and so on are particularly well-suited to be built on the Tezos blockchain. On other blockchains, hard forks like the Ethereum/Ethereum Classic split could happen, and projects building on Ethereum pre-fork must now choose a fork to honor their assets on. Because of this, hard forks cause a split in value of the assets on the platform, making each fork less valuable. 
+    Assets like digital money, real estate tokens, stablecoins, digital collectibles, and so on are particularly well-suited for Tezos. In blockchains without formal governance mechanisms, the risk of a contentious fork like the Ethereum/Ethereum Classic split are much higher, and in a future contentious split, projects may need to choose a fork on which to honor their assets.
     
     This will cause even more problems when building applications that interact with multiple assets, such as a bank for digital collectibles. If half the assets honor fork A and half the assets honor fork B, the bank itself will need to split into 2, which is a massive headache for the owner of it. 
     
-    Reducing forks from happening will preserve value, making Tezos an especially interesting blockchain for issuing digital assets.
+    Avoiding contentious forks can preserve value and coordination around one network, making Tezos an especially interesting blockchain for issuing digital assets.
 
 2. **Trustless Financial Contracts**     
 
-    Financial contracts such as decentralized exchanges, swaps, loans, and so on require an extremely high level of correctness. For example, there was a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) with Parity's Mulit-Sig Wallet, causing over 500,000 ETH ($150m at that time) to be lost permanently. Another [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, which later caused the community to fork. 
+    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand an extremely high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be lost permanently and the governance of decentralized networks is even more experimental than the underlying technology itself. Another famous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, which later caused the community to fork.
 
     A list of Ethereum issues that resulted in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
 
