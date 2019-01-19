@@ -12,7 +12,7 @@ Tezos is a new blockchain network that supports smart contracts and a platform t
 
 # What is XTZ? {#xtz}
 
-XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ is programmable money through smart contracts on the Tezos blockchain.   
+XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ becomes programmable money through smart contracts on the Tezos blockchain.   
 
 # What makes Tezos unique or interesting? {#unique}
 
