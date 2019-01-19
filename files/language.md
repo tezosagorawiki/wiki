@@ -16,7 +16,7 @@ Liquidity is compiled back to Michelson. It is easier to approach as it has loca
 
 OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where a single mistake can cost millions and speed matters. It has a large standard library, making it useful for many of the same applications as Python or Perl, and has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering.
 
-## **What is functional programming? How is it different from other languages?**
+## **What is functional programming? How is it different from other paradigms?**
 
 Functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
