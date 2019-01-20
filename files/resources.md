@@ -12,6 +12,7 @@ Resources
 - [Tezos Commons Foundation](https://tezoscommons.org/)
 - [Tezos Japan](https://twitter.com/TezosJapan)
 - [Tezos Korea](http://tezoskoreacommunity.org/)
+- [Tezos Rio](https://tezos.rio/)
 - [Tezos Korea Foundation](http://tezoskorea.foundation/)
 - [Tezos Southeast Asia](https://www.tezos.org.sg/)
 - [Tezos Montreal](https://tezosmtl.com/)
