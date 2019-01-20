@@ -72,7 +72,7 @@ No. In the current Tezos protocol, 30 confirmations (30 minutes) may be consider
 
 Essentially, from the missing endorsements, missing blocks, and from the future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls can reorganize a given block.
 
-Multiple efforts are underway to explore new consensus algorithms for Tezos which would significantly reduce the time to finality. For example, adopting Tendermint for block acceptance would involve [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) on each block, meaning that each new block would have finality.
+Multiple efforts are underway to explore new Tezos consensus algorithms with fast finality. One effort involves using Tendermint for block acceptance would entail [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) on each block, meaning that each new block would have finality. Another is the [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/), which explores Avalanche for Tezos.
 
 # How scalable is Tezos? {#scalability}
 
