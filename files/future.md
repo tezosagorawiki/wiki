@@ -9,11 +9,10 @@ Future Developments
 
 # Privacy-Preserving Transactions {#privacy}
 
-Transactions in blockchains are public by default. A company would not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are very important. To solve the problem of privacy-preserving transactions, there have been many competing solutions with different trade-offs and benefits.
+Transactions in blockchains are public by default. A company would not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are very important. To solve the problem of privacy-preserving transactions, there have been many competing solutions with different trade-offs and benefits such as Bulletproofs, Ring Signatures and Zero-knowledge proofs. 
 
-## Non-interactive Zero Knowledge Proof
+The Tezos developer community has been particularly interested in implementing a specific type of zero-knowledge proof called the zk-SNARK, which enables private transactions. For example, [this project](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) is an OCaml "wrapper" around the ZCash Sapling library. This means that a developer re-used ZCash's [Sapling](https://z.cash/upgrade/sapling/) upgrade and made it compatible with OCaml, which in turn will make it easier to implement directly into the Tezos protocol. 
 
-The usage of zero knowledge proofs with the zk-SNARK technique enables transactions to be broadcasted privately. How it works simplistically is that the commitments of each transaction are stored in the Merkle tree, which the recipients transact with using a zero knowledge proof. This technique leads to transactions that are private and concise but require a trusted setup. 
 
 # Consensus {#consensus}
 
