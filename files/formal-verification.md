@@ -33,26 +33,6 @@ As a proof development system, Coq provides interactive proof methods, decision 
 
 As a platform for the formalization of mathematics or the development of programs, Coq provides support for high-level notations, implicit contents and various other useful kinds of macros.
 
-Following our previous example of a sorted list, using Coq, a definition could be written as:
-
-    Require Import Coq.Lists.List.
-    Import ListNotations.
-    
-    Inductive SortedList : list nat -> Prop :=
-    | sort0 : SortedList []
-    | sort1 : forall a, SortedList [a]
-    | sort2 : forall z1 z2 l, z1 <= z2 -> SortedList (z2 :: l) -> SortedList (z1 :: z2 :: l).
-
-Finally, we create a proof to show that the definition is working.
-
-    Theorem SortedList_sep:
-      forall l1 l2,
-      SortedList (l1 ++ l2) -> SortedList l1 /\ SortedList l2.
-    Proof.
-      induction l1; firstorder; try destruct l1; inversion H;
-        rewrite <- ?app_comm_cons in *; try constructor; firstorder.
-    Qed.
-
 # Why is this important for financial contracts?
 
 Smart contracts are programs that hold arbitrary amount of money, which makes it crucial for them to be designed error-free and correctly. By creating these rich financial contracts, testing is just not sufficient to cover all the edge cases and errors that can happen in the wild. Next, complex financial contracts involve steps and processes that involve the trust of two parties. An incorrectly-constructed contract would breach the trust of the system and the involved parties. On top of that, unintended program effects can lead to loss of money, as seen in multiple instances with Ethereum.
