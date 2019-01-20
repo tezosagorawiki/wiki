@@ -3,7 +3,7 @@
 This is a one-stop-shop to get started learning about Tezos and to answer the frequently asked questions about the protocol & the Tezos ecosystem.
 
 
-This wiki aspires to be a living document that will evolve as the Tezos protocol evolves. If interested in proposing a change to this document, feel free to make a merge request to [this Gitlab repository](https://gitlab.com/juliankohtx/gitbook).
+This wiki aspires to be a living document that will evolve as the Tezos protocol evolves. If interested in proposing a change to this document, feel free to make a merge request to [this Gitlab repository](https://gitlab.com/tqgroup/tezos-wiki/tree/master/files).
 
 ---
 # Getting started
