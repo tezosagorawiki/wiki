@@ -6,19 +6,19 @@ Michelson is the domain-specific language used to write smart contracts on the T
 
 ## **What is Liquidity?**
 
-Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and strictly complies with Michelson security restrictions. Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the current alphanet. A formal-method framework for Liquidity is under development, to prove the correctness of smart-contracts written in Liquidity.
+Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and strictly complies with Michelson security restrictions. Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the main network. A formal-method framework for Liquidity is under development, to prove the correctness of smart-contracts written in Liquidity.
 
 ## **What is the difference between Liquidity and Michelson?**
 
-Liquidity is compiled back to Michelson. It is easier to approach as it has local variables instead of stack manipulations and high-level types.
+Liquidity is compiled back to Michelson. It is easier to approach as it has local variables and high-level types instead of stack manipulations.
 
 ## **What is OCAML?**
 
-OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where a single mistake can cost millions and speed matters. It has a large standard library, making it useful for many of the same applications as Python or Perl, and has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering.
+OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where a single mistake can cost millions and speed matters. It has a large standard library, making it useful for many of the same applications as Python or Perl, and has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml including Facebook, Bloomberg, Docker, and Jane Street.
 
 ## **What is functional programming? How is it different from other paradigms?**
 
-Functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+Functional programming is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
 It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
 

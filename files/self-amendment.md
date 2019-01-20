@@ -47,7 +47,7 @@ At the end of the Promotion Vote Period, the network counts the number of votes.
 See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
 #Arguments for and against on-chain governance {#arguments}
-To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints (read in order):
+To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints:
 
 - [Blockchain Governance: Programming Our Future](https://medium.com/@FEhrsam/blockchain-governance-programming-our-future-c3bfe30f2d74) by Fred Ehrsam 
 - [Against on-chain governance](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca) by Vlad Zamfir
@@ -55,3 +55,4 @@ To get a sense of the various arguments for and against on-chain governance, her
 - [Blockchains are not startups](https://medium.com/tezos/blockchains-are-not-startups-16449e210a61) by Jacob Arluck
 - [Notes on Blockchain Governance](https://vitalik.ca/general/2017/12/17/voting.html) by Vitalik Buterin
 - [Governance, Part 2: Plutocracy Is Still Bad](https://vitalik.ca/general/2018/03/28/plutocracy.html) by Vitalik Buterin
+- [Debate on Blockchain Governance Podcast](https://www.zeroknowledge.fm/52) with Gavin Wood & Vlad Zamfir
