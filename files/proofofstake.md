@@ -23,9 +23,9 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
 # What consensus algorithm does Tezos use? {#consensus}
 
-Tezos uses a chain-based PoS algorithm for consensus called [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we break it up into 3 main sections:
+Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we break it up into 3 main sections:
 
-1. Block Creation (Baking) 
+1. **Block Creation (Baking)**
 
     Block creation is the way the blockchain makes progress. In Tezos, participants who create blocks are called Bakers. Bakers contribute their computing power to the network to validate transactions. By doing so, they are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). 
 
@@ -46,13 +46,13 @@ Tezos uses a chain-based PoS algorithm for consensus called [Liquid Proof-of-Sta
 
     To bake, you will need to put up a security deposit (your "Proof of Stake") of 512 XTZ per block created that is locked up for 5 cycles (~14 days). This deposit can get slashed if the baker double bakes (Nothing-at-stake problem). 
 
-2. Delegating 
+2. **Delegating**
 
     If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, he can delegate his coins to a baker. Delegating lets coin holders "lend" their coins to a baker so that the baker will have a higher probability of being selected, and the baker will in turn share the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins and hence the baker cannot spend the XTZ delegated to it, ensuring that bakers cannot run away with other people's money. 
 
     Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on baking rewards for people who delegate with them. A full list of public baking services can be found [here](https://mytezosbaker.com/).
 
-3. Fork Choice Rule
+3. **Fork Choice Rule**
 
     The last part of understanding the Tezos consensus algorithm is understanding how the protocol decides which chain fork is the "correct" one. Bitcoin's fork choice rule is simple — the longest chain is the canonical chain. Tezos picks the canonical chain based on a different scoring mechanism: the number of bakers that endorsed the block. Previously we mentioned that bakers are given baking rights to create blocks, but bakers are also given the second responsibility of endorsing blocks. At every block height, 32 random rolls are selected to endorse a block, and the block with the most endorsements is treated as the canonical block. 
 
