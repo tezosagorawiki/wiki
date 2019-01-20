@@ -21,6 +21,7 @@
 
 ### Baking
 * [What is baking?](files/baking.md#what)
+* [What is delegating?](files/baking.md#delegate)
 * [How much can I earn by baking or delegating?](files/baking.md#earn)
 * [Should I bake or delegate?](files/baking.md#bakeordelegate)
 * [What is the difference between implicit and originated accounts?](files/baking.md#implicit)

@@ -1,10 +1,13 @@
 # Baking
 
 # What is baking? {#what}
-Baking is the way blocks are produced on the Tezos blockchain. To bake blocks, you need to take part in the [Tezos Proof-of-stake system](files/proofofstake.md#consensus), which requires a minimum of 10,000 XTZ. The more XTZ you own, the higher your chances are at baking blocks and earning baking rewards. 
+Baking is the way blocks are produced on the Tezos blockchain. To bake blocks, you need to take part in the [Tezos Proof-of-stake system](proofofstake.md#consensus), which requires a minimum of 10,000 XTZ. The more XTZ you own, the higher your chances are at baking blocks and earning baking rewards. 
+
+# What is delegating? {#delegate}
+If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, he can delegate his coins to a baker. Delegating lets coin holders "lend" their coins to a baker so that the baker will have a higher probability of being selected, and the baker will in turn share the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins and hence the baker cannot spend the XTZ delegated to it, ensuring that bakers cannot run away with other people's money. 
 
 # How much can I earn by baking or delegating? {#earn}
-The Tezos protocol inflates tokens by approximately 5.5% a year. This means that if *everyone* who owns XTZ bakes, each person will earn ~5.5% a year. However, not everyone bakes, so your expected return on baking should be more than 5.5% a year. If 50% of XTZ is staked, your return from baking should be approximately 10.6%.
+The Tezos protocol inflates tokens by approximately 5.5% a year. This means that if *everyone* who owns XTZ bakes, each person will earn ~5.5% a year. However, it is unlikely that everyone will bake, so your expected return on baking should be more than 5.5% a year. If 50% of XTZ is staked, your return from baking should be approximately 10.6%.
 
 The rewards from delegating is less than that of baking because you are delegating your coins to another baker and having a revenue share agreement. Usually, bakers charge upwards of 10% fees on baking rewards. 
 
