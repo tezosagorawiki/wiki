@@ -48,7 +48,7 @@ Many open-source software projects (especially decentralized blockchain networks
 *  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
 *  The miners (or validators) of a network can have incentives misaligned with the overall network
 
-These challenges are of great consequence for the evolution of blockchains networks and decisions about the base layer impact all projects building on top. 
+These challenges are of great consequence for the evolution of blockchains networks, impacting all projects building on top. 
 
 Tezos was designed to address these problems through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:
 *  Anyone can propose upgrades and invoice the network for developing it
