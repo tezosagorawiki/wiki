@@ -17,17 +17,25 @@ The Tezos developer community has been particularly interested in implementing a
 # Consensus {#consensus}
 
 ## Tendermint Consensus
-Tezos is actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. Tendermint is the primary candidate for this because it provides fast finality which is not existent in the current version of Tezos. 
+Developers are actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. Tendermint is the primary candidate for this because it provides fast finality which is not existent in the current version of Tezos. 
 
-This is where Tezos truly shines as a protocol — being able to swap out core pieces of the protocol like the consensus algorithm to improve itself, depending on a community vote. Whereas for other projects, it may take years to change a big piece of the protocol like consensus. 
+This is where Tezos truly shines as a protocol — being able to swap out core pieces of the protocol like the consensus algorithm to improve itself, depending on a community vote. 
 
 ## Randomness
-There are proposals for using new cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) to improve randomness in Tezos. This is important because baker selection in Tezos relies on randomness. The stronger the randomness is, the more difficult it becomes to "game" the consensus algorithm, either to have supernormal profits to other bakers or to destroy the network. 
+PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
+
+*Publicly Verifiable Secret Sharing (PVSS)*
+* [Secret sharing](https://en.wikipedia.org/wiki/Secret_sharing) methods distribute a secret amongst a group of participants, with each individual allocated a share of the secret. In [PVSS](https://en.wikipedia.org/wiki/Publicly_Verifiable_Secret_Sharing), the distributor of the secrets posts public proof which verifies the validity of the shares of the secret. This can be used to strengthen the randomness and minimize bias in leader and/or committee election in the proof-of-stake context.
+* An implementation of PVSS for Tezos exists [here](https://gitlab.com/tezos/tezos/blob/master/src/lib_crypto/pvss.ml) and here is an [explanation](https://www.reddit.com/r/tezos/comments/9gpiia/pvss_documentation/)
+
+*Verifiable Delay Function (VDF)*
+
+New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) to improve randomness have been [discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) for Tezos. This is important because baker selection in Tezos relies on randomness. The stronger the randomness is, the more difficult it becomes to "game" the consensus algorithm, either to have supernormal profits to other bakers or to disrupt the network. 
 
 # Layer 2 {#layer2}
 
-Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. For example, the equivalent of Ethereum's Plasma called [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
-) is proposed by Tezos community member Stephen Andrews. 
+Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. For example, a solution similar to Ethereum's Plasma called [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
+) is being developed by [TezTech](https://teztech.io/), led by Stephen Andrews. 
 
 # Amendment Rules {#governance}
 
@@ -35,16 +43,22 @@ Various layer 2 solutions are also being explored and proposed by various people
 
 Another powerful feature of Tezos is the ability to change the amendment rules itself. This means that people can vote to change the way votes are carried out, since voting systems can sometimes be gamed and change in the system itself may be necessary at times. 
 
-Example ideas which are being explored in this domain are lengthening proposal periods, proposal fees, changing quorum floors, and so on. This [blog post](https://medium.com/tezos/amending-tezos-b77949d97e1e) outlines a few ideas of how the amendment process can be improved in the future.
+Example ideas which are being explored in this domain are lengthening proposal periods, proposal fees, changing quorum floors, and moving vote counts from the beginning of a voting period to the end. This [blog post](https://medium.com/tezos/amending-tezos-b77949d97e1e) outlines a few ideas of how the amendment process might be improved in the future.
 
 ## Constitutionalism
 
-Constitutionalism refers to the adherence to a set of rules regarding protocol upgrades. These set of rules would create additional safeguards for the Tezos blockchain for protocol upgrades. One such rule could state that certain files (such as the one handling the generation of new tokens) are elevated to a privileged status. These files would then require a larger majority vote and a prolonged voting period to change.
+Constitutionalism refers to the adherence to a set of rules regarding protocol upgrades. These set of rules would create additional safeguards for the Tezos blockchain during protocol upgrades. One such rule could state that certain files (such as the one handling the generation of new tokens) are elevated to a privileged status. These files would then require a higher vote threshold or a longer voting period to change.
 
-A method to enforce constitutionalism is to have a proof checker embedded into the Tezos node. The proof checker works by employing a set of filters, where each filter ensures that some files are not modified or removed. By passing all the filters, it means that a protocol upgrade has not violated any of the rules stated in the constitution.
+One [idea which has been discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) is based on a refactoring of the code so that every creation or destruction of a Tezos token has to happen through a single OCaml module, a rule which can be enforced via the type system. This module can then programmatically limit the yearly issuance of tez, making it straightforward to hold protocol amendments which modify the module to a higher vote threshold than amendments which do not.
+
+Another method to enforce constitutionalism is to have a proof checker (e.g. Coq) embedded into the Tezos protocol. The proof checker works by employing a set of filters, where each filter ensures that some files are not modified or removed. By passing all the filters, it means that a protocol upgrade has not violated any of the rules stated in the constitution.
 
 ## Futarchy
 
-Futarchy is a governance concept first proposed by [Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html). The idea is that proposals and upgrades should be voted by the majority, however the choice of adopting the proposal/upgrade should be left to a betting market. An example would be, having a proposal that increases the block size of the Tezos blockchain to 1 MB, which is agreed upon by most stakeholders; the proposal is then voted upon by the market if the proposal is beneficial for the Tezos blockchain. There would only be 2 outcomes in this betting market, if an increased block size is beneficial for Tezos ("Yes" or "No"). These outcomes are reflected in the price of the token; the price of a Tez increasing represents "Yes" while the price of a Tez decreasing represents "No".
+Futarchy is a governance concept first proposed by [Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html), who proposed the notion of "voting on values and betting on beliefs". 
 
-The market-making in those contracts can be subsidized by issuing coins to market makers in order to improve price discovery and liquidity. In the end, the amendment deemed most likely  by the market's price would be automatically adopted.
+As discussed in this [longer form piece](https://medium.com/tezos/towards-futarchy-in-tezos-54a7b8926967) on futarchy in Tezos, futarchy might be best adopted as a proposal filtering mechanism, while terminal decision-making is best left to a voting mechanism.
+
+An example would be, having a proposal that increases the block size of the Tezos blockchain to 1 MB, which is agreed upon by most stakeholders; the proposal is then voted upon by the market if the proposal is beneficial for the Tezos blockchain. There would only be 2 outcomes in this betting market, if an increased block size is beneficial for Tezos ("Yes" or "No"). These outcomes are reflected in the price of the token; the price of a Tez increasing represents "Yes" while the price of a Tez decreasing represents "No".
+
+The market-making in those contracts can be subsidized by issuing coins to market makers in order to improve price discovery and liquidity. In a tightly coupled futarchic mechanism, the amendment deemed most likely  by the market's price would be automatically adopted.
