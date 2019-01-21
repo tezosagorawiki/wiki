@@ -33,6 +33,8 @@ PVSS and VDFs have both been discussed as ways to improve the randomness in Tezo
 
 New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) to improve randomness have been [discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) for Tezos. This is important because baker selection in Tezos relies on randomness. The stronger the randomness is, the more difficult it becomes to "game" the consensus algorithm, either to have supernormal profits to other bakers or to disrupt the network. 
 
+[VDF ASIC research](https://vdfresearch.org/) is underway, led by Filecoin and the Ethereum Foundation.
+
 # Layer 2 {#layer2}
 
 Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. For example, a solution similar to Ethereum's Plasma called [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
