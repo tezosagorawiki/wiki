@@ -26,13 +26,13 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
 2. **Proof-of-Stake**
 
-    Baking is to Tezos what mining is to Bitcoin. 
+    Baking is to Tezos what mining is to Bitcoin. Participants (i.e. "nodes") in Tezos provide the necessary computational resources to maintain the network. Proof-of-Stake (PoS) is the mechanism by which the various participants in Tezos reach consensus on the state of the blockchain. Contrast this with Bitcoin, in which the consensus mechanism is based on proof-of-work (i.e. mining).
     
-    Tezos launched in June 2018 as one of the first major blockchain networks in which block publishing rights are allocated by stake. Contrast this with Bitcoin, in which block publishing rights are allocated by mining (i.e. proof-of-work). Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in the consensus process.
+    Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in the consensus process.
     
-    Proof-of-stake aims to increase the cost of 51% attacks, improve scalability, and avoid environmentally wasteful proof-of-work.
+    Proof-of-stake aims to increase the cost of 51% attacks, improve scalability, encourage incentive alignment, and avoid environmentally wasteful proof-of-work.
     
-    As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
+    Tezos launched in June 2018 as one of the first major Proof-of-Stake networks. As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
 
 2. **Smart Contract Security and Formal Verification**
 
