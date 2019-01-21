@@ -43,7 +43,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 # What shortcomings of other blockchains does the Tezos' governance mechanism aim to address? {#shortcomings}
 
 Many open-source software projects (especially decentralized blockchain networks) face difficulties in upgrading themselves. There are several generalizable governance challenges facing open blockchain networks:
-*  Open source projects are often maintained by a few volunteers for little-to-no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are limited by having to seek funding by donation or venture capital, which may have incentives misaligned with the overall network.
+*  Open source projects are often maintained by a few volunteers for little-to-no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
 *  Technical roadmaps (or lack thereof) are determined by a small group, who may or may not have interests aligned with the larger network.
 *  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
 *  The miners (or validators) of a network can have incentives misaligned with the overall network
