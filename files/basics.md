@@ -73,7 +73,9 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. At large enough scale, smart contract exploits can pose significant challenges for blockchain governance.
     
     *   For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be permanently lost, leading to the EIP-999 debate 
+    
     *   Another famous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, eventually causing the Ethereum community to fork into Ethereum and Ethereum Classic.
+    
     *   A list of Ethereum issues that resulted in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
 
     The programming language of Tezos, Michelson, allows for formal verification, which means that smart contracts on Tezos can be mathematically proven to behave exactly as specified ("bug-free"). Industries that require mission-critical software like aircrafts, nuclear reactors and automotive vehicles, often employ formal verification techniques. Writing smart contracts on the Tezos blockchain allows that level of rigor to be applied to digital money and decentralized applications.
