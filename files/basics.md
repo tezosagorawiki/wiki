@@ -66,11 +66,11 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
 
     In blockchains without formal governance mechanisms, widely adopted asset projects are likely to gain significant soft power in protocol governance. In a contentious, sustainable split, assets would [exist on both forks](https://medium.com/@avsa/avoid-evil-twins-every-ethereum-app-pays-the-price-of-a-chain-split-e04c2a560ba8), but the issuer is most likely to honor the asset on one fork. Avoiding contentious forks can preserve value and coordination around one network, making Tezos an especially interesting blockchain for issuing digital assets.
     
-    Although no system can be universally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs (more on this below)
+    Although no system can be universally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs (more on this below).
 
 2. **Trust-minimized Financial Contracts**     
 
-    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. At large enough scale, smart contract exploits can pose significant challenges for blockchain governance.
+    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. At large enough scale, smart contract exploits can pose challenges for blockchain governance:
     
     *   For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be permanently lost, leading to the EIP-999 debate 
     
