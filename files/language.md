@@ -22,7 +22,7 @@ Functional programming is a programming paradigm — a style of building the str
 
 It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
 
-Here is a diagram that shows the differences between EVM (Ethereum Virtual Machine), WASM (Web Assembly) and Michelson:
+Here is a diagram that shows the high-level differences between the EVM (Ethereum Virtual Machine), WASM (Web Assembly) and Michelson:
 
 ![](../img/languages.png)
 
