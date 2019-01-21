@@ -25,11 +25,11 @@ Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for futur
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
 
-*Publicly Verifiable Secret Sharing (PVSS)*
+**Publicly Verifiable Secret Sharing (PVSS)**
 * [Secret sharing](https://en.wikipedia.org/wiki/Secret_sharing) methods distribute a secret amongst a group of participants, with each individual allocated a share of the secret. In [PVSS](https://en.wikipedia.org/wiki/Publicly_Verifiable_Secret_Sharing), the distributor of the secrets posts public proof which verifies the validity of the shares of the secret. This can be used to strengthen the randomness and minimize bias in leader and/or committee election in the proof-of-stake context.
 * An implementation of PVSS for Tezos exists [here](https://gitlab.com/tezos/tezos/blob/master/src/lib_crypto/pvss.ml) and here is an [explanation](https://www.reddit.com/r/tezos/comments/9gpiia/pvss_documentation/)
 
-*Verifiable Delay Function (VDF)*
+**Verifiable Delay Function (VDF)**
 
 New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) to improve randomness have been [discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) for Tezos. This is important because baker selection in Tezos relies on randomness. The stronger the randomness is, the more difficult it becomes to "game" the consensus algorithm, either to have supernormal profits to other bakers or to disrupt the network. 
 
