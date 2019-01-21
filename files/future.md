@@ -17,9 +17,10 @@ The Tezos developer community has been particularly interested in implementing a
 # Consensus {#consensus}
 
 ## Tendermint Consensus
-Developers are actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. Tendermint is the primary candidate for this because it provides fast finality which is not existent in the current version of Tezos. 
 
-This is where Tezos truly shines as a protocol — being able to swap out core pieces of the protocol like the consensus algorithm to improve itself, depending on a community vote. 
+Developers are actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. 
+
+Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of its protocol via the amendment process.
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
