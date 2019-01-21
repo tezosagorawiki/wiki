@@ -66,7 +66,7 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
 
     In blockchains without formal governance mechanisms, widely adopted asset projects are likely to gain significant soft power in protocol governance. In a contentious, sustainable split, assets would [exist on both forks](https://medium.com/@avsa/avoid-evil-twins-every-ethereum-app-pays-the-price-of-a-chain-split-e04c2a560ba8), but the issuer is most likely to honor the asset on one fork. Avoiding contentious forks can preserve value and coordination around one network, making Tezos an especially interesting blockchain for issuing digital assets.
     
-    Although no system can be perfectly secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs (more on this below)
+    Although no system can be universally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs (more on this below)
 
 2. **Trust-minimized Financial Contracts**     
 
