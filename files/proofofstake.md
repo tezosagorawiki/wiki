@@ -15,11 +15,11 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
 1. **Chain-based Proof-of-Stake**
 
-    Like Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain (longest/heaviest chain). However, instead of randomly selecting a validator based on who solves the cryptographic puzzles first, they are randomly selected weighted by how many coins they lock-up as stake.   
+    Like Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain (longest/heaviest chain). However, instead of randomly selecting a validator based on who solves the cryptographic puzzles first, they are randomly selected weighted by how many coins they lock-up, or "stake".
 
 2. **Byzantine Fault Tolerant (BFT) Proof-of-Stake**
 
-    Instead of a lucky validator getting the right to create a block which every other participant should accept, BFT systems introduce the idea of *proposing* and *accepting.* Like the chain-based PoS system, a randomly selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until all honest validators come to some agreement. Once they are in agreement, they accept the block and it becomes finalized as the latest block. 
+    Instead of a random validator getting the right to create a block which every other participant should accept, BFT systems introduce the idea of *proposing* and *accepting.* Like the chain-based PoS system, a randomly selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until all honest validators come to agreement. Once they are in agreement, they accept the block and it becomes finalized as the latest block. 
 
 # What consensus algorithm does Tezos use? {#consensus}
 
