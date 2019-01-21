@@ -58,4 +58,4 @@ To get a sense of the various arguments for and against on-chain governance, her
 - [Debate on Blockchain Governance Podcast](https://www.zeroknowledge.fm/52) with Gavin Wood & Vlad Zamfir
 - [Web3 Summit Governance Panel with Vlad Zamfir, Gavin Wood, Arthur Breitman & Adrian Brink](https://www.youtube.com/watch?v=eO3fG_1YrE4) with Gavin Wood, Vlad Zamfir, & Arthur Breitman
 - [Conspiratus Podcast #1: Protocol Governance with Vlad Zamfir and Arthur Breitman](https://www.youtube.com/watch?v=IDY_inT-q0U) with Arthur Breitman, Vlad Zamfir, Sunny Aggrawal, & Nate Rush
-- [#259 Gavin Wood: Substrate, Polkadot and the Case for On-Chain Governance](https://www.youtube.com/watch?v=eP4mT19S_jg) with Gavin Wood
+- [Epicenter #259 Gavin Wood: Substrate, Polkadot and the Case for On-Chain Governance](https://www.youtube.com/watch?v=eP4mT19S_jg) with Gavin Wood
