@@ -56,3 +56,5 @@ To get a sense of the various arguments for and against on-chain governance, her
 - [Notes on Blockchain Governance](https://vitalik.ca/general/2017/12/17/voting.html) by Vitalik Buterin
 - [Governance, Part 2: Plutocracy Is Still Bad](https://vitalik.ca/general/2018/03/28/plutocracy.html) by Vitalik Buterin
 - [Debate on Blockchain Governance Podcast](https://www.zeroknowledge.fm/52) with Gavin Wood & Vlad Zamfir
+- [Web3 Summit Governance Panel with Vlad Zamfir, Gavin Wood, Arthur Breitman & Adrian Brink](https://www.youtube.com/watch?v=eO3fG_1YrE4) with Gavin Wood, Vlad Zamfir, & Arthur Breitman
+- [Conspiratus Podcast #1: Protocol Governance with Vlad Zamfir and Arthur Breitman](https://www.youtube.com/watch?v=IDY_inT-q0U) with Arthur Breitman, Vlad Zamfir, Sunny Aggrawal, & Nate Rush
