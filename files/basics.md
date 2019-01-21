@@ -78,4 +78,6 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     
     *   A list of Ethereum issues that resulted in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
 
-    Tezos' smart contract language, Michelson, facilitates formal verification, by which Tezos smart contracts can be mathematically proven to behave exactly as specified ("bug-free"). Formal verification techniques are widely deployed in mission-critical software infrastructure, such as in aircrafts, nuclear reactors, and automotive vehicles. Tezos aims to bring this level of rigor to high-value smart contracts and decentralized applications.
+    Tezos' smart contract language, Michelson, facilitates formal verification, by which Tezos smart contracts can be mathematically proven to behave exactly as specified ("bug-free"). Formal verification techniques are widely deployed in mission-critical software infrastructure, such as in aircrafts, nuclear reactors, and automotive vehicles. 
+    
+    Tezos aims to bring this level of rigor to high-value smart contracts and decentralized applications.
