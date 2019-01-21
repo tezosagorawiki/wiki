@@ -16,7 +16,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
 # What makes Tezos unique or interesting? {#unique}
 
-1. **Self-Amendment and upgradability**
+1. **Self-Amendment and Upgradability**
 
     Tezos can upgrade itself through an in-protocol amendment process without the need for a hard fork. This is designed to accelerate innovation, reduce the likelihood of contentious splits, and better coordinate stakeholders within one network over time.
     
@@ -60,7 +60,7 @@ Tezos was designed to address these problems through its on-chain governance mec
 
 Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications are uniquely suited for Tezos. Here are some examples:
 
-1. **Digital assets**
+1. **Digital Assets**
     
     Assets like digital money, tokenized real estate, stablecoins, digital collectibles, and so on are particularly well-suited for Tezos. 
 
@@ -68,7 +68,7 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     
     Although no system can be universally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs (more on this below).
 
-2. **Trust-minimized Financial Contracts**     
+2. **Trust-Minimized Financial Contracts**     
 
     Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party and so a loss of funds resulting from a bug in the code is particularly unforgiving. At large enough scale, smart contract exploits can pose challenges for blockchain governance:
     
