@@ -8,7 +8,7 @@ General FAQ
 
 # What is Tezos? {#intro}
 
-Tezos is a new blockchain-based cryptocurrency and a smart contracts platform for building decentralized applications. 
+Tezos is a new blockchain-based cryptocurrency and a smart contracts platform for building decentralized applications (dApps). 
 
 # What is XTZ? {#xtz}
 
@@ -54,7 +54,7 @@ Tezos was designed to address these problems through its on-chain governance mec
 *  Anyone can propose upgrades and invoice the network for developing it
 *  Token holders can participate in the amendment process to approve/reject the upgrade by selecting a baker
 *  Tezos nodes will automatically switch to the latest version of the protocol without the need for off-chain communication
-*  [Liquid proof-of-stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to aligns network participants' incentives, allowing any token holder to avoid dilution by inflation
+*  [Liquid proof-of-stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to aligns network participants' incentives and any token holder can avoid dilution by inflation
 
 # What are some use cases for Tezos? {#use-case}
 
