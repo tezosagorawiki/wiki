@@ -12,15 +12,15 @@ Liquidity is a high-level language to program Smart Contracts for Tezos. It is a
 
 ## **What is the difference between Liquidity and Michelson?**
 
-Liquidity is compiled back to Michelson. It is easier to approach as it has local variables and high-level types instead of stack manipulations.
+Liquidity is compiled strictly back to Michelson. It is easier for many developers to approach as it has an easier syntax with local variables and high-level types instead of stack manipulations. A formal verification framework for Liquidity is under development.
 
-## **What is OCAML?**
+## **What is OCaml?**
 
 OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where a single mistake can cost millions and speed matters. It has a large standard library, making it useful for many of the same applications as Python or Perl, and has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml including Facebook, Bloomberg, Docker, and Jane Street.
 
 ## **What is functional programming? How is it different from other paradigms?**
 
-Functional programming is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+[Functional programming](https://en.wikipedia.org/wiki/Functional_programming) is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
 It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
 
@@ -56,7 +56,7 @@ After running the function, without any updates to the stack, the program will c
 
 In the example, Michelson only manipulates the stack functionally and a new stack is passed from function to function. 
 
-# Why Michelson?
+# "Why Michelson?" (by Milo Davis)
 
 At first sight, Michelson is a strange language. It doesn’t include many features like polymorphism, closures, or named functions. Compared to a language like Haskell or OCaml, it seems underpowered; its stack is not always easy to deal with; there is no standard library. However, these restrictions are largely motivated by the language’s design goals.
 
