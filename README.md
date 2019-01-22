@@ -7,7 +7,7 @@ This wiki aspires to be a living document that will evolve as the Tezos protocol
 
 ---
 # Getting started
-This wiki  covers a variety of topics ranging from Baking to Proof-of-Stake and resources like block explorers for Tezos. 
+This wiki  covers a variety of topics ranging from Baking to Proof-of-Stake to Tezos smart contracts and also includes resources like block explorers for Tezos. 
 
 The best way to get started learning about Tezos is with this video:
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ftA7O04yxXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
