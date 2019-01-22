@@ -96,7 +96,7 @@ Liquidity already covers 100% of the Michelson features, and contracts generated
 
 # Michelson:
 
-- [Original Michelson language homepage](https://www.michelson-lang.com/): note some changes have been made to Michelson since then
+- [Original Michelson language homepage](https://www.michelson-lang.com/) (note some changes have been made to Michelson since then)
 - [Michelson talk](https://www.youtube.com/watch?v=4oG4Ead74xA)
 - [Michelson Tutorial Part 1 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01)
 - [Michelson Tutorial Part 2 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/02)
