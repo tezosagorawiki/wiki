@@ -22,6 +22,8 @@ Developers are actively exploring new consensus algorithms that other teams are 
 
 Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of its protocol via the amendment process.
 
+One idea which has emerged is the possibility of using Tendermint for block acceptance (like a finality gadget) and maintaining Nakamoto Consensus for block proposing. This idea is discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
+
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
 
