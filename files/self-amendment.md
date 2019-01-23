@@ -46,7 +46,7 @@ At the end of the Promotion Vote Period, the network counts the number of votes.
 
 See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
-#Arguments for and against on-chain governance {#arguments}
+# Arguments for and against on-chain governance {#arguments}
 To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints:
 
 - [Blockchain Governance: Programming Our Future](https://medium.com/@FEhrsam/blockchain-governance-programming-our-future-c3bfe30f2d74) by Fred Ehrsam 
