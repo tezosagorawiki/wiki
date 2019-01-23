@@ -1,7 +1,7 @@
 # Baking
 
 # What is baking? {#what}
-Baking is the way blocks are produced on the Tezos blockchain. To bake blocks, you need to take part in the [Tezos Proof-of-stake system](proofofstake.md#consensus), which requires a minimum of 10,000 XTZ. The more XTZ you own, the higher your chances are at baking blocks and earning baking rewards. 
+Baking is how blocks are produced and validated on the Tezos blockchain. To bake blocks, you need to take part in the [Tezos Proof-of-stake system](proofofstake.md#consensus), which requires a minimum of 10,000 XTZ. The more XTZ you own, the higher your chances are at baking blocks and earning baking rewards. 
 
 # What is delegating? {#delegate}
 If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, he can delegate his coins to a baker. Delegating lets coin holders "lend" their coins to a baker so that the baker will have a higher probability of being selected, and the baker will in turn share the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins and hence the baker cannot spend the XTZ delegated to it, ensuring that bakers cannot run away with other people's money. 
@@ -12,7 +12,7 @@ The Tezos protocol inflates tokens by approximately 5.5% a year. This means that
 The rewards from delegating is less than that of baking because you are delegating your coins to another baker and having a revenue share agreement. Usually, bakers charge upwards of 10% fees on baking rewards. 
 
 # Should I bake or delegate? {#bakeordelegate}
-Baking lets you earn a higher yield, but requires technical expertise in setting up a server and running the baking software 24/7 with as little downtime as possible. By delegating your coins to a baker, you avoid this process altogether but you earn a lower yield as a result. If you have less than 10,000 XTZ, your only option to stake is by delegating to another baker.
+Self-baking lets a baker earn a higher yield, but requires technical expertise in setting up a baker and running the baking software reliably with as little downtime as possible. By delegating your coins to a baker, you avoid this process altogether but you earn a lower yield as a result. If you have less than 10,000 XTZ, your only option to stake is by delegating to another baker.
 
 A list of bakers can be found at [this page](https://mytezosbaker.com/) for you to compare fees and decide which baker to delegate your coins to. 
 
