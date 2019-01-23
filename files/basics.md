@@ -36,9 +36,9 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
 2. **Smart Contract Security and Formal Verification**
 
-    No system can be universally secure. However, Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind. 
+    No system can be universally or unconditionally secure. However, Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind. 
     
-    Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant value (e.g. tokenized assets, loans, etc.), which require guarantees that funds will not be lost or frozen due to bugs in the code.
+    Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant real-world value (e.g. tokenized assets, loans, etc.), which require guarantees that funds will not be lost or frozen due to bugs in the code.
 
 # What shortcomings of other blockchains does the Tezos' governance mechanism aim to address? {#shortcomings}
 
@@ -57,26 +57,24 @@ Tezos was designed to address these challenges through its on-chain governance m
 
 # What are some use cases for Tezos? {#use-case}
 
-Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications are uniquely suited for Tezos. Here are some examples:
+Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications may be well suited for Tezos based on formal governance and focus on smart contract security. Below are some preliminary examples:
 
 1. **Digital Assets**
     
     Assets like digital money, tokenized real estate, stablecoins, digital collectibles, and so on are particularly well-suited for Tezos. 
 
-    In blockchains without formal governance mechanisms, widely adopted asset projects are likely to gain significant soft power in protocol governance. In a contentious, sustainable split, assets would [exist on both forks](https://medium.com/@avsa/avoid-evil-twins-every-ethereum-app-pays-the-price-of-a-chain-split-e04c2a560ba8), but the issuer is likely to honor the asset on one fork. Avoiding contentious forks can preserve value and coordination around one network, making Tezos an especially interesting blockchain for issuing digital assets.
+    In blockchains without formal governance mechanisms, widely adopted asset projects are likely to gain significant soft power in protocol governance. In a contentious, sustainable split, assets would [exist on both forks](https://medium.com/@avsa/avoid-evil-twins-every-ethereum-app-pays-the-price-of-a-chain-split-e04c2a560ba8), but the issuer is likely to honor the asset on one fork. Avoiding contentious forks can preserve value and coordination around one network, making Tezos a compelling platform for issuing digital assets.
     
 2. **Trust-Minimized Financial Contracts**     
 
     Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party, which makes a loss of funds from a bug in the code particularly unforgiving. At large enough scale, smart contract exploits can pose challenges for blockchain governance:
     
-    *   For example, a [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be permanently lost, leading to the EIP-999 debate 
+    * The infamous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m occurred due to a bug known as the recursive send exploit, eventually causing the Ethereum community to fork into Ethereum and Ethereum Classic.  
+    * A [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be frozen, leading to the EIP-999 debate. A list of Ethereum issues resulting in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
     
-    *   Another famous [hack](http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m also occured due to a bug known as the recursive send exploit, eventually causing the Ethereum community to fork into Ethereum and Ethereum Classic.
-    
-    *   A list of Ethereum issues that resulted in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
+Tezos' smart contract language, Michelson, facilitates formal verification, by which financially weighted Tezos smart contracts can be mathematically proven to behave exactly as specified ("bug-free"). Formal verification techniques are widely deployed in mission-critical software infrastructure, such as in aircrafts, nuclear reactors, and automotive vehicles.
 
-    Although no system can be unconditionally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs.
+Tezos aspires to bring this level of rigor to the realm of high-value smart contracts and decentralized applications.
+
+Although no system can be unconditionally secure, the Tezos smart contract language, Michelson, was designed with security and formal verification in mind. This is especially critical given the unforgiving nature of smart contracts bugs.
     
-    Tezos' smart contract language, Michelson, facilitates formal verification, by which financially weighted Tezos smart contracts can be mathematically proven to behave exactly as specified ("bug-free"). Formal verification techniques are widely deployed in mission-critical software infrastructure, such as in aircrafts, nuclear reactors, and automotive vehicles.
-    
-    Tezos aspires to bring this level of rigor to the realm of high-value smart contracts and decentralized applications.
