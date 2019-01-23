@@ -27,7 +27,7 @@ One idea which has emerged is the possibility of using [Tendermint](https://gith
 
 ## Avalanche
 
-The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/)by Edward Tate is exploring an Avalanche implementation for Tezos.
+The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/) by Edward Tate is exploring an Avalanche implementation for Tezos.
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
