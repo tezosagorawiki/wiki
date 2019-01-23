@@ -46,7 +46,7 @@ New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf
 
 Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. 
 
-##Velos (TezTech)
+**Velos (TezTech)**
 
 [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
 ), a plasma-like project, is being developed by [TezTech](https://teztech.io/), led by Stephen Andrews.
