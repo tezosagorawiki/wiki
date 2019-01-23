@@ -53,7 +53,7 @@ Various layer 2 solutions are also being explored and proposed by various people
 
 # Amendment Rules {#governance}
 
-## Improving Amendment Process
+## Improving the Amendment Process
 
 Another powerful feature of Tezos is the ability to change the amendment rules itself. This means that people can vote to change the way votes are carried out, since voting systems can sometimes be gamed and change in the governance mechanism itself may be necessary at times. 
 
@@ -76,3 +76,7 @@ As discussed in this [longer form piece](https://medium.com/tezos/towards-futarc
 An example would be, having a proposal that increases the block size of the Tezos blockchain to 1 MB, which is agreed upon by most stakeholders; the proposal is then voted upon by the market if the proposal is beneficial for the Tezos blockchain. There would only be 2 outcomes in this betting market, if an increased block size is beneficial for Tezos ("Yes" or "No"). These outcomes are reflected in the price of the token; the price of a Tez increasing represents "Yes" while the price of a Tez decreasing represents "No".
 
 The market-making in those contracts can be subsidized by issuing coins to market makers in order to improve price discovery and liquidity. In a tightly coupled futarchic mechanism, the amendment deemed most likely  by the market's price would be automatically adopted.
+
+## Mempool management
+
+One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including transactions in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as already done in Tezos.
