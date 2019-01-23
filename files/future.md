@@ -9,20 +9,25 @@ Future Developments
 
 # Privacy-Preserving Transactions {#privacy}
 
-Transactions in blockchains are public by default. A company would not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are very important. To solve the problem of privacy-preserving transactions, there have been many competing solutions with different trade-offs and benefits such as Bulletproofs, Ring Signatures and Zero-knowledge proofs. 
+Transactions in blockchains are public by default. A company would not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are important for user adoption. To introduce privacy-preserving transactions, developers in the blockchain ecosystem have offered up many competing solutions with different trade-offs and benefits such as Bulletproofs, Ring Signatures and Zero-knowledge proofs.
 
-The Tezos developer community has been particularly interested in implementing a specific type of zero-knowledge proof called the zk-SNARK, which enables private transactions. For example, [this project](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) is an OCaml "wrapper" around the ZCash Sapling library. This means that a developer re-used ZCash's [Sapling](https://z.cash/upgrade/sapling/) upgrade and made it compatible with OCaml, which in turn will make it easier to implement directly into the Tezos protocol. 
+**zk-SNARKs**
 
+The Tezos developer community has been particularly interested in implementing a specific type of zero-knowledge proof called the zk-SNARK, which enables private transactions. For example, [this project](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) is an OCaml "wrapper" around the ZCash Sapling library, allowing Tezos to reuse the ceremony from ZCash's [Sapling](https://z.cash/upgrade/sapling/) upgrade.
 
 # Consensus {#consensus}
-
-## Tendermint Consensus
 
 Developers are actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. 
 
 Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of its protocol via the amendment process.
 
-One idea which has emerged is the possibility of using Tendermint for block acceptance (like a finality gadget) and maintaining Nakamoto Consensus for block proposing. This idea is discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
+## Tendermint Consensus
+
+One idea which has emerged is the possibility of using [Tendermint](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm), a pBFT-like consensus algorithm for Tezos block acceptance (a la finality gadget) and maintaining Nakamoto Consensus for block proposing. This idea is discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
+
+## Avalanche
+
+The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/)by Edward Tate is exploring an Avalanche implementation for Tezos.
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve the randomness in Tezos.
@@ -39,14 +44,18 @@ New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf
 
 # Layer 2 {#layer2}
 
-Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. For example, a solution similar to Ethereum's Plasma called [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
-) is being developed by [TezTech](https://teztech.io/), led by Stephen Andrews. 
+Various layer 2 solutions are also being explored and proposed by various people on the Tezos network. 
+
+##Velos (TezTech)
+
+[Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
+), a plasma-like project, is being developed by [TezTech](https://teztech.io/), led by Stephen Andrews.
 
 # Amendment Rules {#governance}
 
 ## Improving Amendment Process
 
-Another powerful feature of Tezos is the ability to change the amendment rules itself. This means that people can vote to change the way votes are carried out, since voting systems can sometimes be gamed and change in the system itself may be necessary at times. 
+Another powerful feature of Tezos is the ability to change the amendment rules itself. This means that people can vote to change the way votes are carried out, since voting systems can sometimes be gamed and change in the governance mechanism itself may be necessary at times. 
 
 Example ideas which are being explored in this domain are lengthening proposal periods, proposal fees, changing quorum floors, and moving vote counts from the beginning of a voting period to the end. This [blog post](https://medium.com/tezos/amending-tezos-b77949d97e1e) outlines a few ideas of how the amendment process might be improved in the future.
 
