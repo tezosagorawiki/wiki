@@ -31,7 +31,7 @@ Coq implements a program specification and higher-level mathematical language ca
 
 As a proof development system, Coq provides interactive proof methods, decision and semi-decision algorithms, and a *tactic* language that lets the user define its own proof methods. Connections with external computer algebra systems and theorem provers are also available.
 
-As a platform for the formalization of mathematics and for the development of programs, Coq provides support for high-level notation, implicit content and other useful macros.
+As a platform for the formalization of mathematics and for the development of programs, Coq provides support for high-level notation, implicit content and other useful macros. This repository is a formalization of Michelson using the Coq interactive theorem prover: https://framagit.org/rafoo/michelson-coq.
 
 # Why is this important for financial contracts?
 
