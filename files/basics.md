@@ -28,7 +28,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
     Baking is to Tezos what mining is to Bitcoin. Participants (i.e. "nodes") in Tezos provide the necessary computational resources to maintain the network. Proof-of-Stake (PoS) is the mechanism by which the various participants in Tezos reach consensus on the state of the blockchain. Contrast this with Bitcoin, in which the consensus mechanism is based on proof-of-work (i.e. mining).
     
-    Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in consensus without sacrificing custody of their tokens. To better describe this model, Tezos' approach to consensus has been described as [Liquid Proof of Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7).
+    Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in consensus without giving up custody of their tokens. Tezos' approach to consensus has been described as [Liquid Proof of Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7).
     
     Proof-of-stake aims to increase the cost of 51% attacks, improve scalability, encourage incentive alignment, and avoid environmentally wasteful proof-of-work.
     
