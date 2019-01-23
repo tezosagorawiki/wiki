@@ -2,27 +2,27 @@
 
 ## **What is Michelson?**
 
-Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language, it doesn't have any variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
+Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language, and it doesn't have any variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
 
 See here for [Michelson documentation](http://tezos.gitlab.io/mainnet/whitedoc/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
 
 ## **What is Liquidity?**
 
-Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and strictly complies with Michelson security restrictions. Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the main network. A formal-method framework for Liquidity is under development, to prove the correctness of smart-contracts written in Liquidity.
+Liquidity is a high-level language used to program Smart Contracts for Tezos. It is a fully typed functional language. It uses the syntax of OCaml, and it strictly complies with Michelson security restrictions. Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the main network. Developers are currently working on a formal-method framework that will be used to prove the correctness of smart-contracts written in Liquidity.
 
 ## **What is the difference between Liquidity and Michelson?**
 
-Liquidity is compiled strictly back to Michelson. It is easier for many developers to approach as it has an easier syntax with local variables and high-level types instead of stack manipulations. A formal verification framework for Liquidity is under development.
+Liquidity is compiled strictly back to Michelson. As a language, Liquidity is easier for many developers to approach as it has an easier syntax, local variables, and high-level types rather than stack manipulations. A formal verification framework for Liquidity is under development.
 
 ## **What is OCaml?**
 
-OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where a single mistake can cost millions and speed matters. It has a large standard library, making it useful for many of the same applications as Python or Perl, and has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml including Facebook, Bloomberg, Docker, and Jane Street.
+OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where speed is crucial and a single mistake can cost millions. It has a large standard library, which makes it useful for many of the same applications as Python or Perl, and it has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml, including Facebook, Bloomberg, Docker, and Jane Street.
 
 ## **What is functional programming? How is it different from other paradigms?**
 
 [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) is a programming paradigm — a style of building the structure and elements of computer programs — that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
-It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
+It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so that calling a function f twice with the same value for an argument x produces the same result f(x) each time. This is in contrast to procedures that depend on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
 
 Here is a diagram that shows the high-level differences between the EVM (Ethereum Virtual Machine), WASM (Web Assembly) and Michelson:
 
@@ -32,13 +32,13 @@ Here is a diagram that shows the high-level differences between the EVM (Ethereu
 
 # Introduction
 
-Michelson is the low level, stack-based programming language used to write smart contracts on the Tezos blockchain. Michelson was designed to facilitate formal verification, allowing users to prove the properties of their contracts.
+Michelson is the low-level, stack-based programming language used to write smart contracts on the Tezos blockchain. Michelson was designed to facilitate formal verification, allowing users to prove the properties of their contracts.
 
-It uses a stack rewriting paradigm, whereby each function will rewrite an input stack into an output stack (will explain what this means in a while). This runs in a purely functional way and does not modify the inputs at all. Thus, all data structures are **immutable**.
+It uses a stack rewriting paradigm, whereby each function rewrites an input stack into an output stack. (The meaning of this will be fully explained below.) This runs in a purely functional way and does not modify the inputs at all. Thus, all data structures are **immutable**.
 
 # What is a Stack?
 
-A stack is an abstract data type that serves as a collection of elements, with two principal operations: push (adds an element to the collection) and pop (removes the most recently added element that was not yet removed). The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out). Additionally, a peek operation may give access to the top without modifying the stack.
+A stack is an abstract data type that serves as a collection of elements, with two principal operations: push (adds an element to the collection) and pop (removes the most recently added element that has not yet been removed). The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out). Additionally, a peek operation may give access to the top without modifying the stack.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9f/Stack_data_structure.gif)
 
@@ -46,7 +46,7 @@ Source: Wikipedia.
 
 # Rewriting Stacks
 
-To see what rewriting stacks mean, we have to run through a transaction in Michelson. First, before a transaction runs, the blockchain state at a certain hash is deserialized and put onto the stack as the variable `storage`. We have a `from` function that receives the transaction data `amount` , the amount of attached ꜩ, and the `parameter` , the function's parameters.
+To see what mean it means to rewrite stacks, we will run through a transaction in Michelson. First, before a transaction runs, the blockchain state at a certain hash is deserialized and put onto the stack as the variable `storage`. We have a `from` function that receives the transaction data `amount` , the amount of attached ꜩ, and the `parameter` , the function's parameters.
 
     from [ (Pair (Pair amount parameter) storage) ]
 
@@ -58,16 +58,16 @@ In the example, Michelson only manipulates the stack functionally and a new stac
 
 # "Why Michelson?" (by Milo Davis)
 
-At first sight, Michelson is a strange language. It doesn’t include many features like polymorphism, closures, or named functions. Compared to a language like Haskell or OCaml, it seems underpowered; its stack is not always easy to deal with; there is no standard library. However, these restrictions are largely motivated by the language’s design goals.
+At first sight, Michelson is a strange language. It doesn’t include features like polymorphism, closures, or named functions. Compared to a language like Haskell or OCaml, it seems underpowered. Its stack is not always easy to deal with, and there is no standard library. However, these restrictions are largely motivated by the language’s design goals.
 
-There are two large motivations for Michelson:
+There are two major motivations for Michelson:
 
 1. To provide readable bytecode
 2. To be introspectable
 
-Tezos takes a slightly different view from Ethereum regarding the role of smart contracts. We think of our platform more as a way to implement pieces of business logic than as a generic “world computer”. Looking at Ethereum, most contracts implement things like multisig wallets, vesting and distribution rules, etc. Michelson is targeted to these applications, not the case of arbitrary programs.
+Tezos takes a slightly different view from Ethereum regarding the role of smart contracts. We think of our platform more as a way to implement certain pieces of business logic than as a generic “world computer." In Ethereum, most contracts implement things like multisig wallets, vesting and distribution rules, etc. Michelson is targeted to these types of applications.
 
-Michelson is designed as a readable compilation target, though it can be hand written. The goal is that even the output of a compiler can be understood. We intend the language to be simple enough that developers can build their own analysis tools and compilers should they prefer to do so. This is a departure from the EVM’s bytecode which more closely resembles assembly. With a lower-level bytecode, you usually need confidence in both your program and the compiler toolchain. With Michelson you can more easily check over and verify properties of the program that is actually executed.
+Michelson is designed as a readable compilation target, though it can be handwritten. The goal is that even the output of a compiler can be understood. We intend the language to be simple enough that developers can build their own analysis tools and compilers should they prefer to do so. This is a departure from the EVM’s bytecode, which more closely resembles assembly. With a lower-level bytecode, you usually need confidence in both your program and the compiler toolchain. With Michelson you can more easily check over and verify properties of the program that is actually executed.
 
 Using a higher-level bytecode also simplifies the process of proving properties about the compiled output. Programs written in Michelson can be reasonably analyzed by SMT solvers and formalized in Coq without the need for more complicated techniques like separation logic. Similarly, the restrictions imposed by the forced indentation and capitalization ensure that the source cannot be obfuscated with indentation and alignment tricks.
 
@@ -79,9 +79,9 @@ So, why Michelson? To provide a straightforward platform for business logic, to 
 
 # Liquidity {#liquidity}
 
-Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and strictly complies with Michelson security restrictions.
+Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and it strictly complies with Michelson security restrictions.
 
-A formal-method framework for Liquidity is under development, to prove the correctness of smart-contracts written in Liquidity.
+Developers are currently working on a formal-method framework that will be used to prove the correctness of smart-contracts written in Liquidity.
 
 The Liquidity language provides the following features:
 
