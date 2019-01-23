@@ -8,7 +8,7 @@ General FAQ
 
 # What is Tezos? {#intro}
 
-Tezos is a new blockchain-based cryptocurrency and a smart contracts platform for building decentralized applications (dApps).
+Tezos is a blockchain-based cryptocurrency and a smart contracts platform for building decentralized applications (dApps).
 
 # What is XTZ? {#xtz}
 
