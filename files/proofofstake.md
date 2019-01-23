@@ -68,18 +68,21 @@ To solve this problem, the Tezos protocol includes some slashing conditions that
 
 # Do Tezos transactions have finality? {#finality}
 
-No. In the current Tezos protocol, 30 confirmations (30 minutes) may be considered a good rule of thumb for considering a transaction final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain reorganization remains, so we must wait some number of confirmations before we can be extremely confident that a transaction will not be reversed.
+No. In the current Tezos protocol, 30 confirmations (~30 minutes) may be considered a good rule of thumb for considering a transaction final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain reorganization remains, so users must wait a number of confirmations before being overwhelmingly confident that a transaction will not be reversed.
 
-Essentially, from the missing endorsements, missing blocks, and from the future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls can reorganize a given block.
-
-Multiple efforts are underway to explore new Tezos consensus algorithms with fast finality. [One effort](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) involves using Tendermint for block acceptance, which would entail [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) on each block and provide instant finality. Another is the [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/), which explores Avalanche for Tezos.
+From the missing endorsements, missing blocks, and from the future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls can reorganize a given block.
 
 # How scalable is Tezos? {#scalability}
 
-Currently, Tezos does around 30-40 transactions per second. 
+Currently, Tezos does around 30-40 transactions per second.
 
-This [blog post](https://hackernoon.com/scaling-tezo-8de241dd91bd) by Arthur Breitman highlights different possible ideas on how to increase this number to >1,000 transactions per second, including Layer 2 technologies (Lightning, Plasma) and Zero-knowledge Proofs.  
+This [blog post](https://hackernoon.com/scaling-tezo-8de241dd91bd) by Arthur Breitman highlights different possible ideas on how to increase this number to >1,000 transactions per second, including Layer 2 technologies (Lightning, Plasma) and Zero-knowledge Proofs.
 
-# What is the roadmap for improving scalability? {#roadmap}
+# What is the roadmap for improving scalability through improvements to the consensus algorithm? {#roadmap}
 
-There is no "roadmap" per se. Instead, using Tezos' on-chain governance systems, the community votes on different proposals to upgrade the protocol. Because of this, Tezos can swap out the consensus protocol through an on-chain vote without requiring a hard fork. Newer consensus algorithms like Algorand or Tendermint which have finality and higher throughput will be able to be used on Tezos.
+There is no "roadmap" per se. In Tezos' on-chain governance system, bakers can vote on proposals to upgrade the protocol. Based Tezos can swap out the consensus protocol through an on-chain vote without requiring a hard fork. Newer consensus algorithms like Algorand or Tendermint which have finality and higher throughput will be able to be used on Tezos.
+
+Multiple efforts are underway to explore new Tezos consensus algorithms with fast finality. [One effort](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) involves using Tendermint for block acceptance, which would entail [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) (and thus instant finality) on each block. Another is the [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/), which is exploring Avalanche for Tezos.
+
+
+Additionally, [research into sharding Tezos](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) is underway at Cornell University based on a grant from the Tezos Foundation.
