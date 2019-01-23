@@ -40,7 +40,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
     Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant real-world value (e.g. tokenized assets, loans, etc.), which require guarantees that funds will not be lost or frozen due to bugs in the code.
 
-# What shortcomings of other blockchains does the Tezos' governance mechanism aim to address? {#shortcomings}
+# What challenges of other blockchains does the Tezos aim to address? {#shortcomings}
 
 Many open-source software projects (especially decentralized blockchain networks) face difficulties in upgrading themselves. There are several generalizable governance challenges facing open blockchain networks:
 *  Open source projects are often maintained by a few volunteers for little-to-no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
