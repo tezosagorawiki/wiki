@@ -19,7 +19,7 @@ The Tezos developer community has been particularly interested in implementing a
 
 Developers are actively exploring new consensus algorithms that other teams are developing to be included in the Tezos protocol. 
 
-Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of its protocol via the amendment process.
+Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
 
 ## Tendermint Consensus
 
@@ -41,6 +41,10 @@ PVSS and VDFs have both been discussed as ways to improve the randomness in Tezo
 New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) to improve randomness have been [discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) for Tezos. This is important because baker selection in Tezos relies on randomness. The stronger the randomness is, the more difficult it becomes to "game" the consensus algorithm, either to have supernormal profits to other bakers or to disrupt the network. 
 
 [VDF ASIC research](https://vdfresearch.org/) is underway, led by Filecoin and the Ethereum Foundation.
+
+## Mempool management
+
+One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including a transactions in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as already done in Tezos.
 
 # Layer 2 {#layer2}
 
@@ -76,7 +80,3 @@ As discussed in this [longer form piece](https://medium.com/tezos/towards-futarc
 An example would be, having a proposal that increases the block size of the Tezos blockchain to 1 MB, which is agreed upon by most stakeholders; the proposal is then voted upon by the market if the proposal is beneficial for the Tezos blockchain. There would only be 2 outcomes in this betting market, if an increased block size is beneficial for Tezos ("Yes" or "No"). These outcomes are reflected in the price of the token; the price of a Tez increasing represents "Yes" while the price of a Tez decreasing represents "No".
 
 The market-making in those contracts can be subsidized by issuing coins to market makers in order to improve price discovery and liquidity. In a tightly coupled futarchic mechanism, the amendment deemed most likely  by the market's price would be automatically adopted.
-
-## Mempool management
-
-One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including a transactions in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as already done in Tezos.
