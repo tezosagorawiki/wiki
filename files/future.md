@@ -7,6 +7,9 @@ Future Developments
 ===========
 
 
+As outlined below, efforts to improve Tezos in terms of privacy, consensus, scalability, smart contracts and governance are underway. If you see anything missing below, please reach out!
+
+
 # Privacy-Preserving Transactions {#privacy}
 
 Transactions in blockchains are public by default. A company may not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are important for user adoption. To introduce privacy-preserving transactions, developers in the blockchain ecosystem have offered up many competing solutions with different trade-offs and benefits such as Bulletproofs, Ring Signatures and Zero-knowledge proofs.
