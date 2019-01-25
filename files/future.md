@@ -38,11 +38,22 @@ Cryptium Labs has presented Tendermint on Tezos:
 
 The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/) by Edward Tate is exploring Avalanche implementation for Tezos.
 
-## Scalability
+## Scalability {#scalability}
 
-**Sharding**
+# Sharding
 
 A [research project](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) focused on Tezos sharding is underway at Cornell University.
+
+**Recursive SNARKs**
+
+# Layer 2 {#layer2}
+
+Various layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
+
+**Velos (TezTech)**
+
+[Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
+), a plasma-like project, is being developed by [TezTech](https://teztech.io/), which is led by Stephen Andrews.
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve randomness in Tezos.
@@ -61,14 +72,6 @@ New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf
 
 One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including a transactions in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as already done in Tezos.
 
-# Layer 2 {#layer2}
-
-Various layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
-
-**Velos (TezTech)**
-
-[Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
-), a plasma-like project, is being developed by [TezTech](https://teztech.io/), which is led by Stephen Andrews.
 
 # Amendment Rules {#governance}
 
