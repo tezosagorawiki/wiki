@@ -55,7 +55,7 @@ Layer 2 solutions are also being explored and proposed by developers who are bui
 **Velos (TezTech)**
 
 [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
-), a plasma-like project, is being developed by [TezTech](https://teztech.io/), which is led by Stephen Andrews.
+), a plasma-like project led by Stephen Andrews, is being developed by [TezTech](https://teztech.io/).
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve randomness in Tezos.
