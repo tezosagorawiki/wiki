@@ -9,7 +9,7 @@ Future Developments
 
 # Privacy-Preserving Transactions {#privacy}
 
-Transactions in blockchains are public by default. However, it is important that users have the option to preserve privacy in their transactions. A given company, for example, might not necessarily want all of its past transactions to be a matter of public record. Developers in the blockchain ecosystem have offered up many competing solutions, such as Bulletproofs, Ring Signatures, and Zero-knowledge proofs. These all have different trade-offs and benefits.
+Transactions in blockchains are public by default. A company may not want its past transactions to be a matter of public record, thus solutions to make transactions completely private are important for user adoption. To introduce privacy-preserving transactions, developers in the blockchain ecosystem have offered up many competing solutions with different trade-offs and benefits such as Bulletproofs, Ring Signatures and Zero-knowledge proofs.
 
 **zk-SNARKs**
 
@@ -19,9 +19,9 @@ The Tezos developer community has been particularly interested in enabling priva
 
 Some developers are currently exploring new consensus algorithms. These, in turn, are being developed by other teams so that they may be included in the Tezos protocol. 
 
-Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades. These would be adopted via the amendment process, which allows for core components of the Tezos protocol to be swapped out and upgraded. 
+Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
 
-## Tendermint Consensus
+## Tendermint
 
 One idea which has emerged is the possibility of using [Tendermint](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm), a pBFT-like consensus algorithm for Tezos block acceptance (à la finality gadget), as well as maintaining Nakamoto Consensus for block proposing. These ideas are discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
 
@@ -41,6 +41,10 @@ PVSS and VDFs have both been discussed as ways to improve randomness in Tezos.
 New cryptographic techniques such as [VDFs](https://eprint.iacr.org/2018/601.pdf) (Verifiable Delay Functions) have been [discussed](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) as a way to improve randomness on Tezos. This is important because baker selection on Tezos relies on randomness. The stronger the randomness, the more difficult it is to "game" the consensus algorithm, either in order to give supernormal profits to other bakers or in order to disrupt the network more generally. 
 
 [VDF ASIC research](https://vdfresearch.org/) is underway, led by Filecoin and the Ethereum Foundation.
+
+## Mempool management
+
+One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including a transactions in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as already done in Tezos.
 
 # Layer 2 {#layer2}
 
@@ -71,7 +75,7 @@ Another method to enforce constitutionalism would be to have a proof checker (e.
 
 Futarchy is a governance concept first proposed by [Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html), who proposed the notion of "voting on values and betting on beliefs." 
 
-As discussed in this [longer form piece](https://medium.com/tezos/towards-futarchy-in-tezos-54a7b8926967) on futarchy in Tezos, futarchy might be best adopted as a proposal filtering mechanism, while terminal decision-making would be left to a voting mechanism.
+As discussed in this [longer form piece](https://medium.com/tezos/towards-futarchy-in-tezos-54a7b8926967) on futarchy in Tezos, futarchy might be best adopted as a proposal filtering mechanism, with terminal decision-making best left to a voting mechanism.
 
 For example, suppose that there is a proposal increasing the block size of the Tezos blockchain to 1 MB. Suppose also that this proposal has been agreed upon by most stakeholders. The market would then vote on whether the proposal would be beneficial to the Tezos blockchain. There would only be 2 possible outcomes in this betting market: a "Yes" or "No" answer to the question of whether an increased block size would be beneficial to Tezos. The outcome would be reflected in the price of the token. An increase in the price of a Tez would represent an overall "Yes", while an decrease in the price of a Tez would represent an overall "No."
 
