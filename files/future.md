@@ -13,7 +13,9 @@ Transactions in blockchains are public by default. A company may not want its pa
 
 **zk-SNARKs**
 
-The Tezos developer community has been particularly interested in enabling private transactions by implementing a specific type of zero-knowledge proof called the zk-SNARK. For example, [this project](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) is an OCaml "wrapper" around the ZCash Sapling library. This allows Tezos to reuse the ceremony from ZCash's [Sapling](https://z.cash/upgrade/sapling/) upgrade.
+The Tezos developer community has been particularly interested in enabling private transactions by implementing a specific type of zero-knowledge proof called zk-SNARKs. [**An implementation currently being explored**](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) uses the same circuits and trusted setup from Zcash's recent "Sapling" upgrade through OCaml bindings to the original Rust libraries. Sapling is based on a near-optimal proof system developer by Jens Groth and the BLS12-381 pairing-friendly elliptic curve and is over an order of magnitude faster than earlier SNARK implementations (read more about Sapling [**here**](https://z.cash/upgrade/sapling/)). 
+
+These SNARKs are also much more succint (as little as 144 bytes), which may be useful in the future for the recursive SNARK scaling techniques described in the ["Scaling Tezos"](https://hackernoon.com/scaling-tezo-8de241dd91bd) blog post from 2017. This approach is also now being explored by the [Coda Protocol](https://codaprotocol.com/) and can be implemented as a Tezos sidechain.
 
 # Consensus {#consensus}
 
@@ -64,7 +66,7 @@ Various layer 2 solutions are also being explored and proposed by developers who
 
 ## Improving the Amendment Process
 
-Another powerful feature of Tezos is that the amendment rules can themselves be amended. This means that people can vote to change the way in which votes are carried out. This is important because voting systems can sometimes be gamed, and a change in the governance mechanism itself may at times be necessary. 
+Another powerful feature of Tezos is that amendment rules can themselves be amended. This means that people can vote to change the way in which votes are carried out. This is important because voting systems can sometimes be gamed, and a change in the governance mechanism itself may at times be necessary. 
 
 Examples of ideas which are being explored in this domain are lengthened proposal periods, proposal fees, changes to quorum floors, and the moving of vote counts from the beginning of a voting period to the end. This [blog post](https://medium.com/tezos/amending-tezos-b77949d97e1e) outlines a few ways in which the amendment process might be improved in the future.
 
