@@ -21,7 +21,7 @@ Developers are actively exploring new consensus algorithms that other teams are 
 
 Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
 
-## Tendermint Consensus
+## Tendermint
 
 One idea which has emerged is the possibility of using [Tendermint](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm), a pBFT-like consensus algorithm for Tezos block acceptance (a la finality gadget) and maintaining Nakamoto Consensus for block proposing. This idea is discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
 
