@@ -8,9 +8,11 @@ This wiki aspires to be a living document that will evolve as the Tezos protocol
 # Getting started
 This wiki covers a variety of topics ranging from Baking to Proof-of-Stake to smart contracts. It also includes practical Tezos resources like wallets and block explorers.
 
+For a longer video explanation of the Tezos protocol, including its origins and inspirations, [see this video](https://www.youtube.com/embed/ftA7O04yxXg).
+
 To get started with Tezos development, [see here](http://tezos.gitlab.io/mainnet/)
 
-For a longer video explanation of the Tezos protocol, including its origins and inspirations, [see this video](https://www.youtube.com/embed/ftA7O04yxXg).
+To get started with Michelson smart contracts, check out the [**camlCase tutorial series**](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01)
 
 ----
 
