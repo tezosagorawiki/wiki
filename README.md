@@ -12,7 +12,7 @@ For a longer video explanation of the Tezos protocol, including its origins and 
 
 To get started with Tezos developer documentation, [**see here**](http://tezos.gitlab.io/mainnet/)
 
-To get started with Michelson smart contracts, check out the [**camlCase tutorial series**](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01)
+To get started with Michelson smart contracts, check out the [**camlCase tutorial series**](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01) and the [**Michelson section**](http://tezos.gitlab.io/mainnet/whitedoc/michelson.html) of the Nomadic documentation
 
 ----
 
