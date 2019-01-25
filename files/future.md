@@ -39,16 +39,15 @@ Cryptium Labs has presented Tendermint on Tezos:
 The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/) by Edward Tate is exploring Avalanche implementation for Tezos.
 
 ## Scalability {#scalability}
-
-# Sharding
+ 
+**Sharding**
 
 A [research project](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) focused on Tezos sharding is underway at Cornell University.
 
-**Recursive SNARKs**
 
 # Layer 2 {#layer2}
 
-Various layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
+Layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
 
 **Velos (TezTech)**
 
