@@ -27,8 +27,8 @@ One idea which has emerged is the possibility of using [Tendermint](https://gith
 
 Cryptium Labs has presented Tendermint on Tezos:
 
-* *Video:* https://www.youtube.com/watch?v=7L01IxKlVu0z
-* *Slides:* https://drive.google.com/file/d/19gjvf89bhVt7yAKpzIuGQ9ensbiHG7FX/view
+* **Video:** https://www.youtube.com/watch?v=7L01IxKlVu0z
+* **Slides:** https://drive.google.com/file/d/19gjvf89bhVt7yAKpzIuGQ9ensbiHG7FX/view
 
 ## Avalanche
 
