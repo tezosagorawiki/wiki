@@ -15,7 +15,9 @@ Transactions in blockchains are public by default. A company may not want its pa
 
 The Tezos developer community has been particularly interested in enabling private transactions by implementing a specific type of zero-knowledge proof called zk-SNARKs. [**An implementation currently being explored**](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) uses the same circuits and trusted setup from Zcash's recent "Sapling" upgrade through OCaml bindings to the original Rust libraries. Sapling is based on a near-optimal proof system developer by Jens Groth and the BLS12-381 pairing-friendly elliptic curve and is over an order of magnitude faster than earlier SNARK implementations (read more about Sapling [**here**](https://z.cash/upgrade/sapling/)). 
 
-These SNARKs are also much more succint (as little as 144 bytes), which may be useful in the future for the recursive SNARK scaling techniques described in the ["Scaling Tezos"](https://hackernoon.com/scaling-tezo-8de241dd91bd) blog post from 2017. This approach is also now being explored by the [Coda Protocol](https://codaprotocol.com/) and can be implemented as a Tezos sidechain.
+These SNARKs are also much more succint (as little as 144 bytes), which may be useful in the future for the recursive SNARK scaling techniques described in the ["Scaling Tezos"](https://hackernoon.com/scaling-tezo-8de241dd91bd) blog post from 2017. 
+
+This approach is also now being explored by the [Coda Protocol](https://codaprotocol.com/) and can be implemented as a Tezos sidechain.
 
 # Consensus {#consensus}
 
@@ -35,6 +37,12 @@ Cryptium Labs has presented Tendermint on Tezos:
 ## Avalanche
 
 The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/) by Edward Tate is exploring Avalanche implementation for Tezos.
+
+## Scalability
+
+**Sharding**
+
+A [research project](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) focused on Tezos sharding is underway at Cornell University.
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve randomness in Tezos.
