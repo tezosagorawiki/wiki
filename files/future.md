@@ -80,7 +80,3 @@ As discussed in this [longer form piece](https://medium.com/tezos/towards-futarc
 For example, suppose that there is a proposal increasing the block size of the Tezos blockchain to 1 MB. Suppose also that this proposal has been agreed upon by most stakeholders. The market would then vote on whether the proposal would be beneficial to the Tezos blockchain. There would only be 2 possible outcomes in this betting market: a "Yes" or "No" answer to the question of whether an increased block size would be beneficial to Tezos. The outcome would be reflected in the price of the token. An increase in the price of a Tez would represent an overall "Yes", while an decrease in the price of a Tez would represent an overall "No."
 
 The market-making in these contracts would be subsidized by issuing coins to market makers. This would improve price discovery and liquidity. In a tightly coupled futarchic mechanism, the amendment deemed most likely by the market's price would be automatically adopted.
-
-## Mempool management
-
-One [discussed change](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) to mempool management is expected to increase throughput by 2-3x. This would entail including a transaction in a block based on whether its fee can be paid, without computing its effects. Invalid transactions would be included and treated as nops, as is already done in Tezos.
