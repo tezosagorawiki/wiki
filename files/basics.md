@@ -12,25 +12,25 @@ Tezos is a blockchain-based cryptocurrency and a smart contracts platform for bu
 
 # What is XTZ? {#xtz}
 
-XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ is programmable money by smart contracts on the Tezos blockchain.   
+XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of Tezos. XTZ is programmable money created by smart contract on the Tezos blockchain.   
 
 # What makes Tezos unique? {#unique}
 
 1. **Self-Amendment and Upgradability**
 
-    Tezos can upgrade itself through an in-protocol amendment process without the need for a hard fork. This is designed to accelerate innovation, reduce the likelihood of contentious splits, and better coordinate stakeholders within one network over time.
+    Tezos can upgrade itself through an in-protocol amendment process without the need for a hard fork. This is in order to accelerate innovation, reduce the likelihood of contentious splits, and coordinate stakeholders within one network over a long period of time.
     
-    For developers building on Tezos, upgradability provides a stronger assurance that a protocol will exist long into the future. Tezos was built to stand the test of time.
+    For developers building on Tezos, upgradability provides a strong assurance that the protocol will operate smoothly long into the future. Tezos was built to stand the test of time.
     
     For details of the amendment mechanism, see [this post](https://medium.com/tezos/amending-tezos-b77949d97e1e).
     
 2. **Proof-of-Stake**
 
-    Baking is to Tezos what mining is to Bitcoin. Participants (i.e. "nodes") in Tezos provide the necessary computational resources to maintain the network. Proof-of-Stake (PoS) is the mechanism by which the various participants in Tezos reach consensus on the state of the blockchain. Contrast this with Bitcoin, in which the consensus mechanism is based on proof-of-work (i.e. mining).
+    Baking is to Tezos what mining is to Bitcoin. Participants (i.e. "nodes") in Tezos provide the computational resources necessary to maintain the network. Proof-of-Stake (PoS) is the mechanism by which Tezos participants reach consensus on the state of the blockchain. This is in contrast, for example, with Bitcoin, in which the consensus mechanism is based on proof-of-work (i.e. mining).
     
     Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in consensus without giving up custody of their tokens. Tezos' approach to consensus has been described as [Liquid Proof of Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7).
     
-    Proof-of-stake aims to increase the cost of 51% attacks, improve scalability, encourage incentive alignment, and avoid environmentally wasteful proof-of-work.
+    Proof-of-stake improves scalability and encourages incentive alignment. It also increases the cost of 51% attacks and avoids environmentally wasteful proof-of-work.
     
     Tezos launched in June 2018 as one of the first major Proof-of-Stake networks. As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
 
@@ -42,13 +42,13 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
 # What challenges of other blockchains does the Tezos aim to address? {#shortcomings}
 
-Many open-source software projects (especially decentralized blockchain networks) face difficulties in upgrading themselves. There are several generalizable governance challenges facing open blockchain networks:
-*  Open source projects are often maintained by a few volunteers for little-to-no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
+Many open-source software projects (especially decentralized blockchain networks) face difficulties upgrading. There are several generalizable governance challenges facing open blockchain networks:
+*  Open source projects are often maintained by a few volunteers for little to no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
 *  Technical roadmaps (or lack thereof) are determined by a small group, who may or may not have interests aligned with the larger network.
 *  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
-*  The miners (or validators) of a network can have incentives misaligned with the overall network
+*  The miners (or validators) of a network can have incentives misaligned with the overall network.
 
-These challenges are of great consequence for the evolution of blockchains networks, impacting all projects building on top. 
+These challenges are of great consequence for the evolution of blockchains networks, impacting all projects that build on top of them.
 
 Tezos was designed to address these challenges through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:
 *  Token holders can participate in the amendment process to approve/reject the upgrade by selecting a baker
