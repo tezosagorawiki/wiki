@@ -27,12 +27,12 @@ Resources
 Apply [here](https://tezos.foundation/grants-overview) for a grant from the foundation to work on a project in the Tezos ecosystem.
 
 # Wallets {#wallet}
-- [Tezbox (Mobile)](https://tezbox.com/)
-- [Cryptonomic Galleon(Desktop)](https://github.com/Cryptonomic/Deployments/wiki/Galleon:-Releases)
-- [Cortez (Android)](https://play.google.com/store/apps/details?id=com.tezcore.cortez)
-- [Kukai](https://kukai.app/)
+- [Tezbox (Mobile and Desktop)](https://tezbox.com/)
+- [Galleon (Desktop)](https://galleon-wallet.tech/)
+- [Cortez (Mobile - Android only)](https://play.google.com/store/apps/details?id=com.tezcore.cortez)
+- [Kukai (Desktop)](https://kukai.app/)
 
-# Block Explorer {#explorer}
+# Block Explorers {#explorer}
 - [Tzscan](https://tzscan.io/)
 - [Tezex](https://tezex.info/)
 
