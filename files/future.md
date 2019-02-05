@@ -50,6 +50,13 @@ A [research project](https://tezos.foundation/wp-content/uploads/2018/08/2018080
 
 Layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
 
+
+**Marigold**
+
+[Marigold](https://medium.com/tezos/marigold-layer-2-scaling-for-tezos-7445b5a3b7be) is a plasma-like project created by developer Gabriel Alfour. The project initially focuses on implementing [Minimum Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426) (UTXO-based, allowing asset transfer), but plans to add privacy (e.g. via AZTEC protocol-like homomorphic encryption) and become less or non-interactive through an incentive layer, state channels, or through recursive zk-snarks (a la Coda protocol).
+
+A new smart contract language is in development alongside Marigold.
+
 **Velos (TezTech)**
 
 [Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
