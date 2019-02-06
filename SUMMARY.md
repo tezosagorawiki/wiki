@@ -46,7 +46,7 @@
 * [Michelson and Coq](files/formal-verification.md#coq)
 
 ### Future Developments
-* [Privacy](files/future.md#privacy)
+* [Privacy](files/future.md)
 * [Consensus](files/future.md#consensus)
 * [Layer 2](files/future.md#layer2)
 * [Governance](files/future.md#governance)

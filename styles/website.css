@@ -8,3 +8,12 @@ p {
 h1 {
     font-weight: 700;
 }
+
+.book-summary ul.summary li.header {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.chapter {
+    padding-left: 20px !important;
+}
