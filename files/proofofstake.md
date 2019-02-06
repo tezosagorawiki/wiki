@@ -5,7 +5,7 @@ date:   2019-01-07 12:14:18
 ---
 # Proof of Stake
 
-## What is Proof-of-Stake?
+## What is Proof-of-Stake? {#intro}
 
 Proof-of-Stake (PoS) refers to a category of algorithms that are used to come to consensus in a blockchain system. In precise terms, Proof-of-Stake is a mechanism that prevents Sybil-attacks (i.e. prevents a single participant from masquerading as N others). In a PoS system, a participant's vote in a system is linked directly to the number of coins they have, so that a person who only has 100 coins cannot pretend to be 1000 different people with 100 coins each.
 

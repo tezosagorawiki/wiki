@@ -12,7 +12,7 @@
 * [Which use cases are uniquely suited to Tezos?](files/basics.md#use-case)
 
 ### Proof-of-Stake
-* [What is Proof-of-Stake?](files/proofofstake.md)
+* [What is Proof-of-Stake?](files/proofofstake.md#intro)
 * [What consensus algorithm does Tezos use?](files/proofofstake.md#consensus)
 * [Nothing-at-stake problem](files/proofofstake.md#nothing-at-stake)
 * [Do transactions have finality?](files/proofofstake.md#finality)
@@ -46,7 +46,7 @@
 * [Michelson and Coq](files/formal-verification.md#coq)
 
 ### Future Developments
-* [Privacy](files/future.md)
+* [Privacy](files/future.md#intro)
 * [Consensus](files/future.md#consensus)
 * [Layer 2](files/future.md#layer2)
 * [Governance](files/future.md#governance)
