@@ -15,8 +15,6 @@
 * [What is Proof-of-Stake?](files/proofofstake.md#intro)
 * [What consensus algorithm does Tezos use?](files/proofofstake.md#consensus)
 * [Nothing-at-stake problem](files/proofofstake.md#nothing-at-stake)
-* [Do transactions have finality?](files/proofofstake.md#finality)
-* [How scalable is Tezos?](files/proofofstake.md#scalability)
 * [What is the roadmap for improving scalability?](files/proofofstake.md#roadmap)
 
 ### Baking
@@ -31,8 +29,6 @@
 ### Self Amendment
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
-* [Arguments for and against on-chain governance](files/self-amendment.md#arguments)
-
 
 ### Michelson & Liquidity
 * [Language FAQ](files/language.md#faq)
