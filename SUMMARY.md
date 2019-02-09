@@ -27,7 +27,7 @@
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
 
-### Michelson & Liquidity
+### Smart Contracts in Tezos
 * [Language FAQ](files/language.md#faq)
 * [Michelson Language](files/language.md#michelson)
 * [Liquidity Language](files/language.md#liquidity)
