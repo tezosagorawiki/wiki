@@ -8,7 +8,6 @@
 * [What is Tezos?](files/basics.md#intro)
 * [What is XTZ?](files/basics.md#xtz)
 * [Why makes Tezos unique?](files/basics.md#unique)
-* [What shortcomings of other blockchains does Tezos aim to address?](files/basics.md#shortcomings)
 * [Which use cases are uniquely suited to Tezos?](files/basics.md#use-case)
 
 ### Proof-of-Stake
