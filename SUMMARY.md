@@ -7,7 +7,7 @@
 
 * [What is Tezos?](files/basics.md#intro)
 * [What is XTZ?](files/basics.md#xtz)
-* [Why makes Tezos unique?](files/basics.md#unique)
+* [What makes Tezos unique?](files/basics.md#unique)
 * [Which use cases are uniquely suited to Tezos?](files/basics.md#use-case)
 
 ### Proof-of-Stake
@@ -21,11 +21,10 @@
 * [What is delegating?](files/baking.md#delegate)
 * [How much can I earn by baking or delegating?](files/baking.md#earn)
 * [Should I bake or delegate?](files/baking.md#bakeordelegate)
-* [What is the difference between implicit and originated accounts?](files/baking.md#implicit)
-* [How should I select a baker to delegate with?](files/baking.md#bakerselection)
+* [Selecting a Baker](files/baking.md#bakerselection)
 * [Baking Resources](files/baking.md#resources)
 
-### Self Amendment
+### Tezos Governance
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
 
