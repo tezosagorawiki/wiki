@@ -17,17 +17,15 @@
 ### Baking
 * [What is baking?](files/baking.md#what)
 * [What is delegating?](files/baking.md#delegate)
-* [How much can I earn by baking or delegating?](files/baking.md#earn)
 * [Should I bake or delegate?](files/baking.md#bakeordelegate)
 * [Selecting a Baker](files/baking.md#bakerselection)
-* [Baking Resources](files/baking.md#resources)
 
 ### Tezos Governance
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
 
 ### Smart Contracts in Tezos
-* [Language FAQ](files/language.md#faq)
+* [Introduction](files/language.md#faq)
 * [Michelson Language](files/language.md#michelson)
 * [Liquidity Language](files/language.md#liquidity)
 * [Language Resources](files/language.md#resources)
