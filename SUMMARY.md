@@ -42,7 +42,7 @@
 * [Governance](files/future.md#governance)
 
 ### Built on Tezos
-* [Projects building on Tezos](https://tezosprojects.com/index.html)
+* [Tezos Projects](https://tezosprojects.com/index.html)
 
 ### Resources
 * [Tezos Foundation](files/resources.md#foundation)
