@@ -46,7 +46,7 @@ At the end of the Promotion Vote Period, the network counts the number of votes.
 
 See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
-## Off-chain governance {#Off-chain governance}
+## Off-chain governance {#offchain}
 
 # Kialo
 
