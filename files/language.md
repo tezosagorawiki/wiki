@@ -1,4 +1,4 @@
-# Language FAQ {#faq}
+# Introduction to Smart Contracts in Tezos {#faq}
 
 ## **What is Michelson?**
 
