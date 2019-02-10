@@ -22,6 +22,7 @@
 ### Tezos Governance
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
+* [Off-chain Governance](files/self-amendment.md#Off-chain governance)
 
 ### Smart Contracts in Tezos
 * [Introduction](files/language.md#faq)
