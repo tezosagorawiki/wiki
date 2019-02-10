@@ -11,8 +11,7 @@
 
 ### Proof-of-Stake
 * [What is Proof-of-Stake?](files/proofofstake.md#intro)
-* [What consensus algorithm does Tezos use?](files/proofofstake.md#consensus)
-* [What is the roadmap for improving scalability?](files/proofofstake.md#roadmap)
+* [The Tezos consensus algorithm](files/proofofstake.md#consensus)
 
 ### Baking
 * [What is baking?](files/baking.md#what)
