@@ -20,7 +20,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
     Tezos can upgrade itself through an in-protocol amendment process without the need for a hard fork. This is in order to accelerate innovation, reduce the likelihood of contentious splits, and coordinate stakeholders within one network over a long period of time.
     
-    For developers building on Tezos, upgradability provides a strong assurance that the protocol will operate smoothly long into the future. Tezos was built to stand the test of time.
+    For developers building on Tezos, upgradability provides a strong assurance that the protocol will operate smoothly long into the future. **Tezos was built to stand the test of time**.
     
     For details of the amendment mechanism, see [this post](https://medium.com/tezos/amending-tezos-b77949d97e1e).
     
@@ -34,25 +34,24 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
     Tezos launched in June 2018 as one of the first major Proof-of-Stake networks. As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
 
-2. **Smart Contract Security and Formal Verification**
+3. **Smart Contract Security and Formal Verification**
 
     No system can be universally or unconditionally secure. However, Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind. 
     
     Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant real-world value (e.g. tokenized assets, loans, etc.), which require guarantees that funds will not be lost or frozen due to bugs in the code.
 
-# What challenges of other blockchains does the Tezos aim to address? {#shortcomings}
+# Why formal governance? {#shortcomings}
 
-**Many open-source software projects (especially decentralized blockchain networks) face difficulties with sustainability and upgrading**. 
+**Decentralized blockchain networks (and most open source software) face inherent challenges with sustainability, upgradability, and incentive alignment:**
 
-There are several generalizable governance challenges facing open blockchain networks:
 *  Open source projects are often maintained by a few volunteers for little to no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
 *  Technical roadmaps (or lack thereof) are determined by a small group, who may or may not have interests aligned with the larger network.
 *  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
 *  The miners (or validators) of a network can have incentives misaligned with the overall network.
 
-These challenges are of great consequence for the evolution of blockchains networks, impacting all projects that build on top of them.
+These challenges are of great consequence for the evolution of blockchains networks, **impacting all projects that build on top of them**.
 
-Tezos was designed to address these challenges through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:
+**Tezos was designed to address these challenges through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:**
 *  Token holders can participate in the amendment process to approve/reject the upgrade by selecting a baker
 *  Tezos nodes will automatically switch to the latest version of the protocol without the need for off-chain communication
 *  [Liquid proof-of-stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to align network participants' incentives and any token holder can avoid dilution by inflation
