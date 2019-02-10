@@ -8,7 +8,7 @@ To stay up to date with the Tezos ecosystem, be sure to subscribe to [The Baking
 
 ---
 # Getting started
-This wiki covers a variety of topics ranging from Baking to governance to Tezos smart contracts. It also includes practical Tezos resources like wallets and block explorers.
+This wiki covers a variety of Tezos topics ranging from Baking to governance to smart contracts. It also includes practical Tezos resources like wallets and block explorers.
 
 For a longer video explanation of the Tezos protocol, including its origins and inspirations, [see this video](https://www.youtube.com/embed/ftA7O04yxXg).
 
