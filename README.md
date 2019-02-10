@@ -8,13 +8,13 @@ To stay up to date with the Tezos ecosystem, be sure to subscribe to [The Baking
 
 ---
 # Getting started
-This wiki covers a variety of topics ranging from Baking to Proof-of-Stake to smart contracts. It also includes practical Tezos resources like wallets and block explorers.
+This wiki covers a variety of topics ranging from Baking to governance to Tezos smart contracts. It also includes practical Tezos resources like wallets and block explorers.
 
 For a longer video explanation of the Tezos protocol, including its origins and inspirations, [see this video](https://www.youtube.com/embed/ftA7O04yxXg).
 
-To get started with Tezos developer documentation, [**see here**](http://tezos.gitlab.io/mainnet/)
+To get started with Tezos developer documentation, [**see here**](http://tezos.gitlab.io/mainnet/).
 
-To get started with Michelson smart contracts, check out the [**camlCase tutorial series**](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01) and the [**Michelson section**](http://tezos.gitlab.io/mainnet/whitedoc/michelson.html) of the Nomadic Labs documentation
+To get started with Michelson smart contracts, check out the [**camlCase tutorial series**](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01) and the [**Michelson section**](http://tezos.gitlab.io/mainnet/whitedoc/michelson.html) of the Nomadic Labs documentation.
 
 For those with technical questions about Tezos, check out the [**Tezos Stack Exchange**](https://tezos.stackexchange.com/).
 
