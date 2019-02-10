@@ -6,7 +6,6 @@
 ### Tezos Basics
 
 * [What is Tezos?](files/basics.md#intro)
-* [What is XTZ?](files/basics.md#xtz)
 * [What makes Tezos unique?](files/basics.md#unique)
 * [Which use cases are uniquely suited to Tezos?](files/basics.md#use-case)
 
