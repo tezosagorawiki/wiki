@@ -49,7 +49,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 *  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
 *  The miners (or validators) of a network can have incentives misaligned with the overall network.
 
-How (or if) a network addresses these challenges determines a network's evolution and **impacts all projects that build on top of them**.
+How (or if) a network addresses these challenges **determines a network's evolution** and **impacts all projects that build on top**.
 
 **Tezos was designed to address these challenges through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:**
 *  Token holders can participate in the amendment process to approve/reject the upgrade by selecting a baker
