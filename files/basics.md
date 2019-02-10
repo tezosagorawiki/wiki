@@ -42,11 +42,13 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
 
 # What challenges of other blockchains does the Tezos aim to address? {#shortcomings}
 
-Many open-source software projects (especially decentralized blockchain networks) face difficulties upgrading. There are several generalizable governance challenges facing open blockchain networks:
-*  1. Open source projects are often maintained by a few volunteers for little to no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
-*  2. Technical roadmaps (or lack thereof) are determined by a small group, who may or may not have interests aligned with the larger network.
-*  3. Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
-*  4. The miners (or validators) of a network can have incentives misaligned with the overall network.
+**Many open-source software projects (especially decentralized blockchain networks) face difficulties with sustainability and upgrading**. 
+
+There are several generalizable governance challenges facing open blockchain networks:
+*  Open source projects are often maintained by a few volunteers for little to no monetary gain, leading to slow progress and even stagnation. In other cases, infrastructure and public good providers are forced to seek donations, corporate sponsorship, or venture capital funding, all of which may produce incentives misaligned with the overall network.
+*  Technical roadmaps (or lack thereof) are determined by a small group, who may or may not have interests aligned with the larger network.
+*  Upgrades often require every node operator to download and run new software (hard fork). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
+*  The miners (or validators) of a network can have incentives misaligned with the overall network.
 
 These challenges are of great consequence for the evolution of blockchains networks, impacting all projects that build on top of them.
 
