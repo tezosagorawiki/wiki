@@ -6,6 +6,11 @@ Baking is how blocks are produced and validated on the Tezos blockchain. To bake
 # What is delegating? {#delegate}
 If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, they may delegate their coins to a baker (aka "delegate"). Delegating lets coin holders (i.e. "delegators") "lend" their coins to a baker (i.e. a "delegate"), giving the baker a higher probability of being selected to bake and endorse blocks. In practice, bakers usually share the additional revenue generated from the delegated tokens with the coin holder. Importantly, this process does not actually transfer ownership of coins and hence the baker cannot spend or control the XTZ delegated to it, ensuring that bakers cannot appropriate the delegators' funds. 
 
+# Should I bake or delegate? {#bakeordelegate}
+Self-baking lets a baker earn a higher yield, but requires technical expertise and time in setting up a baker and running the baking software reliably with as little downtime as possible. By delegating Tezos tokens, a token holder avoids this process altogether but usually earns a lower yield. In the current protocol, token holders with less than 10,000 XTZ can only participate in baking by delegating to another baker.
+
+A list of bakers can be found at [this page](https://mytezosbaker.com/) and allows for comparison of public Tezos delegates. 
+
 # How much can I earn by baking or delegating? {#earn}
 The current Tezos protocol increases the token supply by approximately 5.51% in the first year (based on constant block rewards of 16 XTZ/block and 2 XTZ/endorsement). 
 
@@ -13,15 +18,10 @@ This means that if **all** Tezos token holders bake with all of their tokens (i.
 
 In practice, the rewards for token holders who delegate are less than that of baking directly, because delegates share their baking rewards with delegators minus a fee. This fee often ranges between 5% and 20% ([see here](https://mytezosbaker.com/) and varies by the baker. 
 
-# Should I bake or delegate? {#bakeordelegate}
-Self-baking lets a baker earn a higher yield, but requires technical expertise and time in setting up a baker and running the baking software reliably with as little downtime as possible. By delegating Tezos tokens, a token holder avoids this process altogether but usually earns a lower yield. In the current protocol, token holders with less than 10,000 XTZ can only participate in baking by delegating to another baker.
-
-A list of bakers can be found at [this page](https://mytezosbaker.com/) and allows for comparison of public Tezos delegates. 
-
 # What is the difference between implicit and originated accounts? {#implicit}
 In regards to baking, implicit accounts are the accounts which can participate in baking process. An implicit account can bake with its own coins as well as the coins delegated by other people. 
 
-Originated coins cannot bake directly, but can delegate their coins to an implicit account. Originated accounts use their manager key to specify a delegate key, which is the same as choosing a delegate to represent them.
+Originated accounts cannot bake directly, but can delegate their coins to an implicit account. Originated accounts use their manager key to specify a delegate key, allowing them to select a delegate to represent their stake in consensus (and governance).
 
 # How should I select a baker to delegate with? {#bakerselection}
 First, use [this page](https://mytezosbaker.com/) to browse through bakers. There a few factors to consider when choosing a baker to delegate with:
