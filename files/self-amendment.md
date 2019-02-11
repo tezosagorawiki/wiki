@@ -46,13 +46,13 @@ At the end of the Promotion Vote Period, the network counts the number of votes.
 
 See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
-## Off-chain governance {#offchain}
+# Off-chain governance {#offchain}
 
-# Kialo
+## Kialo
 
 Discussions of Tezos proposals are occurring [here](https://www.kialo.com/tezos-protocol-amendment-1-25295/settings?back=%2Ftezos-protocol-amendment-1-25295%2F25295.0%3D25295.2%2B25295.81%2F%2B25295.81%2Fcomments)
 
-# TezVote
+## TezVote
 
 [TezVote](Tezvote.com) allows all Tezos token holders to signal their preferences regarding on-chain amendment proposals and/or check how their baker intends to vote
 
