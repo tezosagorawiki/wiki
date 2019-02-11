@@ -16,7 +16,7 @@ Liquidity is compiled strictly back to Michelson. As a language, Liquidity is ea
 
 ## **What is OCaml, the language of the Tezos protocol?**
 
-OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where speed is crucial and a single mistake can cost millions. It has a large standard library, which makes it useful for many of the same applications as Python or Perl, and it has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml, including Facebook, Bloomberg, Docker, and Jane Street.
+The Tezos protocol is written in OCaml, a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where speed is crucial and a single mistake can cost millions. It has a large standard library, which makes it useful for many of the same applications as Python or Perl, and it has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml, including Facebook, Bloomberg, Docker, and Jane Street.
 
 ## **What is functional programming? How is it different from other paradigms?**
 
