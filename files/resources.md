@@ -29,7 +29,7 @@ Apply [here](https://tezos.foundation/grants-overview) for a grant from the foun
 # Wallets {#wallet}
 - [Tezbox (Mobile and Desktop)](https://tezbox.com/)
 - [Galleon (Desktop)](https://galleon-wallet.tech/)
-- [Cortez (Mobile - Android only)](https://play.google.com/store/apps/details?id=com.tezcore.cortez)
+- Cortez (Mobile - [iOS](https://itunes.apple.com/us/app/cortez/id1464922586?ls=1&mt=8)/[Android](https://play.google.com/store/apps/details?id=com.tezcore.cortez))
 - [Kukai (Desktop)](https://kukai.app/)
 
 # Block Explorers {#explorer}
