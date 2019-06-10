@@ -31,3 +31,12 @@ pages:
     expire_in: 1 week
   only:
     - master # this job will affect only the 'master' branch
+
+lets-encrypt:
+  stage: deploy
+  image: node:8
+  script:
+    - npm install -g gitlab-letsencrypt
+    - gitlab-le --production --email $LE_EMAIL --domain $LE_DOMAIN --repository $GL_REPOSITORY --token $GL_TOKEN
+  only:
+    - schedules
