@@ -19,6 +19,7 @@ test:
     - branches # this job will affect every branch except 'master'
   except:
     - master
+    - schedules
     
 # the 'pages' job will deploy and build your site to the 'public' path
 pages:
@@ -31,7 +32,9 @@ pages:
     expire_in: 1 week
   only:
     - master # this job will affect only the 'master' branch
-
+  except:
+    - schedules
+    
 lets-encrypt:
   stage: deploy
   image: node:8
