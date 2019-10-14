@@ -35,11 +35,11 @@ pages:
   except:
     - schedules
     
-lets-encrypt:
-  stage: deploy
-  image: node:8
-  script:
-    - npm install -g gitlab-letsencrypt
-    - gitlab-le --production --email $LE_EMAIL --domain $LE_DOMAIN --repository $GL_REPOSITORY --token $GL_TOKEN
-  only:
-    - schedules
+#lets-encrypt:
+#  stage: deploy
+#  image: node:8
+#  script:
+#    - npm install -g gitlab-letsencrypt
+#    - gitlab-le --production --email $LE_EMAIL --domain $LE_DOMAIN --repository $GL_REPOSITORY --token $GL_TOKEN
+#  only:
+#    - schedules
