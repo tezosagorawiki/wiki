@@ -1,5 +1,5 @@
 {
-	"plugins": ["theme-gestalt", "theme-default", "mathjax@^2.7.0"],
+	"plugins": ["theme-gestalt", "theme-default", "mathjax"],
 	"pluginsConfig": {
 		"theme-gestalt": {
 			"logo": "https://i.ibb.co/NpHtD6J/custom-1.png",
