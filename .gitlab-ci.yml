@@ -7,11 +7,12 @@ cache:
     - node_modules/ # Node modules and dependencies
 
 before_script:
+  - npm install -g npm
   - npm install gitbook-cli -g # install gitbook
   - gitbook fetch 3.2.3 # fetch final stable version
+  - npm install mathjax@2.7.6 # Install stable version of mathjax for plugin (sub-v3)
   - gitbook install # add any requested plugins in book.json
-  - gitbook install
-
+  
 test:
   stage: test
   script:
@@ -35,12 +36,3 @@ pages:
     - master # this job will affect only the 'master' branch
   except:
     - schedules
-    
-#lets-encrypt:
-#  stage: deploy
-#  image: node:8
-#  script:
-#    - npm install -g gitlab-letsencrypt
-#    - gitlab-le --production --email $LE_EMAIL --domain $LE_DOMAIN --repository $GL_REPOSITORY --token $GL_TOKEN
-#  only:
-#    - schedules
