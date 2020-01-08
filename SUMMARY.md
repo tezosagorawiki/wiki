@@ -42,10 +42,11 @@
 * [Governance](files/future.md#governance)
 
 ### Built on Tezos
-* [Tezos Projects](https://tezosprojects.com/index.html)
+* [Tezos Projects](https://tezosprojects.com)
 
 ### Resources
 * [Tezos Foundation](files/resources.md#foundation)
 * [Tezos Grant Programs](files/resources.md#grant)
 * [Wallets](files/resources.md#wallet)
 * [Block Explorer](files/resources.md#explorer)
+* [Baking Services](files/resources.md#baking)

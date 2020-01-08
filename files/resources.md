@@ -33,8 +33,12 @@ Apply [here](https://tezos.foundation/grants-overview) for a grant from the foun
 - [Kukai (Desktop)](https://kukai.app/)
 
 # Block Explorers {#explorer}
-- [Tzscan](https://tzscan.io/)
-- [Tezex](https://tezex.info/)
+- [TZStats](https://tzstats.com/)
+- [Arronax](https://arronax-beta.cryptonomic.tech/)
+- [Tezos.ID](https://tezos.id/)
+- [Better Call Dev - "Michelson Contract Explorer"](https://better-call.dev/)
+- [Tezblock](https://tezblock.io/)
+
 
 # Baking Services {#baking}
 
