@@ -7,6 +7,17 @@ This wiki aspires to be a living document that will evolve as the Tezos protocol
 To stay up to date with the Tezos ecosystem, be sure to subscribe to [The Baking Sheet newsletter](https://bakingsheet.camlcase.io/) by camlCase
 
 ---
+# Development
+To run this repository locally, you'll need [Gitbook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)
+
+Build project
+    gitbook build .
+
+Run project locally
+    gitbook build .
+    gitbook serve .
+
+---
 # Getting started
 This wiki covers a variety of Tezos topics ranging from Baking to governance to smart contracts. It also includes practical Tezos resources like wallets and block explorers.
 
