@@ -21,7 +21,7 @@ In practice, the rewards for token holders who delegate are less than that of ba
 # How should I select a baker to delegate with? {#bakerselection}
 First, use [this page](https://mytezosbaker.com/) to browse through bakers. There a few factors to consider when choosing a baker to delegate with:
 
-1. **Fees**. How much in fees is this baker charging? 
+1. **Fees**. How much of the rewards the baker is keeping? 
 2. **Capacity**. Each baker has a capacity of how many coins it can accept, which is based on how many coins it currently holds itself. A baker is "overdelegated" when it has exceeded the amount of delegation it can take considering the coins they currently hold.  
 3. **Reliability + Responsiveness**. Does this baker pay out on time? Does this baker pay correctly? Will this baker respond to my questions about their services? Many bakers operate forums and chat rooms in which they engage with delegators.
 4. **Security**. Is this baker's staking setup secure? Does this baker have a track record? Has this baker double-baked in the past and lost coins?
