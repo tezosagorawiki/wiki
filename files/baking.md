@@ -18,11 +18,6 @@ This means that if **all** Tezos token holders bake with all of their tokens (i.
 
 In practice, the rewards for token holders who delegate are less than that of baking directly, because delegates share only part of their baking rewards with delegators. The portion they keep is often called a “fee” and ranges between 5% and 20% ([see here](https://mytezosbaker.com/) and varies by the baker. 
 
-# What is the difference between implicit and originated accounts? {#implicit}
-In regards to baking, implicit accounts are the accounts which can participate in baking process. An implicit account can bake with its own coins as well as the coins delegated by other people. 
-
-Originated accounts cannot bake directly, but can delegate their coins to an implicit account. Originated accounts use their manager key to specify a delegate key, allowing them to select a delegate to represent their stake in consensus (and governance).
-
 # How should I select a baker to delegate with? {#bakerselection}
 First, use [this page](https://mytezosbaker.com/) to browse through bakers. There a few factors to consider when choosing a baker to delegate with:
 
