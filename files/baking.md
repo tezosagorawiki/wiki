@@ -16,7 +16,7 @@ The current Tezos protocol increases the token supply by approximately 5.51% in 
 
 This means that if **all** Tezos token holders bake with all of their tokens (i.e. the entire Tezos supply), baking rewards would be near ~5.51% per year. However, given variance in time preferences, knowledge, and capabilities, it is unlikely that all token holders will bake and the expected return on baking is in practice greater than 5.51% a year. By illustration, if 50% of the Tezos token supply is being staked, the baking reward will be closer to 11% (double the inflation rate).
 
-In practice, the rewards for token holders who delegate are less than that of baking directly, because delegates share their baking rewards with delegators minus a fee. This fee often ranges between 5% and 20% ([see here](https://mytezosbaker.com/) and varies by the baker. 
+In practice, the rewards for token holders who delegate are less than that of baking directly, because delegates share only part of their baking rewards with delegators. The portion they keep is often called a “fee” and ranges between 5% and 20% ([see here](https://mytezosbaker.com/) and varies by the baker. 
 
 # What is the difference between implicit and originated accounts? {#implicit}
 In regards to baking, implicit accounts are the accounts which can participate in baking process. An implicit account can bake with its own coins as well as the coins delegated by other people. 
