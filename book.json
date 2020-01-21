@@ -2,8 +2,11 @@
 	"plugins": ["theme-gestalt", "theme-default", "mathjax"],
 	"pluginsConfig": {
 		"theme-gestalt": {
-			"logo": "https://i.ibb.co/NpHtD6J/custom-1.png",
+			"logo": "/img/logo-colored.svg",
 			"excludeDefaultStyles": false
 		}
+	},
+	"styles": {
+		"website": "./styles/website.css"
 	}
 }

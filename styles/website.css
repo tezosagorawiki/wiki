@@ -17,3 +17,20 @@ h1 {
 .chapter {
     padding-left: 20px !important;
 }
+
+.book-logo {
+    display: flex;
+    padding: 18px;
+    justify-content: left;
+}
+
+.book-logo img {
+    height: 32px;
+    margin-right: 12px;
+}
+
+.book-logo:after {
+    content: "wiki";
+    font-size: 32px;
+    box-sizing: border-box;
+}
