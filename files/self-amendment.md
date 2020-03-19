@@ -52,10 +52,6 @@ See [the full details of the governance process](https://medium.com/tezos/amendi
 
 Discussions of Tezos proposals are occurring [here](https://www.kialo.com/tezos-protocol-amendment-1-25295/settings?back=%2Ftezos-protocol-amendment-1-25295%2F25295.0%3D25295.2%2B25295.81%2F%2B25295.81%2Fcomments)
 
-## TezVote
-
-[TezVote](Tezvote.com) allows all Tezos token holders to signal their preferences regarding on-chain amendment proposals and/or check how their baker intends to vote
-
 # Arguments for and against on-chain governance {#arguments}
 To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints:
 

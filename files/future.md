@@ -28,11 +28,11 @@ Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for futur
 
 ## Tendermint
 
-One idea which has emerged is the possibility of using [Tendermint](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm), a pBFT-like consensus algorithm for Tezos block acceptance (à la finality gadget), as well as maintaining Nakamoto Consensus for block proposing. These ideas are discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
+One idea which has emerged is the possibility of using [Tendermint](https://docs.tendermint.com/master/spec/), a pBFT-like consensus algorithm for Tezos block acceptance (à la finality gadget), as well as maintaining Nakamoto Consensus for block proposing. These ideas are discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
 
 Cryptium Labs has presented Tendermint on Tezos:
 
-* **Video:** https://www.youtube.com/watch?v=7L01IxKlVu0z
+* **Video:** https://www.youtube.com/watch?v=7L01IxKlVu0
 * **Slides:** https://drive.google.com/file/d/19gjvf89bhVt7yAKpzIuGQ9ensbiHG7FX/view
 
 ## Avalanche
