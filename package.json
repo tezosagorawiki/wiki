@@ -1,0 +1,17 @@
+{
+  "name": "learn-tqtezos-com",
+  "description": "Tezos Wiki",
+  "author": "TQ Group",
+  "version": "0.0.1",
+  "dependencies": {
+    "gitbook-plugin-mathjax": "^1.1.2",
+    "gitbook-plugin-theme-default": "^1.0.7",
+    "gitbook-plugin-theme-gestalt": "^1.0.7",
+    "mathjax": "2.7.6"
+  },
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "gitbook install && gitbook build . && gitbook serve ."
+  }
+}
