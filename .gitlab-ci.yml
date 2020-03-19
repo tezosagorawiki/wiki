@@ -10,8 +10,7 @@ before_script:
   - npm install -g npm
   - npm install gitbook-cli -g # install gitbook
   - gitbook fetch 3.2.3 # fetch final stable version
-  - npm install mathjax@2.7.6 # Install stable version of mathjax for plugin (sub-v3)
-  - gitbook install # add any requested plugins in book.json
+  - npm install 
   
 test:
   stage: test
