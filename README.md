@@ -14,11 +14,10 @@ Install dependencies
     npm install
 
 Build project
-    gitbook build .
+    npm run build
 
 Run project locally
-    gitbook build .
-    gitbook serve .
+    npm start
 
 ---
 # Getting started
