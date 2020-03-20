@@ -11,13 +11,19 @@ To stay up to date with the Tezos ecosystem, be sure to subscribe to [The Baking
 To run this repository locally, you'll need [Gitbook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)
 
 Install dependencies
-    npm install
+```
+npm install
+```
 
 Build project
-    npm run build
+```
+npm run build
+```
 
 Run project locally
-    npm start
+```
+npm start
+```
 
 ---
 # Getting started
