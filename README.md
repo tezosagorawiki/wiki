@@ -2,7 +2,7 @@
 
 The TQ Tezos Wiki is a place to get started and learn about Tezos. It also aims to answer the frequently asked questions about the Tezos protocol & the Tezos ecosystem.
 
-This wiki aspires to be a living document that will evolve as the Tezos protocol (and ecosystem) evolves. If interested in proposing a change to this document, please feel free to submit an issue or make a merge request to [this Gitlab repository](https://gitlab.com/tqgroup/tezos-wiki/tree/master/files).
+This wiki aspires to be a living document that will evolve as the Tezos protocol (and ecosystem) evolves. If interested in proposing a change to this document, please feel free to submit an issue or make a merge request to [this Gitlab repository](https://gitlab.com/tqwiki/tezos-wiki).
 
 To stay up to date with the Tezos ecosystem, be sure to subscribe to [The Baking Sheet newsletter](https://bakingsheet.camlcase.io/) by camlCase
 
