@@ -27,7 +27,7 @@
 ### Smart Contracts in Tezos
 * [Introduction](files/language.md#faq)
 * [Michelson Language](files/language.md#michelson)
-* [Smart Contract Languages](files/language.md#high-level-languages)
+* [High-Level Smart Contract Languages](files/language.md#high-level-languages)
 * [Language Resources](files/language.md#resources)
 
 ### Formal Verification
