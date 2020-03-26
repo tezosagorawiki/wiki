@@ -705,7 +705,7 @@ destroyed.
 
 ### Code
 
-The language is stack based, with high level data types and primitives
+The language is stack based, with high-level data types and primitives
 and strict static type checking. Its design is insipired by Forth,
 Scheme, ML and Cat. A full specification of the instruction set is
 available in[@language]. This specification gives the complete
