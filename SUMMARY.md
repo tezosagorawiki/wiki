@@ -7,7 +7,7 @@
 
 * [What is Tezos?](files/basics.md#intro)
 * [What makes Tezos unique?](files/basics.md#unique)
-* [Which use cases are uniquely suited to Tezos?](files/basics.md#use-case)
+* [Which use cases are suited to Tezos?](files/basics.md#use-case)
 
 ### Proof-of-Stake
 * [What is Proof-of-Stake?](files/proofofstake.md#intro)
@@ -27,7 +27,7 @@
 ### Smart Contracts in Tezos
 * [Introduction](files/language.md#faq)
 * [Michelson Language](files/language.md#michelson)
-* [Liquidity Language](files/language.md#liquidity)
+* [Smart Contract Languages](files/language.md#high-level-languages)
 * [Language Resources](files/language.md#resources)
 
 ### Formal Verification

@@ -6,13 +6,21 @@ Michelson is the domain-specific language used to write smart contracts on the T
 
 See here for [Michelson documentation](http://tezos.gitlab.io/whitedoc/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
 
-## **What is Liquidity?**
+## **What high-level Smart Contract languages are available?** {#high-level-languages}
 
-Liquidity is a high-level language used to program Smart Contracts for Tezos. It is a fully typed functional language. It uses the syntax of OCaml, and it strictly complies with Michelson security restrictions. Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the main network. Developers are currently working on a formal-method framework that will be used to prove the correctness of smart-contracts written in Liquidity.
+There are various high-level languages available for programming Smart Contracts for Tezos. The intention of these languages is to ease the development experience, so you can focus on the content of your Smart Contracts, rather than the implementation. 
 
-## **What is the difference between Liquidity and Michelson?**
+Current options in development include:
 
-Liquidity is compiled strictly back to Michelson. As a language, Liquidity is easier for many developers to approach as it has an easier syntax, local variables, and high-level types rather than stack manipulations. A formal verification framework for Liquidity is under development.
+- LIGO: Syntax flavors available in Pascal, Ocaml, and ReasonML
+
+- SmartPy: Python syntax
+
+- Morley: Haskell syntax
+
+## **What is the difference between high-level languages and Michelson?**
+
+High level languages are compiled or interpreted to produce valid Michelson. The languages are easier for many developers to approach as it have easier syntax, and include features like local variables and high-level types rather than stack manipulations.
 
 ## **What is OCaml, the language of the Tezos protocol?**
 
@@ -77,21 +85,6 @@ Finally, one of the main advantages of Tezos is that the system is amendable. We
 
 So, why Michelson? To provide a straightforward platform for business logic, to provide a readable bytecode, and to be introspectable. When I was working with Olin Shivers, he was very fond of saying that one should always use a "tool small enough for the job". Michelson has been carefully designed to be that tool.
 
-# Liquidity {#liquidity}
-
-Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and it strictly complies with Michelson security restrictions.
-
-Developers are currently working on a formal-method framework that will be used to prove the correctness of smart-contracts written in Liquidity.
-
-The Liquidity language provides the following features:
-
-- Full coverage of the Michelson language: Anything that can be written in Michelson can be written in Liquidity,
-- Local variables instead of stack manipulations: values can be stored in local variables.
-- High-level types: types like sum-types and record-types can be defined and used in Liquidity programs.
-
-Liquidity already covers 100% of the Michelson features, and contracts generated with Liquidity can be submitted on the current mainnet and zeronet.
-
-
 # Language Resources {#resources}
 
 # Michelson:
@@ -103,10 +96,21 @@ Liquidity already covers 100% of the Michelson features, and contracts generated
 - [Michelson Tutorial Part 3 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/03)
 - [Michelson Tutorial Part 4 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/04)
 
-# Liquidity:
+# High-Level Smart Contract Languages:
+## LIGO:
 
-- [Liquidity homepage](https://www.liquidity-lang.org/)
-- [Liquidity documentation](https://www.liquidity-lang.org/doc/)
+- [LIGO homepage](https://ligolang.org/)
+- [LIGO documentation](https://ligolang.org/docs/intro/introduction)
+- [LIGO IDE](https://ide.ligolang.org/)
+
+## SmartPy: 
+- [SmartPy homepage](https://smartpy.io/)
+- [SmartPy documentation](https://smartpy.io/demo/reference.html)
+- [SmartPy IDE](https://smartpy.io/demo/)
+
+## Morley:
+- [Morley readme](http://hackage.haskell.org/package/morley-1.0.0#readme)
+- [Morley documentation](http://hackage.haskell.org/package/morley)
 
 # OCaml:
 
