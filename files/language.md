@@ -20,7 +20,7 @@ Current options in development include:
 
 ## **What is the difference between high-level languages and Michelson?**
 
-High-level languages are compiled or interpreted to produce valid Michelson. The languages are easier for many developers to approach as it have easier syntax, and include features like local variables and high-level types rather than stack manipulations.
+High-level languages are compiled or interpreted to produce valid Michelson. The languages are easier for many developers to approach as they have easier syntaxes, and include features like local variables and high-level types rather than stack manipulations.
 
 ## **What is OCaml, the language of the Tezos protocol?**
 
