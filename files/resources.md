@@ -11,7 +11,7 @@ Resources
 - [Tezos Foundation](https://tezos.foundation/)
 - [Tezos Commons Foundation](https://tezoscommons.org/)
 - [Tezos Japan](https://twitter.com/TezosJapan)
-- [Tezos Korea](http://tezoskoreacommunity.org/)
+- [Tezos Korea](https://tezoskoreacommunity.org/)
 - [Tezos Rio](https://tezos.rio/)
 - [Tezos Korea Foundation](http://tezoskorea.foundation/)
 - [Tezos Southeast Asia](https://www.tezos.org.sg/)
@@ -29,7 +29,7 @@ Apply [here](https://tezos.foundation/grants-overview) for a grant from the foun
 # Wallets {#wallet}
 - [Tezbox (Mobile and Desktop)](https://tezbox.com/)
 - [Galleon (Desktop)](https://galleon-wallet.tech/)
-- Cortez (Mobile - [iOS](https://itunes.apple.com/us/app/cortez/id1464922586?ls=1&mt=8) & [Android](https://play.google.com/store/apps/details?id=com.tezcore.cortez))
+- Cortez (Mobile - [iOS](https://apps.apple.com/us/app/cortez/id1464922586?ls=1) & [Android](https://play.google.com/store/apps/details?id=com.tezcore.cortez))
 - [Kukai (Desktop)](https://kukai.app/)
 
 # Block Explorers {#explorer}

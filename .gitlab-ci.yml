@@ -16,6 +16,7 @@ test:
   stage: test
   script:
     - gitbook build . public # build to public path
+    - npm run test:links
   only:
     - branches # this job will affect every branch except 'master'
   except:

@@ -24,16 +24,14 @@ These SNARKs are also much more succint (as little as 144 bytes), which may be u
 
 Some developers are currently exploring new consensus algorithms. These, in turn, are being developed by other teams so that they may be included in the Tezos protocol. 
 
-Tendermint, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
+Tenderbake, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
 
-## Tendermint
+## Tenderbake
 
-One idea which has emerged is the possibility of using [Tendermint](https://github.com/tendermint/tendermint/wiki/Byzantine-Consensus-Algorithm), a pBFT-like consensus algorithm for Tezos block acceptance (à la finality gadget), as well as maintaining Nakamoto Consensus for block proposing. These ideas are discussed [here](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f)
+One idea which has emerged is the possiblity of using [Tenderbake]
+(https://arxiv.org/abs/2001.11965), a pBFT-inspired consensus algorithm designed for public blockchains.
 
-Cryptium Labs has presented Tendermint on Tezos:
-
-* **Video:** https://www.youtube.com/watch?v=7L01IxKlVu0z
-* **Slides:** https://drive.google.com/file/d/19gjvf89bhVt7yAKpzIuGQ9ensbiHG7FX/view
+Discussion of Tenderbake proposal can be found [here](https://forum.tezosagora.org/t/tenderbake-an-overview/1601)
 
 ## Avalanche
 
