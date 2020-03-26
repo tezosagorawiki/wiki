@@ -12,11 +12,11 @@ There are various high-level languages available for programming Smart Contracts
 
 Current options in development include:
 
-- LIGO: Syntax flavors available in Pascal, Ocaml, and ReasonML
+- LIGO: Pascal-, Ocaml-, and ReasonML-like syntax
 
-- SmartPy: Python syntax
+- SmartPy: Python-like syntax
 
-- Morley: Haskell syntax
+- Morley: Haskell-like syntax
 
 ## **What is the difference between high-level languages and Michelson?**
 
