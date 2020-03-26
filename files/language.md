@@ -12,11 +12,11 @@ There are various high-level languages available for programming Smart Contracts
 
 Current options in development include:
 
-- LIGO: Pascal-, Ocaml-, and ReasonML-like syntax
+- LIGO: A Smart Contract language offering Pascal, Ocaml, and ReasonML syntax flavors
 
-- SmartPy: Python-like syntax
+- SmartPy: A Python library with tools to write and test Smart Contracts
 
-- Morley: Haskell-like syntax
+- Morley/Lorentz: A Haskell-flavored eDSL for writing Smart Contracts
 
 ## **What is the difference between high-level languages and Michelson?**
 
@@ -108,9 +108,9 @@ So, why Michelson? To provide a straightforward platform for business logic, to 
 - [SmartPy documentation](https://smartpy.io/demo/reference.html)
 - [SmartPy IDE](https://smartpy.io/demo/)
 
-## Morley:
-- [Morley readme](http://hackage.haskell.org/package/morley-1.0.0#readme)
-- [Morley documentation](http://hackage.haskell.org/package/morley)
+## Morley/Lorentz:
+- [Lorentz introductory blog post](https://serokell.io/blog/lorentz-implementing-smart-contract-edsl-in-haskell)
+- [Lorentz documentation](https://gitlab.com/morley-framework/morley/-/tree/1722a7ab667a407ce4ed225bb1e5bce8434bfe77/)
 
 # OCaml:
 
