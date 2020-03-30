@@ -70,7 +70,7 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     
 2. **Trust-Minimized Financial Contracts**     
 
-    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party, which makes a loss of funds from a bug in the code particularly unforgiving. At large enough scale, smart contract exploits can pose challenges for blockchain governance:
+    Financial contracts such as decentralized exchanges, swaps, loans, and so on demand a high-level of correctness. Decentralized blockchain networks derive their value from the absence of a trusted third party, which makes a loss of funds from a bug in the code particularly unforgiving. At large enough scale, smart contract exploits can pose challenges for blockchain governance:
     
     * The infamous [hack](https://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/) of The DAO to the tune of $150m occurred due to a bug known as the recursive send exploit, eventually causing the Ethereum community to fork into Ethereum and Ethereum Classic.  
     * A [bug](https://www.parity.io/parity-technologies-multi-sig-wallet-issue-update/) in Parity's Mulit-Sig Wallet caused over 500,000 ETH ($150m at that time) to be frozen, leading to the EIP-999 debate. A list of Ethereum issues resulting in lost or stuck funds can be found [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
