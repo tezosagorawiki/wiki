@@ -14,24 +14,15 @@ GADT stands for Generalized Algebraic Data Types. GADTs allow OCaml developers t
 
 # Michelson with Coq {#coq}
 
-As of January 2019, the formal verification implementation of Michelson with Coq is not yet complete. However, using the Coq interactive theorem prover, the following parts of the language
-are formalized:
-
-- the type system
-- the syntax
-- the semantics
-
-Coq implements a program specification and higher-level mathematical language called *Gallina*  This language is in turn based on an expressive formal language called the *Calculus of Inductive Constructions*, which combines both a higher-order logic and a richly-typed functional programming language. Through a *vernacular* language of commands, Coq allows one to:
+[Coq](https://coq.inria.fr/) is an interactive theorem prover. It is based on a very expressive logic called the Calculus of Inductive Constructions, which is powerful enough to both prove advanced mathematical theorems such as the [Feit-Thompson Odd Order Theorem](https://hal.inria.fr/hal-00816699/document) and verify the correctness of complex software such as [CompCert](http://compcert.inria.fr/). More concretely, Coq allows one to:
 
 - define functions or predicates that can be evaluated efficiently;
 - state mathematical theorems and software specifications;
 - interactively develop formal proofs of these theorems;
-- machine-check these proofs by a relatively small certification "kernel";
-- extract certified programs to languages like Objective Caml, Haskell or Scheme.
+- machine-check these proofs by a relatively small certification “kernel”;
+- extract certified programs to languages like OCaml, Haskell or Scheme.
 
-As a proof development system, Coq provides interactive proof methods, decision and semi-decision algorithms, and a *tactic* language that lets the user define its own proof methods. Connections with external computer algebra systems and theorem provers are also available.
-
-As a platform for the formalization of mathematics and for the development of programs, Coq provides support for high-level notation, implicit content and other useful macros. This repository is a formalization of Michelson using the Coq interactive theorem prover: https://framagit.org/rafoo/michelson-coq.
+[Mi-Cho-Coq](https://gitlab.com/nomadic-labs/mi-cho-coq) is a formalization of the Michelson smart contract language in Coq. It can be used to specify and verify Tezos smart contracts such as [this multisig contract](https://gitlab.com/nomadic-labs/mi-cho-coq/-/blob/master/src/contracts_coq/generic_multisig.v), [the default “manager” contract](https://gitlab.com/nomadic-labs/mi-cho-coq/-/blob/master/src/contracts_coq/manager.v), and the [spending-limit contract of the Cortez wallet](https://blog.nomadic-labs.com/formally-verifying-a-critical-smart-contract.html). Mi-Cho-Coq also serves as the compilation target for the [Albert compiler](https://albert-lang.io/).
 
 # Why is this important for financial contracts?
 
