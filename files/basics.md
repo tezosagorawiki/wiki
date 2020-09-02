@@ -32,7 +32,7 @@ XTZ, tez, or ꜩ (`\ua729`, "Latin small letter tz") is the native currency of 
     
     Proof-of-stake improves scalability and encourages incentive alignment. It also increases the cost of 51% attacks and avoids environmentally wasteful proof-of-work.
     
-    Tezos launched in June 2018 as one of the first major Proof-of-Stake networks. As of January 19, 2019, Tezos now has nearly [460 bakers](https://tzscan.io/rolls-distribution) and more than [107 public delegation services](https://mytezosbaker.com/).
+    Tezos launched in June 2018 as one of the first major Proof-of-Stake networks. As of September 2, 2020, Tezos now has nearly [440 bakers](https://tzkt.io/delegates) and more than [200 public delegation services](https://baking-bad.org/).
 
 3. **Smart Contract Security and Formal Verification**
 
