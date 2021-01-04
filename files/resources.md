@@ -6,6 +6,24 @@ date:   2019-01-07 12:14:18
 Resources
 ===========
 
+# Wallets {#wallet}
+- [Kukai (Web)](https://kukai.app/)
+- [Thanos (Browser Extension)](https://thanoswallet.com)
+- [Magma (iOS and Android)](https://magmawallet.io) 
+- [Galleon (Desktop)](https://galleon-wallet.tech/)
+
+# Block Explorers {#explorer}
+- [TZKT](https://tzkt.io)
+- [Better Call Dev - "Michelson Contract Explorer"](https://better-call.dev/)
+- [TZStats](https://tzstats.com/)
+- [Arronax](https://arronax-beta.cryptonomic.tech/)
+- [Tezblock](https://tezblock.io/)
+
+
+# Baking Services {#baking}
+
+A list of Bakers can be found [here](https://baking-bad.org)
+
 # List of Tezos Groups {#foundation}
 
 - [Tezos Foundation](https://tezos.foundation/)
@@ -21,25 +39,3 @@ Resources
 - [Tezos Luxembourg](https://tezos.lu/)
 - [Tezos Turkey](https://twitter.com/tezosturkey)
 - [Tezos Geneva](https://twitter.com/TezosGeneva)
-
-# Tezos Foundation Grant {#grant}
-
-Apply [here](https://tezos.foundation/grants-overview) for a grant from the foundation to work on a project in the Tezos ecosystem.
-
-# Wallets {#wallet}
-- [Tezbox (Mobile and Desktop)](https://tezbox.com/)
-- [Galleon (Desktop)](https://galleon-wallet.tech/)
-- Cortez (Mobile - [iOS](https://apps.apple.com/us/app/cortez/id1464922586?ls=1) & [Android](https://play.google.com/store/apps/details?id=com.tezcore.cortez))
-- [Kukai (Desktop)](https://kukai.app/)
-
-# Block Explorers {#explorer}
-- [TZStats](https://tzstats.com/)
-- [Arronax](https://arronax-beta.cryptonomic.tech/)
-- [Tezos.ID](https://tezos.id/)
-- [Better Call Dev - "Michelson Contract Explorer"](https://better-call.dev/)
-- [Tezblock](https://tezblock.io/)
-
-
-# Baking Services {#baking}
-
-A list of Bakers can be found [here](https://mytezosbaker.com/).
