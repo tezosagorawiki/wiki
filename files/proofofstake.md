@@ -29,7 +29,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     Block creation is the way that the blockchain makes progress. In Tezos, participants who create blocks are called bakers. Bakers contribute their computing power to the network to validate transactions. For doing so, they are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). 
 
-    To be considered a baker, a participant needs to own at least 10,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 10,000 XTZ or 19,999 XTZ, they have the same baking rights in the system.  
+    To be considered a baker, a participant needs to own at least 10,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 19,999 XTZ, they have the same baking rights in the system.  
 
     Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
 
@@ -48,7 +48,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
 2. **Delegating**
 
-    If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the XTZ delegated to them, and bakers cannot run away with other people's money. 
+    If someone does not have 8,000 XTZ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the XTZ delegated to them, and bakers cannot run away with other people's money. 
 
     Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on the rewards that people obtain by delegating to them.
 
