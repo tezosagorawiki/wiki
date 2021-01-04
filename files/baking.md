@@ -29,4 +29,4 @@ First, use [this page](https://baking-bad.org/docs/where-to-stake-tezos) to brow
 - [Expected Rewards from Solo Baking Tezos](https://medium.com/cryptium/coquito-tezem-ergo-sum-expected-rewards-from-solo-baking-tezos-fcb4616b97dc)
 - [Storing XTZ in Ledger Nano S while delegating](https://medium.com/cryptium/how-to-store-your-tezos-xtz-in-your-ledger-nano-s-and-delegate-with-tezbox-wallet-8fb4ac2d3355)
 - [Double Baking -- How a baker can lose it's XTZ](https://medium.com/cryptium/half-baked-is-always-better-than-double-baked-what-is-at-stake-in-the-tezos-protocol-6619ce4a5f87)
-- [Bakechain](https://bakechain.github.io/)
+- [Kiln](https://tezos-kiln.org), an easy-to-use self-baking software
