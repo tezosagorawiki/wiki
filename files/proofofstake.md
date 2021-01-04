@@ -50,7 +50,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     If someone does not have 10,000 XTZ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the XTZ delegated to them, and bakers cannot run away with other people's money. 
 
-    Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on the rewards that people obtain by delegating to them. A full list of public baking services can be found [here](https://mytezosbaker.com/).
+    Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on the rewards that people obtain by delegating to them.
 
 3. **Fork Choice Rule**
 
