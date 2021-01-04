@@ -4,7 +4,7 @@
 
 Tezos is a self-amending blockchain network which incorporates an on-chain mechanism for proposing, selecting, testing, and activating protocol upgrades without the need to hard fork.
 
-In simple terms, this means that Tezos ia blockchain that can improve itself over time by having a formalized process for protocol upgrades. In practice, this is similar to the structure of a corporation, where shareholders get to vote on the direction of the company. 
+In simple terms, this means that Tezos is a blockchain that can improve itself over time by having a formalized process for protocol upgrades. In practice, this is similar to the structure of a corporation, where shareholders get to vote on the direction of the company. 
 
 Many other blockchains do not have this type of formal governance structure, so the direction of these projects are often decided by a small group of developers or by a foundation, which may or may not represent all stakeholders fairly. 
 
