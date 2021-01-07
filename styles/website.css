@@ -20,20 +20,20 @@ h1 {
 
 .book-logo {
     display: flex;
-    padding: 18px;
+    padding: 16px;
     justify-content: left;
 }
 
 .book-logo img {
-    height: 33px;
+    height: 54px;
     margin-right: 12px;
-    position: relative;
-    top: 7px;
-    left: 3px;
 }
 
 .book-logo:after {
     content: "wiki";
     font-size: 32px;
     box-sizing: border-box;
+    position: relative;
+    right: 6px;
+    top: 4px;
 }
