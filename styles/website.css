@@ -27,6 +27,7 @@ h1 {
 .book-logo img {
     height: 54px;
     margin-right: 12px;
+    max-width: 200px;
 }
 
 .book-logo:after {
