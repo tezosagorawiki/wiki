@@ -2,7 +2,7 @@
 	"plugins": ["theme-gestalt", "theme-default", "mathjax"],
 	"pluginsConfig": {
 		"theme-gestalt": {
-			"logo": "/img/TZAgora_200px.svg",
+			"logo": "/img/logo-tz-agora.svg",
 			"excludeDefaultStyles": false
 		}
 	},
