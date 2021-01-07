@@ -1,6 +1,6 @@
-# Welcome to the Tezos Wiki!
+# Welcome to the Tezos Agora Wiki!
 
-The Tezos Wiki is a place to get started and learn about Tezos. It also aims to answer the frequently asked questions about the Tezos protocol & the Tezos ecosystem.
+The Tezos Agora Wiki is a place to get started and learn about Tezos. It also aims to answer the frequently asked questions about the Tezos protocol & the Tezos ecosystem.
 
 This wiki aspires to be a living document that will evolve as the Tezos protocol (and ecosystem) evolves. If interested in proposing a change to this document, please feel free to submit an issue or make a merge request to [this Gitlab repository](https://gitlab.com/tezosagora/tezos-wiki).
 
