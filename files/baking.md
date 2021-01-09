@@ -17,10 +17,10 @@ This means that if **all** Tezos token holders bake with all of their tokens (i.
 In practice, the rewards for token holders who delegate are less than that of baking directly, because delegates share only part of their baking rewards with delegators. The portion they keep is often called a “fee” and ranges between 5% and 20%, varying by the baker. 
 
 # How should I select a baker to delegate with? {#bakerselection}
-First, use [this page](https://baking-bad.org/docs/where-to-stake-tezos) to browse through bakers. There a few factors to consider when choosing a baker to delegate with:
+First, use [this page](https://baking-bad.org/docs/where-to-stake-tezos) or [this page](https://tezos-nodes.com/) to browse through bakers. There are a few factors to consider when choosing a baker to delegate with:
 
 1. **Fees**. How much of the rewards the baker is keeping? 
-2. **Capacity**. Each baker has a capacity of how many coins it can accept, which is based on how many coins it currently holds itself. A baker is "overdelegated" when it has exceeded the amount of delegation it can take considering the coins they currently hold.  
+2. **Capacity**. Each baker has a capacity of how many coins it can accept, which is based on how many coins it currently holds itself. A baker is "overdelegated" when it has exceeded the amount of delegation it can take considering the coins they currently hold.    
 3. **Reliability + Responsiveness**. Does this baker pay out on time? Does this baker pay correctly? Will this baker respond to my questions about their services? Many bakers operate forums and chat rooms in which they engage with delegators.
 4. **Security**. Is this baker's staking setup secure? Does this baker have a track record? Has this baker double-baked in the past and lost coins?
 
@@ -29,4 +29,4 @@ First, use [this page](https://baking-bad.org/docs/where-to-stake-tezos) to brow
 - [Expected Rewards from Solo Baking Tezos](https://medium.com/cryptium/coquito-tezem-ergo-sum-expected-rewards-from-solo-baking-tezos-fcb4616b97dc)
 - [Storing XTZ in Ledger Nano S while delegating](https://medium.com/cryptium/how-to-store-your-tezos-xtz-in-your-ledger-nano-s-and-delegate-with-tezbox-wallet-8fb4ac2d3355)
 - [Double Baking -- How a baker can lose it's XTZ](https://medium.com/cryptium/half-baked-is-always-better-than-double-baked-what-is-at-stake-in-the-tezos-protocol-6619ce4a5f87)
-- [Kiln](https://tezos-kiln.org), an easy-to-use self-baking software
+- [Kiln](https://tezos-kiln.org), an easy-to-use self-baking software and bakery monitor. 
