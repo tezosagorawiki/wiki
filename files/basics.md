@@ -83,7 +83,7 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
 
 --->
 
-# Tezos Nomenclature
+# Tezos Nomenclature {#nomenclature}
 
 The following is adapted from this [Agora post](https://forum.tezosagora.org/t/nomenclature/2376) by Tezos Co-founder Arthur Breitman. As noted in the post, there is no official body which can authoritatively set Tezos nomenclature, but the following is recommended:
 
