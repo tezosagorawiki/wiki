@@ -36,7 +36,7 @@ Discussion of Tenderbake proposal can be found [here](https://forum.tezosagora.o
 # Layer 2 {#layer2}
 
 
-## ZK Channels (Bolt Labs)
+### ZK Channels (Bolt Labs)
 
 
 
