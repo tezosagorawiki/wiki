@@ -48,9 +48,7 @@ See [the full details of the governance process](https://medium.com/tezos/amendi
 
 # Off-chain governance {#offchain}
 
-## Kialo
-
-Discussions of Tezos proposals are occurring [here](https://www.kialo.com/tezos-protocol-amendment-1-25295/settings?back=%2Ftezos-protocol-amendment-1-25295%2F25295.0%3D25295.2%2B25295.81%2F%2B25295.81%2Fcomments)
+[Tezos Agora](https://tezosagora.org) provides off-chain discussion forum and explorer for community members and bakers.
 
 # Arguments for and against on-chain governance {#arguments}
 To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints:
