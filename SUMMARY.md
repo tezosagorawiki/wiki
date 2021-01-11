@@ -7,7 +7,7 @@
 
 * [What is Tezos?](files/basics.md#intro)
 * [What makes Tezos unique?](files/basics.md#unique)
-* [Which use cases are suited to Tezos?](files/basics.md#use-case)
+* [Tezos Nomenclature](files/basics.md#nomenclature)
 
 ### Proof-of-Stake
 * [What is Proof-of-Stake?](files/proofofstake.md#intro)
@@ -32,7 +32,6 @@
 
 ### Formal Verification
 * [Introduction](files/formal-verification.md#intro)
-* [Michelson and GADT](files/formal-verification.md#gadt)
 * [Michelson and Coq](files/formal-verification.md#coq)
 
 ### Future Developments
@@ -45,8 +44,6 @@
 * [Tezos Projects](https://tezosprojects.com)
 
 ### Resources
-* [Tezos Foundation](files/resources.md#foundation)
-* [Tezos Grant Programs](files/resources.md#grant)
 * [Wallets](files/resources.md#wallet)
 * [Block Explorer](files/resources.md#explorer)
 * [Baking Services](files/resources.md#baking)
