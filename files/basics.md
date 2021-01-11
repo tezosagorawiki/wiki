@@ -56,6 +56,8 @@ How (or if) a network addresses these challenges **determines a network's evolut
 *  Tezos nodes will automatically switch to the latest version of the protocol without the need for off-chain communication
 *  [Liquid proof-of-stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to align network participants' incentives and any token holder can avoid dilution by inflation
 
+<!---
+
 # Which use cases are well-suited to Tezos? {#use-case}
 
 Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitrary code to be executed in a trust-minimized manner. However, certain applications may be well suited for Tezos based on formal governance and focus on smart contract security. Below are some preliminary examples:
@@ -78,6 +80,8 @@ Turing-complete smart contract platforms like Tezos or Ethereum allow for arbitr
     Tezos' smart contract language, Michelson, facilitates formal verification, a technique which, if deployed correctly, mathematically proves the correctness of the code, boosting the security of the most sensitive or financially weighted smart contracts and reducing the likelihood of bugs. Formal verification techniques are widely deployed in mission-critical software infrastructure, such as in aircrafts, nuclear reactors, and automotive vehicles.
     
     Tezos aspires to bring this level of rigor to the realm of high-value smart contracts and decentralized applications.
+
+--->
 
 # Tezos Nomenclature
 
