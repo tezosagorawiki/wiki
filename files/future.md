@@ -18,13 +18,9 @@ Transactions in blockchains are public by default. A company may not want its pa
 
 The Tezos developer community has been particularly interested in enabling private transactions by implementing a specific type of zero-knowledge proof called zk-SNARKs. [**An implementation currently being explored**](https://gitlab.com/tezos/tezos/blob/1cd31972ed2de9deee77592b8ffc5fb3d0170d1a/vendors/ocaml-sapling/README.md) uses the same circuits and trusted setup from Zcash's recent "Sapling" upgrade through OCaml bindings to the original Rust libraries. Sapling is based on a near-optimal proof system developer by Jens Groth and the BLS12-381 pairing-friendly elliptic curve and is over an order of magnitude faster than earlier SNARK implementations (read more about Sapling [**here**](https://z.cash/upgrade/sapling/)). 
 
-These SNARKs are also much more succint (as little as 144 bytes), which may be useful in the future for the recursive SNARK scaling techniques described in the ["Scaling Tezos"](https://hackernoon.com/scaling-tezo-8de241dd91bd) blog post from 2017. This approach is also now being explored by the [Coda Protocol](https://codaprotocol.com/) and can be implemented as a Tezos sidechain.
+These SNARKs are also much more succint (as little as 144 bytes), which may be useful in the future for the recursive SNARK scaling techniques described in the ["Scaling Tezos"](https://hackernoon.com/scaling-tezo-8de241dd91bd) blog post from 2017. This approach is also explored by the [Mina Protocol](https://minaprotocol.com/) and can be implemented to create Tezos sidechains.
 
 # Consensus {#consensus}
-
-Some developers are currently exploring new consensus algorithms. These, in turn, are being developed by other teams so that they may be included in the Tezos protocol. 
-
-Tenderbake, Avalanche, and Algorand/Dfinity have emerged as candidates for future Tezos consensus upgrades given Tezos' ability to swap out and upgrade core components of the protocol via the amendment process.
 
 ## Tenderbake
 
@@ -32,32 +28,17 @@ One idea which has emerged is the possiblity of using [Tenderbake](https://arxiv
 
 Discussion of Tenderbake proposal can be found [here](https://forum.tezosagora.org/t/tenderbake-an-overview/1601)
 
-## Avalanche
-
-The [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/) by Edward Tate is exploring Avalanche implementation for Tezos.
 
 ## Scalability {#scalability}
  
-**Sharding**
-
-A [research project](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) focused on Tezos sharding is underway at Cornell University.
 
 
 # Layer 2 {#layer2}
 
-Layer 2 solutions are also being explored and proposed by developers who are building on Tezos. 
+
+## ZK Channels (Bolt Labs)
 
 
-**Marigold**
-
-[Marigold](https://medium.com/tezos/marigold-layer-2-scaling-for-tezos-7445b5a3b7be) is a plasma-like project created by developer Gabriel Alfour. The project initially focuses on implementing [Minimum Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426) (UTXO-based, allowing asset transfer), but plans to add privacy (e.g. via AZTEC protocol-like homomorphic encryption) and become less or non-interactive through an incentive layer, state channels, or through recursive zk-snarks (a la Coda protocol).
-
-A new smart contract language is in development alongside Marigold.
-
-**Velos (TezTech)**
-
-[Velos](https://docs.google.com/document/d/18hKJnKB8sAZ_fpiHTzj-HJwbQu_SrqOAisjI3IqdM0A/edit#
-), a plasma-like project led by Stephen Andrews, is being developed by [TezTech](https://teztech.io/).
 
 ## Randomness
 PVSS and VDFs have both been discussed as ways to improve randomness in Tezos.
