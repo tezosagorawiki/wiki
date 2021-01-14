@@ -4323,3 +4323,15 @@
         jquery: 1
     }]
 }, {}, [10]);
+
+
+// Makes Agora Logo clickable, linking to http://tezosagora.org
+const logo = document.querySelector('.book-logo > img'),
+    link = document.createElement('a'),
+    href = document.createAttribute('href');
+
+href.value = 'http://tezosagora.org';
+link.setAttributeNode(href);
+
+logo.parentNode.insertBefore(link, logo);
+link.appendChild(logo);
