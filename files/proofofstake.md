@@ -29,7 +29,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     Block creation is the way that the blockchain makes progress. In Tezos, participants who create blocks are called bakers. Bakers contribute their computing power to the network to validate transactions. For doing so, they are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). 
 
-    To be considered a baker, a participant needs to own at least 8,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 19,999 XTZ, they have the same baking rights in the system.  
+    To be considered a baker, a participant needs to own at least 8,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 15,999 XTZ, they have the same baking rights in the system.  
 
     Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
 
