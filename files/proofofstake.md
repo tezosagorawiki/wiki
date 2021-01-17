@@ -29,7 +29,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     Block creation is the way that the blockchain makes progress. In Tezos, participants who create blocks are called bakers. Bakers contribute their computing power to the network to validate transactions. For doing so, they are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). 
 
-    To be considered a baker, a participant needs to own at least 10,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 19,999 XTZ, they have the same baking rights in the system.  
+    To be considered a baker, a participant needs to own at least 8,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 19,999 XTZ, they have the same baking rights in the system.  
 
     Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
 
@@ -58,7 +58,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are incentivized to endorse the block which they believe other bakers will also endorse, a.k.a. high priority blocks. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.  
 
-**To summarize:** The Tezos PoS protocol uses a chain-based PoS algorithm, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 10,000 XTZ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to incentivize honest behavior.  
+**To summarize:** The Tezos PoS protocol uses a chain-based PoS algorithm, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 XTZ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to incentivize honest behavior.  
 
 # What is the Nothing-at-Stake Problem and how does Tezos solve it? {#nothing-at-stake}
 
@@ -76,12 +76,3 @@ Gathering information from missing endorsements, missing blocks, and from future
 
 Currently, Tezos does around 30-40 transactions per second.
 
-# What is the roadmap for improving the scalability of Tezos? {#roadmap}
-
-There is no "roadmap" per se. In Tezos' on-chain governance system, bakers can vote on proposals to upgrade the protocol. Using this mechanism, the consensus protocol can be swapped out through an on-chain vote without requiring a hard fork. Newer consensus algorithms like Algorand or Tendermint, which have finality and higher throughput, will be usable on Tezos.
-
-Multiple efforts are underway to explore new Tezos consensus algorithms with fast finality. [One effort](https://medium.com/tezos/a-few-directions-to-improve-tezos-15359c79ec0f) involves using Tendermint for block acceptance, which would entail [Byzantine Agreement](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) (and thus instant finality) on each block. Another is the [Igloo project](https://bitsonline.com/igloo-edward-tate-avalanche-tezos/), which is exploring Avalanche for Tezos.
-
-Additionally, [research into sharding Tezos](https://tezos.foundation/wp-content/uploads/2018/08/20180809_Tezos_Foundation_Research_Grants_announcement-1.pdf) is underway at Cornell University, funded by a grant from the Tezos Foundation.
-
-Another idea explored by Arthur Breitman is contained in the [blog post](https://hackernoon.com/scaling-tezo-8de241dd91bd) called "Scaling Tezos," which explores the idea of using recursive zk-SNARKs in each block to dramatically improve scalability.
