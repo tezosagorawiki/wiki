@@ -39,6 +39,5 @@ Resources
 - [Tezos Commons Foundation](https://tezoscommons.org/)
 - [Tezos Gulf](https://tezosgulf.com/)
 - [Tezos Japan](https://twitter.com/TezosJapan)
-- [Tezos Rio](https://tezos.rio/)
-- [Tezos Southeast Asia](https://www.tezos.org.sg/)
+- [Tezos Rio](https://tezos.rio/)- [Tezos Southeast Asia](https://www.tezos.org.sg/)
 - [Tezos Ukraine](https://tezos.org.ua/en/)
