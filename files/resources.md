@@ -25,6 +25,7 @@ Resources
 - [TZStats](https://tzstats.com/)
 - [Arronax](https://arronax-beta.cryptonomic.tech/)
 - [Tezblock](https://tezblock.io/)
+- [TezTracker](https://teztracker.com/en/mainnet)
 
 
 # Baker Rating Services {#baking}
@@ -36,14 +37,7 @@ Resources
 
 - [Tezos Foundation](https://tezos.foundation/)
 - [Tezos Commons Foundation](https://tezoscommons.org/)
+- [Tezos Gulf](https://tezosgulf.com/)
 - [Tezos Japan](https://twitter.com/TezosJapan)
-- [Tezos Korea](https://tezoskoreacommunity.org/)
-- [Tezos Rio](https://tezos.rio/)
-- [Tezos Korea Foundation](http://tezoskorea.foundation/)
-- [Tezos Southeast Asia](https://www.tezos.org.sg/)
-- [Tezos Montreal](https://tezosmtl.com/)
-- [Tezos OCaml Michelson Institute](https://tomi.institute/)
-- [Tezos Detroit](https://twitter.com/TezosD)
-- [Tezos Luxembourg](https://tezos.lu/)
-- [Tezos Turkey](https://twitter.com/tezosturkey)
-- [Tezos Geneva](https://twitter.com/TezosGeneva)
+- [Tezos Rio](https://tezos.rio/)- [Tezos Southeast Asia](https://www.tezos.org.sg/)
+- [Tezos Ukraine](https://tezos.org.ua/en/)
