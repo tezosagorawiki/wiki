@@ -23,7 +23,7 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
 # What consensus algorithm does Tezos use? {#consensus}
 
-Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we will break it up into five main sections:
+Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we will break it up into six main sections:
 
 1. **Block Creation (Baking)**
 
@@ -72,7 +72,9 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
     The last key thing to understand about the Tezos consensus algorithm is how the protocol decides which chain fork is the "correct" one. The fork choice rule in Tezos is based on the longest chain like in Nakamoto-style blockchains but it includes also the check that blocks are not baked sooner than [allowed](#block-delay).
 
-    When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are incentivized to endorse the block which they believe other bakers will also endorse, a.k.a. high priority blocks. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.
+6. **Incentives**
+
+    To encourage participation, baking and endorsing are rewarded. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.
 
 
 **To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a Nakamoto-style PoS consensus, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 ꜩ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.
