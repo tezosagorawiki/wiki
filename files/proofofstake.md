@@ -13,7 +13,7 @@ For a blockchain to make progress, new blocks must be created and added to chain
 
 Broadly, there are 2 classes of proof-of-stake algorithms:
 
-1. **Chain-based Proof-of-Stake**
+1. **Nakamoto-style Proof-of-Stake**
 
     As with Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain (longest/heaviest chain). However, instead of selecting a validator based on who solves the cryptographic puzzles first, the likelihood of selection is weighted according to how many coins they lock-up, or "stake."
 
@@ -75,7 +75,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
     When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are incentivized to endorse the block which they believe other bakers will also endorse, a.k.a. high priority blocks. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.
 
 
-**To summarize:** The Tezos PoS protocol uses a chain-based PoS algorithm, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 XTZ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.
+**To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a Nakamoto-style PoS consensus, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 ꜩ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.
 
 # What is the Nothing-at-Stake Problem and how does Tezos solve it? {#nothing-at-stake}
 
