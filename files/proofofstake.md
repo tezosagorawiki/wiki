@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Proof of Stake"
+title:  "Proof of Stake Consensus"
 date:   2019-01-07 12:14:18
 ---
-# Proof of Stake
+# Proof-of-Stake Consensus
 
 ## What is Proof-of-Stake? {#intro}
 
