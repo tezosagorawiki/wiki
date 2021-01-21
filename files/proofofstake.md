@@ -49,10 +49,11 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 2. **Endorsing**
 
    Besides baking, a participant has the right to endorse a block. Endorsing
-   rights are set in the same way as baking rights. Endorsing serves as a vote
-   on a block. Endorsements on a block are included in the next block. Endorsing
-   is a sign of activity so the more endorsements blocks contain, the healthier
-   the chain.
+   rights are set in the same way as baking rights. At every block height, 32
+   random rolls are selected to endorse a block. Endorsing serves as a vote on a
+   block. Endorsements on a block are included in the next block. Endorsing is a
+   sign of activity so the more endorsements blocks contain, the healthier the
+   chain.
 
 3. **Block Delay Rule** {#block-delay}
 
@@ -69,7 +70,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
 5. **Fork Choice Rule**
 
-    The last key thing to understand about the Tezos consensus algorithm is how the protocol decides which chain fork is the "correct" one. Bitcoin's fork choice rule is simple — the longest chain is the canonical one. Tezos picks the canonical chain based instead on the number of bakers that endorsed the block. It has been mentioned above that bakers are given baking rights to create blocks, but that bakers are also given the second responsibility of endorsing blocks. At every block height, 32 random rolls are selected to endorse a block, and the block with the most endorsements is treated as the canonical one.
+    The last key thing to understand about the Tezos consensus algorithm is how the protocol decides which chain fork is the "correct" one. The fork choice rule in Tezos is based on the longest chain like in Nakamoto-style blockchains but it includes also the check that blocks are not baked sooner than [allowed](#block-delay).
 
     When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are incentivized to endorse the block which they believe other bakers will also endorse, a.k.a. high priority blocks. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.
 
