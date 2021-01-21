@@ -42,7 +42,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
         .
         Priority10 = Roll 7  
 
-    This means that the person who owns Roll 6 will have first priority in proposing the block. If they do not create and broadcast a block within 1 minute, the person who owns Roll 9 may take over. The more rolls one owns, the greater one's chances of being given high priority. 
+    This means that the person who owns Roll 6 will have first priority in proposing the block. If they do not create and broadcast a block within 1 minute, the person who owns Roll 9 may take over. The more rolls one owns, the greater one's chances of being given high priority. Furthermore, a baker may receive several priorities.
 
     To bake, you will need to put up a security deposit (your "Proof of Stake") of 512 XTZ per block created. This deposit is locked up for 5 cycles (~14 days). This deposit can be slashed if the baker double bakes (re: the "Nothing-at-Stake Problem"). 
 
