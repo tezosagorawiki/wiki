@@ -23,7 +23,7 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
 # What consensus algorithm does Tezos use? {#consensus}
 
-Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we will break it up into three main sections:
+Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we will break it up into four main sections:
 
 1. **Block Creation (Baking)**
 
@@ -42,7 +42,7 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
         .
         Priority10 = Roll 7  
 
-    This means that the person who owns Roll 6 will have first priority in proposing the block. If they do not create and broadcast a block within 1 minute, the person who owns Roll 9 may take over. The more rolls one owns, the greater one's chances of being given high priority. Furthermore, a baker may receive several priorities.
+    This means that the person who owns Roll 6 will have first priority in proposing the block. If they do not create and broadcast a block within a certain period (detailed below TODO-link), the person who owns Roll 9 may take over. The more rolls one owns, the greater one's chances of being given high priority. Furthermore, a baker may receive several priorities.
 
     To bake, you will need to put up a security deposit (your "Proof of Stake") of 512 XTZ per block created. This deposit is locked up for 5 cycles (~14 days). This deposit can be slashed if the baker double bakes (re: the "Nothing-at-Stake Problem"). 
 
@@ -57,8 +57,12 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
     The last key thing to understand about the Tezos consensus algorithm is how the protocol decides which chain fork is the "correct" one. Bitcoin's fork choice rule is simple — the longest chain is the canonical one. Tezos picks the canonical chain based instead on the number of bakers that endorsed the block. It has been mentioned above that bakers are given baking rights to create blocks, but that bakers are also given the second responsibility of endorsing blocks. At every block height, 32 random rolls are selected to endorse a block, and the block with the most endorsements is treated as the canonical one. 
 
     When a baker endorses a block which eventually becomes the canonical block, he gets some reward of XTZ. Hence, bakers are incentivized to endorse the block which they believe other bakers will also endorse, a.k.a. high priority blocks. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.  
+	
+4. **Block Delay Rule** {#block-delay}
 
-**To summarize:** The Tezos PoS protocol uses a chain-based PoS algorithm, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 XTZ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to incentivize honest behavior.  
+	TODO
+
+**To summarize:** The Tezos PoS protocol uses a chain-based PoS algorithm, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 XTZ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.  
 
 # What is the Nothing-at-Stake Problem and how does Tezos solve it? {#nothing-at-stake}
 
@@ -72,7 +76,33 @@ No. In the current Tezos protocol, 30 confirmations (~30 minutes) may be conside
 
 Gathering information from missing endorsements, missing blocks, and from future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls is able to re-organize a given block.
 
+# What economic incentives does Tezos use? {#incentives}
+
+TODO
+
 # How scalable is Tezos? {#scalability}
 
 Currently, Tezos does around 30-40 transactions per second.
 
+# What further resources are available? {#resources}
+
+Please check the [consensus entry]() in the Tezos developer documentation.
+
+[Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog posts](https://blog.nomadic-labs.com/) analyzing Emmy+:
+
+* the motivation behind Emmy+
+* a first analysis
+* update of rewards in Carthage to take into account inflation and deal with deflationary baking
+* comments on a research paper on Emmy+; it continues the first analysis
+* Emmy+ in partial synchrony
+* mixed forks
+
+# What about the past and future of Emmy+?
+
+TODO:
+
+Mention Emmy.
+
+Mention Emmy+ Babylon.
+
+Mention Emmy*.
