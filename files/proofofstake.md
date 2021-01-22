@@ -19,17 +19,24 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
 2. **Byzantine Fault Tolerant (BFT) Proof-of-Stake**
 
-    Instead of a random validator getting the right to create a block which every other participant must accept, BFT systems introduce the idea of *proposing* and *accepting.* Like the chain-based PoS system, a randomly selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until all honest validators come to agreement. Once they are in agreement, they accept the block and it is finalized as the latest block.
+    Instead of a random validator getting the right to create a block which every other participant must accept, BFT systems introduce the idea of *proposing* and *accepting*. Like in Nakamoto-style PoS, a (possibly randomly) selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until agreement is reached. Once validators are in agreement, they accept the block and it is finalized as the latest block.
 
 # What consensus algorithm does Tezos use? {#consensus}
 
-Tezos uses a chain-based PoS algorithm for consensus, which many people call [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). To understand this PoS algorithm, we will break it up into six main sections:
+Tezos uses a Nakamoto-style PoS algorithm for consensus, which since Babylon, is
+called Emmy<sup>+</sup>. To understand it, we will break it up into six main
+sections:
 
 1. **Block Creation (Baking)**
 
-    Block creation is the way that the blockchain makes progress. In Tezos, participants who create blocks are called bakers. For participating in the consensus algorithm, bakers are rewarded by the protocol in the form of newly minted XTZ (16 XTZ per block). Bakers also receive the fees associated to the transactions included in the created blocks.
-
-    To be considered a baker, a participant needs to own at least 8,000 XTZ (1 roll). The more rolls someone has, the higher their chance of  being given the rights to bake the next block. If there are 10 rolls activated at some point in time, and a baker owns 2/10 of those rolls, they have a 20% chance of being given the rights to create the next block. This means that if a baker has 8,000 XTZ or 15,999 XTZ, they have the same baking rights in the system.
+    Block creation is the way that the blockchain makes progress. In Tezos,
+    participants who create blocks are called bakers. To be considered a baker,
+    a participant needs to own at least 8,000 XTZ (1 roll). The more rolls
+    someone has, the higher their chance of being given the rights to bake the
+    next block. If there are 10 rolls activated at some point in time, and a
+    baker owns 2/10 of those rolls, they have a 20% chance of being given the
+    rights to create the next block. This means that if a baker has 8,000 XTZ or
+    15,999 XTZ, they have the same baking rights in the system.
 
     Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
 
@@ -43,8 +50,6 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
         Priority10 = Roll 7
 
     This means that the person who owns Roll 6 will have first priority in proposing the block. If they do not create and broadcast a block within a certain period (detailed below TODO-link), the person who owns Roll 9 may take over. The more rolls one owns, the greater one's chances of being given high priority. Furthermore, a baker may receive several priorities.
-
-    To bake, you will need to put up a security deposit (your "Proof of Stake") of 512 XTZ per block created. This deposit is locked up for 5 cycles (~14 days). This deposit can be slashed if the baker double bakes (re: the "Nothing-at-Stake Problem").
 
 2. **Endorsing**
 
@@ -70,11 +75,31 @@ Tezos uses a chain-based PoS algorithm for consensus, which many people call [Li
 
 5. **Fork Choice Rule**
 
-    The last key thing to understand about the Tezos consensus algorithm is how the protocol decides which chain fork is the "correct" one. The fork choice rule in Tezos is based on the longest chain like in Nakamoto-style blockchains but it includes also the check that blocks are not baked sooner than [allowed](#block-delay).
+    The last key thing to understand about the Tezos consensus algorithm is how
+    the protocol decides which chain fork is the "correct" one. The fork choice
+    rule in Tezos is based on the longest chain like in Nakamoto-style
+    blockchains but it includes also the check that blocks are not baked sooner
+    than [allowed](#block-delay).
 
 6. **Incentives**
 
-    To encourage participation, baking and endorsing are rewarded. Like baking, endorsing blocks require bakers to stake 64 XTZ per endorsement. This prevents the Nothing-at-Stake Problem.
+    To encourage participation, baking and endorsing are rewarded by the
+    protocol in the form of newly minted XTZ. Since
+    [Carthage](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html),
+    the rewards for a block of priority `p` with `e` endorsements is a function
+    of `p` and `e`. For priority 0, the baking reward and the endorsing reward
+    are equal to `1.25 x e` XTZ. This choice of design prevents against
+    [deflationary
+    baking](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html).
+    For priority 1 and above, the baking reward for a block with `e`
+    endorsements is `0.1875 x e` XTZ and the endorsing reward is `0.8(3) x e`
+    XTZ.
+
+    To prevent the Nothing-at-Stake Problem, baking and endorsing require a
+    security deposit (skin in the game). The security deposit for baking is 512
+    XTZ Security deposits are locked up for 5 cycles (~14 days). Security
+    deposits can be slashed in case of double baking/endorsing (re: the
+    "Nothing-at-Stake Problem").
 
 
 **To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a Nakamoto-style PoS consensus, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 ꜩ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.
@@ -87,7 +112,7 @@ To solve this problem, the Tezos protocol includes some slashing conditions. Bak
 
 # Do Tezos transactions have finality? {#finality}
 
-No. In the current Tezos protocol, 30 confirmations (~30 minutes) may be considered a good rule of thumb for transaction to be considered final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain re-organization remains after a transaction. Users must wait a number of confirmations before they can be overwhelmingly confident that a transaction will not be reversed.
+Yes and no:  *deterministic* finality. In the current Tezos protocol, 30 confirmations (~30 minutes) may be considered a good rule of thumb for transaction to be considered final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain re-organization remains after a transaction. Users must wait a number of confirmations before they can be overwhelmingly confident that a transaction will not be reversed.
 
 Gathering information from missing endorsements, missing blocks, and from future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls is able to re-organize a given block.
 
