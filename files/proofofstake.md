@@ -31,12 +31,12 @@ sections:
 
     Block creation is the way that the blockchain makes progress. In Tezos,
     participants who create blocks are called bakers. To be considered a baker,
-    a participant needs to own at least 8,000 XTZ (1 roll). The more rolls
+    a participant needs to own at least 8,000 ꜩ (1 roll). The more rolls
     someone has, the higher their chance of being given the rights to bake the
     next block. If there are 10 rolls activated at some point in time, and a
     baker owns 2/10 of those rolls, they have a 20% chance of being given the
-    rights to create the next block. This means that if a baker has 8,000 XTZ or
-    15,999 XTZ, they have the same baking rights in the system.
+    rights to create the next block. This means that if a baker has 8,000 ꜩ or
+    15,999 ꜩ, they have the same baking rights in the system.
 
     Baking rights are set in terms of priorities. For example, if there are 10 rolls, the protocol could randomly select a priority list as follows:
 
@@ -69,7 +69,7 @@ sections:
 
 4. **Delegating**
 
-    If someone does not have 8,000 XTZ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the XTZ delegated to them, and bakers cannot run away with other people's money.
+    If someone does not have 8,000 ꜩ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the ꜩ delegated to them, and bakers cannot run away with other people's money.
 
     Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on the rewards that people obtain by delegating to them.
 
@@ -84,20 +84,19 @@ sections:
 6. **Incentives**
 
     To encourage participation, baking and endorsing are rewarded by the
-    protocol in the form of newly minted XTZ. Since
+    protocol in the form of newly minted ꜩ. Since
     [Carthage](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html),
     the rewards for a block of priority `p` with `e` endorsements is a function
     of `p` and `e`. For priority 0, the baking reward and the endorsing reward
-    are equal to `1.25 x e` XTZ. This choice of design prevents against
+    are equal to `1.25 x e ꜩ`. This choice of design prevents against
     [deflationary
     baking](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html).
     For priority 1 and above, the baking reward for a block with `e`
-    endorsements is `0.1875 x e` XTZ and the endorsing reward is `0.8(3) x e`
-    XTZ.
+    endorsements is `0.1875 x e ꜩ` and the endorsing reward is `0.8(3) x e ꜩ`.
 
     To prevent the Nothing-at-Stake Problem, baking and endorsing require a
     security deposit (skin in the game). The security deposit for baking is 512
-    XTZ Security deposits are locked up for 5 cycles (~14 days). Security
+    ꜩ Security deposits are locked up for 5 cycles (~14 days). Security
     deposits can be slashed in case of double baking/endorsing (re: the
     "Nothing-at-Stake Problem").
 
