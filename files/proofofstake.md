@@ -101,7 +101,11 @@ sections:
     "Nothing-at-Stake Problem").
 
 
-**To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a Nakamoto-style PoS consensus, whereby endorsements are used to rank chains and to decide which is the canonical one. Bakers (people who own 8,000 ꜩ) are given the responsibility of creating and endorsing blocks. They are required to stake some of their own capital in order to ensure honest behavior.
+**To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a
+  Nakamoto-style PoS consensus. Bakers (people who own 8,000 ꜩ) are given the
+  responsibility of creating and endorsing blocks. They are rewarded for their
+  action. They are also required to stake some of their own capital in order to
+  ensure honest behavior.
 
 # What is the Nothing-at-Stake Problem and how does Tezos solve it? {#nothing-at-stake}
 
