@@ -115,13 +115,33 @@ To solve this problem, the Tezos protocol includes some slashing conditions. Bak
 
 # Do Tezos transactions have finality? {#finality}
 
-Yes and no:  *deterministic* finality. In the current Tezos protocol, 30 confirmations (~30 minutes) may be considered a good rule of thumb for transaction to be considered final. Since Tezos uses a chain-based PoS consensus algorithm, the possibility of a chain re-organization remains after a transaction. Users must wait a number of confirmations before they can be overwhelmingly confident that a transaction will not be reversed.
+Yes and no: Emmy<sup>+</sup>, being a Nakamoto-style consensus, offers only
+*probabilistic*, not *deterministic* finality. The implication is that forks can
+have arbitrary length — but forked states become exponentially unstable and tend
+to collapse down to a single branch ([assuming decent bounds on network
+latency](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)).
 
-Gathering information from missing endorsements, missing blocks, and from future assigned baking rights, an observer can determine whether or not an actor controlling X% of the rolls is able to re-organize a given block.
+By gathering information from missing endorsements, missing blocks, and from
+future assigned baking rights, an observer can determine whether or not an actor
+controlling a given ammount of the rolls is able to re-organize a given
+block. For instance, as shown experimentally in a [previous
+analysis](https://blog.nomadic-labs.com/analysis-of-emmy.html), a user may be
+_reasonably sure_[^fin] that a block is final if it has <a name="6"></a>6
+confirmations (that is, blocks on top of it) over a healthy chain[^healthy] when
+considering a Byzantine attacker with a stake fraction of 33% of the total
+active stake. Given that in a healthy chain blocks are baked every minute, 6
+confirmations are equivalent to 6 minutes.
 
-# What economic incentives does Tezos use? {#incentives}
+[^fin]: Here, _reasonably sure_ means "with probability smaller than some
+reasonable threshold", which we quantify as `5 * 1e-9`, which puts our
+expectation of being wrong about a block being final at roughly once every two
+centuries.
 
-TODO
+[^healthy]: We say a chain is *healthy* over a period of time if in this period
+blocks have priority 0 and (almost) all its endorsement slots are filled. A
+concrete healthiness measure is the delay of the chain with respect to the ideal
+chain where each block has a delay of one minute with respect to the previous
+block.
 
 # How scalable is Tezos? {#scalability}
 
@@ -131,21 +151,47 @@ Currently, Tezos does around 30-40 transactions per second.
 
 Please check the [consensus entry]() in the Tezos developer documentation.
 
-[Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog posts](https://blog.nomadic-labs.com/) analyzing Emmy+:
+[Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog
+posts](https://blog.nomadic-labs.com/) analyzing Emmy<sup>+</sup>:
 
-* the motivation behind Emmy+
-* a first analysis
-* update of rewards in Carthage to take into account inflation and deal with deflationary baking
-* comments on a research paper on Emmy+; it continues the first analysis
-* Emmy+ in partial synchrony
-* mixed forks
+* [the motivation behind Emmy<sup>+</sup>](https://blog.nomadic-labs.com/emmy-an-improved-consensus-algorithm.html)
+* [a first analysis of
+  Emmy<sup>+</sup>](https://blog.nomadic-labs.com/analysis-of-emmy.html)
+  providing confirmations numbers such as <a href="#6">6</a> [todo: say it also
+  looked into selfish baking and choosing constants?]
+* [an update of rewards in
+  Carthage](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html)
+  to take into account inflation and to deal with deflationary baking
+* [comments on a research paper on
+  Emmy<sup>+</sup>](https://blog.nomadic-labs.com/on-defending-against-malicious-reorgs-in-tezos-proof-of-stake.html)
+  * [Emmy<sup>+</sup> in partial
+  synchrony](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
+  extending the first analysis to consider a more realistic network model where
+  messages can be delayed arbitrarily; the conclusion is that to be able to have
+  decent numbers of confirmations, one needs to have a good estimation on
+  message delays
+* [an analysis of mixed forks in
+  ](https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html) showing
+  that scenarios where an attacker tries to maintain a (malicious) fork for as
+  long as possible do not have a significant impact on the [previous
+  analysis](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
 
-# What about the past and future of Emmy+?
+# What about the past and future of Emmy<sup>+</sup>?
 
-TODO:
+Before Emmy<sup>+</sup>, there was Emmy. In Emmy, the more endorsements in a
+block, the fittest the block was. This design was somewhat problematic in that a
+baker hesitated if to wait for more endorsements or to bake the block with the
+endorsements it already had.
 
-Mention Emmy.
+Emmy<sup>+</sup> addressed this problem by simply making fitness not depend on
+the number of endorsements in a block: the fitness increases by 1 unit with each
+level. In turn, the number of endorsements in a block reflects in the block
+delay rule.
 
-Mention Emmy+ Babylon.
+The rewards in Emmy<sup>+</sup> have been updated in Carthage to address
+deflationary baking.
 
-Mention Emmy*.
+[Emmy<sup>&#9733;</sup> is
+proposed](https://gitlab.com/tzip/tzip/-/merge_requests/134) to follow
+Emmy<sup>+</sup>. offer faster finality, about twice as fast as in
+Emmy<sup>+</sup>.
