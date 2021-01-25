@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Proof of Stake Consensus"
-date:   2019-01-07 12:14:18
+date:   2021-01-25 12:14:18
 ---
 # Proof-of-Stake Consensus
 
-## What is Proof-of-Stake? {#intro}
+## Proof-of-Stake {#intro}
 
 Proof-of-Stake (PoS) refers to a category of algorithms that are used to come to consensus in a blockchain system. In precise terms, Proof-of-Stake is a mechanism that prevents Sybil-attacks (i.e. prevents a single participant from masquerading as N others). In a PoS system, a participant's vote in a system is linked directly to the number of coins they have, so that a person who only has 100 coins cannot pretend to be 1000 different people with 100 coins each.
 
@@ -21,7 +21,7 @@ Broadly, there are 2 classes of proof-of-stake algorithms:
 
     Instead of a random validator getting the right to create a block which every other participant must accept, BFT systems introduce the idea of *proposing* and *accepting*. Like in Nakamoto-style PoS, a (possibly randomly) selected validator (weighted by stake) is chosen to propose a block to the other validators. All the validators must communicate with each other until agreement is reached. Once validators are in agreement, they accept the block and it is finalized as the latest block.
 
-# What consensus algorithm does Tezos use? {#consensus}
+# Emmy<sup>+</sup>, the consensus algorithm in Tezos {#consensus}
 
 Tezos uses a Nakamoto-style PoS algorithm for consensus, which since Babylon, is
 called Emmy<sup>+</sup>. To understand it, we will break it up into six main
@@ -94,11 +94,21 @@ sections:
     For priority 1 and above, the baking reward for a block with `e`
     endorsements is `0.1875 x e ꜩ` and the endorsing reward is `0.8(3) x e ꜩ`.
 
-    To prevent the Nothing-at-Stake Problem, baking and endorsing require a
-    security deposit (skin in the game). The security deposit for baking is 512
-    ꜩ Security deposits are locked up for 5 cycles (~14 days). Security
-    deposits can be slashed in case of double baking/endorsing (re: the
-    "Nothing-at-Stake Problem").
+    To prevent the Nothing-at-Stake problem[^nos], baking and endorsing require
+    a security deposit (skin in the game). The security deposit for baking is
+    512 ꜩ Security deposits are locked up for 5 cycles (~14 days). Security
+    deposits are slashed in case of double baking/endorsing if an accusation is
+    included as evidence in a future block. Precisely, assume that *z* caught
+    *x* double-baking and assume that *x* has in total *y* ꜩ in security deposit
+    and future rewards. Then half of *y* is burnt and half goes to *z* in the
+    form of a reward.
+
+[^nos]: In PoW systems, when there are 2 chain forks, a miner has 2 options —
+they can either split their mining power between the two forks or mine on a
+single fork. However, in PoS-secured systems, there is no concept of hash
+power. As such, validators can theoretically sign multiple blocks at the same
+block height. Hence, in a naively implemented PoS network, validators can
+generate and maintain multiple forks at no cost to themselves.
 
 
 **To summarize:** The Tezos PoS protocol called Emmy<sup>+</sup> uses a
@@ -107,18 +117,20 @@ sections:
   action. They are also required to stake some of their own capital in order to
   ensure honest behavior.
 
+<!--
 # What is the Nothing-at-Stake Problem and how does Tezos solve it? {#nothing-at-stake}
 
 In PoW systems, when there are 2 chain forks, a miner has 2 options — they can either split their mining power between the two forks or mine on a single fork. However, in PoS-secured systems, there is no concept of hash power. As such, validators can theoretically sign multiple blocks at the same block height. Hence, in a naively implemented PoS network, validators can generate and maintain multiple forks at no cost to themselves.
 
 To solve this problem, the Tezos protocol includes some slashing conditions. Bakers that bake or endorse multiple blocks of the same height (vote on multiple forks) lose their security deposits. If someone observes another baker "double-baking," they can include an accusation in a future block containing the evidence. This will cause the "double-baker" to forfeit their security deposit and future rewards up to that point in the cycle. Half of this is burned, while the other half goes to the accuser in the form of a block reward. This incentivizes bakers to keep check on other bakers and to accuse them when they observe a double-bake. Because of this, bakers are disincentivized from baking or endorsing blocks on multiple forks. The risk of losing one's own coins minimizes the Nothing-at-Stake Problem.
+-->
 
-# Do Tezos transactions have finality? {#finality}
+# Finality in Tezos {#finality}
 
-Yes and no: Emmy<sup>+</sup>, being a Nakamoto-style consensus, offers only
-*probabilistic*, not *deterministic* finality. The implication is that forks can
-have arbitrary length — but forked states become exponentially unstable and tend
-to collapse down to a single branch ([assuming decent bounds on network
+Emmy<sup>+</sup>, being a Nakamoto-style consensus, offers only *probabilistic*,
+not *deterministic* finality. The implication is that forks can have arbitrary
+length — but forked states become exponentially unstable and tend to collapse
+down to a single branch ([assuming decent bounds on network
 latency](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)).
 
 By gathering information from missing endorsements, missing blocks, and from
@@ -143,40 +155,46 @@ concrete healthiness measure is the delay of the chain with respect to the ideal
 chain where each block has a delay of one minute with respect to the previous
 block.
 
-# How scalable is Tezos? {#scalability}
+# Scalability {#scalability}
 
 Currently, Tezos does around 30-40 transactions per second.
 
-# What further resources are available? {#resources}
+# Further resources {#resources}
 
-Please check the [consensus entry]() in the Tezos developer documentation.
+Please check the [consensus
+entry](file:///home/lacra/git_repos/tezos/docs/_build/008/proof_of_stake.html)
+in the Tezos developer documentation.
 
 [Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog
 posts](https://blog.nomadic-labs.com/) analyzing Emmy<sup>+</sup>:
 
-* [the motivation behind Emmy<sup>+</sup>](https://blog.nomadic-labs.com/emmy-an-improved-consensus-algorithm.html)
+* [the motivation behind
+  Emmy<sup>+</sup>](https://blog.nomadic-labs.com/emmy-an-improved-consensus-algorithm.html)
 * [a first analysis of
   Emmy<sup>+</sup>](https://blog.nomadic-labs.com/analysis-of-emmy.html)
-  providing confirmations numbers such as <a href="#6">6</a> [todo: say it also
-  looked into selfish baking and choosing constants?]
+  providing confirmations numbers such as <a href="#6">6</a> and some insights
+  on choosing the existing constants
 * [an update of rewards in
   Carthage](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html)
   to take into account inflation and to deal with deflationary baking
-* [comments on a research paper on
+* [a review of a research paper on
   Emmy<sup>+</sup>](https://blog.nomadic-labs.com/on-defending-against-malicious-reorgs-in-tezos-proof-of-stake.html)
-  * [Emmy<sup>+</sup> in partial
+  expanding on the choices made in the [initial
+  analysis](https://blog.nomadic-labs.com/analysis-of-emmy.html) to show the
+  benefits with respect to the changes proposed in the research paper
+* [Emmy<sup>+</sup> in partial
   synchrony](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
   extending the first analysis to consider a more realistic network model where
   messages can be delayed arbitrarily; the conclusion is that to be able to have
   decent numbers of confirmations, one needs to have a good estimation on
   message delays
-* [an analysis of mixed forks in
-  ](https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html) showing
-  that scenarios where an attacker tries to maintain a (malicious) fork for as
-  long as possible do not have a significant impact on the [previous
+* [an analysis of mixed
+  forks](https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html)
+  showing that scenarios where an attacker tries to maintain a (malicious) fork
+  for as long as possible do not have a significant impact on the [previous
   analysis](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
 
-# What about the past and future of Emmy<sup>+</sup>?
+# The past and future of Emmy<sup>+</sup>
 
 Before Emmy<sup>+</sup>, there was Emmy. In Emmy, the more endorsements in a
 block, the fittest the block was. This design was somewhat problematic in that a
