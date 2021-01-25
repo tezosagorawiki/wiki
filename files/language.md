@@ -1,6 +1,6 @@
 # Introduction to Smart Contracts in Tezos {#faq}
 
-## Smart Contract Languages of Tezos {#high-level-languages}
+## Smart Contract Languages of Tezos
 
 ### **Michelson**
 
@@ -11,7 +11,7 @@ Michelson is the domain-specific language used to write smart contracts on the T
 - [Michelson Reference](https://tezos.gitlab.io/michelson-reference/)
 - [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master)
 
-### **High-level Languages of Tezos**
+### **High-level Languages of Tezos** {#high-level-languages}
 
 Tezos has several popular high-level languages which offer more approachable syntaxes and familiar developer experience (e.g. local variables) compared to writing Michelson directly.
 
