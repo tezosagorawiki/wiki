@@ -14,7 +14,7 @@ GADT stands for Generalized Algebraic Data Types. GADTs allow OCaml developers t
 
 # Michelson with Coq {#coq}
 
-[Coq](https://coq.inria.fr/) is an interactive theorem prover. It is based on a very expressive logic called the Calculus of Inductive Constructions, which is powerful enough to both prove advanced mathematical theorems such as the [Feit-Thompson Odd Order Theorem](https://hal.inria.fr/hal-00816699/document) and verify the correctness of complex software such as [CompCert](http://compcert.inria.fr/). More concretely, Coq allows one to:
+[Coq](https://coq.inria.fr/) is an interactive theorem prover. It is based on a very expressive logic called the Calculus of Inductive Constructions, which is powerful enough to both prove advanced mathematical theorems such as the [Feit-Thompson Odd Order Theorem](https://hal.inria.fr/hal-00816699/document) and verify the correctness of complex software such as [CompCert](https://compcert.org/). More concretely, Coq allows one to:
 
 - define functions or predicates that can be evaluated efficiently;
 - state mathematical theorems and software specifications;

@@ -14,16 +14,16 @@ Resources
 
 - [AirGap](https://airgap.it)
 - [Atomex](https://atomex.me/)
-- [Exodus Wallet](http://exodus.io)
-- [Ledger Live](https://ledger.com/ledger-live/download)
+- [Exodus Wallet](https://www.exodus.io)
+- [Ledger Live](https://www.ledger.com/ledger-live/download)
 - [Simple Staking](https://simplestaking.com)
-- [Trust Wallet](http://trustwallet.com)
+- [Trust Wallet](https://trustwallet.com)
 
 # Block Explorers {#explorer}
 - [TZKT](https://tzkt.io)
 - [Better Call Dev - "Michelson Contract Explorer"](https://better-call.dev/)
 - [TZStats](https://tzstats.com/)
-- [Arronax](https://arronax-beta.cryptonomic.tech/)
+- [Arronax](https://arronax.io/)
 - [Tezblock](https://tezblock.io/)
 - [TezTracker](https://teztracker.com/en/mainnet)
 
