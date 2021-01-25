@@ -48,7 +48,7 @@ See [the full details of the governance process](https://medium.com/tezos/amendi
 
 # Off-chain governance {#offchain}
 
-[Tezos Agora](https://tezosagora.org) provides off-chain discussion forum and explorer for community members and bakers.
+[Tezos Agora](https://www.tezosagora.org) provides off-chain discussion forum and explorer for community members and bakers.
 
 # Arguments for and against on-chain governance {#arguments}
 To get a sense of the various arguments for and against on-chain governance, here is a good list of resources to understand the different viewpoints:
