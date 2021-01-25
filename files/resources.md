@@ -13,10 +13,10 @@ Resources
 - [AirGap (iOS, Android, Desktop)](https://airgap.it) 
 - [Galleon (Desktop)](https://galleon-wallet.tech/)
 - [Atomex (Desktop, Web, iOS, Android)](https://atomex.me/)
-- [Exodus Wallet (Desktop, iOS, Android)](http://exodus.io)
-- [Ledger Live (Desktop, iOS, Android)](https://ledger.com/ledger-live/download)
+- [Exodus Wallet (Desktop, iOS, Android)](https://www.exodus.io)
+- [Ledger Live (Desktop, iOS, Android)](https://www.ledger.com/ledger-live/download)
 - [Simple Staking (Desktop)](https://simplestaking.com)
-- [Trust Wallet (iOS, Android)](http://trustwallet.com)
+- [Trust Wallet (iOS, Android)](https://trustwallet.com)
 
 # Block Explorers {#explorer}
 - [TZKT](https://tzkt.io)
