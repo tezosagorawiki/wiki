@@ -26,7 +26,7 @@
 
 ### [Smart Contracts](files/language.md)
 * [Michelson](files/language.md#michelson)
-* [High-Level Smart Contract Languages](files/language.md#high-level-languages)
+* [High-Level Languages](files/language.md#high-level-languages)
 
 ### [Formal Verification](files/formal-verification.md)
 * [Introduction](files/formal-verification.md#intro)
