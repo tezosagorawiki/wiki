@@ -1,22 +1,31 @@
 # Introduction to Smart Contracts in Tezos {#faq}
 
-## **What is Michelson?**
+## Smart Contract Languages of Tezos {#high-level-languages}
+
+### **Michelson**
 
 Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language, and it doesn't have any variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
 
 See here for [Michelson documentation](http://tezos.gitlab.io/whitedoc/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
 
-## **What high-level Smart Contract languages are available?** {#high-level-languages}
+### **High-level Languages of Tezos**
 
-There are various high-level languages available for programming Smart Contracts for Tezos. The intention of these languages is to ease the development experience, so you can focus on the content of your Smart Contracts, rather than the implementation. 
 
-Current options in development include:
+#### SmartPy
 
-- LIGO: A Smart Contract language offering Pascal, Ocaml, and ReasonML syntax flavors
+[SmartPy](https://smartpy.io) framework for meta-programming Michelson smart contracts in Python.
 
-- SmartPy: A Python library with tools to write and test Smart Contracts
+#### LIGO
 
-- Morley/Lorentz: A Haskell-flavored eDSL for writing Smart Contracts
+[LIGO](https://ligolang.org) is programming language for Tezos smart contracts offering Pascal, Ocaml, and ReasonML syntax flavors.
+
+#### Morley / Lorentz / Indigo
+
+[Morley](https://hackage.haskell.org/package/morley) is a Haskell-based framework for meta-programming Michelson smart contracts.
+
+#### Archetype
+
+[Archetype](https://archetype-lang.org) is a DSL for Tezos which facilitates formal verification and transcodes contracts to SmartPy and LIGO. 
 
 ## **What is the difference between high-level languages and Michelson?**
 
@@ -63,27 +72,6 @@ After running the function, without any updates to the stack, the program will c
     to [ (Pair result storage) ]
 
 In the example, Michelson only manipulates the stack functionally and a new stack is passed from function to function. 
-
-# "Why Michelson?" (by Milo Davis)
-
-At first sight, Michelson is a strange language. It doesn’t include features like polymorphism, closures, or named functions. Compared to a language like Haskell or OCaml, it seems underpowered. Its stack is not always easy to deal with, and there is no standard library. However, these restrictions are largely motivated by the language’s design goals.
-
-There are two major motivations for Michelson:
-
-1. To provide readable bytecode
-2. To be introspectable
-
-Tezos takes a slightly different view from Ethereum regarding the role of smart contracts. We think of our platform more as a way to implement certain pieces of business logic than as a generic “world computer." In Ethereum, most contracts implement things like multisig wallets, vesting and distribution rules, etc. Michelson is targeted to these types of applications.
-
-Michelson is designed as a readable compilation target, though it can be handwritten. The goal is that even the output of a compiler can be understood. We intend the language to be simple enough that developers can build their own analysis tools and compilers should they prefer to do so. This is a departure from the EVM’s bytecode, which more closely resembles assembly. With a lower-level bytecode, you usually need confidence in both your program and the compiler toolchain. With Michelson you can more easily check over and verify properties of the program that is actually executed.
-
-Using a higher-level bytecode also simplifies the process of proving properties about the compiled output. Programs written in Michelson can be reasonably analyzed by SMT solvers and formalized in Coq without the need for more complicated techniques like separation logic. Similarly, the restrictions imposed by the forced indentation and capitalization ensure that the source cannot be obfuscated with indentation and alignment tricks.
-
-Our current implementation of Michelson is based around an OCaml GADT, which we have used to verify the type-soundness of the language. Additionally, the implementation of a stack based language maps directly to the semantics. The same is not true for any efficient implementation of the lambda-calculus. There have also been two formally verified implementations of Michelson, one in Coq and one in F*. One day, we hope to replace our current implementation with a verified one.
-
-Finally, one of the main advantages of Tezos is that the system is amendable. We want to start with a small core language in which we are confident and add features as good use cases are created for them. We don't want to throw everything into the language in at the onset and then break backwards compatibility.
-
-So, why Michelson? To provide a straightforward platform for business logic, to provide a readable bytecode, and to be introspectable. When I was working with Olin Shivers, he was very fond of saying that one should always use a "tool small enough for the job". Michelson has been carefully designed to be that tool.
 
 # Language Resources {#resources}
 
