@@ -13,28 +13,26 @@
 * [What is Proof-of-Stake?](files/proofofstake.md#intro)
 * [The Tezos consensus algorithm](files/proofofstake.md#consensus)
 
-### Baking
+### [Baking](files/baking.md)
 * [What is baking?](files/baking.md#what)
 * [What is delegating?](files/baking.md#delegate)
 * [Should I bake or delegate?](files/baking.md#bakeordelegate)
 * [Selecting a baker](files/baking.md#bakerselection)
 
-### Tezos Governance
+### [Tezos Governance](files/self-amendment.md)
 * [What is Self Amendment?](files/self-amendment.md#introduction)
 * [How does it work?](files/self-amendment.md#how)
 * [Off-chain Governance](files/self-amendment.md#offchain)
 
-### Smart Contracts in Tezos
-* [Introduction](files/language.md#faq)
-* [Michelson Language](files/language.md#michelson)
+### [Smart Contracts](files/language.md)
+* [Michelson](files/language.md#michelson)
 * [High-Level Smart Contract Languages](files/language.md#high-level-languages)
-* [Language Resources](files/language.md#resources)
 
-### Formal Verification
+### [Formal Verification](files/formal-verification.md)
 * [Introduction](files/formal-verification.md#intro)
 * [Michelson and Coq](files/formal-verification.md#coq)
 
-### Future Developments
+### [Future Developments](files/future.md)
 * [Privacy](files/future.md#intro)
 * [Consensus](files/future.md#consensus)
 * [Layer 2](files/future.md#layer2)
