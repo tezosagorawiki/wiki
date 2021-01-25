@@ -4,7 +4,7 @@
 
 Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language, and it doesn't have any variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
 
-See here for [Michelson documentation](http://tezos.gitlab.io/007/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
+See here for [Michelson documentation](https://tezos.gitlab.io/007/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
 
 ## **What high-level Smart Contract languages are available?** {#high-level-languages}
 
@@ -89,7 +89,7 @@ So, why Michelson? To provide a straightforward platform for business logic, to 
 
 # Michelson:
 
-- [Michelson Language Intro](https://tezos.gitlab.io/whitedoc/)
+- [Michelson Language Intro](https://tezos.gitlab.io/007/michelson.html)
 - [Michelson talk](https://www.youtube.com/watch?v=4oG4Ead74xA)
 - [Michelson Tutorial Part 1 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01)
 - [Michelson Tutorial Part 2 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/02)
