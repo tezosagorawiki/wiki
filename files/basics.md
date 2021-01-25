@@ -56,7 +56,7 @@ How (or if) a network addresses these challenges **determines a network's evolut
 **Tezos was designed to address these challenges through its on-chain governance mechanism and proof-of-stake-based consensus algorithm:**
 *  Token holders can participate in the amendment process to approve/reject the upgrade by selecting a baker
 *  Tezos nodes will automatically switch to the latest version of the protocol without the need for off-chain communication
-*  [Liquid proof-of-stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to align network participants' incentives and any token holder can avoid dilution by inflation
+*  [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) in Tezos was designed to align network participants' incentives and any token holder can avoid dilution by inflation
 
 <!---
 
