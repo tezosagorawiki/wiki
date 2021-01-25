@@ -4,36 +4,56 @@
 
 ### **Michelson**
 
-Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language, and it doesn't have any variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
+Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language and does not have variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
 
-See here for [Michelson documentation](http://tezos.gitlab.io/whitedoc/michelson.html) and here for the camlCase [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master).
+##### Michelson Resources
+- [Michelson documentation](http://tezos.gitlab.io/whitedoc/michelson.html)
+- [Michelson Reference](https://tezos.gitlab.io/michelson-reference/)
+- [Michelson tutorial series](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master)
 
 ### **High-level Languages of Tezos**
 
+Tezos has several popular high-level languages which offer more approachable syntaxes and familiar developer experience (e.g. local variables) compared to writing Michelson directly.
 
 #### SmartPy
 
 [SmartPy](https://smartpy.io) framework for meta-programming Michelson smart contracts in Python.
 
+##### SmartPy Resources
+- [SmartPy homepage](https://smartpy.io/)
+- [SmartPy documentation](https://smartpy.io/demo/reference.html)
+- [SmartPy IDE](https://smartpy.io/demo/)
+
 #### LIGO
 
 [LIGO](https://ligolang.org) is programming language for Tezos smart contracts offering Pascal, Ocaml, and ReasonML syntax flavors.
+
+##### LIGO Resources
+- [LIGO homepage](https://ligolang.org/)
+- [LIGO documentation](https://ligolang.org/docs/intro/introduction)
+- [LIGO IDE](https://ide.ligolang.org/)
 
 #### Morley / Lorentz / Indigo
 
 [Morley](https://hackage.haskell.org/package/morley) is a Haskell-based framework for meta-programming Michelson smart contracts.
 
+##### Lorentz Resources
+- [Lorentz introductory blog post](https://serokell.io/blog/lorentz-implementing-smart-contract-edsl-in-haskell)
+- [Lorentz documentation](https://gitlab.com/morley-framework/morley/-/tree/1722a7ab667a407ce4ed225bb1e5bce8434bfe77/)
+
 #### Archetype
 
 [Archetype](https://archetype-lang.org) is a DSL for Tezos which facilitates formal verification and transcodes contracts to SmartPy and LIGO. 
 
-## **What is the difference between high-level languages and Michelson?**
-
-High-level languages are compiled or interpreted to produce valid Michelson. The languages are easier for many developers to approach as they have easier syntaxes, and include features like local variables and high-level types rather than stack manipulations.
-
-## **What is OCaml, the language of the Tezos protocol?**
+## **OCaml, the language of the Tezos protocol**
 
 The Tezos protocol is written in OCaml, a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where speed is crucial and a single mistake can cost millions. It has a large standard library, which makes it useful for many of the same applications as Python or Perl, and it has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml, including Facebook, Bloomberg, Docker, and Jane Street.
+
+### OCaml Resources
+
+- [What is OCaml?](https://ocaml.org/learn/description.html)
+- [Jane Street OCaml Tutorial](https://github.com/janestreet/learn-ocaml-workshop)
+- [Real World OCaml](https://realworldocaml.org/)
 
 ## **What is functional programming? How is it different from other paradigms?**
 
@@ -83,25 +103,3 @@ In the example, Michelson only manipulates the stack functionally and a new stac
 - [Michelson Tutorial Part 2 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/02)
 - [Michelson Tutorial Part 3 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/03)
 - [Michelson Tutorial Part 4 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/04)
-
-# High-Level Smart Contract Languages:
-## LIGO:
-
-- [LIGO homepage](https://ligolang.org/)
-- [LIGO documentation](https://ligolang.org/docs/intro/introduction)
-- [LIGO IDE](https://ide.ligolang.org/)
-
-## SmartPy: 
-- [SmartPy homepage](https://smartpy.io/)
-- [SmartPy documentation](https://smartpy.io/demo/reference.html)
-- [SmartPy IDE](https://smartpy.io/demo/)
-
-## Morley/Lorentz:
-- [Lorentz introductory blog post](https://serokell.io/blog/lorentz-implementing-smart-contract-edsl-in-haskell)
-- [Lorentz documentation](https://gitlab.com/morley-framework/morley/-/tree/1722a7ab667a407ce4ed225bb1e5bce8434bfe77/)
-
-# OCaml:
-
-- [What is OCaml?](https://ocaml.org/learn/description.html)
-- [Jane Street OCaml Tutorial](https://github.com/janestreet/learn-ocaml-workshop)
-- [Real World OCaml](https://realworldocaml.org/)
