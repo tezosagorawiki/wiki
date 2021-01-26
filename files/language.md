@@ -1,8 +1,8 @@
-# Introduction to Smart Contracts in Tezos {#faq}
+# Introduction to Smart Contracts in Tezos {#language}
 
 ## Smart Contract Languages of Tezos
 
-### **Michelson**
+### **Michelson** {#michelson}
 
 Michelson is the domain-specific language used to write smart contracts on the Tezos blockchain. Michelson is a stack-based language and does not have variables. Stack-oriented languages operate on one or more stacks, each of which may serve a different purpose. 
 
@@ -33,7 +33,7 @@ Tezos has several popular high-level languages which offer more approachable syn
 - [LIGO documentation](https://ligolang.org/docs/intro/introduction)
 - [LIGO IDE](https://ide.ligolang.org/)
 
-#### Morley / Lorentz / Indigo
+#### Morley / Lorentz / Indigo {#morley}
 
 [Morley](https://hackage.haskell.org/package/morley) is a Haskell-based framework for meta-programming Michelson smart contracts.
 
@@ -41,7 +41,7 @@ Tezos has several popular high-level languages which offer more approachable syn
 - [Lorentz introductory blog post](https://serokell.io/blog/lorentz-implementing-smart-contract-edsl-in-haskell)
 - [Lorentz documentation](https://gitlab.com/morley-framework/morley/-/tree/1722a7ab667a407ce4ed225bb1e5bce8434bfe77/)
 
-#### Archetype
+#### Archetype {#archetype}
 
 [Archetype](https://archetype-lang.org) is a DSL for Tezos which facilitates formal verification and transcodes contracts to SmartPy and LIGO. 
 
