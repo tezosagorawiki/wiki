@@ -6,8 +6,11 @@ date:   2019-01-07 12:14:18
 # Tezos Projects {#projects}
 
 ## Tokenization
+============
 
 ### BTG Pactual
+
+### Elevated Returns
 
 ### Inveniam
 
@@ -18,6 +21,7 @@ date:   2019-01-07 12:14:18
 ### Vertalo
 
 ## Gaming / NFTs / Creator
+============
 
 ### Kalamint
 
@@ -26,6 +30,7 @@ date:   2019-01-07 12:14:18
 ### Crictez
 
 ## Decentralized Finance (DeFi)
+============
 
 ### tzBTC
 
@@ -45,7 +50,7 @@ date:   2019-01-07 12:14:18
 
 #### USDtz
 
-### Wrap Protocol
+### Wrap Protocol (Bender Labs)
 
 ### Stakepool
 
@@ -58,5 +63,8 @@ date:   2019-01-07 12:14:18
 #### Chainlink
 
 ## Enterprise
+============
 
 ### Werenode
+
+### Ecoo
