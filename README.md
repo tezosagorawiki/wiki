@@ -2,9 +2,11 @@
 
 The Tezos Agora Wiki is a place to get started and learn about Tezos. It also aims to answer the frequently asked questions about the Tezos protocol & the Tezos ecosystem.
 
+# Contribute
+
 This wiki aspires to be a living document that evolves alongside the Tezos protocol and ecosystem.
 
-If interested in proposing a change to this document, please feel free to submit an issue or make a merge request to [this Gitlab repository](https://gitlab.com/tezosagora/tezos-wiki). To run this repository locally, you'll need [Gitbook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
+To propose a change to the wiki, submit an issue or make a merge request to [**this Gitlab repository**](https://gitlab.com/tezosagora/tezos-wiki). To run this repository locally, you'll need [Gitbook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md).
 
 ---
 # Getting started
