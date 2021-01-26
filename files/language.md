@@ -13,7 +13,7 @@ Michelson is the domain-specific language used to write smart contracts on the T
 
 ### **High-level Languages of Tezos**
 
-Tezos has several popular high-level languages which offer more approachable syntaxes and familiar developer experience (e.g. local variables) compared to writing Michelson directly.
+Tezos has several popular high-level languages which offer more approachable syntaxes and familiar developer experience (e.g. local variables) compared to writing Michelson directly. SmartPy and LIGO are the most popular and widely-supported languages for writing Tezos smart contracts.
 
 #### SmartPy {#smartpy}
 

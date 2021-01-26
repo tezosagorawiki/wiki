@@ -17,6 +17,7 @@ Resources
 - [Ledger Live (Desktop, iOS, Android)](https://www.ledger.com/ledger-live/download)
 - [Simple Staking (Desktop)](https://simplestaking.com)
 - [Trust Wallet (iOS, Android)](https://trustwallet.com)
+- [imToken (iOS, Android)](https://token.im)
 - [ZenGo Wallet (iOS, Android)](https://zengo.com)
 - [Guarda Wallet (Desktop, iOS, Android)](https://guarda.com)
 
