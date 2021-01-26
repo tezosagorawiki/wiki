@@ -26,7 +26,8 @@
 
 ### [Smart Contracts](files/language.md)
 * [Michelson](files/language.md#michelson)
-* [High-Level Languages](files/language.md#high-level-languages)
+* [SmartPy](files/language.md#smartpy)
+* [LIGO](files/language.md#ligo)
 
 ### [Formal Verification](files/formal-verification.md)
 * [Introduction](files/formal-verification.md#intro)
@@ -39,7 +40,7 @@
 * [Governance](files/future.md#governance)
 
 ### Built on Tezos
-* [Tezos Projects](https://tezosprojects.com)
+* [Key Tezos Projects](files/projects.md#projects)
 
 ### Resources
 * [Wallets](files/resources.md#wallet)

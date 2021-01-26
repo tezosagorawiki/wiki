@@ -23,8 +23,9 @@ date:   2019-01-07 12:14:18
 
 ### Kalamint
 
-
 ### OpenMinter
+
+### Crictez
 
 ## Decentralized Finance (DeFi)
 
@@ -36,10 +37,9 @@ date:   2019-01-07 12:14:18
 
 #### Quipuswap
 
-
 ### Stablecoins
 
-### Checker
+#### Checker
 
 #### USDS (Stably)
 
@@ -50,6 +50,8 @@ date:   2019-01-07 12:14:18
 ### Wrap Protocol
 
 ### Stakepool
+
+### StakerDAO
 
 ### Oracles
 
