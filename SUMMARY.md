@@ -17,7 +17,6 @@
 * [What is baking?](files/baking.md#what)
 * [What is delegating?](files/baking.md#delegate)
 * [Should I bake or delegate?](files/baking.md#bakeordelegate)
-* [Selecting a baker](files/baking.md#bakerselection)
 
 ### [Tezos Governance](files/self-amendment.md)
 * [What is Self Amendment?](files/self-amendment.md#introduction)
