@@ -89,7 +89,7 @@ main sections:
     For priority 1 and above, the baking reward for a block with `e`
     endorsements is `0.1875 x e ꜩ` and the endorsing reward is `0.833333 x e ꜩ`.
 
-    To prevent the Nothing-at-Stake problem[^nos], baking and endorsing require
+    To prevent the Nothing-at-Stake problem[^nas], baking and endorsing require
     a security deposit, thus ensuring participants have "skin in the game". The
     security deposits are 512 ꜩ for baking and 64 ꜩ for endorsing, and are
     locked up for 5 cycles (~14 days). Security deposits are slashed in case of
@@ -99,27 +99,36 @@ main sections:
     in security deposits and future rewards. Then half of *x* is burnt and half
     goes to *B* in the form of a block reward.
 
-[^nos]: In PoW systems, when there are 2 chain forks, a miner has 2 options —
+[^nas]: In PoW systems, when there are 2 chain forks, a miner has 2 options —
 they can either split their mining power between the two forks or mine on a
 single fork. However, in PoS-secured systems, there is no concept of hash
 power. As such, validators can theoretically sign multiple blocks at the same
 block height. Hence, in a naively implemented PoS network, validators can
 generate and maintain multiple forks at no cost to themselves.
 
+## Delegation {#delegation}
 
-##. **Delegation**
+If someone does not have 8,000 ꜩ or does not want to set up computing
+infrastructure to bake blocks, they can delegate their coins to a
+baker. Delegating lets coin holders "lend" their coins to a baker. As a result,
+the baker has a higher probability of being selected, and the baker in turn
+shares the additional revenue with the coin holder. Importantly, this process
+does not actually transfer ownership of coins. The baker cannot spend the ꜩ
+delegated to them, and bakers cannot run away with other people's money.
 
-    If someone does not have 8,000 ꜩ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the ꜩ delegated to them, and bakers cannot run away with other people's money.
+Groups have sprung up offering competitive rates for their baking services, and
+ most charge ~10-20% fees on the rewards that people obtain by delegating to
+ them.
 
-    Groups have sprung up offering competitive rates for their baking services, and most charge ~10-20% fees on the rewards that people obtain by delegating to them.
-	
-	This use of delegation is the reason many people refer to Tezos as a [Liquid Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7) system.
+This use of delegation is the reason many people refer to Tezos as a [Liquid
+	Proof-of-Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7)
+	system.
 
-**To summarize:** The Tezos consensus protocol called Emmy<sup>+</sup> uses a
-  Nakamoto-style Liquid PoS consensus. Delegates (people who have at least 8,000 ꜩ of delegated funds) are given the
-  responsibility of creating and endorsing blocks. They are rewarded for their
-  action. They are also required to stake some of their own capital in order to
-  ensure honest behavior.
+**To summarize:** The Tezos consensus protocol called Emmy<sup>+</sup> is a
+  Nakamoto-style Liquid PoS consensus algorithm. Delegates (people who have at
+  least 8,000 ꜩ of delegated funds) are given the responsibility of creating and
+  endorsing blocks. They are rewarded for their action. They are also required
+  to stake some of their own capital in order to ensure honest behavior.
 
 
 ## Finality in Tezos {#finality}
@@ -151,11 +160,39 @@ blocks have priority 0 and (almost) all the required endorsements. A concrete
 healthiness measure is the delay of the chain with respect to the ideal chain
 where each block has a delay of one minute with respect to the previous block.
 
-# Scalability {#scalability}
+## Scalability {#scalability}
 
 Currently, Tezos does around 30-40 transactions per second.
 
-# Further resources {#resources}
+## The past and future of Emmy<sup>+</sup>
+
+Emmy is the predecessor of Emmy<sup>+</sup>. In both Emmy and Emmy<sup>+</sup>,
+the fork choice rule is expressed in terms of the *fitness* of the last block in
+the chain. In Emmy, a block's fitness also takes into account the number of
+endorsements contained in a block, not only the block's height: the more
+endorsements in a block, the higher the block's fitness. This design was
+somewhat problematic in that a baker may hesitate if to wait for more
+endorsements or to bake the block with the endorsements it already
+had. Emmy<sup>+</sup> addressed this problem by simply making fitness not depend
+on the number of endorsements in a block: the fitness increases by 1 unit with
+each level. In turn, the number of endorsements in a block is reflected in the
+block delay rule.
+
+The rewards in Emmy<sup>+</sup> have been updated in Carthage to address
+deflationary baking.
+
+[Emmy<sup>&#9733;</sup> is
+proposed](https://gitlab.com/tzip/tzip/-/merge_requests/134) as a successor of
+Emmy<sup>+</sup>. Emmy<sup>&#9733;</sup> is designed to offer faster finality,
+about twice as fast as in Emmy<sup>+</sup>.  without compromising its
+security. Emmy<sup>&#9733;</sup> achieves this with a tweak in the definition of
+the minimal delay function, which allows for blocks to be produced every 30
+seconds, and with an increase in the number of endorsements per block. As a
+consequence, on a healthy chain and for an attacker with 33% stake for instance,
+the number of confirmations decreases from 6 blocks to 2 blocks, therefore from
+6 minutes to 1 minute, a 6 fold improvement.
+
+## Further resources {#resources}
 
 Please check the [consensus
 entry](https://tezos.gitlab.io/007/proof_of_stake.html) in the Tezos developer
@@ -186,29 +223,3 @@ posts](https://blog.nomadic-labs.com/) analyzing Emmy<sup>+</sup>:
   showing that scenarios where an attacker tries to maintain a (malicious) fork
   for as long as possible do not have a significant impact on the [previous
   analysis](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
-
-# The past and future of Emmy<sup>+</sup>
-
-Before Emmy<sup>+</sup>, there was Emmy. In Emmy, the more endorsements in a
-block, the fittest the block was. This design was somewhat problematic in that a
-baker may hesitate if to wait for more endorsements or to bake the block with the
-endorsements it already had.
-
-Emmy<sup>+</sup> addressed this problem by simply making fitness not depend on
-the number of endorsements in a block: the fitness increases by 1 unit with each
-level. In turn, the number of endorsements in a block reflects in the block
-delay rule.
-
-The rewards in Emmy<sup>+</sup> have been updated in Carthage to address
-deflationary baking.
-
-[Emmy<sup>&#9733;</sup> is
-proposed](https://gitlab.com/tzip/tzip/-/merge_requests/134) as a successor of
-Emmy<sup>+</sup>. Emmy<sup>&#9733;</sup> is designed to offer faster finality,
-about twice as fast as in Emmy<sup>+</sup>.  without compromising its
-security. Emmy<sup>&#9733;</sup> achieves this with a tweak in the definition of
-the minimal delay function, which allows for blocks to be produced every 30
-seconds, and with an increase in the number of endorsements per block. As a
-consequence, on a healthy chain and for an attacker with 33% stake for instance,
-the number of confirmations decreases from 6 blocks to 2 blocks, therefore from
-6 minutes to 1 minute, a 6 fold improvement.
