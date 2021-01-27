@@ -194,7 +194,7 @@ snapshot will bring the disk space down from 50GB to 12GB
 With a baker up and running, a vital part of participation is voting on proposals to upgrade the
 Tezos protocol. Proposals for Tezos go through a governance mechanism with 4 periods:
 Proposal > Exploration > Testing > Promotion. You can track the latest proposals and learn
-about Tezos governance at [Tezos Agora](www.tezosagora.org).
+about Tezos governance at [Tezos Agora](https://www.tezosagora.org).
 
 **When new proposals are injected you can vote with the following commands**
 
