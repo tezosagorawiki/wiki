@@ -20,7 +20,6 @@
 
 ### [Tezos Governance](files/self-amendment.md)
 * [What is Self Amendment?](files/self-amendment.md#introduction)
-* [How does it work?](files/self-amendment.md#how)
 * [Off-chain Governance](files/self-amendment.md#offchain)
 
 ### [Smart Contracts](files/language.md)
@@ -29,7 +28,6 @@
 * [LIGO](files/language.md#ligo)
 
 ### [Formal Verification](files/formal-verification.md)
-* [Introduction](files/formal-verification.md#intro)
 * [Michelson and Coq](files/formal-verification.md#coq)
 
 ### [Future Developments](files/future.md)
