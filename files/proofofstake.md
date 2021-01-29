@@ -151,7 +151,7 @@ active stake. Given that in a healthy chain blocks are baked every minute, 6
 confirmations are equivalent to 6 minutes.
 
 [^fin]: Here, _reasonably sure_ means "with probability smaller than some
-reasonable threshold", which we quantify as `10 * 1e-8`, which puts our
+reasonable threshold", which we quantify as `1e-8`, which puts our
 expectation of being wrong about a block being final at roughly once every two
 centuries.
 
