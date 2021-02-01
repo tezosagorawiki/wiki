@@ -28,7 +28,12 @@ Python is used to generate programs in an imperative, type inferred, and interme
 
 #### LIGO {#ligo}
 
-[LIGO](https://ligolang.org) is programming language for Tezos smart contracts offering Pascal, Ocaml, and ReasonML syntax flavors.
+[LIGO](https://ligolang.org) is a programming language for Tezos with support for different syntaxes:
+- CameLIGO, an OCaml inspired syntax
+- ReasonLIGO, a functional JavaScript-like syntax inspired by ReasonML
+- PascaLIGO, a Pascal inspired syntax
+
+These syntaxes are transformed into an intermediate representation, which is type checked and efficiently translated into Michelson.
 
 ##### LIGO Resources
 - [LIGO homepage](https://ligolang.org/)
