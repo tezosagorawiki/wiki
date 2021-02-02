@@ -2,6 +2,7 @@
 
 * [Introduction to the Tezos Wiki](README.md)
 * [Tezos Whitepaper](files/whitepaper.md)
+* [Tezos Position Paper](files/positionpaper.md)
 
 ### Tezos Basics
 
