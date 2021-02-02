@@ -3,6 +3,7 @@
 	"pluginsConfig": {
 		"theme-gestalt": {
 			"logo": "/img/logo-tz-agora.svg",
+			"favicon": "/gitbook/images/favicon.ico",
 			"excludeDefaultStyles": false
 		}
 	},
