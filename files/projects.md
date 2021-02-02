@@ -19,6 +19,7 @@ In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s larg
 ### Logical Pictures
 
 ### Sustain Exchange
+Founded by [Sulaiman Al-Fahim](http://sulaimanalfahim.com), a well known property/real estate developer in the United Arab Emirates. Sustain Exchange is working to [develop](https://thefintechtimes.com/first-islamic-compliant-crypto-exchange-plans-to-build-tezos-baking-infrastructure-with-sustain-exchange/) improved baking infrastructure and also contributing towards the development of a issuance platform for digital securities created on Tezos. 
 
 ### Vertalo
 In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
