@@ -26,6 +26,7 @@ In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platf
 In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
 
 ## Gaming / NFTs / Creator
+Notable developments around creator, gaming applications, and Non-Fungible Tokens (NFT’s) on Tezos. 
 
 ### Kalamint
 Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fungible token (NFT) marketplace on the Tezos blockchain. Kalamint V1 enables users to mint NFTs using Tezos’s FA2 token standard and subsequently buy, sell and collect these digital assets on the platform. 
@@ -33,6 +34,9 @@ Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fu
 ### OpenMinter
 
 ### Crictez
+
+### Emergents 
+A Digital Collectible Card Game (DCCG) being built on Tezos by the gaming company [Coase](https://coa.se). [Emergents](https://www.emergents.gg) is currently under development with an alpha release expected in the near future. At its core, Coase seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices. 
 
 ## Decentralized Finance (DeFi)
 
