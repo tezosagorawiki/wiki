@@ -31,8 +31,10 @@ In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platfo
 Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fungible token (NFT) marketplace on the Tezos blockchain. Kalamint V1 enables users to mint NFTs using Tezos’s FA2 token standard and subsequently buy, sell and collect these digital assets on the platform. 
 
 ### OpenMinter
+A DApp framework enabling anyone to create and showcase NFT’s on Tezos. [OpenMinter](https://github.com/tqtezos/minter) simplifies the NFT creation process to allow anyone to create NFT’s with ease in just a few clicks and enable marketplace capabilities for them to be traded. 
 
 ### Crictez
+A NFT-based fantasy sports DApp being built on Tezos. Revolving around the popular sport Cricket, [CricTez](https://forum.tezosagora.org/t/crictez-a-non-fungible-token-nft-based-fantasy-sports-game-built-on-tezos/2599) seeks to represent various players/athletes as NFT’s for use within the fantasy sports DApp. Through the usage of metadata containing key attributes to each player and oracles to bring off-chain data such as real time statistics about the players - it will contribute to each player’s unique card.
 
 ## Decentralized Finance (DeFi)
 
