@@ -181,13 +181,17 @@ terminal (~5 minutes)
 
 You are now ready to go ahead and install the node from the instructions above!
 
+# Do I need to sync the whole blockchain to set up a node? 
+
 **Fast sync from a mainnet snapshot**
 
-A snapshot will allow you to sync the chain in a few minutes, when setting up a new node you will
+No! You don't need to sync the entire blockchain, a snapshot will allow you to sync the chain in a few minutes, when setting up a new node you will
 by default download the entire history of the chain. You can skip this section if you are not starting
 from a snapshot and syncing the full chain. If you do start a node from a snapshot then an
 up-to-date snapshot can be downloaded from [Tezos Giganode](https://snapshots-tezos.giganode.io). An imported up-to-date
 snapshot will bring the disk space down from 50GB to 12GB
+
+# How do I particpate in the on-chain voting as Baker? 
 
 **Voting**
 
