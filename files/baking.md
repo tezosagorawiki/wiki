@@ -215,9 +215,17 @@ Voting Command for Exploration and Promotion phase
 
 `tezos-client submit ballot for <YOUR_ADDRESS> <proposal_name> <yay|nay|pass>`
 
+# Baking with Kiln {#kiln}
+
+[Kiln](https://tezos-kiln.org) is a tool for baking on the Tezos blockchain through an easy-to-use UI. Installing Kiln on
+MacOS, Ubuntu, and other Debian Linux distributions is easy, intuitive, and does not require the
+use of the command line. Kiln enables anyone to set up a Tezos node and start baking!
+
+- [How to install Kiln on MacOS Catalina](https://medium.com/tezos-kiln/how-to-install-kiln-on-macos-catalina-ce0821f97dcf)
+- [How to Install Kiln Ubuntu](https://medium.com/kiln/how-to-install-kiln-and-bake-on-ubuntu-a13d17df63c)
+
 # Baking Resources {#resources}
 - [Getting started with Tezos on the Ledger Nano S](https://medium.com/@obsidian.systems/getting-started-with-tezos-on-the-ledger-nano-s-c011517b0f3c)
 - [Expected Rewards from Solo Baking Tezos](https://medium.com/cryptium/coquito-tezem-ergo-sum-expected-rewards-from-solo-baking-tezos-fcb4616b97dc)
 - [Storing XTZ in Ledger Nano S while delegating](https://medium.com/cryptium/how-to-store-your-tezos-xtz-in-your-ledger-nano-s-and-delegate-with-tezbox-wallet-8fb4ac2d3355)
 - [Double Baking -- How a baker can lose it's XTZ](https://medium.com/cryptium/half-baked-is-always-better-than-double-baked-what-is-at-stake-in-the-tezos-protocol-6619ce4a5f87)
-- [Kiln](https://tezos-kiln.org), an easy-to-use self-baking software and bakery monitor. 
