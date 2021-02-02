@@ -4,8 +4,10 @@ title:  "Tezos Projects"
 date:   2019-01-07 12:14:18
 ---
 # Tezos Projects {#projects}
+A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, gaming, NFT’s, decentralized finance (DeFi), enterprise, government, and more. 
 
 ## Tokenization
+Companies/entities who are developing the asset tokenization landscape around Tezos.  
 
 ### BTG Pactual
 In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s largest standalone investment bank—formally announced the launch of ReitBZ, a USD ~1B REIT offered as natively digital (tokenized) securities on the Tezos blockchain. This real-estate backed token issuance marked the beginning of BTG’s commitment to utilize Tezos for all of its future digital securities offerings—a pivot from its previous Ethereum-based strategy.
