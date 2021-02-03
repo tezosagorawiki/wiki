@@ -156,6 +156,11 @@ Sword has joined the Tezos consensus to validate transactions. By becoming a bak
 The French Armies and Gendarmerie’s Information & Public Relations Center (SIRPA) announced that since September 2019, the Gendarmerie’s cybercrime division (C3N) has been validating judicial expenses incurred during investigations and recording them on the Tezos blockchain. It is the first government use of the Tezos protocol.
 
 ## Central Bank Digital Currency (CBDC)
+A cumulative list of ongoing developments/experiments with CBDC’s utilizing the Tezos blockchain.
+
+### Société Générale - Forge
+[Société Générale](https://www.societegenerale.com/en) is one of the leading European financial services groups. In September 2020, Société Générale - Forge [selected](https://nomadic-labs.com/download/cp.pdf) the Tezos blockchain for experimentation with CBDC research and development. This is ex post facto of Banque de France [selecting](https://www.banque-france.fr/en/communique-de-presse/banque-de-france-press-release-20-july-2020) Société Générale - Forge as part of its group to experiment with CBDC technology around interbank settlements in July 2020. 
+
 
 ## Digital Interbank Currency (DIBC)
 A cumulative list of ongoing developments/experiments with DIBC’s utilizing the Tezos blockchain.
