@@ -68,12 +68,16 @@ A list of price prediction tools and markets on Tezos.
 ### StakerDAO
 
 ### Oracles
+A cumulative list of Oracles on Tezos. 
 
 #### Harbinger
+[Harbinger](https://github.com/tacoinfra/harbinger-cli) is a Tezos-native price oracle feed that delivers signed price feeds based on market data from multiple exchanges. Harbinger was developed by [Hover Labs](https://hover.engineering) in August of 2020 and took inspiration from Compound’s Open Price Feed. 
 
 #### Kaiko
+[Kaiko](https://www.kaiko.com) is a cryptocurrency digital assets data provider. In September 2020, Kaiko [announced](https://blog.kaiko.com/kaiko-provides-tezos-price-data-on-chain-to-power-defi-applications-d8c070b96a5c) their intention to provide live price feeds to an on-chain oracle on the Tezos network. The price data is fetched and derived from Kaiko’s exchange rate data, which [aggregates](https://tzkt.io/KT19kgnqC5VWoxktLRdRUERbyUPku9YioE8W/operations/) price data from over a dozen cryptocurrency exchanges. 
 
 #### Chainlink
+[Smart Chain Arena](https://smartpy.io), the team behind the widely used programming language ‘SmartPy’ on Tezos received a [grant](https://blog.chain.link/smartpy-receives-grant-to-integrate-chainlink-price-feeds-on-tezos/) to integrate Chainlink Price Reference Data Feeds on Tezos in December 2020. The integration once complete, will allow Tezos developers to have the ability to build more advanced and secure smart contract applications with key Chainlink functionalities. 
 
 ## Tokenization
 Companies/entities who are developing the asset tokenization landscape around Tezos.  
