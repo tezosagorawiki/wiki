@@ -112,8 +112,6 @@ Founded by [Sulaiman Al-Fahim](http://sulaimanalfahim.com), a well known propert
 ### Vertalo
 In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
 
-In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
-
 ### QR Capital
 Brazil’s largest crypto hedge fund, has announced in August of 2020 that they plan to [launch](https://www.linkedin.com/posts/global-blockchain-business-council_growing-an-ecosystem-digital-assets-in-activity-6699354493999435776-by36) the Brazilian Legal Receivables and Precatory Bonds Exchange (BBPR) using the Tezos blockchain. The BBPR will serve to perform the legal custody and execution of the tokenization of various assets using Tezos. 
 
