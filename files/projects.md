@@ -24,8 +24,6 @@ A Magic the Gathering game in development on Tezos. [Emergents](https://www.emer
 ## Decentralized Finance (DeFi)
 A comprehensive list of projects and developments of low and high-level primitives of DeFi applications on Tezos. 
 
-### tzBTC
-
 ### Decentralized Exchanges
 A comprehensive list of decentralized exchanges built on Tezos.
 
