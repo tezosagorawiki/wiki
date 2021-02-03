@@ -124,6 +124,21 @@ In January 2020, San Francisco based VC firm - Andra Capital [announced](https:/
 ### Alliance Investments
 Has [announced](https://www.businesswire.com/news/home/20191030005153/en/tZERO-Partners-Alliance-Investments-Tokenize-River-Plaza) in October 2019 that they plan to tokenize upwards of $640M worth of real estate alongside tZERO. The first of which will take place with Manchester, UK’s [River Plaza](https://riverplazamanchester.com) - where Alliance Investments has stated they intend to tokenize at least $25M worth of value of the building utilizing the Tezos blockchain. 
 
+### Fundament Group
+Founded in 2018, Fundament Group is a Berlin-based financial services company that has chosen Tezos as its default blockchain for future products offered. Fundament Group is also regulated by the financial market authority, BaFin and is committed to building end-end infrastructure for digital securities. 
+
+### Securitize 
+A financial services company focused on enabling digital securities through creating compliant digital securities, funds, equity, fixed income, and real estate. [Securitize](https://www.securitize.io) has worked alongside and collaborated with Elevated Returns in the transition of Aspencoin from Ethereum to Tezos and has $1B worth of aggregate deal flow [expected](https://www.prnewswire.com/news-releases/elevated-returns-and-securitize-to-tokenize-usd-1b-of-real-estate-on-tezos-will-build-new-compliant-security-token-issuance-standards-300793038.html) to take place with the collaboration. 
+
+### Globacap
+A London-based issuance and administration platform for digital securities. Globacap is regulated by the UK’s FCA (Financial Conduct Authority) and has chosen Tezos to be offered as the preferred underlying blockchain for all issuances taking place on the platform. 
+
+### Taurus Group
+Taurus Group is a Swiss financial services company and a leading B2B (business-to-business) service provider in Switzerland for digital asset custody. Taurus Group has [entered](https://www.taurusgroup.ch/en/insights/taurus-integrates-tezos-staking-capabilities#) a collaboration with the Tezos Foundation and chosen to promote Tezos as its blockchain technology provider as well as utilize Tezos for digital securities issuances on its platform. 
+
+### Baanx
+[Baanx](https://www.baanx.com) is a financial services company focused on becoming a leading, global infrastructure provider for digital assets. Baanx holds an e-money license in the United Kingdom and has developed a suite of products and services around digital assets for its issuance platform. Of the many products, Baanx offers a cryptocurrency mobile payment app with physical and virtual VISA cards issued in several countries. Tezos will be [integrated](https://youtu.be/mQv52avOwEo) as a payment option within the app in the near future.
+
 ## Enterprise / Government
 
 ### Moneytrack
