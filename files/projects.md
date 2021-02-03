@@ -168,7 +168,7 @@ As a subsidiary of the energy provider EDF providing high computing power, Exaio
 • Exaion is an open baker, allowing third-part Tezos to delegate their Tez and earn rewards.
 
 ### Sword Group / Sword France
-In November 2020, it was [announced](https://www.sword-group.com/en/news/sword-france-becomes-a-tezos-baker/) that Sword France, subsidiary of Sword Group had begun a baking operation on the Tezos Network. Sword France is also responsible for the [release](https://www.sword-group.com/en/news/sword-launches-tezos-digisign/) of [Tezos DigiSign](https://gitlab.com/sword-france/tezos-digisign) - an open source tool to sign, verify, and store documents using the Tezos blockchain. 
+In November 2020, it was [announced](https://www.sword-group.com/en/news/sword-france-becomes-a-tezos-baker/) that Sword France, subsidiary of Sword Group had begun a baking operation on the Tezos Network. Sword France is also responsible for the release of [Tezos DigiSign](https://gitlab.com/sword-france/tezos-digisign) - an open source tool to sign, verify, and store documents using the Tezos blockchain. 
 
 ### The Blockchain Group / Blockchain Xdev
 In February 2021, The Blockchain Group [announced](https://nomadic-labs.com/download/PR-TBG-Baker.pdf) that they will become a corporate baker on the Tezos network through its subsidiary - Blockchain Xdev. The Blockchain Group is also responsible for [launching](https://www.theblockchain-group.com/wp-content/uploads/2020/12/Blockchain-Group-Plateforme-Tokenization.pdf) a tokenization platform back in December 2020. 
