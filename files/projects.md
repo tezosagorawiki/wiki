@@ -6,40 +6,6 @@ date:   2019-01-07 12:14:18
 # Tezos Projects {#projects}
 A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, gaming, NFT’s, decentralized finance (DeFi), enterprise, government, and more. 
 
-## Tokenization
-Companies/entities who are developing the asset tokenization landscape around Tezos.  
-
-### BTG Pactual
-In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s largest standalone investment bank—formally announced the launch of ReitBZ, a USD ~1B REIT offered as natively digital (tokenized) securities on the Tezos blockchain. This real-estate backed token issuance marked the beginning of BTG’s commitment to utilize Tezos for all of its future digital securities offerings—a pivot from its previous Ethereum-based strategy.
-
-### Elevated Returns
-[Elevated Returns](https://www.elevatedreturns.com/)—the digital asset management company responsible for tokenizing the St. Regis Resort in Aspen, Colorado—selected Tezos as the default blockchain for its real-estate backed digital securities offerings. Elevated Returns began its transition onto Tezos with the migration of AspenCoin in February 2019. The company has since launched its own digital securities exchange, on which it is expected to offer over $1B in tokenized real estate assets on Tezos. 
-
-### Inveniam
-[Inveniam](https://inveniam.io/) is a data integrity platform for private markets that facilitates price discovery and liquidity for private equity and commercial real estate assets. Inveniam uses the Tezos blockchain as the backbone of its data integrity offering.
-
-### Logical Pictures
-A well-known film production and investment company has announced [plans](https://www.fieldfisher.com/en/insights/fieldfisher-conseille-logical-pictures-dans-le-cad) to tokenize up to $120M in a Security Token Offering (STO) using the Tezos blockchain for registration and governance thereof. Through [21 Content Ventures](https://www.21contentventures.com), a new film and series investment fund managed by Logical Pictures, the STO will be launched. 
-
-### Sustain Exchange
-Founded by [Sulaiman Al-Fahim](http://sulaimanalfahim.com), a well known property/real estate developer in the United Arab Emirates. Sustain Exchange is working to [develop](https://thefintechtimes.com/first-islamic-compliant-crypto-exchange-plans-to-build-tezos-baking-infrastructure-with-sustain-exchange/) improved baking infrastructure and also contributing towards the development of a issuance platform for digital securities created on Tezos. 
-
-### Vertalo
-In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
-
-In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
-
-### QR Capital
-Brazil’s largest crypto hedge fund, has announced in August of 2020 that they plan to [launch](https://www.linkedin.com/posts/global-blockchain-business-council_growing-an-ecosystem-digital-assets-in-activity-6699354493999435776-by36) the Brazilian Legal Receivables and Precatory Bonds Exchange (BBPR) using the Tezos blockchain. The BBPR will serve to perform the legal custody and execution of the tokenization of various assets using Tezos. 
-
-### Equisafe
-Is a digital securities [platform](https://www.equisafe.io) utilizing Tezos to fully digitize corporate processes. Equisafe has also developed and [deployed](https://gitlab.com/equisafe/nyx/-/blob/master/docs/05_Mini_Nyx.md?utm_content=133743930&utm_medium=social&utm_source=twitter&hss_channel=tw-1136975271935041536) the NyX Standard, and conducted one of the [first](https://twitter.com/Equisafe_io/status/1235023131036635137?s=20) STO’s on Tezos - The Music Pavilion of Versailles. 
-
-### Andra Capital 
-In January 2020, San Francisco based VC firm - Andra Capital [announced](https://www.prnewswire.com/news-releases/silicon-valley-coin-by-andra-capital-uses-tezos-blockchain-and-tokensoft-for-its-security-token-offering-300990931.html) that they will issue Silicon Valley Coin (SVC) via a Security Token Offering (STO). With collaboration from the Tezos Foundation and utilizing TokenSoft’s issuance platform, the STO will take place on Tezos. SVC will represent an unit of interest in the Andra Capital Open-Ended Fund.
-
-### Alliance Investments
-Has [announced](https://www.businesswire.com/news/home/20191030005153/en/tZERO-Partners-Alliance-Investments-Tokenize-River-Plaza) in October 2019 that they plan to tokenize upwards of $640M worth of real estate alongside tZERO. The first of which will take place with Manchester, UK’s [River Plaza](https://riverplazamanchester.com) - where Alliance Investments has stated they intend to tokenize at least $25M worth of value of the building utilizing the Tezos blockchain. 
 
 ## Gaming / NFTs / Creator
 Notable developments around creator, gaming applications, and Non-Fungible Tokens (NFT’s) on Tezos. 
@@ -94,9 +60,99 @@ USDS is a stablecoin built by [Stably](https://www.stably.io) using the FA2 toke
 
 #### Chainlink
 
-## Enterprise
+## Tokenization
+Companies/entities who are developing the asset tokenization landscape around Tezos.  
+
+### Logical Pictures & BNP Paribas - 21 Content Ventures
+Logical Pictures and BNP Paribas launched 21 Content Ventures, an investment fund dedicated to films and series, offering the opportunity to take advantage of the growth in the audiovisual content market. Logical Pictures is an audiovisual group with subsidiaries specialized in the content industry. The fundraising campaign in the form of Security Token Offering (STO) to digitize its future portfolio of films and series. As a result, each title (represented on the Tezos blockchain by a security token) will offer more liquidity and transparency than a traditional share of funds.
+
+### Caisse des Dépôts et Consignations (CDC)
+The public financial institution CDC is leading a consortium with BNP Paribas CIB, Tokeny and Blockchain Xdev to build a Digital Interbank Currency (DIBC) using Tezos.
+
+Experimentations will focus on :
+• Financial transactions involving digital assets settling on the Tezos smart-contract platform.
+• Implications of the “atomic” regulation of the delivery of regulated securities.
+• Operational impacts of a DvP including the implementation of a technological interoperability between blockchains.
+• Compliance with applicable EU regulations and contribution to on-going exploratory work in Europe.
+
+### BTG Pactual
+In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s largest standalone investment bank—formally announced the launch of ReitBZ, a USD ~1B REIT offered as natively digital (tokenized) securities on the Tezos blockchain. This real-estate backed token issuance marked the beginning of BTG’s commitment to utilize Tezos for all of its future digital securities offerings—a pivot from its previous Ethereum-based strategy.
+
+### Elevated Returns
+[Elevated Returns](https://www.elevatedreturns.com/)—the digital asset management company responsible for tokenizing the St. Regis Resort in Aspen, Colorado—selected Tezos as the default blockchain for its real-estate backed digital securities offerings. Elevated Returns began its transition onto Tezos with the migration of AspenCoin in February 2019. The company has since launched its own digital securities exchange, on which it is expected to offer over $1B in tokenized real estate assets on Tezos. 
+
+### Inveniam
+[Inveniam](https://inveniam.io/) is a data integrity platform for private markets that facilitates price discovery and liquidity for private equity and commercial real estate assets. Inveniam uses the Tezos blockchain as the backbone of its data integrity offering.
+
+### Logical Pictures
+A well-known film production and investment company has announced [plans](https://www.fieldfisher.com/en/insights/fieldfisher-conseille-logical-pictures-dans-le-cad) to tokenize up to $120M in a Security Token Offering (STO) using the Tezos blockchain for registration and governance thereof. Through [21 Content Ventures](https://www.21contentventures.com), a new film and series investment fund managed by Logical Pictures, the STO will be launched. 
+
+### Sustain Exchange
+Founded by [Sulaiman Al-Fahim](http://sulaimanalfahim.com), a well known property/real estate developer in the United Arab Emirates. Sustain Exchange is working to [develop](https://thefintechtimes.com/first-islamic-compliant-crypto-exchange-plans-to-build-tezos-baking-infrastructure-with-sustain-exchange/) improved baking infrastructure and also contributing towards the development of a issuance platform for digital securities created on Tezos. 
+
+### Vertalo
+In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
+
+In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
+
+### QR Capital
+Brazil’s largest crypto hedge fund, has announced in August of 2020 that they plan to [launch](https://www.linkedin.com/posts/global-blockchain-business-council_growing-an-ecosystem-digital-assets-in-activity-6699354493999435776-by36) the Brazilian Legal Receivables and Precatory Bonds Exchange (BBPR) using the Tezos blockchain. The BBPR will serve to perform the legal custody and execution of the tokenization of various assets using Tezos. 
+
+### Equisafe
+Is a digital securities [platform](https://www.equisafe.io) utilizing Tezos to fully digitize corporate processes. Equisafe has also developed and [deployed](https://gitlab.com/equisafe/nyx/-/blob/master/docs/05_Mini_Nyx.md?utm_content=133743930&utm_medium=social&utm_source=twitter&hss_channel=tw-1136975271935041536) the NyX Standard, and conducted one of the [first](https://twitter.com/Equisafe_io/status/1235023131036635137?s=20) STO’s on Tezos - The Music Pavilion of Versailles. 
+
+### Andra Capital 
+In January 2020, San Francisco based VC firm - Andra Capital [announced](https://www.prnewswire.com/news-releases/silicon-valley-coin-by-andra-capital-uses-tezos-blockchain-and-tokensoft-for-its-security-token-offering-300990931.html) that they will issue Silicon Valley Coin (SVC) via a Security Token Offering (STO). With collaboration from the Tezos Foundation and utilizing TokenSoft’s issuance platform, the STO will take place on Tezos. SVC will represent an unit of interest in the Andra Capital Open-Ended Fund.
+
+### Alliance Investments
+Has [announced](https://www.businesswire.com/news/home/20191030005153/en/tZERO-Partners-Alliance-Investments-Tokenize-River-Plaza) in October 2019 that they plan to tokenize upwards of $640M worth of real estate alongside tZERO. The first of which will take place with Manchester, UK’s [River Plaza](https://riverplazamanchester.com) - where Alliance Investments has stated they intend to tokenize at least $25M worth of value of the building utilizing the Tezos blockchain. 
+
+## Enterprise / Government
+
+### Moneytrack
+MoneyTrack is a payment platform for “directed money”. The Decentralized Application (D-App) digitizes, secures and controls directed payment flows, whose applications are wide: insurance compensation, consumer credit, state aid, gift card … The company operates on a private version of the Tezos blockchain with its insurance partners, and performs periodic registrations on the public network.
 
 
-### Werenode
+### Global POS - Easy Wallet
+A payment software editor prepared an instant retail payment solution in TEZ. The solution combines software downloaded on current payment terminals and a mobile wallet application for users.
+• The merchant instantly receives the counterpart in euros, the conversion being carried out by partner exchanges.
+• The company behind the project intends to become a baker, which will allow it to offer its customers staking, making the unspent TEZ grow.
 
-### Ecoo
+
+### WereNode
+WereNode is a project allowing to pay with a mobile wallet the redeeming of an electric car at a charging station. It simplifies the connection to the charging network and makes the data auditable and verifiable by use of the Tezos blockchain.Werenode has chosen Tezos, for its far more energy efficient network and its ability to formally verify the smart contracts. Werenode users will be able to pay for their charging period with Visa, MasterCard, Bank transfer, or forthcoming Werecoin tokens which is a Tezos-based cryptocurrency.
+
+
+### Sword Tezos Digisign
+In September 2020, Sword Group, an international leader in technological and digital transformation for businesses, launched Tezos DigiSign, an open source tool built on the Tezos blockchain that enables users to digitally sign, certify, and verify the authenticity of digital documents.
+
+
+### Skillz
+Securely deploy, manage and monitor your blockchain applications choosing the infrastructure and region of your choice (ie. Azure, Scaleway, GoogleCloud, AWS - relying on Kubernetes open-source application containers). Automate the administration of your infrastructure without a dedicated DevOps team.
+Prevent unauthorized third-parties from interacting with your blockchain network.
+Deploy close to your business applications for better response time and throughput.
+
+### Sword Groupe
+Sword has joined the Tezos consensus to validate transactions. By becoming a baker, Sword validates certified transactions on the blockchain, with the idea that baking participates in blockchain market infrastructures. Typically, Sword will be able to include its own transactions in its blocks at zero-fees and provide storage to include transactions for its customers.
+
+### Gendarmerie Cybercrime
+The French Armies and Gendarmerie’s Information & Public Relations Center (SIRPA) announced that since September 2019, the Gendarmerie’s cybercrime division (C3N) has been validating judicial expenses incurred during investigations and recording them on the Tezos blockchain. It is the first government use of the Tezos protocol.
+
+## Corporate Baking
+
+### EDF / Exaion
+As a subsidiary of the energy provider EDF providing high computing power, Exaion joined the consensus to validate transactions on the Tezos network.
+• Exaion aims to prepare business grade decentralized solutions and a future transaction market with financial players.
+• Exaion is an open baker, allowing third-part Tezos to delegate their Tez and earn rewards.
+
+
+### SmartNode
+Created by founders of SmartChain consulting company, SmartNode is an entity dedicated to delegation or staking services. As a public baker on the Tezos network, SmartNode proposes
+• As a public baker on the Tezos network, SmartNode proposes to stake tez at a low commission fees.
+• SmartNode integrates a simple solution to access tez easier through prepaid cards.
+
+
+### CoinHouse
+CoinHouse is one of the only Virtual Asset Services Provider (VASP) registered by the French regulator AMF and launched a baker on Tezos.
+• Customers are able to delegate their tez to the baker to get rewards.
+• Assets are delegated and custodian in accordance with the highest legal standards in French law.
