@@ -22,6 +22,7 @@ A NFT-based fantasy sports DApp being built on Tezos. Revolving around the popul
 A Magic the Gathering game in development on Tezos. [Emergents](https://www.emergents.gg) is currently under development with an alpha release expected in the near future. At its core, Coase seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices. 
 
 ## Decentralized Finance (DeFi)
+A comprehensive list of projects and developments of low and high-level primitives of DeFi applications on Tezos. 
 
 ### tzBTC
 
