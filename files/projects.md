@@ -6,7 +6,6 @@ date:   2019-01-07 12:14:18
 # Tezos Projects {#projects}
 A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, gaming, NFT’s, decentralized finance (DeFi), enterprise, government, and more. 
 
-
 ## Gaming / NFTs / Creator
 Notable developments around creator, gaming applications, and Non-Fungible Tokens (NFT’s) on Tezos. 
 
@@ -57,6 +56,8 @@ USDS is a stablecoin built by [Stably](https://www.stably.io) using the FA2 toke
 ### Oracles
 
 #### Harbinger
+
+#### Kaiko
 
 #### Chainlink
 
