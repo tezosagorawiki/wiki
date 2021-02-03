@@ -24,7 +24,7 @@ First, use [Baking Bad](https://baking-bad.org/docs/where-to-stake-tezos) or [Te
 3. **Reliability + Responsiveness**. Does this baker pay out on time? Does this baker pay correctly? Will this baker respond to my questions about their services? Many bakers operate forums and chat rooms in which they engage with delegators.
 4. **Security**. Is this baker's staking setup secure? Does this baker have a track record? Has this baker double-baked in the past and lost coins?
 
-# How do I setup a secure Baker? 
+# How do I setup a secure Baker? {#SecureBaker} 
 First, let's make sure you have the minimum requirements to run a node on your PC. It takes about 15 minutes to setup a node, just follow the step-by-step instructions and you will be be Baking in no time. Additionally, you can bake using an application called Kiln, in which you can easily setup a Baker through the GUI, but first let's go through the traditional route using command line. 
 
 **System Requirements**
