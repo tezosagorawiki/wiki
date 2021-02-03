@@ -58,12 +58,15 @@ A decentralized, non-custodial exchange built on Tezos by [camlCase](https://cam
 A decentralized exchange built on Tezos by [Madfish Solutions](https://www.madfish.solutions) currently [running](https://quipuswap.com) on Delphi testnet. Quipuswap aims to provide an easy to use user interface for users wishing to utilize it’s DEX. A mainnet release is [expected](https://tezos.foundation/madfish-solutions-matvey-sivoraksha/) in the near future. 
 
 ### Stablecoins
+A cumulative list of stablecoins on Tezos. 
 
 #### Checker
 
 #### USDS (Stably)
+USDS is a stablecoin built by [Stably](https://www.stably.io) using the FA2 token standard on Tezos. USDS is issued by Prime Trust, a Nevada-chartered trust company that also acts as the regulated administrator for USDS. USDS is regulated and fiat-backed fully by physical reserves of fiat that can be redeemed at a 1:1 ratio. 
 
 #### Kolibri
+[Kolibri](https://testnet.kolibri.finance) is a set of smart contracts built on Tezos by [Hover Labs](https://hover.engineering) that can be used to create kUSD - a trustless algorithmic stablecoin that is collateralized by tez and soft pegged to USD. Currently running on testnet, Kolibri is [expected](https://kolibri-xtz.medium.com/kusd-meets-defi-6f634b0f0131) to release on mainnet in the near future.
 
 #### USDtz
 
