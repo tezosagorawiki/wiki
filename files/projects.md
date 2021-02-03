@@ -26,6 +26,13 @@ In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platf
 
 In January 2020, [Vertalo](https://www.vertalo.com)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
 
+### QR Capital
+Brazil’s largest crypto hedge fund, has announced in August of 2020 that they plan to [launch](https://www.linkedin.com/posts/global-blockchain-business-council_growing-an-ecosystem-digital-assets-in-activity-6699354493999435776-by36) the Brazilian Legal Receivables and Precatory Bonds Exchange (BBPR) using the Tezos blockchain. The BBPR will serve to perform the legal custody and execution of the tokenization of various assets using Tezos. 
+
+### Equisafe
+Is a digital securities [platform](https://www.equisafe.io) utilizing Tezos to fully digitize corporate processes. Equisafe has also developed and [deployed](https://gitlab.com/equisafe/nyx/-/blob/master/docs/05_Mini_Nyx.md?utm_content=133743930&utm_medium=social&utm_source=twitter&hss_channel=tw-1136975271935041536) the NyX Standard, and conducted one of the [first](https://twitter.com/Equisafe_io/status/1235023131036635137?s=20) STO’s on Tezos - The Music Pavilion of Versailles. 
+
+
 ## Gaming / NFTs / Creator
 
 ### Kalamint
