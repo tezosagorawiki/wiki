@@ -17,6 +17,7 @@ In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s larg
 [Inveniam](https://inveniam.io/) is a data integrity platform for private markets that facilitates price discovery and liquidity for private equity and commercial real estate assets. Inveniam uses the Tezos blockchain as the backbone of its data integrity offering.
 
 ### Logical Pictures
+A well-known film production and investment company has announced [plans](https://www.fieldfisher.com/en/insights/fieldfisher-conseille-logical-pictures-dans-le-cad) to tokenize up to $120M in a Security Token Offering (STO) using the Tezos blockchain for registration and governance thereof. Through [21 Content Ventures](https://www.21contentventures.com), a new film and series investment fund managed by Logical Pictures, the STO will be launched. 
 
 ### Sustain Exchange
 
