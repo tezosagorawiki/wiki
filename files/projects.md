@@ -40,10 +40,13 @@ Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fu
 ### tzBTC
 
 ### Decentralized Exchanges
+A comprehensive list of decentralized exchanges built on Tezos.
 
 #### Dexter
+A decentralized, non-custodial exchange built on Tezos by [camlCase](https://camlcase.io). [Dexter](https://dexter.exchange) allows for users to exchange their tez and trade directly between two tokens built on Tezos using the FA1.2 standard. Holders of tez can also act as liquidity providers for the platform and earn a proportion of exchange fees in doing so. With camlCase’s [Magma wallet](https://magmawallet.io) integration, users also are provided with the ability to use the exchange within the application. 
 
 #### Quipuswap
+A decentralized exchange built on Tezos by [Madfish Solutions](https://www.madfish.solutions) currently [running](https://quipuswap.com) on Delphi testnet. Quipuswap aims to provide an easy to use user interface for users wishing to utilize it’s DEX. A mainnet release is [expected](https://tezos.foundation/madfish-solutions-matvey-sivoraksha/) in the near future. 
 
 ### Stablecoins
 
