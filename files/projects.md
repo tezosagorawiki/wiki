@@ -157,6 +157,12 @@ The French Armies and Gendarmerie’s Information & Public Relations Center (SIR
 
 ## Central Bank Digital Currency (CBDC)
 
+## Digital Interbank Currency (DIBC)
+A cumulative list of ongoing developments/experiments with DIBC’s utilizing the Tezos blockchain.
+
+### BNP Paribas and Blockchain Xdev (The Blockchain Group)
+In November 2020, it was [announced](https://www.theblockchain-group.com/wp-content/uploads/2020/11/Communication-OCDE-UK-Nov2020.pdf) that BNP Paibas alongside CA CIB, Caisse des Dépôts, Tokeny and Blockchain Xdev (The Blockchain Group) were combining expertise to launch a project exploring the potential use and implications of Digital Interbank Currency (DIBC). Tezos and Ethereum were chosen as initial technologies for exploration. 
+
 ## Corporate Baking
 A cumulative list of select enterprises/companies that have begun and/or are actively running a baking operation on the Tezos network. 
 
