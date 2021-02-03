@@ -36,7 +36,7 @@ Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fu
 ### Crictez
 
 ### Emergents 
-A Digital Collectible Card Game (DCCG) being built on Tezos by the gaming company [Coase](https://coa.se). [Emergents](https://www.emergents.gg) is currently under development with an alpha release expected in the near future. At its core, Coase seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices. 
+A Magic the Gathering game in development on Tezos. [Emergents](https://www.emergents.gg) is currently under development with an alpha release expected in the near future. At its core, Coase seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices. 
 
 ## Decentralized Finance (DeFi)
 
