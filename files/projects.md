@@ -20,6 +20,7 @@ In May 2020, [BTG Pactual](https://www.btgpactual.com/)—Latin America’s larg
 A well-known film production and investment company has announced [plans](https://www.fieldfisher.com/en/insights/fieldfisher-conseille-logical-pictures-dans-le-cad) to tokenize up to $120M in a Security Token Offering (STO) using the Tezos blockchain for registration and governance thereof. Through [21 Content Ventures](https://www.21contentventures.com), a new film and series investment fund managed by Logical Pictures, the STO will be launched. 
 
 ### Sustain Exchange
+Founded by [Sulaiman Al-Fahim](http://sulaimanalfahim.com), a well known property/real estate developer in the United Arab Emirates. Sustain Exchange is working to [develop](https://thefintechtimes.com/first-islamic-compliant-crypto-exchange-plans-to-build-tezos-baking-infrastructure-with-sustain-exchange/) improved baking infrastructure and also contributing towards the development of a issuance platform for digital securities created on Tezos. 
 
 ### Vertalo
 In January 2020, [Vertalo](https://www.vertalo.com/)—an industry-leading platform for digital asset lifecycle management—selected Tezos as its primary blockchain for digital securities issuance and lifecycle management. Also a regulated digital transfer agent, Vertalo has since announced over ~$200M in digital securities offerings from 20 different companies, all of which will be launched on Tezos.
