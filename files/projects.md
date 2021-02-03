@@ -4,7 +4,7 @@ title:  "Tezos Projects"
 date:   2019-01-07 12:14:18
 ---
 # Tezos Projects {#projects}
-A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, gaming, NFT’s, decentralized finance (DeFi), enterprise, government, and more. 
+A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, DAO's, gaming, NFT’s, decentralized finance (DeFi), enterprise, government, and more. 
 
 ## Gaming / NFTs / Creator
 Notable developments around creator, gaming applications, and Non-Fungible Tokens (NFT’s) on Tezos. 
@@ -74,6 +74,8 @@ A list of price prediction tools and markets on Tezos.
 #### Kaiko
 
 #### Chainlink
+
+## Decentralized Autonomous Organizations (DAO’s) 
 
 ## Tokenization
 Companies/entities who are developing the asset tokenization landscape around Tezos.  
@@ -152,6 +154,8 @@ Sword has joined the Tezos consensus to validate transactions. By becoming a bak
 
 ### Gendarmerie Cybercrime
 The French Armies and Gendarmerie’s Information & Public Relations Center (SIRPA) announced that since September 2019, the Gendarmerie’s cybercrime division (C3N) has been validating judicial expenses incurred during investigations and recording them on the Tezos blockchain. It is the first government use of the Tezos protocol.
+
+## Central Bank Digital Currency (CBDC)
 
 ## Corporate Baking
 A cumulative list of select enterprises/companies that have begun and/or are actively running a baking operation on the Tezos network. 
