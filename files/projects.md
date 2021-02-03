@@ -33,6 +33,11 @@ Brazil’s largest crypto hedge fund, has announced in August of 2020 that they 
 ### Equisafe
 Is a digital securities [platform](https://www.equisafe.io) utilizing Tezos to fully digitize corporate processes. Equisafe has also developed and [deployed](https://gitlab.com/equisafe/nyx/-/blob/master/docs/05_Mini_Nyx.md?utm_content=133743930&utm_medium=social&utm_source=twitter&hss_channel=tw-1136975271935041536) the NyX Standard, and conducted one of the [first](https://twitter.com/Equisafe_io/status/1235023131036635137?s=20) STO’s on Tezos - The Music Pavilion of Versailles. 
 
+### Andra Capital 
+In January 2020, San Francisco based VC firm - Andra Capital [announced](https://www.prnewswire.com/news-releases/silicon-valley-coin-by-andra-capital-uses-tezos-blockchain-and-tokensoft-for-its-security-token-offering-300990931.html) that they will issue Silicon Valley Coin (SVC) via a Security Token Offering (STO). With collaboration from the Tezos Foundation and utilizing TokenSoft’s issuance platform, the STO will take place on Tezos. SVC will represent an unit of interest in the Andra Capital Open-Ended Fund.
+
+### Alliance Investments
+Has [announced](https://www.businesswire.com/news/home/20191030005153/en/tZERO-Partners-Alliance-Investments-Tokenize-River-Plaza) in October 2019 that they plan to tokenize upwards of $640M worth of real estate alongside tZERO. The first of which will take place with Manchester, UK’s [River Plaza](https://riverplazamanchester.com) - where Alliance Investments has stated they intend to tokenize at least $25M worth of value of the building utilizing the Tezos blockchain. 
 
 ## Gaming / NFTs / Creator
 
