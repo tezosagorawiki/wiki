@@ -141,12 +141,18 @@ Sword has joined the Tezos consensus to validate transactions. By becoming a bak
 The French Armies and Gendarmerie’s Information & Public Relations Center (SIRPA) announced that since September 2019, the Gendarmerie’s cybercrime division (C3N) has been validating judicial expenses incurred during investigations and recording them on the Tezos blockchain. It is the first government use of the Tezos protocol.
 
 ## Corporate Baking
+A cumulative list of select enterprises/companies that have begun and/or are actively running a baking operation on the Tezos network. 
 
 ### EDF / Exaion
 As a subsidiary of the energy provider EDF providing high computing power, Exaion joined the consensus to validate transactions on the Tezos network.
 • Exaion aims to prepare business grade decentralized solutions and a future transaction market with financial players.
 • Exaion is an open baker, allowing third-part Tezos to delegate their Tez and earn rewards.
 
+### Sword Group / Sword France
+In November 2020, it was [announced](https://www.sword-group.com/en/news/sword-france-becomes-a-tezos-baker/) that Sword France, subsidiary of Sword Group had begun a baking operation on the Tezos Network. Sword France is also responsible for the [release](https://www.sword-group.com/en/news/sword-launches-tezos-digisign/) of [Tezos DigiSign](https://gitlab.com/sword-france/tezos-digisign) - an open source tool to sign, verify, and store documents using the Tezos blockchain. 
+
+### The Blockchain Group / Blockchain Xdev
+In February 2021, The Blockchain Group [announced](https://nomadic-labs.com/download/PR-TBG-Baker.pdf) that they will become a corporate baker on the Tezos network through its subsidiary - Blockchain Xdev. The Blockchain Group is also responsible for [launching](https://www.theblockchain-group.com/wp-content/uploads/2020/12/Blockchain-Group-Plateforme-Tokenization.pdf) a tokenization platform back in December 2020. 
 
 ### SmartNode
 Created by founders of SmartChain consulting company, SmartNode is an entity dedicated to delegation or staking services. As a public baker on the Tezos network, SmartNode proposes
