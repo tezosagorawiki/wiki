@@ -47,9 +47,22 @@ USDS is a stablecoin built by [Stably](https://www.stably.io) using the FA2 toke
 
 #### USDtz
 
-### Wrap Protocol (Bender Labs)
+### Wrapped Assets 
+A cumulative list of wrapped assets and ongoing development thereof on Tezos. 
 
-### Stakepool
+#### Wrap Protocol (Bender Labs)
+Currently under development by [Bender Labs](https://www.benderlabs.io), [WRAP](https://github.com/bender-labs/docs/blob/main/Wrap%20Protocol%20-%20Whitepaper.pdf?utm_content=153115325&utm_medium=social&utm_source=twitter&hss_channel=tw-1334786763638902785) will serve as a permissionless asset wrapper - allowing for other assets not native to the Tezos network to be wrapped on Tezos. 
+
+#### tzBTC 
+
+#### ETHtz 
+
+#### LTCtz 
+
+### Price Prediction Markets 
+A list of price prediction tools and markets on Tezos. 
+#### Stakepool
+[Stakepool](https://beta.tezster.tech) is a no loss, price prediction tool on Tezos developed by [Tezsure](https://tezsure.com). Users are to predict the price of tez within the duration of a baking cycle period and if predicted accurately, then earn a portion of baking rewards accrued from a pool. Currently running on testnet, a mainnet release is [expected](https://medium.com/tezsure/a-complete-guide-to-stakepool-how-to-use-stakepool-97605e090008) in the near future. 
 
 ### StakerDAO
 
