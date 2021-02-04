@@ -16,7 +16,7 @@ Recently, NFTs have been a powerful primitive demonstrating usefulness in the cr
 - **[Kalamint](https://kalamint.io/)** - A community owned NFT marketplace on Tezos.
 - **[OpenMinter](https://github.com/tqtezos/minter)** - A reusable dApp that allows anyone to create and collect NFTs on Tezos. 
 
-# Example Use Cases 
+# NFT Examples 
 - **Digital Art and Multimedia:** The value of a piece of art is derived from its uniqueness and provenance - knowing that it came from a particular creator and that there is a single edition. NFTs provide a means to link digital art to a token, trace the provenance back to the art's creator, and even an easy means to buy and sell the art. NFTs are flexible enough to represent digital art, music, and even video, all of which are tied to the token via metadata. 
 
 - **Collectibles and Gaming:** NFTs present a unique opportunity for digital collectibles such as memorabilia and trading cards because they provide provable scarcity. For example, an NFT representing a digital twin of an article of sports memorabilia is accurate in that there is only one of that object with the correct lineage and provenance available. Additionally, collectibles such as in-game items for video games are also great examples of use-cases for NFTs, as the items can be ported across games and traded instantly in secondary marketplaces outside of one single game. 
