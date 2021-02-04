@@ -1,7 +1,7 @@
 # Tezos: A Self-Amending Crypto-Ledger Position Paper
 #### L.M Goodman • August 3, 2014
 
-*[Tezos Position Paper PDF](https://tezos.com/static/position_paper-841a0a56b573afb28da16f6650152fb4.pdf)*
+*[Position Paper PDF](https://tezos.com/static/position_paper-841a0a56b573afb28da16f6650152fb4.pdf)*
 
 ### Table of Contents
 * [Abstract](#abstract)
