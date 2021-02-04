@@ -1,6 +1,6 @@
 #Tezos Whitepaper
 
-*[Tezos Whitepaper PDF](https://tezos.com/static/white_paper-2dc8c02267a8fb86bd67a108199441bf.pdf)*
+*[Whitepaper PDF](https://tezos.com/static/white_paper-2dc8c02267a8fb86bd67a108199441bf.pdf)*
 
 ###Table of Contents
 * [Self-Amending Cryptoledger](#self-amending)
