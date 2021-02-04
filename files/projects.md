@@ -63,7 +63,6 @@ A list of price prediction tools and markets on Tezos.
 #### Stakepool
 [Stakepool](https://beta.tezster.tech) is a no loss, price prediction tool on Tezos developed by [Tezsure](https://tezsure.com). Users are to predict the price of tez within the duration of a baking cycle period and if predicted accurately, then earn a portion of baking rewards accrued from a pool. Currently running on testnet, a mainnet release is [expected](https://medium.com/tezsure/a-complete-guide-to-stakepool-how-to-use-stakepool-97605e090008) in the near future. 
 
-### StakerDAO
 
 ### Oracles
 A cumulative list of Oracles on Tezos. 
