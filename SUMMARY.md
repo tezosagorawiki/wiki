@@ -28,7 +28,7 @@
     - [LIGO](files/smartcontracts/ligo.md)
     - [Michelson and Coq](files/smartcontracts/michelsonandcoq.md)
 
--[Non-Fungible Tokens](files/nft.md)
+- [Non-Fungible Tokens](files/nft.md)
 
 - [Future Developments](files/futuredevelopments/fdintro.md)
     - [Privacy](files/futuredevelopments/privacy.md)
