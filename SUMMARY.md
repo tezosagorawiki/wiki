@@ -1,7 +1,7 @@
 # Summary
 
 - [Introduction](README.md)
-- [Tezos Whitepaper](files/positionpaper.md)
+- [Tezos Whitepaper](files/whitepaper.md)
 - [Tezos Position Paper](files/positionpaper.md)
 
 <!-- ### Tezos Basics
