@@ -1,4 +1,4 @@
-# Non-Fungible Tokens
+# Non-Fungible Tokens \(NFT\)
 
 ## Introduction to Non-Fungible Tokens
 
