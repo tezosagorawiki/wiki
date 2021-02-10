@@ -28,6 +28,8 @@
     - [LIGO](files/smartcontracts/ligo.md)
     - [Michelson and Coq](files/smartcontracts/michelsonandcoq.md)
 
+- [Decentralized Identity](files/decentralizedidentity.md)
+
 - [Non-Fungible Tokens](files/nft.md)
 
 - [Future Developments](files/futuredevelopments/fdintro.md)
