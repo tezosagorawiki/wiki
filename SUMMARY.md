@@ -10,7 +10,7 @@
     - [Tezos Nomenclature](files/basics/nomenclature.md)
 
 - [Proof-of-Stake](files/pos/posintro.md)
-    - [What is Proof-of-Stake?](files/pos/whatispos.md)
+    - [What is Proof-of-Stake?](files/pos/whatisproofofstake.md)
     - [The Tezos consensus algorithm](files/pos/consensus.md)
 
 - [Baking](files/baking/bakingintro.md)
