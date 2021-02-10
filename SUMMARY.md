@@ -20,7 +20,7 @@
 
 - [Tezos Governance](files/governance/governanceintro.md)
  - [What is Self Amendment?](files/governance/whatissa.md)
- - [Off-chain Governance](files/governance/off-chaingovernance.md)
+ - [Off-chain Governance](files/governance/offchaingovernance.md)
 
 - [Smart Contracts](files/smartcontracts/scintro.md)
     - [Michelson](files/smartcontracts/michelson.md)
