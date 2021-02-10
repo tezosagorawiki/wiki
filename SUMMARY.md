@@ -15,6 +15,7 @@
   * [What is baking?](baking/whatisbaking.md)
   * [What is delegating?](baking/delegate.md)
   * [Should I bake or delegate?](baking/bakeordelegate.md)
+  * [Setting up a secure Baker](baking/setting-up-a-secure-baker.md)
 * [Tezos Governance](governance/README.md)
   * [What is Self Amendment?](governance/whatissa.md)
   * [Off-chain Governance](governance/offchaingovernance.md)
