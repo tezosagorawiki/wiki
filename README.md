@@ -1,5 +1,3 @@
-![](welcomebanner.jpg)
-
 # Welcome to the Tezos Agora Wiki!
 
 The Tezos Agora Wiki is a place to get started and learn about Tezos. It also aims to answer the frequently asked questions about the Tezos protocol & the Tezos ecosystem.
