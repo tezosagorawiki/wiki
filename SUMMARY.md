@@ -33,7 +33,7 @@
   * [Consensus](futuredevelopments/fdconsensus.md)
   * [Layer 2](futuredevelopments/layer2.md)
   * [Governance](futuredevelopments/fdgovernance.md)
-* [Built on Tezos](builtontezos/README.md)
+* [Built on Tezos](builtontezos.md)
 * [Resources](resources/README.md)
   * [ꜩ Tezos Wallets](resources/wallets.md)
   * [Block Explorers](resources/blockexplorer.md)
