@@ -38,14 +38,3 @@ to [ (Pair result storage) ]
 
 In the example, Michelson only manipulates the stack functionally and a new stack is passed from function to function.
 
-## Language Resources <a id="resources"></a>
-
-## Michelson:
-
-* [Michelson Language Intro](https://tezos.gitlab.io/007/michelson.html)
-* [Michelson talk](https://www.youtube.com/watch?v=4oG4Ead74xA)
-* [Michelson Tutorial Part 1 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/01)
-* [Michelson Tutorial Part 2 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/02)
-* [Michelson Tutorial Part 3 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/03)
-* [Michelson Tutorial Part 4 by CamlCase](https://gitlab.com/camlcase-dev/michelson-tutorial/tree/master/04)
-

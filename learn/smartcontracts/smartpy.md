@@ -8,7 +8,9 @@ Tezos has several popular high-level languages which offer more approachable syn
 
 Python is used to generate programs in an imperative, type inferred, and intermediate language called SmartML. SmartML is the name of the OCaml library that provides an interpreter, a compiler to Michelson, and a scenario “on-chain” interpreter. The platform uses a mix of OCaml translated to pure javascript through js\_of\_ocaml, Python, and Typescript to glue everything together. The command-line interface is also built using js\_of\_ocaml and runs on Node.js.
 
-### SmartPy Resources
+![An Overview of SmartPy](../../.gitbook/assets/1-cepxktvc4s5gcpf1yn4a6a.png)
+
+## SmartPy Resources
 
 * [SmartPy homepage](https://smartpy.io)
 * [SmartPy documentation](https://smartpy.io/reference.html)
