@@ -14,7 +14,7 @@ In practice, the rewards for token holders who delegate are less than that of ba
 
 ## How should I select a baker to delegate with? <a id="bakerselection"></a>
 
-First, use [Baking Bad](https://baking-bad.org/docs/where-to-stake-tezos) or [Tezos Nodes](https://tezos-nodes.com/) to browse through bakers. There are a few factors to consider when choosing a baker to delegate with:
+[Baking Bad](https://baking-bad.org/docs/where-to-stake-tezos) or [Tezos Nodes](https://tezos-nodes.com/) allow you to browse through bakers. There are a few factors to consider when choosing a baker to delegate with:
 
 1. **Fees**. How much of the rewards the baker is keeping? 
 2. **Capacity**. Each baker has a capacity of how many coins it can accept, which is based on how many coins it currently holds itself. A baker is "overdelegated" when it has exceeded the amount of delegation it can take considering the coins they currently hold.    
