@@ -24,7 +24,7 @@
   * [Michelson](smartcontracts/michelson.md)
   * [SmartPy](smartcontracts/smartpy.md)
   * [LIGO](smartcontracts/ligo.md)
-  * [Untitled](smartcontracts/untitled.md)
+  * [Morley/Lorentz & Archetype](smartcontracts/untitled.md)
   * [Formal Verification](smartcontracts/michelsonandcoq.md)
 * [Decentralized Finance \(DeFi\)](defi.md)
 * [Non-Fungible Tokens \(NFT\)](nft.md)

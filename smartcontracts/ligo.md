@@ -16,19 +16,6 @@ These syntaxes are transformed into an intermediate representation, which is typ
 * [LIGO documentation](https://ligolang.org/docs/intro/introduction)
 * [LIGO IDE](https://ide.ligolang.org/)
 
-**Morley / Lorentz / Indigo**
-
-[Morley](https://hackage.haskell.org/package/morley) is a Haskell-based framework for meta-programming Michelson smart contracts.
-
-**Lorentz Resources**
-
-* [Lorentz introductory blog post](https://serokell.io/blog/lorentz-implementing-smart-contract-edsl-in-haskell)
-* [Lorentz documentation](https://gitlab.com/morley-framework/morley/-/tree/1722a7ab667a407ce4ed225bb1e5bce8434bfe77/)
-
-**Archetype**
-
-[Archetype](https://archetype-lang.org) is a DSL for Tezos which facilitates formal verification and transcodes contracts to SmartPy and LIGO.
-
 ### **OCaml, the language of the Tezos protocol**
 
 The Tezos protocol is written in OCaml, a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. It is the technology of choice in companies where speed is crucial and a single mistake can cost millions. It has a large standard library, which makes it useful for many of the same applications as Python or Perl, and it has robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering. Many top companies use OCaml, including Facebook, Bloomberg, Docker, and Jane Street.

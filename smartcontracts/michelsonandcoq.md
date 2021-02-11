@@ -1,4 +1,4 @@
-# Formal Verification
+# Michelson and Coq
 
 ## Introduction <a id="intro"></a>
 
@@ -8,7 +8,7 @@ In contrast, programmers currently write unit tests to ensure that a program con
 
 However, the unit test approach may not be able to cover all possible inputs \(or edge cases\), and these may lead a program to failure. The solution to this is formal verification. Formal verification involves writing mathematical definitions of the program. To drawing on the same example given above, one may write a definition, "For every item j in a list, ensure that the element j ≤ j+1". This is a huge step-up from unit tests, as the correctness of the program is shown to be mathematically universal.
 
-## Michelson and GADTs <a id="gadt"></a>
+## Michelson with GADT <a id="gadt"></a>
 
 GADT stands for Generalized Algebraic Data Types. GADTs allow OCaml developers to describe rich relations between data constructors and the types they inhabit. Currently, the Michelson language uses GADT \(Generalized Algebraic Data Types\) for formal verification of types.
 
