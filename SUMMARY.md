@@ -16,7 +16,6 @@
   * [Setting up a secure Baker](learn/baking/setting-up-a-secure-baker.md)
   * [Key Baking Resources](learn/baking/key-baking-resources.md)
 * [Tezos Governance](learn/governance/README.md)
-  * [What is Self Amendment?](learn/governance/whatissa.md)
   * [Off-chain Governance](learn/governance/offchaingovernance.md)
   * [Past Tezos Amendments](learn/governance/past-tezos-amendments.md)
 * [Tezos and Functional Programming](learn/tezos-and-functional-programming.md)
