@@ -13,7 +13,7 @@
   * [The Tezos consensus algorithm](learn/proofofstake/consensus.md)
 * [Baking](learn/baking/README.md)
   * [Should I bake or delegate?](learn/baking/bakeordelegate.md)
-  * [Setting up a secure Baker](learn/baking/setting-up-a-secure-baker.md)
+  * [Setting up a Tezos Baker](learn/baking/setting-up-a-secure-baker.md)
   * [Key Baking Resources](learn/baking/key-baking-resources.md)
 * [Tezos Governance](learn/governance/README.md)
   * [Off-chain Governance](learn/governance/offchaingovernance.md)
