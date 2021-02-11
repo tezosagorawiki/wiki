@@ -21,37 +21,3 @@ In practice, the rewards for token holders who delegate are less than that of ba
 3. **Reliability + Responsiveness**. Does this baker pay out on time? Does this baker pay correctly? Will this baker respond to my questions about their services? Many bakers operate forums and chat rooms in which they engage with delegators.
 4. **Security**. Is this baker's staking setup secure? Does this baker have a track record? Has this baker double-baked in the past and lost coins?
 
-## Baking Resources <a id="resources"></a>
-
-### Baking Tools
-
-Now that you have a Tezos baker running, welcome to the ecosystem! There are more
-
-open-source tools available to automate processes and make your bakery running smoothly,
-
-including an automated reward distributor for your delegates and a remote signer for
-
-cloud-based HSMs such as Azure/ Amazon AWS.
-
-**Rewards Distribution Tools**
-
-* [https://github.com/tezos-reward-distributor-organization/tezos-reward-distributor](https://github.com/tezos-reward-distributor-organization/tezos-reward-distributor)
-* [https://github.com/cryptiumlabs/backerei](https://github.com/cryptiumlabs/backerei)
-* [https://github.com/TezosRio/taps](https://github.com/TezosRio/taps)
-* [https://github.com/dakk/tezpool](https://github.com/dakk/tezpool)
-* [https://github.com/figment-networks/tezos-batch-payments](https://github.com/figment-networks/tezos-batch-payments)
-
-**Remote Signers**
-
-* [Tezos Remote Signer](https://github.com/tacoinfra/remote-signer) - tacoinfra \(Github\)
-* [Tezos Remote Signer](https://gitlab.com/polychainlabs/tezos-hsm-signer) - Polychain Engineering \(Gitlab\)
-* [Tezos Remote Signer](https://github.com/tezzigator/azure-tezos-signer) \(Azure\) - Tezzigator \(Github\)
-* [Tezos Remote Signer](https://github.com/ecadlabs/signatory) - Signatory by ECAD Labs \(Github\)
-
-### Other Baking Resources
-
-* [Getting started with Tezos on the Ledger Nano S](https://medium.com/@obsidian.systems/getting-started-with-tezos-on-the-ledger-nano-s-c011517b0f3c)
-* [Expected Rewards from Solo Baking Tezos](https://medium.com/cryptium/coquito-tezem-ergo-sum-expected-rewards-from-solo-baking-tezos-fcb4616b97dc)
-* [Storing XTZ in Ledger Nano S while delegating](https://medium.com/cryptium/how-to-store-your-tezos-xtz-in-your-ledger-nano-s-and-delegate-with-tezbox-wallet-8fb4ac2d3355)
-* [Double Baking -- How a baker can lose it's XTZ](https://medium.com/cryptium/half-baked-is-always-better-than-double-baked-what-is-at-stake-in-the-tezos-protocol-6619ce4a5f87)
-
