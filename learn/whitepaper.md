@@ -255,7 +255,7 @@ Each block is mined by a random stakeholder \(the miner\) and includes multiple 
 
 The protocol unfolds in cycles of 4,096 blocks. At the beginning of each cycle, a random seed is derived from numbers that block miners chose and committed to in the penultimate cycle, and revealed in the last. Using this random seed, a follow the coin strategy is used to allocate migning rights and signing rights to a specific addresses for the next cycle.
 
-_Four cycles of the proof-of-stake mechanism:_ ![\*Four cycles of the proof-of-stake mechanism\*](.gitbook/assets/pos.png)
+_Four cycles of the proof-of-stake mechanism:_ ![\*Four cycles of the proof-of-stake mechanism\*](../.gitbook/assets/pos.png)
 
 #### Clock
 
