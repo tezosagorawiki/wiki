@@ -10,11 +10,11 @@ For a blockchain to make progress, new blocks must be created and added to chain
 
 Broadly, there are 2 classes of proof-of-stake algorithms:
 
-1. **Nakamoto-style Proof-of-Stake**
+#### **Nakamoto-style Proof-of-Stake**
 
-   As with Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain \(or heaviest chain, for some notion of weight\). However, instead of selecting a validator based on who solves the cryptographic puzzles first, the likelihood of selection is weighted according to how many coins they lock-up, that is, according to their "stake."
+As with Bitcoin, one validator is randomly selected in each time slot to create a block that builds on the longest chain \(or heaviest chain, for some notion of weight\). However, instead of selecting a validator based on who solves the cryptographic puzzles first, the likelihood of selection is weighted according to how many coins they lock-up, that is, according to their "stake."
 
-2. **Byzantine Fault Tolerant \(BFT\) -style Proof-of-Stake**
+#### **Byzantine Fault Tolerant \(BFT\) -style Proof-of-Stake**
 
-   Instead of a random validator getting the right to create a block which every other participant must accept, BFT systems introduce the idea of _proposing_ and _accepting_. Like in Nakamoto-style PoS, a \(possibly randomly\) selected validator \(weighted by stake\) is chosen to propose a block to the other validators. All the validators must communicate with each other until agreement is reached. Once validators are in agreement, they accept the block and it is finalized as the latest block.
+Instead of a random validator getting the right to create a block which every other participant must accept, BFT systems introduce the idea of _proposing_ and _accepting_. Like in Nakamoto-style PoS, a \(possibly randomly\) selected validator \(weighted by stake\) is chosen to propose a block to the other validators. All the validators must communicate with each other until agreement is reached. Once validators are in agreement, they accept the block and it is finalized as the latest block.
 
