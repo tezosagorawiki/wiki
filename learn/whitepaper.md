@@ -1,4 +1,4 @@
-# Tezos Whitepaper
+# Tezos White Paper
 
 ## Tezos Whitepaper
 

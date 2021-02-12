@@ -4,7 +4,7 @@
 
 ## Learn
 
-* [Tezos Whitepaper](learn/whitepaper.md)
+* [Tezos White Paper](learn/whitepaper.md)
 * [Tezos Position Paper](learn/positionpaper.md)
 * [Tezos Basics](learn/basics/README.md)
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
