@@ -6,7 +6,6 @@
 
 * [Tezos Whitepaper](learn/whitepaper.md)
 * [Tezos Position Paper](learn/positionpaper.md)
-* [Contribution Guide](learn/contributionguide.md)
 * [Tezos Basics](learn/basics/README.md)
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
 * [Proof-of-Stake](learn/proofofstake/README.md)
@@ -41,4 +40,5 @@
   * [ꜩ Tezos Wallets](learn/resources/wallets.md)
   * [Block Explorers](learn/resources/blockexplorer.md)
   * [Baking Services](learn/resources/bakingservices.md)
+* [Contribution Guide](learn/contributionguide.md)
 
