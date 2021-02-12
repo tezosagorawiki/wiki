@@ -1,6 +1,6 @@
 # Key Baking Resources
 
-### Baking Tools
+## Baking Tools
 
 There are many open-source tools available to automate processes and make your bakery running smoothly, including an automated reward distributor for your delegates and a remote signer for cloud-based HSMs such as Azure/ Amazon AWS.
 
@@ -19,7 +19,7 @@ There are many open-source tools available to automate processes and make your b
 * [Tezos Remote Signer](https://github.com/tezzigator/azure-tezos-signer) \(Azure\) - Tezzigator \(Github\)
 * [Tezos Remote Signer](https://github.com/ecadlabs/signatory) - Signatory by ECAD Labs \(Github\)
 
-### Other Baking Resources
+## Other Baking Resources
 
 * [Getting started with Tezos on the Ledger Nano S](https://medium.com/@obsidian.systems/getting-started-with-tezos-on-the-ledger-nano-s-c011517b0f3c)
 * [Expected Rewards from Solo Baking Tezos](https://medium.com/cryptium/coquito-tezem-ergo-sum-expected-rewards-from-solo-baking-tezos-fcb4616b97dc)
