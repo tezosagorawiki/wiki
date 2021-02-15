@@ -1,2 +1,2 @@
-# Contribution Guide
+# Wiki Contribution Guide
 
