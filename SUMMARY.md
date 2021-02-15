@@ -26,7 +26,7 @@
   * [Morley/Lorentz & Archetype](learn/smartcontracts/untitled.md)
   * [Formal Verification](learn/smartcontracts/michelsonandcoq.md)
 * [Decentralized Finance \(DeFi\)](learn/defi.md)
-* [Non-Fungible Tokens \(NFT\)](learn/nft.md)
+* [Non-Fungible Tokens \(NFTs\)](learn/nft.md)
 * [Decentralized Autonomous Organizations \(DAOs\)](learn/decentralized-autonomous-organizations-daos.md)
 * [Identity \(DID\)](learn/decentralizedidentity.md)
 * [Tokenization](learn/tokenization.md)
