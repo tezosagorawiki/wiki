@@ -4,13 +4,9 @@
 
 Tezos is a self-amending blockchain network which incorporates an on-chain mechanism for proposing, selecting, testing, and activating protocol upgrades without the need to hard fork.
 
-In simple terms, this means that Tezos is a blockchain that can improve itself over time by having a formalized process for protocol upgrades. In practice, this is similar to the structure of a corporation, where shareholders get to vote on the direction of the company.
-
-Many other blockchains do not have this type of formal governance structure, so the direction of these projects are often decided by a small group of developers or by a foundation, which may or may not represent all stakeholders fairly.
-
 ## How Does It Work? <a id="how"></a>
 
-The self amendment process is split into 4 periods: Proposal Period, Exploration Vote Period, Testing Period and Promotion Vote Period. Each of these four periods lasts eight baking cycles \(i.e. 32,768 blocks or roughly 22 days, 18 hours\), comprising almost exactly three months from proposal to activation.
+The self amendment process is split into 5 periods: Proposal Period, Exploration Vote Period, Testing Period and Promotion Vote Period. Each of these four periods lasts eight baking cycles \(i.e. 32,768 blocks or roughly 22 days, 18 hours\), comprising almost exactly three months from proposal to activation.
 
 Should there be any failure to proceed for a period, the whole process reverts to the Proposal Period, effectively restarting the whole process.
 

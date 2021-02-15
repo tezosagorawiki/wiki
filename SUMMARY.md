@@ -4,13 +4,13 @@
 
 ## Learn
 
-* [Tezos White Paper](learn/whitepaper.md)
-* [Tezos Position Paper](learn/positionpaper.md)
 * [Tezos Basics](learn/basics/README.md)
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
-* [Proof-of-Stake](learn/proofofstake/README.md)
-  * [The Tezos consensus algorithm](learn/proofofstake/consensus.md)
+  * [Tezos White Paper](learn/basics/whitepaper.md)
+  * [Tezos Position Paper](learn/basics/positionpaper.md)
 * [Baking](learn/baking/README.md)
+  * [Proof-of-Stake](learn/baking/proofofstake/README.md)
+    * [The Tezos consensus algorithm](learn/baking/proofofstake/consensus.md)
   * [Should I bake or delegate?](learn/baking/bakeordelegate.md)
   * [Setting up a Tezos Baker](learn/baking/setting-up-a-secure-baker.md)
   * [Key Baking Resources](learn/baking/key-baking-resources.md)
@@ -25,11 +25,12 @@
   * [LIGO](learn/smartcontracts/ligo.md)
   * [Morley/Lorentz & Archetype](learn/smartcontracts/untitled.md)
   * [Formal Verification](learn/smartcontracts/michelsonandcoq.md)
-* [Decentralized Finance \(DeFi\)](learn/defi.md)
-* [Non-Fungible Tokens \(NFTs\)](learn/nft.md)
-* [Decentralized Autonomous Organizations \(DAOs\)](learn/decentralized-autonomous-organizations-daos.md)
-* [Identity \(DID\)](learn/decentralizedidentity.md)
-* [Tokenization](learn/tokenization.md)
+* [Uses of Tezos](learn/uses-of-tezos/README.md)
+  * [Tokenization](learn/uses-of-tezos/tokenization.md)
+  * [Identity \(DID\)](learn/uses-of-tezos/decentralizedidentity.md)
+  * [Decentralized Autonomous Organizations \(DAOs\)](learn/uses-of-tezos/decentralized-autonomous-organizations-daos.md)
+  * [Non-Fungible Tokens \(NFTs\)](learn/uses-of-tezos/nft.md)
+  * [Decentralized Finance \(DeFi\)](learn/uses-of-tezos/defi.md)
 * [Built on Tezos](learn/builtontezos.md)
 * [Future Developments](learn/futuredevelopments/README.md)
   * [Privacy](learn/futuredevelopments/privacy.md)
@@ -40,5 +41,12 @@
   * [ꜩ Tezos Wallets](learn/resources/wallets.md)
   * [Block Explorers](learn/resources/blockexplorer.md)
   * [Baking Services](learn/resources/bakingservices.md)
-* [Contribution Guide](learn/contributionguide.md)
+
+---
+
+* [Contribution Guide](contributionguide.md)
+
+## Build
+
+* [Untitled](build/untitled.md)
 
