@@ -42,11 +42,11 @@
   * [Block Explorers](learn/resources/blockexplorer.md)
   * [Baking Services](learn/resources/bakingservices.md)
 
----
-
-* [Wiki Contribution Guide](contributionguide.md)
-
 ## Build
 
 * [Untitled](build/untitled.md)
+
+## Contribute
+
+* [Wiki Contribution Guide](contribute/contributionguide.md)
 

@@ -6,7 +6,7 @@ Tezos is a self-amending blockchain network which incorporates an on-chain mecha
 
 ## How Does It Work? <a id="how"></a>
 
-The self amendment process is split into 5 periods: Proposal Period, Exploration Vote Period, Testing Period and Promotion Vote Period. Each of these four periods lasts eight baking cycles \(i.e. 32,768 blocks or roughly 22 days, 18 hours\), comprising almost exactly three months from proposal to activation.
+The self amendment process is split into 5 periods: Proposal Period, Exploration Vote Period, Testing Period, Promotion Vote Period, and Adoption Period. Each of these four periods lasts five baking cycles \(i.e.  20,480 blocks or roughly 14 days, 5 hours\), comprising roughly 2 months and 10 days.
 
 Should there be any failure to proceed for a period, the whole process reverts to the Proposal Period, effectively restarting the whole process.
 
@@ -41,4 +41,8 @@ At the end of the Testing Period, the Promotion Vote Period begins. In this peri
 At the end of the Promotion Vote Period, the network counts the number of votes. If the participation rate reaches the minimum quorum and an 80% supermajority of non-abstaining bakers votes “Yay,” then the proposal is activated as the new mainnet. Otherwise, the process once more reverts back to the Proposal Period. The minimum vote participation rate is set based on past participation rates.
 
 See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
+
+### 5. Adoption Period
+
+The Adoption Period provides a "cool-down" allowing developers and bakers some additional time to adapt their code and infrastructure to the upgrade based on the results of the Promotion Vote Period.
 
