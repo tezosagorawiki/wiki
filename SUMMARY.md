@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Welcome to the Tezos Agora Wiki!](README.md)
+* [Tezos White Paper](whitepaper.md)
+* [Tezos Position Paper](positionpaper.md)
 
 ## Learn
 
 * [Tezos Basics](learn/basics/README.md)
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
-  * [Tezos White Paper](learn/basics/whitepaper.md)
-  * [Tezos Position Paper](learn/basics/positionpaper.md)
 * [Baking](learn/baking/README.md)
   * [Proof-of-Stake](learn/baking/proofofstake/README.md)
     * [The Tezos consensus algorithm](learn/baking/proofofstake/consensus.md)
