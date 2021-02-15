@@ -10,8 +10,6 @@ The self amendment process is split into 5 periods: Proposal Period, Exploration
 
 Should there be any failure to proceed for a period, the whole process reverts to the Proposal Period, effectively restarting the whole process.
 
-![](../../.gitbook/assets/self-amendment.png)
-
 ### 1. Proposal Period
 
 The Tezos amendment process begins with the Proposal Period, during which bakers can submit proposals on-chain. The baker submits the proposal by submitting the hash of the source code.
