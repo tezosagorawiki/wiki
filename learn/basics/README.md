@@ -1,6 +1,4 @@
-# Tezos Basics
-
-## What is Tezos? <a id="intro"></a>
+# What is Tezos?
 
 Tezos is an open-source, blockchain-based cryptocurrency and a smart contracts platform for asset settlement and decentralized applications \(dApps\) which benefit from censorship resistance, decentralization, or user-control.
 
