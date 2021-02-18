@@ -6,7 +6,7 @@
 
 ## Learn
 
-* [What is Tezos?](learn/basics/README.md)
+* [Intro to Tezos](learn/basics/README.md)
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
 * [Baking](learn/baking/README.md)
   * [Proof-of-Stake](learn/baking/proofofstake/README.md)
