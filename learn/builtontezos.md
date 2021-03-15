@@ -66,10 +66,6 @@ Currently under development by [Bender Labs](https://github.com/tezosagorawiki/w
 
 **tzBTC**
 
-**ETHtz**
-
-**LTCtz**
-
 #### Price Prediction Markets
 
 A list of price prediction tools and markets on Tezos.
