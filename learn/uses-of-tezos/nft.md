@@ -18,7 +18,7 @@ Recently, NFTs have been a powerful primitive demonstrating usefulness in the cr
 
 ## Tools and Applications
 
-* [Hic et nunc](https://www.hicetnunc.xyz/) - an open NFT platform for artists
+* \*\*\*\*[**Hicetnunc**](https://www.hicetnunc.xyz/) - an open NFT platform for artists
 * [**Kalamint**](https://kalamint.io/) - A community owned NFT marketplace on Tezos.
 * [**OpenMinter**](https://github.com/tqtezos/minter) ****and [**Minter-SDK**](https://github.com/tqtezos/minter-sdk) - A reusable dApp and SDK that allows anyone to create, collect, sell, or swap NFTs on Tezos.
 * \*\*\*\*[**tzcolors**](https://www.tzcolors.io)\*\*\*\*
