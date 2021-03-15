@@ -38,7 +38,7 @@ The Delphi [proposal](https://forum.tezosagora.org/t/delphi-psdelph1k/2157) was 
 
 Notable changes included improving the performance of the Michelson interpreter, improving gas costs by adjusting the gas model, reducing storage costs by 4x, and various other small fixes. 
 
-Delphi was autonomously [activated](https://twitter.com/tezos/status/1326877616322859009?s=20) onto the protocol in November 2020. 
+Delphi was autonomously [activated](https://twitter.com/tezos/status/1326877616322859009?s=20) as the new Tezos protocol in November 2020. 
 
 For a full list of changes be sure to read the corresponding [changelog](https://blog.nomadic-labs.com/delphi-changelog.html#007-delphi-changelog) and blog post from [Nomadic Labs](https://blog.nomadic-labs.com/delphi-official-release.html). 
 
@@ -52,4 +52,10 @@ Edo adds two major features for Tezos smart contracts
 * Tickets for native on-chain permissions and asset issuance
 
 Among other features, Edo also updates the Tezos amendment process by lowering period length to 5 cycles and by adding a 5th Adoption Period. A full changelog is available [here](https://tezos.gitlab.io/protocols/008_edo.html)
+
+Edo was [activated](https://www.tezosagora.org/period/40) as the new Tezos protocol in February 2021.
+
+## [Florence](https://www.tezosagora.org/proposal/11) \(PsFLorena\)
+
+
 
