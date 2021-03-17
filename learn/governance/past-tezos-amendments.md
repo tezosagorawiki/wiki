@@ -57,5 +57,14 @@ Edo was [activated](https://www.tezosagora.org/period/40) as the new Tezos proto
 
 ## [Florence](https://www.tezosagora.org/proposal/11) \(PsFLorena\)
 
+The Florence proposal was a joint effort from Nomadic Labs, Marigold, DaiLambda, and Tarides.
 
+Florence's notable bug fixes and improvements are:
+
+* Increasing maximum operation size
+* Improved gas consumption for execution of more complex smart contracts
+* Changing intercontract calls to a depth first ordering, as opposed to breadth first
+* The elimination of the test chain activation
+
+Baking Accounts were also included in the feature set, however, ongoing testing had uncovered some important and previously undocumented breaking changes in the Baking Account proposal. Baking Accounts should be postponed until a thorough audit of functionality is complete, or an alternative implementation produced. The version of Florence without Baking Accounts is considered a safer choice.
 
