@@ -8,8 +8,20 @@ A decentralized autonomous organization is a collective of individuals or organi
 
 ## Standards and Resources
 
-* [BaseDAO](https://github.com/tqtezos/baseDAO) - a smart contract framework enabling anyone to create a DAO on Tezos for the decentralized governance of resources, registries, or rules.
-* [Homebase](https://tqtezos.medium.com/daos-on-tezos-announcing-homebase-80bbecbb9bfe) - a user interface for DAOs, built to empower developers and communities to launch and participate in Tezos-based DAOs.
+As the number of decentralized applications and community initiatives in the Tezos ecosystem grows, so does the need for community governance and, of course, DAOs.
+
+Within the Tezos ecosystem, the following smart contract frameworks enable anyone to create and interact with DAOs:
+
+* [BaseDAO](https://github.com/tqtezos/baseDAO) is a smart contract framework enabling anyone to create a DAO on Tezos for the decentralized governance of resources, registries, or rules 
+* [Homebase](https://tqtezos.medium.com/daos-on-tezos-announcing-homebase-80bbecbb9bfe) is a user interface for DAOs, built to empower developers and communities to launch and participate in Tezos-based DAOs
+
+Homebase also provides DAO participants a dashboard to create and vote on proposals that can modify or upgrade governed smart contracts. Below is a preview of Homebase's intuitive UI for creating and interacting with DAOs created using the BaseDAO framework. The interface enables DAO creators to spin up DAOs based on several templates, select parameters of the governance process \(e.g. quorum\) and allocate an initial distribution of the DAO’s native token. It will also include integration with exciting new Tezos capabilities like [Tezos Domains](https://docs.tezos.domains/).
+
+![Homebase UI](../../.gitbook/assets/image%20%284%29.png)
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+Over the coming weeks and months, we’ll be enhancing and extending these templates for new exciting applications such as fractional ownership of NFTs and DAOs for simple off-chain vote signaling.
 
 ## DAO Examples
 
