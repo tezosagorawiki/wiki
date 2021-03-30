@@ -2,7 +2,7 @@
 
 ## Tezos Whitepaper
 
-[_Whitepaper PDF_](https://tezos.com/static/white_paper-2dc8c02267a8fb86bd67a108199441bf.pdf)
+\_\_[_Whitepaper PDF_](https://tezos.com/assets/files/whitepaper-d0cd272790ed3ba5951b30d019db2013.pdf)\_\_
 
 #### Table of Contents
 
@@ -18,7 +18,7 @@
 
 In the first part of this paper, we will discuss the concept of abstract blockchains and the implementation of a self-amending crypto-ledger. In the second part, we will describe our proposed seed protocol.
 
-## Self-amending cryptoledger <a id="self-amending"></a>
+## Self-amending Cryptoledger <a id="self-amending"></a>
 
 A blockchain protocol can be decomposed into three distinct protocols:
 
