@@ -51,7 +51,7 @@ Edo adds two major features for Tezos smart contracts
 * Sapling and BLS12-381 to enable privacy-preserving smart contracts
 * Tickets for native on-chain permissions and asset issuance
 
-Among other features, Edo also updates the Tezos amendment process by lowering period length to 5 cycles and by adding a 5th Adoption Period. A full changelog is available [here](https://tezos.gitlab.io/protocols/008_edo.html)
+Among other features, Edo also updates the Tezos amendment process by lowering period length to 5 cycles and by adding a 5th Adoption Period. A full changelog is available [here](https://tezos.gitlab.io/protocols/008_edo.html).
 
 Edo was [activated](https://www.tezosagora.org/period/40) as the new Tezos protocol in February 2021.
 
@@ -66,5 +66,7 @@ Florence's notable bug fixes and improvements are:
 * Changing intercontract calls to a depth first ordering, as opposed to breadth first
 * The elimination of the test chain activation
 
-Baking Accounts were also included in the feature set, however, ongoing testing had uncovered some important and previously undocumented breaking changes in the Baking Account proposal. Baking Accounts should be postponed until a thorough audit of functionality is complete, or an alternative implementation produced. The version of Florence without Baking Accounts is considered a safer choice.
+Baking Accounts were also included in the feature set, however, ongoing testing had uncovered some important and previously undocumented breaking changes in the Baking Account proposal. Baking Accounts should be postponed until a thorough audit of functionality is complete, or an alternative implementation produced. [The version of Florence without Baking Accounts is considered a safer choice.](https://blog.nomadic-labs.com/baking-accounts-proposal-contains-unexpected-breaking-changes.html)
+
+A full changelog is available [here](http://doc.tzalpha.net/protocols/009_florence.html). 
 
