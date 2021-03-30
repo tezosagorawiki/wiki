@@ -46,7 +46,7 @@
 
 ## Build
 
-* [Untitled](build/untitled.md)
+* [Build on Tezos](build/untitled.md)
 
 ## Contribute
 
