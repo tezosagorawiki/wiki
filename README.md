@@ -4,7 +4,7 @@ The Tezos Agora Wiki is a place to get started and learn about Tezos. It also ai
 
 ## Contribute
 
-This wiki aspires to be a living document that evolves alongside the Tezos protocol and ecosystem.
+This wiki aspires to be a living document that will evolve alongside the Tezos protocol and ecosystem.
 
 To propose a change to the wiki, submit an issue or make a merge request to [**this GitHub repository**](https://github.com/tezosagorawiki/wiki).
 
