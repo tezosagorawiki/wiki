@@ -2,7 +2,7 @@
 
 Tezos \(the tez\) is a currency first, a smart contract platform second. Tezos is smart money, redefining what it means to hold and exchange value in a digitally connected world. A self-upgradable blockchain with a proven track record, Tezos seamlessly adopts tomorrow's innovations without network disruptions today. 
 
-Tezos is also built to incentivize developers, any developer can submit a protocol upgrade with an invoice attached and the community of Bakers \(validators\) will be able to vote on the protocol upgrade with it’s formal built in governance mechanism.
+Tezos is also built to incentivize developers, any developer can submit a protocol upgrade with an invoice attached and the community of Bakers \(validators\) will be able to vote on the protocol upgrade with it’s formal built-in governance mechanism.
 
 **Use Cases**
 
