@@ -6,11 +6,7 @@ Pull requests, discussions, and contributions from the community are highly enco
 
 ## How to Contribute:
 
-Contributing to the Tezos Agora Wiki is easy with a GitHub account. Every page is a MarkDown file, which is an easy-to-learn syntax extension to plain text that makes creating links, rendering images, and nice-looking formatting simple. We recommend that you familiarize yourself with GitHub before starting.
-
-Each page has an "Edit" button in the top right corner. By clicking this button you are taken to the GitHub sign-in page, where you can either “Log in” or “Create an Account”.
-
-Once you’re logged in, you'll be taken to the GitHub text editor in which you can make your edits directly. When you have completed your changes, you can add any specific details on what was changed and commit to a new branch to create a new “Pull Request” to the repository. From there one of the maintainers will either merge it in or request changes very soon.
+Coming soon.
 
 ## Rules:
 
