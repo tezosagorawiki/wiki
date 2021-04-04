@@ -39,10 +39,6 @@
   * [Consensus](learn/futuredevelopments/fdconsensus.md)
   * [Layer 2](learn/futuredevelopments/layer2.md)
   * [Governance](learn/futuredevelopments/fdgovernance.md)
-* [Resources](learn/resources/README.md)
-  * [ꜩ Tezos Wallets](learn/resources/wallets.md)
-  * [Block Explorers](learn/resources/blockexplorer.md)
-  * [Baking Services](learn/resources/bakingservices.md)
 
 ## Build
 
@@ -57,6 +53,10 @@
   * [Create your first dApp](build/dapp-development/create-your-first-dapp.md)
 * [Create a Tezos Token](build/create-a-tezos-token.md)
 * [Integrate tez & Tokens](build/integrate-tez-and-tokens.md)
+* [Resources](build/resources/README.md)
+  * [ꜩ Tezos Wallets](build/resources/wallets.md)
+  * [Block Explorers](build/resources/blockexplorer.md)
+  * [Baking Services](build/resources/bakingservices.md)
 
 ## Contribute
 
