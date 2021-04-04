@@ -46,7 +46,17 @@
 
 ## Build
 
-* [Build on Tezos](build/untitled.md)
+* [Tezos Clients](build/untitled/README.md)
+  * [Block Explorers](build/untitled/block-explorers.md)
+  * [Testnets](build/untitled/testnets.md)
+  * [Getting tez](build/untitled/getting-tez.md)
+* [Blockchain Indexers](build/blockchain-indexers.md)
+* [dApp Development](build/dapp-development/README.md)
+  * [Taquito](build/dapp-development/taquito.md)
+  * [Beacon Wallet](build/dapp-development/beacon-wallet.md)
+  * [Create your first dApp](build/dapp-development/create-your-first-dapp.md)
+* [Create a Tezos Token](build/create-a-tezos-token.md)
+* [Integrate tez & Tokens](build/integrate-tez-and-tokens.md)
 
 ## Contribute
 
