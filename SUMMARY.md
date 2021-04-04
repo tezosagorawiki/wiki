@@ -42,10 +42,10 @@
 
 ## Build
 
-* [Tezos Clients](build/untitled/README.md)
-  * [Block Explorers](build/untitled/block-explorers.md)
-  * [Testnets](build/untitled/testnets.md)
-  * [Getting tez](build/untitled/getting-tez.md)
+* [Tezos Clients](build/clients/README.md)
+  * [Block Explorers](build/clients/block-explorers.md)
+  * [Testnets](build/clients/testnets.md)
+  * [Getting tez](build/clients/getting-tez.md)
 * [Blockchain Indexers](build/blockchain-indexers.md)
 * [dApp Development](build/dapp-development/README.md)
   * [Taquito](build/dapp-development/taquito.md)
