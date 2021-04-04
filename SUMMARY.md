@@ -60,5 +60,5 @@
 
 ## Contribute
 
-* [Wiki Contribution Guide](contribute/contributionguide.md)
+* [How to Contribute](contribute/contributionguide.md)
 
