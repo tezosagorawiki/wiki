@@ -24,7 +24,10 @@
   * [Michelson](learn/smartcontracts/michelson.md)
   * [SmartPy](learn/smartcontracts/smartpy.md)
   * [LIGO](learn/smartcontracts/ligo.md)
-  * [Morley/Lorentz](learn/smartcontracts/untitled.md)
+  * [Morley](learn/smartcontracts/morley.md)
+  * [Lorentz](learn/smartcontracts/lorentz.md)
+  * [Indigo](learn/smartcontracts/indigo.md)
+  * [Cleveland](learn/smartcontracts/cleveland.md)
   * [Archetype](learn/smartcontracts/archetype.md)
   * [Formal Verification](learn/smartcontracts/michelsonandcoq.md)
 * [Uses of Tezos](learn/uses-of-tezos/README.md)
@@ -61,4 +64,3 @@
 ## Contribute
 
 * [How to Contribute](contribute/contributionguide.md)
-
