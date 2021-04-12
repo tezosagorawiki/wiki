@@ -2,7 +2,7 @@
 
 ## What is Tezos? <a id="xtz"></a>
 
-Tezos is an open-source, blockchain-based cryptocurrency and a smart contracts platform for asset settlement and decentralized applications \(dApps\) which benefit from censorship resistance, decentralization, or user-control.
+Tezos is an open-source, community-governed, blockchain network capable of running complex smart contracts for asset settlement and decentralized applications \(dApps\) which benefit from censorship resistance, decentralization, and user-control.
 
 ## What is XTZ? <a id="xtz"></a>
 
@@ -22,7 +22,7 @@ XTZ, tez, or ꜩ \(`\ua729`, "Latin small letter tz"\) is the native currency of
 
 2. **Proof-of-Stake**
 
-   Baking is to Tezos what mining is to Bitcoin. Participants \(i.e. "nodes"\) in Tezos provide the computational resources necessary to maintain the availability and integrity of the Tezos network. Proof-of-Stake \(PoS\) is the mechanism by which Tezos participants reach consensus on the state of the blockchain. This is in contrast, for example, with Bitcoin, in which the consensus mechanism is based on proof-of-work \(i.e. mining\).
+   Like other Cryptocurrencies, Tezos is powered by a decentralized network of nodes. Participants \(i.e. "nodes"\) in Tezos provide the computational resources necessary to maintain the availability and integrity of the Tezos network. Proof-of-Stake \(PoS\) is the mechanism by which Tezos participants reach consensus on the state of the blockchain. This is in contrast, for example, with Bitcoin, in which the consensus mechanism is based on proof-of-work \(i.e. mining\).
 
    Tezos' proof-of-stake based mechanism is known as baking and features optional delegation, allowing any stakeholder to participate in consensus without giving up custody of their tokens. Tezos' approach to consensus has been described as [Liquid Proof of Stake](https://medium.com/tezos/liquid-proof-of-stake-aec2f7ef1da7). Tezos allows its stakers \(a.k.a. delegators\) to earn rewards by delegating their tez coins without any lock-in or freeze mechanism. This gives the "liquid" nature to Tezos's proof-of-stake implementation.
 
@@ -32,7 +32,7 @@ XTZ, tez, or ꜩ \(`\ua729`, "Latin small letter tz"\) is the native currency of
 
 3. **Smart Contract Security and Formal Verification**
 
-   While no system can be universally or unconditionally secure, Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind.
+   Tezos and its smart contract language, Michelson, were designed with security and formal verification in mind.
 
    Formal verification allows developers to mathematically prove that code performs correctly, according to its formal specification or certain properties. This is well-suited to financial smart contracts representing significant real-world value \(e.g. tokenized assets, loans, etc.\), which require guarantees that funds will not be lost or frozen due to bugs in the code.
 
@@ -44,6 +44,7 @@ XTZ, tez, or ꜩ \(`\ua729`, "Latin small letter tz"\) is the native currency of
 * Technical roadmaps \(or lack thereof\) are determined by a small group, who may or may not have interests aligned with the larger network.
 * Upgrades often require every node operator to download and run new software \(hard fork\). This requires mass coordination over social media or other channels to notify users of the new change. Because of the high cost of coordination, upgrades are often bundled together and pushed infrequently.
 * The miners \(or validators\) of a network can have incentives misaligned with the overall network.
+* Using informal governance, as opposed to formal governance, often leads to discoordination and conflict between ecosystem stakeholders. 
 
 How \(or if\) a network addresses these challenges **determines a network's evolution** and **impacts all projects that build on top**.
 
