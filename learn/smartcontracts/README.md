@@ -3,17 +3,17 @@
 In this section, we explain what makes smart contracts on Tezos unique, and go over the powerful high-level languages you can choose from to write those smart contracts.
 
 1. [Michelson](michelson.md)
-1. [SmartPy](smartpy.md)
-1. [LIGO](ligo.md)
-1. [Morley framework](morley-framework.md)
-  1. [Morley](morley-framework.md#morley)
-  1. [Lorentz](morley-framework.md#lorentz)
-  1. [Indigo](morley-framework.md#indigo)
-  1. [Cleveland](morley-framework.md#cleveland)
-1. [Archetype](archetype.md)
-1. [Formal Verification for Smart Contracts](michelsonandcoq.md)
+2. [SmartPy](smartpy.md)
+3. [LIGO](ligo.md)
+4. [Morley framework](morley-framework/)
+   1. [Morley](morley-framework/#morley)
+   2. [Lorentz](morley-framework/#lorentz)
+   3. [Indigo](morley-framework/#indigo)
+   4. [Cleveland](morley-framework/#cleveland)
+5. [Archetype](archetype.md)
+6. [Formal Verification for Smart Contracts](michelsonandcoq.md)
 
-### Tezos Smart Contracts Overview
+## Tezos Smart Contracts Overview
 
 Smart contracts are programs that are stored on the blockchain. Once a pre-defined condition in the code is met, the smart contract will execute its functions. While this may sound no different than regular code, the key distinction is that following execution, the smart contract interacts with the blockchain, which then ensures that the transaction takes place in a fully distributed, and trustless environment.
 
@@ -23,7 +23,7 @@ Tezos offers a platform to create smart contracts and build decentralized applic
 
 Since Tezos was designed from the ground up to facilitate formal verification, it helps avoid costly bugs and the contentious debates that follow them.
 
-
-### High-Level Languages of Tezos
+## High-Level Languages of Tezos
 
 Tezos has several popular high-level languages which offer more approachable syntaxes and familiar developer experience \(e.g. local variables\) compared to writing Michelson directly. While Michelson is the domain-specific smart contract language that was developed for Tezos, SmartPy and LIGO are the most popular and widely-supported languages for writing Tezos smart contracts.
+
