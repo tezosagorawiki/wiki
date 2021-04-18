@@ -11,7 +11,5 @@ Here are some commonly used Tezos block explorers:
 3. [TzKT](https://tzkt.io/)
 4. [TezTracker](https://teztracker.com/en/mainnet/)
 
-{% page-ref page="testnets.md" %}
-
 
 
