@@ -6,7 +6,7 @@ Pull requests, discussions, and contributions from the community are highly enco
 
 ## How to Contribute:
 
-Coming soon.
+To propose a change to the wiki, submit an issue or make a merge request to [**this GitHub repository**](https://github.com/tezosagorawiki/wiki). 
 
 ## Rules:
 
