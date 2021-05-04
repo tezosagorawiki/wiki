@@ -26,11 +26,11 @@ At the end of the Exploration Vote Period, the network counts the votes. If voti
 
 The voting participation target tries to match the exponential moving average of the past participation rate. If the voting participation fails to achieve the target or the 80% supermajority are not met, the amendment process restarts to the beginning of the Proposal Period
 
-### 3. Testing Period
+### 3. Cooldown Period
 
-If the proposal is approved in the Exploration Vote Period, the Testing Period begins with a testnet fork that runs in parallel to the main network for 48 hours. These forks have access to the standard library, but are sandboxed.
+Previously, during the voting process, a test chain would be spun up during the “testing period” which took place between the exploration and promotion voting periods. The intent was that this test chain be used to assure that the new proposal worked correctly, but in practice, the test chain has never been used in this manner, and has caused significant operational problems to node operators.
 
-This Testing Period is used to determine whether a proposal is a worthy amendment to the protocol. The testnet fork ensures the upgrade does not corrupt the blockchain network, should the upgrade be adopted, the network would continue making valid state transitions.
+The Florence upgrade eliminates the test chain activation; the testing period has been retained but is now named the “cooldown period”. Instead, testing the protocol continues by using test chains that operate outside of the mainnet voting process.
 
 ### 4. Promotion Vote Period
 
