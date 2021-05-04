@@ -2,7 +2,7 @@
 
 ## Tezos Whitepaper
 
-\_\_[_Whitepaper PDF_](https://tezos.com/assets/files/whitepaper-d0cd272790ed3ba5951b30d019db2013.pdf)\_\_
+\_\_[_Whitepaper PDF_](https://tezos.com/whitepaper.pdf)\_\_
 
 #### Table of Contents
 
