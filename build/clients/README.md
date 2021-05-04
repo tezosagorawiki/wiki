@@ -2,7 +2,7 @@
 
 ## CLI and RPC
 
-### Connecting to the network[\#](https://opentezos.com/tezos-basics/cli-and-rpc#connecting-to-the-network)
+### Connecting to the network
 
 The _tezos-client_ and Tezos RPC need to be connected to a Tezos node. You can connect to your own [tezos node](https://opentezos.com/deploy-a-node/introduction) or you can use a community node on the Tezos mainnet or testnet.
 
@@ -10,7 +10,7 @@ You can find a list of community nodes [here](https://tezostaquito.io/docs/rpc_n
 
 If you use a testnet you can download a free faucet file with test XTZ on it [here](https://faucet.tzalpha.net/).
 
-### Tezos RPC \(Remote Procedure Call\)[\#](https://opentezos.com/tezos-basics/cli-and-rpc#tezos-rpc-remote-procedure-call)
+### Tezos RPC \(Remote Procedure Call\)
 
 RPC [\[1\]](https://opentezos.com/tezos-basics/introduction_to_cli_and_rpc#references) is a client-server protocol where the requesting program is the client and the program providing the service is the server.
 
@@ -18,25 +18,25 @@ Tezos nodes provide a JSON/RPC interface to interact with the Tezos network. Not
 
 A complete list of RPC calls is available [here](http://tezos.gitlab.io/shell/rpc.html#rpc-index-shell). Make sure to check the protocol version before using these calls. The calls available in the Edo protocol are available [here](http://tezos.gitlab.io/008/rpc.html#id1).
 
-#### RPC call examples[\#](https://opentezos.com/tezos-basics/cli-and-rpc#rpc-call-examples)
+#### RPC call examples
 
-**Get block\#**
+**Get block**
 
 This call is used to find all the information about a block. The associated metadata may not be present depending on the history mode and block's distance from the head.GET NodeUrl/chains/\[chain\_id\]/blocks/\[blocks\_id\]Copy
 
 Example: To get the block number _1400114_ from the mainnet using giganode, do as follows:GET https://mainnet-tezos.giganode.io/chains/main/blocks/1400114Copy
 
-**Get contract storage\#**
+**Get contract storage**
 
 This call is used to access the storage of the contract.GET NodeUrl/chains/\[chain\_id\]/blocks/\[blocks\_id\]/context/contracts/\[contract\_id\]/storageCopy
 
 Example: To get the storage of contract _KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9_ from block number _1400114_ on the mainnet using giganode, do as follows:GET https://mainnet-tezos.giganode.io/chains/main/blocks/1400114/context/contracts/KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9/storageCopy
 
-### Tezos-client \(CLI\)[\#](https://opentezos.com/tezos-basics/cli-and-rpc#tezos-client-cli)
+### Tezos-client \(CLI\)
 
 _Tezos-client_ is the official client when interacting with a Tezos node via RPC. Let's take a look at some examples and how to use it.
 
-#### How to install[\#](https://opentezos.com/tezos-basics/cli-and-rpc#how-to-install)
+#### How to install
 
 * On Mac OS with [Homebrew](https://brew.sh/):
 
@@ -52,13 +52,13 @@ $ dnf copr enable -y @Serokell/Tezos && dnf update -y$ dnf install -y tezos-clie
 
 * [From sources with OPAM](https://tezos.gitlab.io/introduction/howtoget.html#building-from-sources-via-opam).
 
-#### Account activation[\#](https://opentezos.com/tezos-basics/cli-and-rpc#account-activation)
+#### Account activation
 
 Activate your account by replacing `#accountName` and `#faucet` below with an account name and the path to your downloaded faucet file.$ tezos-client activate account \#accountName with ~/Downloads/\#faucet.jsonCopy
 
 Example :$ tezos-client activate account user1 with ~/Downloads/tz1VH3sHQ5SNby95S9EtPQBqZrhgv2DqjPvy.jsonCopy
 
-#### Client manual[\#](https://opentezos.com/tezos-basics/cli-and-rpc#client-manual)
+#### Client manual
 
 * For global options
 
@@ -74,27 +74,27 @@ $ tezos-client --versionCopy
 
 The full documentation on _Tezos-client_ can be found [here](https://tezos.gitlab.io/008/cli-commands.html#cli-commands).
 
-#### Client examples[\#](https://opentezos.com/tezos-basics/cli-and-rpc#client-examples)
+#### Client examples
 
 This is a non-exhaustive list of possible commands with _tezos-client_. To discover more commands please refer to the [CLI manual](https://tezos.gitlab.io/008/cli-commands.html#cli-commands).
 
-**Get balance\#**
+**Get balance**
 
 To get the balance of your account you can execute the following command:$ tezos-client get balance for \#accountNameCopy
 
-**Get timestamp\#**
+**Get timestamp**
 
 This call is useful to check if the node is synchronized. It returns the UTC time of the latest downloaded block, timezones may differ from your local time.$ tezos-client get timestampCopy
 
-**List known addresses\#**
+**List known addresses**
 
 This call lists implicit accounts registered in your _tezos-client_.$ tezos-client list known addressesCopy
 
-**List known contracts\#**
+**List known contracts**
 
 This call lists all accounts \(implicit and smart contract\) registered in your _tezos-client_.$ tezos-client list known contractsCopy
 
-**Transfers and receipts\#**
+**Transfers and receipts**
 
 The command line below makes a transaction of 42ꜩ from the account _user1_ to _user2_ \(you can also just use the tezos addresses directly\):$ tezos-client transfer 30 from user1 to user2 --burn-cap 0.5Copy
 
@@ -112,7 +112,7 @@ You can observe your actions on the block explorers :
 
 There is a dedicated module on [How to use an explorer](https://opentezos.com/explorer) if you want to learn more.
 
-### Tezos-admin-client[\#](https://opentezos.com/tezos-basics/cli-and-rpc#tezos-admin-client)
+### Tezos-admin-client
 
 The admin client allows you to interact with the peer-to-peer layer in order to:
 
@@ -120,7 +120,7 @@ The admin client allows you to interact with the peer-to-peer layer in order to:
 * force connections to known peers
 * ban/un-ban peers
 
-#### How to install[\#](https://opentezos.com/tezos-basics/cli-and-rpc#how-to-install-1)
+#### How to install
 
 * On Mac OS with [Homebrew](https://brew.sh/):
 
@@ -136,7 +136,7 @@ $ dnf copr enable -y @Serokell/Tezos && dnf update -y$ dnf install -y tezos-admi
 
 * [From sources with OPAM](https://tezos.gitlab.io/introduction/howtoget.html#building-from-sources-via-opam).
 
-#### Admin-client manual[\#](https://opentezos.com/tezos-basics/cli-and-rpc#admin-client-manual)
+#### Admin-client manual
 
 * Global options:
 
@@ -152,11 +152,11 @@ $ tezos-admin-client --versionCopy
 
 The full documentation on Tezos-admin-client can be found [here](https://tezos.gitlab.io/shell/cli-commands.html).
 
-#### Admin-client examples[\#](https://opentezos.com/tezos-basics/cli-and-rpc#admin-client-examples)
+#### Admin-client examples
 
 This is a non-exhaustive list of possible commands with tezos-admin-client. To discover more commands please refer to the [CLI manual](https://tezos.gitlab.io/shell/cli-commands.html).
 
-**Commands for the low level RPC layer\#**
+**Commands for the low level RPC layer**
 
 * List RPCs under a given URL prefix:
 
@@ -174,7 +174,7 @@ $ tezos-admin-client rpc get \[url\]Copy
 
 $ tezos-admin-client list protocolsCopy
 
-**Commands for managing protocols\#**
+**Commands for managing protocols**
 
 * List protocols known by the node:
 
@@ -184,13 +184,13 @@ $ tezos-admin-client rpc post \[url\] with \[input\]Copy
 
 $ tezos-admin-client inject protocol \[given\_dir\]Copy
 
-**Commands to report the node's status:\#**
+**Commands to report the node's status:**
 
 * The last heads that have been considered by the node:
 
 $ tezos-admin-client list heads \[-o --output \[path\]\]Copy
 
-**Commands for editing and viewing the client's config file:\#**
+**Commands for editing and viewing the client's config file:**
 
 * Show the current config file content and command line arguments:
 
