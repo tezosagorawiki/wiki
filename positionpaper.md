@@ -4,7 +4,7 @@
 
 #### L.M Goodman • August 3, 2014
 
-\_\_[_Position Paper PDF_](https://tezos.com/assets/files/position-paper-00b110d6223dc6b84ac206e92171ed47.pdf)\_\_
+\_\_[_Position Paper PDF_](https://tezos.com/position-paper.pdf)\_\_
 
 ### Table of Contents
 
