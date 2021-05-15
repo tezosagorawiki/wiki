@@ -1,8 +1,31 @@
 # Block Explorers
 
-Block explorers are an important set of tools for the ecosystem as a whole. They provide an easy-to-use interface for any stakeholder to check on the state of the blockchain in real-time. This means that users can go to a block explorer and get full insight into whether their transaction has been processed by searching for it with the hash of their transaction.
+**What is a blockchain explorer?**
 
-Similarly, on Tezos, there are numerous block explorers that allow you to have full visibility into the state of the blockchain. You’re able to see metrics that pertain to the recent blocks, the staking activity, price, transaction volume, supply, and many more.
+A _blockchain explorer_, also known as a _block explorer_, is an app tracking activity on the blockchain. All transactions ever performed on a network can be viewed using such a tool.
+
+**Blockchain explorers are like search engines for blockchains.**  
+You can think of it as a window into the blockchain world, giving you the opportunity to observe what's happening in it.
+
+Cryptocurrency users and developers use such a tool to view the status of past or present transactions.
+
+Some of the most basic information available on blockchain explorers includes \(but are not limited to\):
+
+* **Block feeds**: This allows you to view all the latest mined and pending blocks on the blockchain.
+* **Transaction feeds**: The transaction feed displays all the most recent and upcoming transactions.
+* **Sending and receiving addresses**: Each transaction can be viewed individually to reveal the public addresses of the sending and receiving parties.
+* **Wallet history**: All past and present transactions of an individual wallet address.
+
+#### Blockchain explorer use cases
+
+Block explorers are not only made for casual users to check if their coins are still safe or for delegators to verify that their baker is not cheating with their earnings.
+
+Block explorers are also used by:
+
+* blockchain engineers who develop and debug new features in sandboxes \(e.g. new blockchain consensus\).
+* DApp developers who need debugging tools and more visibility into the current and past state of their contracts running on internal testnets and on the mainnet.
+* bakers and staking services who need reliable data about delegation and earnings history in order to calculate correct payouts, plan their bond pools and execute operations.
+* less technical user groups like auditors and regulators with strict requirements for the data quality, as they need to access a trusted copy of the full on-chain history in a format that's easy to digest for their spreadsheets and compliance tools.
 
 Here are some commonly used Tezos block explorers:
 
