@@ -10,7 +10,7 @@
   * [Tezos Nomenclature](learn/basics/nomenclature.md)
 * [Baking](learn/baking/README.md)
   * [Proof-of-Stake](learn/baking/proofofstake/README.md)
-    * [The Tezos consensus algorithm](learn/baking/proofofstake/consensus.md)
+    * [The Tezos Consensus Algorithm](learn/baking/proofofstake/consensus.md)
   * [Tezos Energy Consumption](learn/baking/tezos-energy-consumption.md)
   * [Should I bake or delegate?](learn/baking/bakeordelegate.md)
   * [Setting up a Tezos Baker](learn/baking/setting-up-a-secure-baker.md)

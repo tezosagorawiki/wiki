@@ -1,4 +1,4 @@
-# The Tezos consensus algorithm
+# The Tezos Consensus Algorithm
 
 ## Emmy+, the consensus algorithm in Tezos <a id="consensus"></a>
 
