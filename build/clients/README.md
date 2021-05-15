@@ -184,49 +184,49 @@ This is a non-exhaustive list of possible commands with tezos-admin-client. To d
 
 * List RPCs under a given URL prefix:
 
-$ tezos-admin-client rpc list \[URL\]Copy
+`$ tezos-admin-client rpc list [URL]`
 
 * Get the input and the output JSON schemas of an RPC:
 
-$ tezos-admin-client rpc schema \[HTTP method\] \[url\]Copy
+`$ tezos-admin-client rpc schema [HTTP method] [url]`
 
 * Get the readable input and output formats of an RPC:
 
-$ tezos-admin-client rpc get \[url\]Copy
+`$ tezos-admin-client rpc get [url]`
 
 * Call an RPC with the POST method and input params:
 
-$ tezos-admin-client list protocolsCopy
+`$ tezos-admin-client list protocols`
 
 **Commands for managing protocols**
 
 * List protocols known by the node:
 
-$ tezos-admin-client rpc post \[url\] with \[input\]Copy
+`$ tezos-admin-client rpc post [url] with [input]`
 
 * Inject a new protocol into the node: \(_given\_dir_ is the directory containing the sources of a protocol\)
 
-$ tezos-admin-client inject protocol \[given\_dir\]Copy
+`$ tezos-admin-client inject protocol [given_dir]`
 
 **Commands to report the node's status:**
 
 * The last heads that have been considered by the node:
 
-$ tezos-admin-client list heads \[-o --output \[path\]\]Copy
+`$ tezos-admin-client list heads [-o --output [path]]`
 
 **Commands for editing and viewing the client's config file:**
 
 * Show the current config file content and command line arguments:
 
-$ tezos-admin-client config showCopy
+`$ tezos-admin-client config show`
 
 * Update the config based on the current CLI values:
 
-$ tezos-admin-client config updateCopy
+`$ tezos-admin-client config update`
 
 * A useful command to debug a node that is not syncing:
 
-$ tezos-admin-client tezos-admin-client p2p statCopy
+`$ tezos-admin-client tezos-admin-client p2p stat`
 
 ### 
 
