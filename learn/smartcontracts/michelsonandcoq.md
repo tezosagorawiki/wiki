@@ -28,7 +28,7 @@ GADT stands for Generalized Algebraic Data Types. GADTs allow OCaml developers t
 
 Smart contracts are programs that hold a given amount of money. As such, it is crucial that they be error-free and correct. Unit testing is not sufficient to cover all edge cases and all errors that may occur in the wild.
 
-Complex financial contracts involve steps and processes that involve the trust of the involved parties, as well as of other parties that have stake in the trustworthiness of the system on which the contract is built. An incorrectly constructed contract can breach trust in the system. In worst cases, unintended program effects can lead to a loss of money, as was seen in multiple instances with Ethereum.
+Complex financial contracts involve steps and processes that involve the trust of the involved parties, as well as of other parties that have a stake in the trustworthiness of the system on which the contract is built. An incorrectly constructed contract can breach trust in the system. In worst cases, unintended program effects can lead to a loss of money, as was have seen in multiple instances with Ethereum.
 
-With formal verification, computer scientists and developers can prove indisputably that certain programs are error-free. They can do this to the same degree of certainty that is required of a mathematician who wishes to prove a theorem. These advances are being used to secure everything from unmanned drones to the internet.
+With formal verification, computer scientists and developers can prove indisputably that certain programs are error-free. They can do this to the same degree of certainty that is required of a mathematician who wishes to prove a theorem. These advances are being used to secure everything from unmanned drones, to the internet.
 
