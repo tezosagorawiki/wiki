@@ -2,7 +2,7 @@
 
 ## Emmy+, the consensus algorithm in Tezos <a id="consensus"></a>
 
-Tezos uses a Nakamoto-style PoS algorithm for consensus, which since [Babylon](https://tezos.gitlab.io/protocols/005_babylon.html), is called Emmy+, which is a variant of the protocol proposed in the Tezos white paper \(later nick-named Emmy\). To understand it, we will break it up into the give main sections:
+Tezos uses a Nakamoto-style PoS algorithm for consensus, which since [Babylon](https://tezos.gitlab.io/protocols/005_babylon.html), is called Emmy+, which is a variant of the protocol proposed in the Tezos white paper \(later nick-named Emmy\). To understand it, we will break it up into the five main sections:
 
 1. **Block Creation \(Baking\)**
 
@@ -37,11 +37,11 @@ Tezos uses a Nakamoto-style PoS algorithm for consensus, which since [Babylon](h
 
 5. **Incentives**
 
-   To encourage participation, baking and endorsing are rewarded by the protocol in the form of newly minted ꜩ. Since [Carthage](https://tezos.gitlab.io/protocols/006_carthage.html), the rewards for a block of priority `p` with `e` endorsements is a function of `p` and `e`. For priority 0, the baking reward and the endorsing reward are equal to `1.25 x e ꜩ`. This choice of design prevents against [deflationary baking](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html). For priority 1 and above, the baking reward for a block with `e` endorsements is `0.1875 x e ꜩ` and the endorsing reward is `0.833333 x e ꜩ`.
+   To encourage participation, baking and endorsing are rewarded by the protocol in the form of newly minted ꜩ. Since [Carthage](https://tezos.gitlab.io/protocols/006_carthage.html), the rewards for a block of priority `p` with `e` endorsements is a function of `p` and `e`. For priority 0, the baking reward and the endorsing reward are equal to `1.25 x e ꜩ`. This choice of design prevents [deflationary baking](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html). For priority 1 and above, the baking reward for a block with `e` endorsements is `0.1875 x e ꜩ` and the endorsing reward is `0.833333 x e ꜩ`.
 
    To prevent the Nothing-at-Stake problem, baking and endorsing require a security deposit, thus ensuring participants have "skin in the game". The security deposits are 512 ꜩ for baking and 64 ꜩ for endorsing, and are locked up for 5 cycles \(~14 days\). Security deposits are slashed in case of double baking/endorsing if an accusation is included as evidence in a future block. Precisely, assume that baker _B_ includes a valid double baking/endorsing accusation about _A_ and assume that _A_ has in total _x_ ꜩ in security deposits and future rewards. Then half of _x_ is burnt and half goes to _B_ in the form of a block reward.
 
-they can either split their mining power between the two forks or mine on a single fork. However, in PoS-secured systems, there is no concept of hash power. As such, validators can theoretically sign multiple blocks at the same block height. Hence, in a naively implemented PoS network, validators can generate and maintain multiple forks at no cost to themselves.
+They can either split their mining power between the two forks or mine on a single fork. However, in PoS-secured systems, there is no concept of hash power. As such, validators can theoretically sign multiple blocks at the same block height. Hence, in a naively implemented PoS network, validators can generate and maintain multiple forks at no cost to themselves.
 
 ## Delegation <a id="delegation"></a>
 
@@ -57,11 +57,11 @@ This use of delegation is the reason many people refer to Tezos as a [Liquid Pro
 
 Emmy+, being a Nakamoto-style consensus, offers only _probabilistic_, not _deterministic_ finality. The implication is that forks can have arbitrary length — but forked states become exponentially unstable and tend to collapse down to a single branch \([assuming decent bounds on network latency](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)\).
 
-By gathering information from missing endorsements, missing blocks, and from future assigned baking rights, an observer can determine whether or not an actor controlling a given ammount of the rolls is able to re-organize a given block. For instance, as shown experimentally in an [analysis of Emmy+](https://blog.nomadic-labs.com/analysis-of-emmy.html), a user may be _reasonably sure_ that a block is final if it has 6 confirmations \(that is, blocks on top of it\) over a healthy chain when considering a Byzantine attacker with a stake fraction of 33% of the total active stake. Given that in a healthy chain blocks are baked every minute, 6 confirmations are equivalent to 6 minutes.
+By gathering information from missing endorsements, missing blocks, and from future assigned baking rights, an observer can determine whether or not an actor controlling a given amount of the rolls is able to re-organize a given block. For instance, as shown experimentally in an [analysis of Emmy+](https://blog.nomadic-labs.com/analysis-of-emmy.html), a user may be _reasonably sure_ that a block is final if it has 6 confirmations \(that is, blocks on top of it\) over a healthy chain when considering a Byzantine attacker with a stake fraction of 33% of the total active stake. Given that in a healthy chain blocks are baked every minute, 6 confirmations are equivalent to 6 minutes.
 
-reasonable threshold", which we quantify as `1e-8`, which puts our expectation of being wrong about a block being final at roughly once every two centuries.
+A reasonable threshold, which we quantify as `1e-8`, would puts our expectation of being wrong about a block being final at roughly once every two centuries.
 
-blocks have priority 0 and \(almost\) all the required endorsements. A concrete healthiness measure is the delay of the chain with respect to the ideal chain where each block has a delay of one minute with respect to the previous block.
+Blocks have priority 0 and \(almost\) all the required endorsements. A concrete healthiness measure is the delay of the chain with respect to the ideal chain where each block has a delay of one minute with respect to the previous block.
 
 ## Scalability <a id="scalability"></a>
 
