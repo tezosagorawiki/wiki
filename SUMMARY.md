@@ -35,7 +35,7 @@
   * [Decentralized Finance \(DeFi\)](learn/uses-of-tezos/defi.md)
   * [Non-Fungible Tokens \(NFTs\)](learn/uses-of-tezos/nft.md)
   * [Tokenization](learn/uses-of-tezos/tokenization.md)
-  * [Decentralized Identity \(DID\)](learn/uses-of-tezos/decentralizedidentity.md)
+  * [Identity \(DID\)](learn/uses-of-tezos/decentralizedidentity.md)
   * [Decentralized Autonomous Organizations \(DAOs\)](learn/uses-of-tezos/decentralized-autonomous-organizations-daos.md)
 * [Built on Tezos](learn/builtontezos.md)
 * [In Development](learn/futuredevelopments/README.md)

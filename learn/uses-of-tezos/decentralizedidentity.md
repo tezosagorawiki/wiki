@@ -3,7 +3,7 @@ id: decentralized-identity
 title: Decentralized Identity Primer
 ---
 
-# Decentralized Identity \(DID\)
+# Identity \(DID\)
 
 ## Introduction
 
