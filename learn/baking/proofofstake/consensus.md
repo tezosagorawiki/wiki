@@ -41,8 +41,6 @@ Tezos uses a Nakamoto-style PoS algorithm for consensus, which since [Babylon](h
 
    To prevent the Nothing-at-Stake problem, baking and endorsing require a security deposit, thus ensuring participants have "skin in the game". The security deposits are 512 ꜩ for baking and 64 ꜩ for endorsing, and are locked up for 5 cycles \(~14 days\). Security deposits are slashed in case of double baking/endorsing if an accusation is included as evidence in a future block. Precisely, assume that baker _B_ includes a valid double baking/endorsing accusation about _A_ and assume that _A_ has in total _x_ ꜩ in security deposits and future rewards. Then half of _x_ is burnt and half goes to _B_ in the form of a block reward.
 
-They can either split their mining power between the two forks or mine on a single fork. However, in PoS-secured systems, there is no concept of hash power. As such, validators can theoretically sign multiple blocks at the same block height. Hence, in a naively implemented PoS network, validators can generate and maintain multiple forks at no cost to themselves.
-
 ## Delegation <a id="delegation"></a>
 
 If someone does not have 8,000 ꜩ or does not want to set up computing infrastructure to bake blocks, they can delegate their coins to a baker. Delegating lets coin holders "lend" their coins to a baker. As a result, the baker has a higher probability of being selected, and the baker in turn shares the additional revenue with the coin holder. Importantly, this process does not actually transfer ownership of coins. The baker cannot spend the ꜩ delegated to them, and bakers cannot run away with other people's money.
