@@ -66,7 +66,7 @@ This dynamic would change, however, if the newest phones could not communicate w
 
 Crypto-currencies suffer from the same fate as smartphones which are incompatible with one another; they derive their value from a network effect, or the number of users who have given it value. To this end, any innovation that occurs outside of a crypto-currency will either fail to build enough network effect to be noticed, or it will succeed but undermine the value of the savings in the old currency. If smartphones were incompatible with older models, there would be either very little innovation or extremely disruptive innovation forcing older phones into obsolescence.
 
-Side-chains are an attempt to allow innovations which will retain compatibility with Bitcoin by pegging the value of a new currency to Bitcoin and creating a two-way convertibility. Unfortunately, it’s unclear whether they will be flexible enough to accommodate protocols substantially different fro Bitcoin. The only alternative so far is to fork the protocol.
+Side-chains are an attempt to allow innovations which will retain compatibility with Bitcoin by pegging the value of a new currency to Bitcoin and creating a two-way convertibility. Unfortunately, it’s unclear whether they will be flexible enough to accommodate protocols substantially different from Bitcoin. The only alternative so far is to fork the protocol.
 
 > wow, such unoriginal
 >
@@ -108,7 +108,7 @@ There are several problems with proof-of-work as a foundation for crypto-currenc
 
 The proof-of-work mechanism is decentralized, which means that users do not need to explicitly trust anyone to secure the currency. However, implicitly, Bitcoin has yielded a system where all users have to trust the benevolence of one or two pool operators to secure the currency.
 
-A conspiracy of miners holding more than 50% of the hashing power is known as 51% attack. It allows the attackers to prevent transactions from being made, to undo transactions, to steal recently minted coins and to to double spend.
+A conspiracy of miners holding more than 50% of the hashing power is known as 51% attack. It allows the attackers to prevent transactions from being made, to undo transactions, to steal recently minted coins and to double spend.
 
 A centralized mint signing blocks would be just as secure, and far less wasteful, as a miner controlling 51% of the hashing power. If a centralized mint is unacceptable to Bitcoin users, they should not tolerate de facto centralization of mining power.
 
@@ -136,7 +136,7 @@ Unfortunately, there is reason to expect that the demand for transactions will f
 
 This scenario is not only economically likely, it seems necessary given the relatively low transaction rate supported by Bitcoin. Since blockchain transaction will have to compete with off-chain transaction, the amount spent on transactions will approach its cost, which, given modern infrastructure, should be close to zero.
 
-Attempting to impose minimum transaction fees may only exacerbate the problem and cause users to rely on off-chain transaction more. As the amount paid in transaction fees collapses, so will the miner’s revenues, and so will the cost of executing a 51% attack. To put it in a nutshell, the security of a proofof-work blockchain suffers from a commons problem. Core developer Mike Hearn has suggested the use of special transactions to subsidize mining using a pledge type of fund raising. A robust currency should not need to rely on charity to operate securely.
+Attempting to impose minimum transaction fees may only exacerbate the problem and cause users to rely on off-chain transaction more. As the amount paid in transaction fees collapses, so will the miner’s revenues, and so will the cost of executing a 51% attack. To put it in a nutshell, the security of a proof-of-work blockchain suffers from a commons problem. Core developer Mike Hearn has suggested the use of special transactions to subsidize mining using a pledge type of fund raising. A robust currency should not need to rely on charity to operate securely.
 
 Proof-of-stake fixes these bad incentives by aligning the incentives of the miners and stakeholders: by very definition, the miners _are_ the stakeholders, and are thus interested in keeping the transaction costs low. At the same time, because proof-of-stake mining is not based on destruction of resources, the transaction cost \(whether direct fees or indirect inflation\) are entirely captured by miners, who can cover their operating costs without having to compete through wealth destruction.
 
