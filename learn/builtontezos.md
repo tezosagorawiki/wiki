@@ -1,8 +1,12 @@
+---
+description: Projects built on Tezos.
+---
+
 # Built on Tezos
 
 ## Key Tezos Projects
 
-A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, DAO's, gaming, NFT’s, decentralized finance \(DeFi\), enterprise, government, and more.
+A comprehensive list of key projects within the Tezos ecosystem around asset tokenization, DAO's, gaming, NFT’s, decentralized finance \(DeFi\), enterprise, government, and more. 
 
 ### Gaming / NFTs / Creator
 
