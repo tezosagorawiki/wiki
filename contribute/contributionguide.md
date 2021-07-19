@@ -25,3 +25,8 @@ We have a few basic rules for contributors, which are designed for quality contr
 7. Correct grammar should be used at all times. Pull requests with typos will not be merged until fixed. All content contributions must be done in English. 
 8. Care should be taken to remain as objective and informative as possible. There should be no editorializing, nor should there be any external bias.
 
+## Resources:
+
+* [Guide to writing in Markdown](https://guides.github.com/features/mastering-markdown/%20)
+* [Check your Markdown in real-time](https://stackedit.io/app#%20)
+
