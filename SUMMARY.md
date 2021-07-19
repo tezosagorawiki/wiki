@@ -60,10 +60,16 @@
   * [FA2 & SmartPy - Digital Assets on Tezos](build/create-a-tezos-token/fa2-and-smartpy-digital-assets-on-tezos.md)
   * [Non-Fungible Tokens on Tezos Using FA2 · Digital Assets on Tezos](build/create-a-tezos-token/fa2.md)
   * [How to mint NFTs on Tezos using Taquito and Pinata](build/create-a-tezos-token/nft.md)
-* [Resources](build/resources/README.md)
-  * [ꜩ Tezos Wallets](build/resources/wallets.md)
-  * [Block Explorers](build/resources/blockexplorer.md)
-  * [Baking Services](build/resources/bakingservices.md)
+
+## Use
+
+* [Resources](use/resources/README.md)
+  * [ꜩ Tezos Wallets](use/resources/wallets.md)
+  * [Block Explorers](use/resources/blockexplorer.md)
+  * [Baking Services](use/resources/bakingservices.md)
+  * [NFTs](use/resources/nfts.md)
+  * [DEX](use/resources/dex.md)
+  * [Defi](use/resources/defi.md)
 
 ## Contribute
 
