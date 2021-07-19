@@ -17,7 +17,7 @@ To propose a change to the wiki, submit an issue or make a merge request to [**t
 We have a few basic rules for contributors, which are designed for quality control:
 
 1. No --force pushes or modifications of Git history in any way. 
-2. Pull requests are preferred for issues, especially for small changes such as typos. Issues should be used for generic or broad-based changes or missing content. 
+2. Pull requests are preferred to issues, especially for small changes such as typos. Issues should be used for generic or broad-based changes or missing content. 
 3. Only use non-master branches. 
 4. If there are significant modifications, even by contributors, they ought to be subject to a pull request to solicit feedback from other contributors. 
 5. Pull requests to solicit feedback are encouraged for any other non-trivial contribution however they are left to the discretion of the contributor. 
