@@ -5,5 +5,5 @@
 * [TZStats](https://tzstats.com/)
 * [Arronax](https://arronax.io/tezos/mainnet/blocks)
 * [Tezblock](https://tezblock.io/)
-* [TezTracker](https://teztracker.com/en/mainnet)
+* [TezTracker](https://teztracker.com/en/mainnet) \(Does not appear to be maintained\)
 

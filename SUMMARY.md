@@ -67,9 +67,11 @@
   * [ꜩ Tezos Wallets](use/resources/wallets.md)
   * [Block Explorers](use/resources/blockexplorer.md)
   * [Baking Services](use/resources/bakingservices.md)
+  * [DEXs](use/resources/dex.md)
   * [NFTs](use/resources/nfts.md)
-  * [DEX](use/resources/dex.md)
+  * [Games](use/resources/games.md)
   * [Defi](use/resources/defi.md)
+  * [Other](use/resources/other.md)
 
 ## Contribute
 

@@ -4,6 +4,10 @@ The Tezos Agora Wiki was started and is maintained by a collaboration of stakeho
 
 Pull requests, discussions, and contributions from the community are highly encouraged. Active community members who demonstrate a record of good contributions may be given write access to the repository. Otherwise, Tezos Commons and TQTezos hold the administrative position and final say on the content that is included.
 
+## Support:
+
+Please reach out in the [@TezosPlatform](https://t.me/joinchat/BtLGEcc-Ed4xNmMy%20) Telegram channel for assistance
+
 ## How to Contribute:
 
 To propose a change to the wiki, submit an issue or make a merge request to [**this GitHub repository**](https://github.com/tezosagorawiki/wiki). 
