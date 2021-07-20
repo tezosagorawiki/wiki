@@ -13,10 +13,6 @@
 * [Objk](https://objkt.com/%20)
 * [Truesy](https://www.truesy.com/%20)
 
-
-
-* [Dos Esposas Restaurante](https://dos-esposas.restaurant/%20) \( not launched yet \)
-
 ## Projects that offer or create NFT's
 
 * [Specialstage.io](https://specialstage.io/%20)
