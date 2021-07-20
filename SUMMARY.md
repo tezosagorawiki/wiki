@@ -66,7 +66,7 @@
 * [Resources](use/resources/README.md)
   * [ꜩ Tezos Wallets](use/resources/wallets.md)
   * [Block Explorers](use/resources/blockexplorer.md)
-  * [Baking Services](use/resources/bakingservices.md)
+  * [Baking](use/resources/bakingservices.md)
   * [DEXs](use/resources/dex.md)
   * [NFTs](use/resources/nfts.md)
   * [Games](use/resources/games.md)

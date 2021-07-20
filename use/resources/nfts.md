@@ -20,6 +20,8 @@
   * [Twitter](https://twitter.com/oneofnft%20)
 * [Objk](https://objkt.com/%20)
   * [Twitter](https://twitter.com/objktcom%20)
+* [Truesy](https://www.truesy.com/%20)
+  * [Twitter](https://twitter.com/Truesy_official%20)
 
 
 
