@@ -7,8 +7,5 @@
 
     "The main function is to translate a meaningful and user-friendly alias to it's corresponding Tezos address and vice versa. This translation is globally consistent so that all users see the same address for a given alias."
 
-* [Teddy](https://app.etmitte.io/#/)
-  * A messaging service
-
 
 
