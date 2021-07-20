@@ -70,7 +70,6 @@
   * [DEXs](use/resources/dex.md)
   * [NFTs](use/resources/nfts.md)
   * [Games](use/resources/games.md)
-  * [Defi](use/resources/defi.md)
   * [Other](use/resources/other.md)
 
 ## Contribute

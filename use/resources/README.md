@@ -6,6 +6,6 @@
 * [DEXs](dex.md)
 * [NFTs](nfts.md)
 * [Games](games.md)
-* [Defi](defi.md)
+* [Defi]()
 * [Other](other.md)
 
