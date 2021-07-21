@@ -12,21 +12,43 @@ A comprehensive list of key projects within the Tezos ecosystem around asset tok
 
 Notable developments around creator, gaming applications, and Non-Fungible Tokens \(NFT’s\) on Tezos.
 
+**Hic et Nunc \(H=N\)**
+
+Latin for "here and now", [Hic et Nunc](https://www.hicetnunc.xyz) is a popular non-fungible token \(NFT\) marketplace on the Tezos blockchain. OBJKTs on the platform can be minted and traded by permissionless means.
+
 #### Kalamint
 
-Launching in February 2021, [Kalamint](https://kalamint.io/) is the first non-fungible token \(NFT\) marketplace on the Tezos blockchain. Kalamint V1 enables users to mint NFTs using Tezos’s FA2 token standard and subsequently buy, sell and collect these digital assets on the platform.
+[Kalamint](https://kalamint.io/) is a NFT marketplace on the Tezos blockchain. Kalamint enables users to mint NFTs using Tezos’s FA2 token standard and subsequently buy, sell and collect these digital assets on the platform.
 
 #### OpenMinter
 
 A DApp framework enabling anyone to create and showcase NFT’s on Tezos. [OpenMinter](https://github.com/tqtezos/minter) simplifies the NFT creation process to allow anyone to create NFT’s with ease in just a few clicks and enable marketplace capabilities for them to be traded.
 
+**MinterPop**
+
+An NFT art and collectibles [marketplace](https://minterpop.com) built on the Tezos blockchain by [InterPop](https://www.interpop.io). Users can buy and collect NFT art from a curated roster of contemporary and pop creators on the platform. Additionally, users also have the option to sell and trade NFTs they own on MinterPop’s user-to-user marketplace.
+
 #### Crictez
 
 A NFT-based fantasy sports DApp being built on Tezos. Revolving around the popular sport Cricket, [CricTez](https://forum.tezosagora.org/t/crictez-a-non-fungible-token-nft-based-fantasy-sports-game-built-on-tezos/2599) seeks to represent various players/athletes as NFT’s for use within the fantasy sports DApp. Through the usage of metadata containing key attributes to each player and oracles to bring off-chain data such as real time statistics about the players - it will contribute to each player’s unique card.
 
-#### Emergents
+#### Emergents **Trading Card Game**
 
-A collectible game in development on Tezos. [Emergents](https://www.emergents.gg) is currently under development with an alpha release expected in the near future. The game seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices.
+A collectible trading card game in development on Tezos. [Emergents](https://www.emergents.gg) is currently under development with a planned launch [slated](https://news.tezoscommons.org/emergents-roadmap-the-nine-reveal-tcg-and-minterpop-ac553e7d2172) for early 2022. The game seeks to pursue a reduction to barriers of entry of other similar games, become more watchable, implement increased player interaction, and be playable on mobile devices.
+
+**Play with Brio**
+
+An eSports skill-based platform on the Tezos Blockchain developed by InterPop. Within the platform, players can compete head to head in games of skill and earn cryptocurrency \(tez\). Currently under a public beta, users can play [_Solitaire Square-Off_](https://playwithbrio.com/home) with other games such as Bingo, Mahjong, Golf, and more under development. 
+
+**Tezos Profiles**
+
+[Tezos Profiles](https://tzprofiles.com) is a means to associate real-world public credentials with your Tezos account. Once these credentials are issued, a user can store their credentials and launch a smart contract that they control \(their Tezos Profile\). A cross-chain verification [solution](https://twitter.com/tzProfiles/status/1409968779325550592?s=20) was introduced allowing users to link their Ethereum account to their Tezos account via workflow, thus enable users to demonstrate a user is who they say they are on multiple NFT platforms. 
+
+**Ipocamp**
+
+[Ipocamp](https://www.ipocamp.io) provides quick and easy solutions to protect your personal and business documents, photos, videos, and more, anywhere in the world.
+
+
 
 ### Decentralized Finance \(DeFi\)
 
