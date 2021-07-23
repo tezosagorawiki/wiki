@@ -70,3 +70,7 @@ Baking Accounts were also included in the feature set, however, ongoing testing 
 
 A full changelog is available [here](http://doc.tzalpha.net/protocols/009_florence.html). 
 
+## Granada \(PtGRAND\)
+
+Update coming soon! 
+
