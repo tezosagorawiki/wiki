@@ -17,7 +17,6 @@ Other wallets that support the holding and use of tez:
 * [Ledger Live \(Desktop, iOS, Android\)](https://www.ledger.com/ledger-live/download)
 * [Simple Staking \(Desktop\)](https://simplestaking.com)\(Compatible with Trezor Hardware Wallet\)
 * [Trust Wallet \(iOS, Android\)](https://trustwallet.com)
-* [Brikett \(Web\)](https://briskett.app/%20)\(Compatible with Trezor Hardware Wallet\)
 
 Tezos Command Line Interface:
 
