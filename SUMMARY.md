@@ -13,8 +13,6 @@
     * [The Tezos Consensus Algorithm](learn/baking/proofofstake/consensus.md)
   * [Tezos Energy Consumption](learn/baking/tezos-energy-consumption.md)
   * [Should I bake or delegate?](learn/baking/bakeordelegate.md)
-  * [Setting up a Tezos Baker](learn/baking/setting-up-a-secure-baker.md)
-  * [Key Baking Resources](learn/baking/key-baking-resources.md)
 * [Tezos Governance](learn/governance/README.md)
   * [Tezos Governance Overview](learn/governance/tezos-governance-overview.md)
   * [Tezos Improvement Process \(TZIP\)](learn/governance/tezos-improvement-process-tzip.md)
@@ -64,7 +62,7 @@
 
 ## Use
 
-* [Resources](use/resources/README.md)
+* [Quick Reference](use/resources/README.md)
   * [ꜩ Tezos Wallets](use/resources/wallets.md)
   * [Block Explorers](use/resources/blockexplorer.md)
   * [Baking](use/resources/bakingservices.md)
@@ -72,6 +70,9 @@
   * [NFTs](use/resources/nfts.md)
   * [Games](use/resources/games.md)
   * [Other](use/resources/other.md)
+* [Baking](use/baking/README.md)
+  * [Setting up a Tezos Baker](use/baking/setting-up-a-secure-baker.md)
+  * [Key Baking Resources](use/baking/key-baking-resources.md)
 
 ## Contribute
 

@@ -1,4 +1,4 @@
-# Resources
+# Quick Reference
 
 * [ꜩ Tezos Wallets](wallets.md)
 * [Block Explorers](blockexplorer.md)
