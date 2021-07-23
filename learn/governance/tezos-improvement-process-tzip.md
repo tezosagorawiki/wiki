@@ -95,5 +95,19 @@ This metadata standard aims to:
 
 This standard also aims to be rich enough to describe a wide variety of asset and token types, from fungible tokens to semi-fungible tokens to nonfungibles.
 
-### 
+### [**TZIP-21**](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-22/tzip-22.md%20)**: Vanity Name Resolution Standard**
+
+Describes a generic smart contract interface for resolving names to Tezos addresses and vice versa.
+
+Currently, indexers and wallets use nonstandard methods for associating addresses with human-readable names. They include using pre-configured \(in some cases hardcoded\) lists of names and addresses or making use of TZIP-16 metadata.
+
+This presents some problems:
+
+* Pre-configured lists are hard to maintain and prone to breaking.
+* TZIP-16 metadata are published as part of a contract they relate to, which means the names are not globally unique nor authorative.
+* Names and addresses for other types of use, like personal wallets, cannot be resolved.
+
+This document proposes a name resolution interface that can be used by all products in the ecosystem to provide users with a consistent experience when mapping names and addresses.
+
+\*\*\*\*
 
