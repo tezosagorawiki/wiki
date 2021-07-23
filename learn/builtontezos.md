@@ -66,6 +66,10 @@ A decentralized, non-custodial exchange built on Tezos by [camlCase](https://cam
 
 A decentralized exchange built on Tezos by [Madfish Solutions](https://www.madfish.solutions) currently [running](https://quipuswap.com) on Delphi testnet. Quipuswap aims to provide an easy to use user interface for users wishing to utilize it’s DEX. A mainnet release is [expected](https://tezos.foundation/madfish-solutions-matvey-sivoraksha/) in the near future.
 
+**SEXP**
+
+A decentralized exchange for synthetic assets. [SEXP](https://sexp.exchange) currently has a binary options product available, where traders can bet on prices of crypto assets. More products with smoother trading experience and a wide range of synthetic and inverse assets are also planned. [Harbinger](https://github.com/tacoinfra/harbinger-cli) oracle is used for price data. [Kolibri stablecoin (kUSD)](https://kolibri.finance) is used throughout the platform. SEXP is built by [Smart Contract Labs](https://smartcontractlabs.ee).
+
 #### Stablecoins
 
 A cumulative list of stablecoins on Tezos.
