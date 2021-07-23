@@ -13,3 +13,5 @@
 
   * "software for distributing baking rewards with delegators."
 
+## [Need more Baking resources?](../baking/)
+

@@ -11,6 +11,7 @@ The following wallets have undergone at least one independent external security 
 Other wallets that support the holding and use of tez:
 
 * [Temple \(Browser Extension\)](https://templewallet.com/)\(Compatible with Ledger Hardware Wallet\)
+* [Umami Wallet \(Desktop\)](https://umamiwallet.com/)\(Ledger integration coming soon\) 
 * [Exodus Wallet \(Desktop, iOS, Android\)](https://www.exodus.io)
 * [Guarda Wallet \(Desktop, iOS, Android\)](https://guarda.com)
 * [imToken \(iOS, Android\)](https://token.im)
