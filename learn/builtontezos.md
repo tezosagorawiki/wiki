@@ -28,9 +28,21 @@ A DApp framework enabling anyone to create and showcase NFT’s on Tezos. [OpenM
 
 An NFT art and collectibles [marketplace](https://minterpop.com) built on the Tezos blockchain by [InterPop](https://www.interpop.io). Users can buy and collect NFT art from a curated roster of contemporary and pop creators on the platform. Additionally, users also have the option to sell and trade NFTs they own on MinterPop’s user-to-user marketplace.
 
+**OneOf** 
+
+An upcoming NFT platform built on Tezos to be geared towards the average music fan. [OneOf](https://oneof.com) was co-founded by Lin Dai, alongside Joshua James, Adam Fell, in partnership with Quincy Jones and Quincy Jones Productions. Upon launch, NFT drops will include artists of the likes of Doja Cat, Whitney Houston, Quincy Jones, John Legend, and more. 
+
+**Red Bull Racing Honda** 
+
+Red Bull Racing Honda is a Formula 1 racing team that has entered a multi-year collaboration with the Tezos ecosystem. As part of this collaboration, they [plan](https://www.redbull.com/int-en/redbullracing/tezos-joins-as-official-blockchain-partner) to launch the team’s first ever range of digital collectible NFTs exclusively on the Tezos blockchain. 
+
+**McLaren Racing**
+
+McLaren Racing is a Formula 1 racing team that entered a multi-year collaboration with the Tezos ecosystem. Tezos represents the team as its official blockchain partner and McLaren [plans](https://www.mclaren.com/racing/partners/tezos/) to create a NFT fan experience on the Tezos network. 
+
 #### Crictez
 
-A NFT-based fantasy sports DApp being built on Tezos. Revolving around the popular sport Cricket, [CricTez](https://forum.tezosagora.org/t/crictez-a-non-fungible-token-nft-based-fantasy-sports-game-built-on-tezos/2599) seeks to represent various players/athletes as NFT’s for use within the fantasy sports DApp. Through the usage of metadata containing key attributes to each player and oracles to bring off-chain data such as real time statistics about the players - it will contribute to each player’s unique card.
+A NFT-based fantasy sports DApp being built on Tezos. Revolving around the popular sport Cricket, [CricTez](https://crictez.medium.com/introducing-crictez-21a284c60e94) seeks to represent various players/athletes as NFT’s for use within the fantasy sports DApp. Through the usage of metadata containing key attributes to each player and oracles to bring off-chain data such as real time statistics about the players - it will contribute to each player’s unique card.
 
 #### Emergents **Trading Card Game**
 
