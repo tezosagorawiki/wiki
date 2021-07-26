@@ -163,7 +163,7 @@ No! You don't need to sync the entire blockchain, a snapshot will allow you to s
 
 **Voting**
 
-With a baker up and running, a vital part of participation is voting on proposals to upgrade the Tezos protocol. Proposals for Tezos go through a governance mechanism with 4 periods: Proposal &gt; Exploration &gt; Testing &gt; Promotion. You can track the latest proposals and learn about Tezos governance at [Tezos Agora](https://www.tezosagora.org).
+With a baker up and running, a vital part of participation is voting on proposals to upgrade the Tezos protocol. Proposals for Tezos go through a governance mechanism with 5 periods: Proposal &gt; Exploration &gt; Testing &gt; Promotion &gt; Adoption. You can track the latest proposals and learn about Tezos governance at [Tezos Agora](https://www.tezosagora.org).
 
 **When new proposals are injected you can vote with the following commands**
 
@@ -171,7 +171,7 @@ With a baker up and running, a vital part of participation is voting on proposal
 
 When submitting a proposal, the baker is also submitting a vote for that proposal, equivalent to the number of rolls in its staking balance at the start of the period.
 
-Once reaching a 5% Quorum in the proposal phase, then the proposal will go to the next phase which is Exploration, which requires a baker to vote. If reaching quorum with ‘yay’, then testing will apply which requires no action from the baker. After the testing phase, the proposal goes through its final phase which is Promotion, which requires bakers to vote and reach quorum. If the proposal reaches quorum with ‘yay’, then the proposal will automatically be implemented and upgrade the Tezos protocol. The quorum is a minimum participation threshold; so if a baker votes ‘yay’, ‘nay’, or ‘pass’, that contributes to the quorum of the governance mechanism.
+Once reaching a 5% Quorum in the proposal phase, then the proposal will go to the next phase which is Exploration, which requires a baker to vote. If reaching quorum with ‘yay’, then testing will apply which requires no action from the baker. After the testing phase, the proposal goes through its final phase which is Promotion, which requires bakers to vote and reach quorum. If the proposal reaches quorum with ‘yay’, then the proposal moves on to the adoption phase. The Adoption Period provides a "cool-down" allowing developers and bakers some additional time to adapt their code and infrastructure. After the Adoption phase the proposal will automatically be implemented and upgrade the Tezos protocol. The quorum is a minimum participation threshold; so if a baker votes ‘yay’, ‘nay’, or ‘pass’, that contributes to the quorum of the governance mechanism.
 
 Voting Command for Exploration and Promotion phase
 
