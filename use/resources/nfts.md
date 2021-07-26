@@ -6,11 +6,9 @@
 * [Kalamint](https://kalamint.io/%20)
 * [OneOf](https://oneof.com/%20)
 * [ByteBlock](https://byteblock.art/%20)
-* [Bazaar](https://bazaarnft.xyz/collections%20)
 * [InterPop](https://www.interpop.io/)
 * [RadionFM](https://www.radion.fm/)
 * [OneOf](https://oneof.com/%20)
-* [Objk](https://objkt.com/%20)
 * [Truesy](https://www.truesy.com/%20)
 
 ## Projects that offer or create NFT's
