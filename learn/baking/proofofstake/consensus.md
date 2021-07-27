@@ -27,7 +27,7 @@ Tezos uses a Nakamoto-style PoS algorithm for consensus, which since [Babylon](h
 
    Besides baking, a participant can also endorse a block. Endorsing rights are set in the same way as baking rights. At every block height, 32 random rolls are selected, and their owners are supposed to endorse a block. Endorsing serves as a vote on a block. Endorsements on a block are included in the next block. Endorsing is a sign of activity so the more endorsements blocks contain, the healthier the chain.
 
-3. **Block Delay Rule** {\#block-delay}
+3. **Block Delay Rule** <a id="block-delay"></a>
 
    The priority of a block and the number of endorsements included in it determine the minimal time at which the next block can be baked. The higher the priority and the more endorsements, the quicker the next block can be baked. The minimal block delay is currently set to 60 seconds.
 
@@ -80,45 +80,9 @@ Please check the [consensus entry](https://tezos.gitlab.io/007/proof_of_stake.ht
 [Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog posts](https://blog.nomadic-labs.com/) analyzing Emmy+:
 
 * [the motivation behind updating Emmy to Emmy+](https://blog.nomadic-labs.com/emmy-an-improved-consensus-algorithm.html)
-* \[a first analysis of
-
-  Emmy+\]\([https://blog.nomadic-labs.com/analysis-of-emmy.html](https://blog.nomadic-labs.com/analysis-of-emmy.html)\)
-
-  providing estimations on the number of block confirmations and some insights
-
-  on choosing the constants in the Emmy+ block delay formula
-
-* \[an update of rewards in
-
-  Carthage\]\([https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html)\)
-
-  to take into account inflation and to deal with deflationary baking
-
-* \[a review of a research paper on
-
-  Emmy+\]\([https://blog.nomadic-labs.com/on-defending-against-malicious-reorgs-in-tezos-proof-of-stake.html](https://blog.nomadic-labs.com/on-defending-against-malicious-reorgs-in-tezos-proof-of-stake.html)\)
-
-  expanding on the choices of constants in Emmy
-
-* an analysis of \[Emmy+ in partial
-
-  synchrony\]\([https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)\),
-
-  extending the first analysis to consider a more realistic network model where
-
-  messages can be delayed arbitrarily; the conclusion is that to be able to have
-
-  decent numbers of confirmations, one needs to have a good estimation on
-
-  message delays
-
-* \[an analysis of mixed
-
-  forks\]\([https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html](https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html)\)
-
-  showing that scenarios where an attacker tries to maintain a \(malicious\) fork
-
-  for as long as possible do not have a significant impact on the \[previous
-
-  analysis\]\([https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)\)
-
+* [a first analysis of Emmy+](https://blog.nomadic-labs.com/analysis-of-emmy.html)
+  providing estimations on the number of block confirmations and some insights on choosing the constants in the Emmy+ block delay formula
+* [an update of rewards in Carthage](https://blog.nomadic-labs.com/a-new-reward-formula-for-carthage.html) to take into account inflation and to deal with deflationary baking
+* [a review of a research paper on Emmy+](https://blog.nomadic-labs.com/on-defending-against-malicious-reorgs-in-tezos-proof-of-stake.html) expanding on the choices of constants in Emmy
+* an analysis of [Emmy+ in partial synchrony](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html), extending the first analysis to consider a more realistic network model where messages can be delayed arbitrarily; the conclusion is that to be able to have decent numbers of confirmations, one needs to have a good estimation on message delays
+* [an analysis of mixed forks](https://blog.nomadic-labs.com/the-case-of-mixed-forks-in-emmy.html) showing that scenarios where an attacker tries to maintain a (malicious) fork for as long as possible do not have a significant impact on the [previous analysis](https://blog.nomadic-labs.com/emmy-in-the-partial-synchrony-model.html)
