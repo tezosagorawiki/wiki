@@ -21,8 +21,6 @@ For some background, zkChannels allows a customer and a merchant to open an asym
 All payments must be initiated by the customer and the anonymous channels are bi-directional only in the sense that payment values can be positive or negative. At any point while the channel is open, the merchant or customer are able to initiate channel closure.
 
 * zkChannels library implementation for Tezos is [here](https://github.com/boltlabs-inc/libzkchannels)
-* Tutorial for testing the contract in a Tezos sandbox is [here](https://github.com/boltlabs-inc/libzkchannels/blob/master/tezos-sandbox/tutorial_pt1_setup.md)
-* An implementation of PS signature verifier for Tezos exists \(via SmartPy\) in [here](https://github.com/boltlabs-inc/libzkchannels/blob/master/tezos-sandbox/tests_python/zkchannels_contract_v2/zkchannel_smartpy_script.py)
 
 zkChannels is still being actively developed, led by [Bolt Labs, Inc](https://boltlabs.tech).
 
