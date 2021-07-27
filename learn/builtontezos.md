@@ -60,8 +60,6 @@ An eSports skill-based platform on the Tezos Blockchain developed by InterPop. W
 
 [Ipocamp](https://www.ipocamp.io) provides quick and easy solutions to protect your personal and business documents, photos, videos, and more, anywhere in the world.
 
-
-
 ### Decentralized Finance \(DeFi\)
 
 A comprehensive list of projects and developments of low and high-level primitives of DeFi applications on Tezos.
@@ -78,17 +76,25 @@ A decentralized exchange built on Tezos by [Madfish Solutions](https://www.madfi
 
 A cumulative list of stablecoins on Tezos.
 
-**Checker**
+**Ctez**
+
+A stable coin [in development](https://forum.tezosagora.org/t/ctez-a-synthetic-tez-backed-by-tez-for-better-composability-as-an-alternative-to-the-virtual-baker/2612) as an alternative to Checker from Arthur Breitman. Ctez will be a synthetic tez backed by tez for better composability as an alternative to the virtual baker. 
+
+**uUSD \(youves\)**
+
+uUSD is an algorithmic stable coin with a soft peg to USD. In order to obtain new uUSD, it is minted as a synthetic asset on [youves](https://app.youves.com). 
+
+**USDC**
+
+USDC is supported by a consortium known as Centre, consisting of Coinbase and Circle. Centre members have publicly [announced](https://www.centre.io/blog/announcing-usdc-on-ten-new-blockchain-platforms) plans to issue USDC on Tezos. 
 
 **USDS \(Stably\)**
 
-USDS is a stablecoin built by [Stably](https://www.stably.io) using the FA2 token standard on Tezos. USDS is issued by Prime Trust, a Nevada-chartered trust company that also acts as the regulated administrator for USDS. USDS is regulated and fiat-backed fully by physical reserves of fiat that can be redeemed at a 1:1 ratio.
+USDS is a stable coin built by [Stably](https://www.stably.io) using the FA2 token standard on Tezos. USDS is issued by Prime Trust, a Nevada-chartered trust company that also acts as the regulated administrator for USDS. USDS is regulated and fiat-backed fully by physical reserves of fiat that can be redeemed at a 1:1 ratio.
 
-**Kolibri**
+**kUSD \(Kolibri\)**
 
-[Kolibri](https://testnet.kolibri.finance) is a set of smart contracts built on Tezos by [Hover Labs](https://hover.engineering) that can be used to create kUSD - a trustless algorithmic stablecoin that is collateralized by tez and soft pegged to USD. Currently running on testnet, Kolibri is [expected](https://kolibri-xtz.medium.com/kusd-meets-defi-6f634b0f0131) to release on mainnet in the near future.
-
-**USDtz**
+[Kolibri](https://kolibri.finance) is a set of smart contracts built on Tezos by [Hover Labs](https://hover.engineering) that can be used to create kUSD - a trustless algorithmic stable coin that is collateralized by tez and soft pegged to USD. 
 
 #### Wrapped Assets
 
