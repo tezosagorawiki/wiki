@@ -18,7 +18,7 @@ XTZ, tez, or ꜩ \(`\ua729`, "Latin small letter tz"\) is the native currency of
 
    For details of the amendment mechanism, see [this post](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
-   Everything in Tezos, including the amendment mechanism itself is subject to being changed by the proposal amendment process. Of note, the latest proposal [Edo \#008](https://www.tezosagora.org/period/39) is seeking to add a 5th proposal period, known as the "Adoption" phase. The extra proposal period is aimed to provide an additional window for bakers, indexers, and end-users to upgrade their nodes once a protocol upgrade goes live
+   Everything in Tezos, including the amendment mechanism itself is subject to being changed by the proposal amendment process. Of note, the latest proposal[ Granada](https://www.tezosagora.org/period/52) seeks the replacement of the current Tezos consensus algorithm, Emmy+, with a new consensus algorithm known as Emmy\*. In general, it’s expected that that Emmy\* will reduce Tezos block times from 60 seconds to 30 seconds, as well as allow transactions to achieve faster finality than the current consensus algorithm. Granada also comes with liquidity baking and a number of substantial improvements to performance, which in turn result in dramatic reductions in gas consumption.
 
 2. **Proof-of-Stake**
 
