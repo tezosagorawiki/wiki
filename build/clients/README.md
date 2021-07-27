@@ -4,7 +4,7 @@
 
 ### Connecting to the network
 
-The _tezos-client_ and Tezos RPC need to be connected to a Tezos node. You can connect to your own [tezos node](https://opentezos.com/deploy-a-node/introduction) or you can use a community node on the Tezos mainnet or testnet.
+The _tezos-client_ and Tezos RPC need to be connected to a Tezos node. You can connect to your own [tezos node](https://opentezos.com/deploy-a-node) or you can use a community node on the Tezos mainnet or testnet.
 
 You can find a list of community nodes [here](https://tezostaquito.io/docs/rpc_nodes/).
 
