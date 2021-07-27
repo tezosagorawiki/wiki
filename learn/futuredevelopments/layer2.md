@@ -1,6 +1,18 @@
 # Layer 2
 
-### zkChannels
+## zkRollups
+
+zkRollups are a means of achieving higher transaction throughput by batching up to thousands of transactions into a single “rollup” which is included in L1 blocks. The fidelity of the rollup can be secured in various ways. Either through greater hardware requirements with standard rollups \(ZKRU\) or economic incentives, a variant known as optimistic rollups \(ORU\).  
+  
+Standard rollups use a zero knowledge proof, this is a small cryptographic proof which can be verified extremely quickly by bakers. This requires at least one specialized node processing these rollups for the chain.   
+  
+Optimistic rollups rely on a game theory approach. Validators post a stake when including the rollup. This rollup can be challenged and through a series of challenges and responses the dispute can result in the execution of a single transaction. This transaction can be re-executed on-chain to adjudicate and the winner of the dispute gets the stake.  
+  
+The Tezos protocol can host multiple rollup implementations and designs. Some can also be permissioned \( only certain parties can add to them \) at the cost of some benefits. All of these options are currently being explored.   
+  
+zkRollups are being explored and developed by [Nomadic Labs](https://gitlab.com/nomadic-labs/privacy-team/-/tree/master/rollup%20) and [Marigold](https://marigold.dev/projects/).
+
+## zkChannels
 
 zkChannels is a Lightning-like protocol that enables scalable and anonymous off-chain transactions using a combination of commitments, blind signatures and efficient zero-knowledge proof techniques \(in addition to multi-party computation techniques\). In particular, for Tezos, zkChannels rely on a randomizable blind signature scheme with efficient zero-knowledge protocols. The randomizable signature scheme is based on [Pointcheval-Sanders \(PS\)](https://eprint.iacr.org/2015/525.pdf) and instantiated on the BLS12-381 curve as well.
 
