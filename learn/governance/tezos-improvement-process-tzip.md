@@ -95,7 +95,7 @@ This metadata standard aims to:
 
 This standard also aims to be rich enough to describe a wide variety of asset and token types, from fungible tokens to semi-fungible tokens to nonfungibles.
 
-### [**TZIP-21**](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-22/tzip-22.md%20)**: Vanity Name Resolution Standard**
+### [**TZIP-22**](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-22/tzip-22.md%20)**: Vanity Name Resolution Standard**
 
 Describes a generic smart contract interface for resolving names to Tezos addresses and vice versa.
 
