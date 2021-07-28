@@ -82,9 +82,3 @@ Granada contains several major improvements to the protocol, as well as numerous
 
 A full changelog can be found [here](http://doc.tzalpha.net/protocols/010_granada.html%20).
 
-
-
-
-
-Update coming soon! 
-
