@@ -55,7 +55,7 @@ Among other features, Edo also updates the Tezos amendment process by lowering p
 
 Edo was [activated](https://www.tezosagora.org/period/40) as the new Tezos protocol in February 2021.
 
-## [Florence](https://www.tezosagora.org/proposal/11) \(PsFLorena\)
+## [Florence](https://www.tezosagora.org/period/46%20) \(PsFLorena\)
 
 The Florence proposal was a joint effort from Nomadic Labs, Marigold, DaiLambda, and Tarides.
 
@@ -70,7 +70,21 @@ Baking Accounts were also included in the feature set, however, ongoing testing 
 
 A full changelog is available [here](http://doc.tzalpha.net/protocols/009_florence.html). 
 
-## Granada \(PtGRAND\)
+## [Granada](https://www.tezosagora.org/period/51%20) \(PtGRAND\)
+
+The Granada proposal injected in May of 2021 was a joint effort from Nomadic Labs, Marigold, TQ, Tarides and DaiLambda.  
+  
+Granada contains several major improvements to the protocol, as well as numerous bug fixes and minor improvements:
+
+*  **Emmy\*:** will generally halve the time between blocks, **from 60 seconds to 30 seconds**, allows transactions to achieve significantly faster finality than under the previous consensus algorithm.
+* **Liquidity Baking:** will incentivize large amounts of decentralized liquidity provision between tez and tzBTC by minting a small amount of tez every block and depositing it inside of a constant product market making smart-contract.
+*  **Gas improvements:** A number of substantial improvements to performance have been made, which in turn result in dramatic reductions in gas consumption. Improvements by a factor of 3 to 6 \( sometimes 8 \) have been improved.  
+
+A full changelog can be found [here](http://doc.tzalpha.net/protocols/010_granada.html%20).
+
+
+
+
 
 Update coming soon! 
 

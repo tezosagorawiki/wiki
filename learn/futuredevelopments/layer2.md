@@ -1,3 +1,10 @@
+---
+description: >-
+  What is Self Amendment?Tezos is a self-amending blockchain network that
+  incorporates an on-chain mechanism for proposing, selecting, testing, and
+  activating protocol upgrades without the need to hard
+---
+
 # Layer 2
 
 ## zkRollups
@@ -8,8 +15,10 @@ Standard rollups use a zero knowledge proof, this is a small cryptographic proof
   
 Optimistic rollups rely on a game theory approach. Validators post a stake when including the rollup. This rollup can be challenged and through a series of challenges and responses the dispute can result in the execution of a single transaction. This transaction can be re-executed on-chain to adjudicate and the winner of the dispute gets the stake.  
   
-The Tezos protocol can host multiple rollup implementations and designs. Some can also be permissioned \( only certain parties can add to them \) at the cost of some benefits. All of these options are currently being explored.   
-  
+The Tezos protocol can host multiple rollup implementations and designs. Some can also be permissioned \( only certain parties can add to them \) at the cost of some benefits. All of these options are currently being explored. 
+
+* An excellent video featuring rollups by [Arthur Brietman](https://www.youtube.com/watch?v=oqBSs0DSuzQ&t). 
+
 zkRollups are being explored and developed by [Nomadic Labs](https://gitlab.com/nomadic-labs/privacy-team/-/tree/master/rollup%20) and [Marigold](https://marigold.dev/projects/).
 
 ## zkChannels

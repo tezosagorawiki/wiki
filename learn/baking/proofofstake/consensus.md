@@ -80,6 +80,7 @@ Please check the [consensus entry](https://tezos.gitlab.io/007/proof_of_stake.ht
 [Nomadic Labs](https://www.nomadic-labs.com/) published a series of [blog posts](https://blog.nomadic-labs.com/) analyzing Emmy+:
 
 * [the motivation behind updating Emmy to Emmy+](https://blog.nomadic-labs.com/emmy-an-improved-consensus-algorithm.html)
+* [Faster Finality with Emmy\*](https://blog.nomadic-labs.com/faster-finality-with-emmy.html%20)
 * \[a first analysis of
 
   Emmy+\]\([https://blog.nomadic-labs.com/analysis-of-emmy.html](https://blog.nomadic-labs.com/analysis-of-emmy.html)\)
