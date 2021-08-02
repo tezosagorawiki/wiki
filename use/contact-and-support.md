@@ -9,7 +9,7 @@ description: >-
 
 Please Note: A general best practice for getting support with any technical issue is to make sure the exchange takes place publicly on an open platform.   
   
-Note: Tezos is a decentralized project and ecosystem. There   
+Note: Tezos is a decentralized project and ecosystem, there is no 'one' official support.   
   
 The most commonly used support resource is the [Tezos](https://t.me/tezosplatform) \( @tezos\_platform \) telegram group.
 
