@@ -73,8 +73,10 @@
 * [Baking](use/baking/README.md)
   * [Setting up a Tezos Baker](use/baking/setting-up-a-secure-baker.md)
   * [Key Baking Resources](use/baking/key-baking-resources.md)
+* [Contact and Support](use/contact-and-support.md)
 
 ## Contribute
 
 * [How to Contribute](contribute/contributionguide.md)
+* [Feedback](contribute/feedback.md)
 
