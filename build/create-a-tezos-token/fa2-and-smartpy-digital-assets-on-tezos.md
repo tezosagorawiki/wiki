@@ -27,7 +27,7 @@ In the case of the sandbox tutorial we use `alice` also as `originator` and `adm
 
 ### Get The Michelson Code
 
-FA2-SmartPy uses SmartPy's meta-programming facilities to provide more than one Michelson contract, a.k.a. _“builds.”_. A few of the builds are available at [https://gitlab.com/smondet/fa2-smartpy/-/tree/master/michelson](https://gitlab.com/smondet/fa2-smartpy/-/tree/master/michelson), see [below]() for a description of the various builds.
+FA2-SmartPy uses SmartPy's meta-programming facilities to provide more than one Michelson contract, a.k.a. _“builds.”_. A few of the builds are available at [https://gitlab.com/smondet/fa2-smartpy/-/tree/master/michelson](https://gitlab.com/smondet/fa2-smartpy/-/tree/master/michelson), see below for a description of the various builds.
 
 Let's download the “default” one:
 

@@ -9,11 +9,13 @@ description: >-
 
 Please Note: A general best practice for getting support with any technical issue is to make sure the exchange takes place publicly on an open platform.   
   
-Note: Tezos is a decentralized project and ecosystem, there is no 'one' official support.   
+Note: Tezos is a decentralized project and ecosystem, there is no 'official' support.   
   
-The most commonly used support resource is the [Tezos](https://t.me/tezosplatform) \( @tezos\_platform \) telegram group.
+Please reach out:
 
-There is also a [discord](https://discord.com/invite/hsSEtAb9er) server available. 
+* [Email](mailto:hello@tezoscommons.org%20)
+* [Telegram](https://t.me/joinchat/BtLGEcc-Ed4xNmMy%20)
+* [Discord](https://discord.com/invite/hsSEtAb9er%20)
 
 
 

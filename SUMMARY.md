@@ -49,6 +49,7 @@
   * [Block Explorers](build/clients/block-explorers.md)
   * [Testnets](build/clients/testnets.md)
   * [Getting tez](build/clients/getting-tez.md)
+* [Run A Sandbox](build/run-a-sandbox.md)
 * [Blockchain Indexers](build/blockchain-indexers/README.md)
   * [TzKT](build/blockchain-indexers/tzkt.md)
 * [dApp Development](build/dapp-development/README.md)
