@@ -7,8 +7,6 @@
 * [OneOf](https://oneof.com/%20)
 * [ByteBlock](https://byteblock.art/%20)
 * [InterPop](https://www.interpop.io/)
-* [OneOf](https://oneof.com/%20)
-* [Truesy](https://www.truesy.com/%20)
 
 ## Projects that offer or create NFT's
 
