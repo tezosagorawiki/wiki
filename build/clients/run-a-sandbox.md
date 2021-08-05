@@ -1,4 +1,4 @@
-# Run A Sandbox
+# Sandbox
 
 ## Use Docker and Flextesa to Run an Independent Tezos Sandbox <a id="__docusaurus"></a>
 

@@ -4,7 +4,7 @@ This tutorial shows how to interact with the “FA2-SmartPy” implementation of
 
 ## Basic Usage With tezos-client
 
-This assumes you have `tezos-client` properly set up to talk to Carthagenet or to a “full” [sandbox](https://assets.tqtezos.com/docs/setup/2-sandbox) \(i.e. with bakers\).
+This assumes you have `tezos-client` properly set up to talk to Carthagenet or to a “full” [sandbox](../clients/run-a-sandbox.md) \(i.e. with bakers\).
 
 This part requires 4 accounts with a few ꜩ imported into `tezos-client`, as `administrator`, `originator`, `alice` and `bob`.
 
