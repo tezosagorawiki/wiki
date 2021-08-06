@@ -24,7 +24,15 @@ Recently, NFTs have been a powerful primitive demonstrating usefulness in the cr
 * [**OpenMinter**](https://github.com/tqtezos/minter) ****and [**Minter-SDK**](https://github.com/tqtezos/minter-sdk) - A reusable dApp and SDK that allows anyone to create, collect, sell, or swap NFTs on Tezos.
 * \*\*\*\*[**tzcolors**](https://www.tzcolors.io)\*\*\*\*
 * \*\*\*\*[**TezAuction**](https://tez.auction/#/)\*\*\*\*
-* CricTez
+* [CricTez](https://crictez.medium.com/introducing-crictez-21a284c60e94)
+* [MinterPop](https://minterpop.com/)
+* [OneOf](https://oneof.com/)
+* [RedBull Racing Honda](https://www.redbull.com/int-en/redbullracing/tezos-joins-as-official-blockchain-partner)
+* [McLaren Racing](https://www.mclaren.com/racing/partners/tezos/)
+* [Emergents TCG](https://www.emergents.gg/)
+* [Play with Brio ](https://playwithbrio.com/home)
+* [Tezos Profiles](https://tzprofiles.com/)
+* [Ipocamp](https://www.ipocamp.io/)
 
 
 
@@ -32,5 +40,6 @@ Recently, NFTs have been a powerful primitive demonstrating usefulness in the cr
 
 * **Digital Art and Multimedia:** The value of a piece of art is derived from its uniqueness and provenance - knowing that it came from a particular creator and that there is a single edition. NFTs provide a means to link digital art to a token, trace the provenance back to the art's creator, and even an easy means to buy and sell the art. NFTs are flexible enough to represent digital art, music, and even video, all of which are tied to the token via metadata.
 * **Collectibles and Gaming:** NFTs present a unique opportunity for digital collectibles such as memorabilia and trading cards because they provide provable scarcity. For example, an NFT representing a digital twin of an article of sports memorabilia is accurate in that there is only one of that object with the correct lineage and provenance available. Additionally, collectibles such as in-game items for video games are also great examples of use-cases for NFTs, as the items can be ported across games and traded instantly in secondary marketplaces outside of one single game.
+* **Augmented Reality \(AR\) and Virtual Reality \(VR\)**: VR and AR represent a unique opportunity for NFT's to begin to amalgamate with the next metaverse. Relatively unexplored, the potential implications of AR and VR within NFT's are virtually limitless. 
 * **Tickets:** Since tickets to events are typically unique objects with individual serial numbers, they can be represented digitally as NFTs. Representing tickets as NFTs also prevents counterfeiting, as each NFT is a unique digital object that can't be copied due to an immutable record of provenance. Additionally, representing tickets as NFTs creates transparent aftermarkets which can curb scalping for exorbitant prices.
 
