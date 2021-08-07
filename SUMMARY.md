@@ -31,6 +31,7 @@
   * [Archetype](learn/smartcontracts/archetype.md)
   * [Formal Verification](learn/smartcontracts/michelsonandcoq.md)
 * [Uses of Tezos](learn/uses-of-tezos/README.md)
+  * [Corporate Baking](learn/uses-of-tezos/corporate-baking.md)
   * [Decentralized Finance \(DeFi\)](learn/uses-of-tezos/defi.md)
   * [Non-Fungible Tokens \(NFTs\)](learn/uses-of-tezos/nft.md)
   * [Tokenization](learn/uses-of-tezos/tokenization.md)
