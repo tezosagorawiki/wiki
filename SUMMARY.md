@@ -39,7 +39,6 @@
   * [Tokenization](learn/uses-of-tezos/tokenization.md)
   * [Identity \(DID\)](learn/uses-of-tezos/decentralizedidentity.md)
   * [Decentralized Autonomous Organizations \(DAOs\)](learn/uses-of-tezos/decentralized-autonomous-organizations-daos.md)
-* [Built on Tezos](learn/builtontezos.md)
 * [In Development](learn/futuredevelopments/README.md)
   * [Privacy](learn/futuredevelopments/privacy.md)
   * [Tenderbake](learn/futuredevelopments/fdconsensus.md)
