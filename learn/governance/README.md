@@ -42,5 +42,7 @@ See [the full details of the governance process](https://medium.com/tezos/amendi
 
 ### 5. Adoption Period
 
-The Adoption Period provides a "cool-down" allowing developers and bakers some additional time to adapt their code and infrastructure to the upgrade based on the results of the Promotion Vote Period.
+The Adoption Period provides a "cool-down" allowing developers and bakers some additional time to adapt their code and infrastructure to the upgrade based on the results of the Promotion Vote Period.  
+  
+Following the adoption period the protocol is activated. After this step the blocks added to the chain are interpreted in the newly activated protocol. As a result gas costs \(and other such details of operation inclusion\) may differ.
 
