@@ -26,3 +26,5 @@ There are many open-source tools available to automate processes and make your b
 * [Storing XTZ in Ledger Nano S while delegating](https://www.ledger.com/tezos-wallet)
 * [Double Baking -- How a baker can lose it's XTZ](https://medium.com/cryptium/half-baked-is-always-better-than-double-baked-what-is-at-stake-in-the-tezos-protocol-6619ce4a5f87)
 
+
+

@@ -77,6 +77,10 @@
 * [Baking](use/baking/README.md)
   * [Setting up a Tezos Baker](use/baking/setting-up-a-secure-baker.md)
   * [Key Baking Resources](use/baking/key-baking-resources.md)
+* [User Opportunities](use/user-opportunities/README.md)
+  * [Community Grants Program](use/user-opportunities/community-grants-program.md)
+  * [Small Grants Program](use/user-opportunities/small-grants-program.md)
+  * [Global Tezos Ecosystem Grants Program](use/user-opportunities/global-tezos-ecosystem-grants-program.md)
 * [Contact and Support](use/contact-and-support.md)
 
 ## Contribute

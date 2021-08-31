@@ -27,3 +27,7 @@ No longer maintained:
 
 * [Magma \(iOS and Android\)](https://magmawallet.io) \(For reference only\)\( Has undergone at least one independent external security audit \)
 
+Migrating from older wallets:
+
+* Tezbox: [Migrating a Tezos account from TezBox to Galleon](https://www.youtube.com/watch?v=fLnOcezCZU0) 
+
