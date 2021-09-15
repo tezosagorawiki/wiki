@@ -60,6 +60,7 @@
   * [Beacon Wallet](build/dapp-development/beacon-wallet.md)
   * [Build your first Tezos dApp](build/dapp-development/create-your-first-dapp.md)
 * [Create a Tezos Token](build/create-a-tezos-token/README.md)
+  * [Builder Opportunities](build/create-a-tezos-token/builder-opportunities.md)
   * [FA2 & SmartPy - Digital Assets on Tezos](build/create-a-tezos-token/fa2-and-smartpy-digital-assets-on-tezos.md)
   * [Non-Fungible Tokens on Tezos Using FA2 · Digital Assets on Tezos](build/create-a-tezos-token/fa2.md)
   * [How to mint NFTs on Tezos using Taquito and Pinata](build/create-a-tezos-token/nft.md)
