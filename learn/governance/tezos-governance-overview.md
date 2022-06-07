@@ -69,39 +69,25 @@ Following the adoption period the protocol is activated. After this step the blo
 
 ### The Supermajority and Quorum Requirements <a href="#the-supermajority-and-quorum-requirements" id="the-supermajority-and-quorum-requirements"></a>
 
-#### Proposal Period <a href="#proposal-period-1" id="proposal-period-1"></a>
+As mentioned above, during either of the exploration or promotion periods, delegates can cast ballots using the `Ballot` operation (see below). In both cases, delegates can cast a single Yay, Nay, or Pass ballot. A ballot has a weight equal to the delegate’s stake as detailed above.
 
-A proposal submitted during a Proposal Period needs to reach a quorum (minimum participation rate) in order to advance to the Exploration Period.
+For either of these two periods, the process continues to the next period if the _vote participation_ reaches _quorum_ and there is a _super-majority_ of Yay.
 
-**Quorum requirement:** The number of votes for the most upvoted proposal divided by the number of possible votes must be greater than or equal to 5%.
+The _vote participation_ is the ratio of all the cumulated stake of cast ballots (including Pass ballots) to the total stake.
 
-#### Exploration & Promotion Periods <a href="#exploration--promotion-periods" id="exploration--promotion-periods"></a>
+For the first vote, the _quorum_ started at 80% of stake. The quorum is adjusted after each vote as detailed below. This adjustment is necessary to ensure that the amendment process can continue even if some delegates stop participating. After each vote the new quorum is updated based on the old quorum and the **vote participation** with the following coefficients:
 
-A vote during a voting period (Exploration & Promotion) needs to reach both a supermajority and a quorum (minimum participation rate) in order to succeed.
+```
+new-quorum = 0.8 × old-quorum + 0.2 × participation
+```
 
-**Supermajority requirement:** The number of "Yay" votes divided by the number of "Yay" and "Nay" votes must be greater than or equal to 80%.
+However, in order to avoid establishing quorums close to 100% that would be very difficult to attain, or, conversely, low quorums close to 0% making little participation chronicle, the quorums are lower- and upper-bounded by [Quorum caps](https://tezos.gitlab.io/protocols/005\_babylon.html#quorum-caps).
 
-**Quorum requirement:** The number of "Yay", "Nay", and "Pass" votes divided by the number of possible votes must be greater than or equal to the current quorum.
+The _super-majority_ is reached if the cumulated stake of Yay ballots is greater than 8/10 of the cumulated stake of Yay and Nay ballots.
 
-Unlike the supermajority requirement which is fixed at 80%, the quorum requirement is updated at the end of each voting period using the following formula, where Q is the quorum in the voting period and q is the participation rate in the voting period:
+Note that Pass ballots do not count towards or against the super-majority; they still counts towards participation and quorum.
 
-In other words, the quorum tries to match the exponential moving average of the past participation rate.\
-
-
-![](https://www.tezosagora.org/static/quorum\_average\_formula.26d43be1.png)
-
-Second, the quorum for the given period (Qt) is calculated with the following parameters:
-
-* t : current voting period
-* A(t) : average participation in the current period
-* 𝑞⋀ : minimum quorum (lower cap), currently set to 20%
-* 𝑞⋁ : maximum quorum (upper cap), currently set to 70%
-
-![](https://www.tezosagora.org/static/quorum\_update\_formula.1716f4d7.png)
-
-More details about the quorum calculation can be found in this [Medium post](https://medium.com/metastatedev/meanwhile-at-cryptium-labs-1-part-ii-607227fc6d65).
-
-### Flowchart of the Tezos Amendment Process <a href="#flowchart-of-the-tezos-amendment-process" id="flowchart-of-the-tezos-amendment-process"></a>
+More details can be found in the file [src/proto\_013\_PtJakart/lib\_protocol/amendment.ml](https://gitlab.com/tezos/tezos/-/blob/master/src/proto\_013\_PtJakart/lib\_protocol/amendment.ml).Flowchart of the Tezos Amendment Process
 
 ![](https://www.tezosagora.org/static/Tezos\_governance\_mechanism.2e932662.png)
 

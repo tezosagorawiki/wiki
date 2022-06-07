@@ -1,241 +1,48 @@
 # Tezos Governance
 
-## The Amendment (and Voting) Process
+## What is Self Amendment? <a id="introduction"></a>
 
-In the Tezos blockchain, the _economic protocol_ can be amended. Specifically, there is an on-chain mechanism to propose changes to the economic protocol, to vote for-or-against these proposed changes, and, depending on the result of the vote, to activate these changes or not.
+Tezos is a self-amending blockchain network that incorporates an on-chain mechanism for proposing, selecting, testing, and activating protocol upgrades without the need to hard fork.
 
-Note that the proposal, voting and activation processes are part of the economic protocol itself. Consequently the amendment rules themselves are subject to amendments.
+## How Does It Work? <a id="how"></a>
 
-The rest of this page gives more details about the amendment and voting process.
-
-## How Does It Work? <a href="#how" id="how"></a>
-
-The self-amendment process is split into 5 periods: Proposal Period, Exploration Vote Period, Cooldown Period, Promotion Vote Period, and Adoption Period. Each of these five periods lasts five baking cycles (i.e.  20,480 blocks or roughly 14 days, 5 hours), comprising roughly 2 months and 10 days.
+The self-amendment process is split into 5 periods: Proposal Period, Exploration Vote Period, Cooldown Period, Promotion Vote Period, and Adoption Period. Each of these five periods lasts five baking cycles \(i.e.  20,480 blocks or roughly 14 days, 5 hours\), comprising roughly 2 months and 10 days.
 
 Should there be any failure to proceed for a period, the whole process reverts to the Proposal Period, effectively restarting the whole process.
 
-### Periods
+### 1. Proposal Period
 
-The amendment process consists of five _periods_. Each period lasts for 5 cycles (or approximately two weeks). The periods (listed below) typically succeed one to another for a total duration of approximately 2 months and a half, after which the whole amendment process starts again.
+The Tezos amendment process begins with the Proposal Period, during which bakers can submit proposals on-chain. The baker submits the proposal by submitting the hash of the source code.
 
-The five periods are as follows:
+In each Proposal Period, bakers can submit up to 20 proposals. A proposal submission also counts as a vote, which is equivalent to the number of rolls in its staking balance at the start of the period. Other bakers can then vote on the proposals by during the Proposal Period up to 20 times.
 
-### 1. **Proposal period**
+At the end of the Proposal Period, the network counts the proposal votes and the most-upvoted proposal proceeds to the Exploration Vote Period. If no proposals have been submitted or if there is a tie between proposals, a new Proposal Period begins.
 
+### 2. Exploration Vote Period
 
+In the Exploration Vote Period, bakers may vote on the top-ranked proposal from the previous Proposal Period. Bakers get to vote either "Yay", "Nay", or "Abstain" on a specific proposal. "Abstain" just means to "not vote" on a proposal. As in the Proposal Period, a baker's vote is based on the number of rolls in its staking balance.
 
-During this period, delegates can:
+At the end of the Exploration Vote Period, the network counts the votes. If voting participation \(the total of “Yay,” “Nay,” and “Abstains”\) meets the target, and an 80% majority of non-abstaining baker approves, the proposal proceeds to the Testing Period.
 
-* submit _protocol amendment proposals_ (or, simply, _proposals_) using the `Proposals` operation (see below);
-* upvote one or several proposals, using the same `Proposals` operation.
-
-Each delegate can submit a maximum of 20 proposals. Duplicates count towards this total.
-
-At the end of a **proposal period**, if participation reaches a [proposal quorum](https://tezos.gitlab.io/protocols/005\_babylon.html#proposal-quorum), the proposal with most support is selected and we move to an **exploration period**. Note that support is measured in the cumulated staking power (expressed in mutez) that delegates supporting the proposal have. E.g., a proposal supported by a single delegate with 600,000 tz of staking power has more support than a proposal supported by two delegates with 100,000 tz each of staking power.
-
-If there are no proposals, or a tie between two or more proposals, or if participation did not reach the proposal quorum, the process moves back to a new **proposal period**.
-
-### 2. Exploration Period
-
-
-
-During this period delegates can cast one Yay, Nay, or Pass ballot on the selected proposal. They do so using the `Ballot` operation.
-
-If the voting participation reaches _quorum_ and there is a _super-majority_ of Yay, the process moves to the **cooldown period**. (See below for details on participation, quorum, and super-majority.)
-
-Otherwise the process moves back to the **proposal period**.
+The voting participation target tries to match the exponential moving average of the past participation rate. If the voting participation fails to achieve the target or the 80% supermajority are not met, the amendment process restarts to the beginning of the Proposal Period
 
 ### 3. Cooldown Period
 
+Previously, during the voting process, a test chain would be spun up during the “testing period” which took place between the exploration and promotion voting periods. The intent was that this test chain be used to assure that the new proposal worked correctly, but in practice, the test chain has never been used in this manner, and has caused significant operational problems to node operators.
 
+The Florence upgrade eliminates the test chain activation; the testing period has been retained but is now named the “cooldown period”. Instead, testing the protocol continues by using test chains that operate outside of the mainnet voting process.
 
-On-chain nothing specific happens during this period. Off-chain the delegates can read the proposal with more scrutiny, the community can discuss finer points of the proposal, the developers can perform additional tests, etc.
+### 4. Promotion Vote Period
 
-At the end of this period, the process moves to the **promotion period**.
+At the end of the Testing Period, the Promotion Vote Period begins. In this period, the network decides whether to adopt the amendment based on off-chain discussions and its behavior during the Testing Period. As in the Exploration Vote Period, bakers submit their votes using the ballot operation, with their votes weighted proportionally to the number of rolls in their staking balance.
 
-### 4. Promotion Period
+At the end of the Promotion Vote Period, the network counts the number of votes. If the participation rate reaches the minimum quorum and an 80% supermajority of non-abstaining bakers votes “Yay,” then the proposal is activated as the new mainnet. Otherwise, the process once more reverts back to the Proposal Period. The minimum vote participation rate is set based on past participation rates.
 
-
-
-If the voting participation reaches _quorum_ and there is a super-majority of Yay, the process moves to the **adoption period**.
-
-Otherwise the process moves back to the **proposal period**.
+See [the full details of the governance process](https://medium.com/tezos/amending-tezos-b77949d97e1e).
 
 ### 5. Adoption Period
 
-Off-chain the developers release tools that include support for the soon-to-be activated protocol, other actors (bakers, indexers, etc.) update their infrastructure to support the newly released tools, smart-contract developers start working with soon-to-be-available features, etc.
+The Adoption Period provides a "cool-down" allowing developers and bakers some additional time to adapt their code and infrastructure to the upgrade based on the results of the Promotion Vote Period.  
+  
+Following the adoption period the protocol is activated. After this step the blocks added to the chain are interpreted in the newly activated protocol. As a result gas costs \(and other such details of operation inclusion\) may differ.
 
-At the very end of the period, the proposal is _activated_. This means that the last block of the period is still interpreted by the current economic protocol, but the first block after the period is interpreted by the new economic protocol (the one that was voted in).
-
-And a new **proposal period** starts.
-
-### Activation
-
-
-
-After the activation step, the blocks added to the chain are interpreted in the newly activated protocol. As a result gas costs may differ, new operations may be available, contracts using new opcodes may be injected, etc.
-
-Because the amendment process is also part of the economic protocol, the amendment process now unfolds according to the rules of the newly activated protocol. As a result the periods may be lengthened or shortened, a new period might be introduced, a different selection mechanism may be used, the quorum requirement might differ, etc.
-
-### Voting Power
-
-
-
-When supporting a proposal or casting a Yay, Nay, or Pass ballot, each delegate has voting power equal to its _stake_. The stake is always measured in **mutez**.
-
-Note that the stake of each delegate is computed at the beginning of each period.
-
-### Super-majority and Quorum
-
-
-
-As mentioned above, during either of the **exploration** or **promotion** periods, delegates can cast ballots using the `Ballot` operation (see below). In both cases, delegates can cast a single Yay, Nay, or Pass ballot. A ballot has a weight equal to the delegate’s stake as detailed above.
-
-For either of these two periods, the process continues to the next period if the _vote participation_ reaches _quorum_ and there is a _super-majority_ of Yay.
-
-The _vote participation_ is the ratio of all the cumulated stake of cast ballots (including Pass ballots) to the total stake.
-
-For the first vote, the _quorum_ started at 80% of stake. The quorum is adjusted after each vote as detailed below. This adjustment is necessary to ensure that the amendment process can continue even if some delegates stop participating. After each vote the new quorum is updated based on the old quorum and the **vote participation** with the following coefficients:
-
-```
-new-quorum = 0.8 × old-quorum + 0.2 × participation
-```
-
-However, in order to avoid establishing quorums close to 100% that would be very difficult to attain, or, conversely, low quorums close to 0% making little participation chronicle, the quorums are lower- and upper-bounded by [Quorum caps](https://tezos.gitlab.io/protocols/005\_babylon.html#quorum-caps).
-
-The _super-majority_ is reached if the cumulated stake of Yay ballots is greater than 8/10 of the cumulated stake of Yay and Nay ballots.
-
-Note that Pass ballots do not count towards or against the super-majority; they still counts towards participation and quorum.
-
-More details can be found in the file [src/proto\_013\_PtJakart/lib\_protocol/amendment.ml](https://gitlab.com/tezos/tezos/-/blob/master/src/proto\_013\_PtJakart/lib\_protocol/amendment.ml).
-
-### The Hash and the Protocol
-
-On the one hand, the voting part of the process revolves around the **hash of a protocol**. Specifically, a delegate submits a hash of a protocol, and all the delegates cast ballots on the proposed hash. The _hash of a protocol_ is the hash of the files that constitute the source code of the protocol.
-
-On the other hand, the **protocol activation** (at the end of the **adoption period**) revolves around the compiled sources of the protocol.
-
-Basically, the voting process works on an identifier of the protocol whilst the activation step works on the protocol itself. Consequently, if a protocol hash is voted in and the protocol it identifies is invalid, the activation step fails.
-
-Checking a hash is of a valid protocol:
-
-When a hash is proposed by a delegate, it is usually accompanied by some blogposts and forum threads on [community websites](https://tezos.gitlab.io/index.html#tezos-community). These should include directions for testing the proposed protocols. If you cannot find such directions, do not hesitate to ask.
-
-Localised failures:
-
-It is possible that the activation step fails on a single node or a few nodes of the network, but succeed on the others. In this case the nodes with the failure are stuck, but the network as a whole continues.
-
-The most likely cause for this is nodes that have not been updated and do not include a new protocol environment version.
-
-If your node becomes stuck, you should start a fresh up-to-date node.
-
-A protocol is _invalid_ if its code cannot be compiled (e.g., if the code is not valid source code), if its code uses functions not present in the [protocol environment](https://tezos.gitlab.io/developer/protocol\_environment.html), or if it downgrades the protocol environment version.
-
-If an invalid protocol is voted in, then the activation fails for all the nodes, and then the chain becomes stuck. This is why it is important to vote for hashes that designate valid protocols: ones with sources that are available and that can be compiled.
-
-### Operations
-
-There are two operations used by the delegates: **proposals** and **ballot**.
-
-A _proposals_ operation can only be injected during a proposal period.
-
-```
-Proposals : {
-  source: Signature.Public_key_hash.t ;
-  period: Voting_period_repr.t ;
-  proposals: Protocol_hash.t list ; }
-```
-
-The `source` is the public key hash of the delegate, `period` is the unique identifier of each voting period and `proposals` is a non-empty list of maximum 20 protocol hashes. The operation can be submitted more than once but only as long as the cumulative length of the proposals lists is less than 20. Duplicate proposals from the same delegate are accounted for in the maximum number of proposals for that delegate. However duplicates from the same delegate are not tallied at the end of the proposal period.
-
-For example, a delegate submits a _proposals_ operation for protocols A and B early in the proposal period, later a new protocol C is revealed and the delegate submits another _proposals_ operation for protocols B and C. The list of submissions that will be tallied is \[A,B,C].
-
-A _ballot_ operation can only be submitted during periods where a vote happens (e.g. exploration, promotion), and only once per period.
-
-```
-Ballot : {
-  source: Signature.Public_key_hash.t ;
-  period: Voting_period_repr.t ;
-  proposal: Protocol_hash.t ;
-  ballot: Vote_repr.ballot ; }
-```
-
-The fields `source` and `period` are the same as above, while `proposal` is the currently selected proposal and `ballot` is one of `Yay`, `Nay` or `Pass`. The `Pass` vote allows a delegate to contribute towards the quorum without contributing towards the super-majority. This is important because, as detailed above, the quorum is adaptive and that low participation would lower the quorum of the next vote.
-
-More details on the operations can be found in [src/proto\_013\_PtJakart/lib\_protocol/operation\_repr.ml](https://gitlab.com/tezos/tezos/-/blob/master/src/proto\_013\_PtJakart/lib\_protocol/operation\_repr.ml). The binary format is described by `tezos-client describe unsigned operation`.
-
-### Client Commands
-
-
-
-The Octez client, `tezos-client`, provides commands for basic exploration and interaction with the amendment and voting process.
-
-#### Show
-
-
-
-Tezos’ client provides a command to show the status of a voting period. It displays different information for different kind of periods, as in the following samples:
-
-```
-$ tezos-client show voting period
-Current period: "proposal"
-Blocks remaining until end of period: 59
-Current proposals:
-PsNa6jTtsRfbGaNSoYXNTNM5A7c3Lji22Yf2ZhpFUjQFC17iZVp 2,400,000 ꜩ
-
-$ tezos-client show voting period
-Current period: "exploration"
-Blocks remaining until end of period: 63
-Current proposal: PsNa6jTtsRfbGaNSoYXNTNM5A7c3Lji22Yf2ZhpFUjQFC17iZVp
-Ballots:
-  Yay: 2,400,000 ꜩ
-  Nay: 0 ꜩ
-  Pass: 0 ꜩ
-Current participation 20.00%, necessary quorum 80.00%
-Current in favor 2,400,000 ꜩ, needed supermajority 1,920,000 ꜩ
-
-$ tezos-client show voting period
-Current period: "cooldown"
-Blocks remaining until end of period: 64
-Current proposal: PsNa6jTtsRfbGaNSoYXNTNM5A7c3Lji22Yf2ZhpFUjQFC17iZVp
-```
-
-It should be noted that the ballot number 2,400,000 ꜩ above is the stake counted in mutez (displayed in tez). The proposal has a total stake of 2,400,000 ꜩ, which may come from a single ballot from a delegate having a staking balance of 2,400,000 ꜩ or it may come from multiple ballots from delegates with a combined stake of 2,400,000 ꜩ.
-
-#### Submit proposals
-
-
-
-During a proposal period, a list of proposals can be submitted with:
-
-```
-tezos-client submit proposals for <delegate> <proposal1> <proposal2> ...
-```
-
-Remember that each delegate can submit a maximum of 20 protocol hashes and that duplicates count towards this total. Moreover each proposal is accepted only if it meets one of the following two conditions:
-
-* the protocol hash was already proposed on the network. In this case we can submit an additional proposal that “upvotes” an existing one and our staking power are added to the ones already supporting the proposal.
-* the protocol is known by the node. In particular the first proposer of a protocol should be able to successfully inject the protocol in its node which performs some checks, compiles and loads the protocol.
-
-These are protection measures that the Octez client takes to prevent the accidental injection of invalid protocols. As mentioned above, it is still important to check the validity of the protocols that you vote for as they may have been injected via different means.
-
-#### Submit ballots
-
-During either of the **exploration** or **promotion** periods, ballots can be submitted once with:
-
-```
-tezos-client submit ballot for <delegate> <proposal> <yay|nay|pass>
-```
-
-### Further External Resources
-
-Further details and explanations on the voting procedure can be found at:
-
-* [Governance on-chain](https://opentezos.com/tezos-basics/governance-on-chain) on Open Tezos
-* [Tezos Governance](https://www.tezosagora.org/learn#an-introduction-to-tezos-governance) on Tezos Agora.
-
-For more details on the client commands refer to the manual at [Client manual](https://tezos.gitlab.io/jakarta/cli-commands.html#client-manual-jakarta).
-
-For vote related RPCs check the [RPCs - Reference](https://tezos.gitlab.io/jakarta/rpc.html) under the prefix `votes/`.
-
-\
