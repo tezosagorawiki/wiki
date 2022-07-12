@@ -104,3 +104,49 @@ The Hangzhou proposal features several major improvements to the protocol, as we
 * [Minor Changes](https://tezos.gitlab.io/protocols/011\_hangzhou.html#minor-changes)
 
 A full changelog can be found[ here](https://tezos.gitlab.io/protocols/011\_hangzhou.html#protocol-hangzhou).
+
+## [Ithaca](https://www.tezosagora.org/period/65) (Psithaca2)
+
+
+
+**Important**: revision _PsiThaCaT…jVP_ of protocol Ithaca contains [bugs](https://research-development.nomadic-labs.com/announcing-ithaca-2.html) that have been corrected in the latest version _Psithaca2…z6A_.
+
+The code can be found in the [src/proto\_012\_Psithaca](https://gitlab.com/tezos/tezos/-/tree/master/src/proto\_012\_Psithaca) directory of the `master` branch of Tezos.\
+\
+Ithaca most notably implemented the Tenderbake upgrade amongst other improvements. The details of which can be found here:&#x20;
+
+* [New Environment Version (V4)](https://tezos.gitlab.io/protocols/012\_ithaca.html#new-environment-version-v4)
+* [Tenderbake](https://tezos.gitlab.io/protocols/012\_ithaca.html#tenderbake)
+* [Precheck of operations](https://tezos.gitlab.io/protocols/012\_ithaca.html#precheck-of-operations)
+* [Michelson](https://tezos.gitlab.io/protocols/012\_ithaca.html#michelson)
+* [Tickets Hardening (ongoing)](https://tezos.gitlab.io/protocols/012\_ithaca.html#tickets-hardening-ongoing)
+* [Bug Fixes](https://tezos.gitlab.io/protocols/012\_ithaca.html#bug-fixes)
+* [Minor Changes](https://tezos.gitlab.io/protocols/012\_ithaca.html#minor-changes)
+
+A full changelog can be found [here](https://tezos.gitlab.io/protocols/012\_ithaca.html).\
+
+
+## [Jakarta](https://www.tezosagora.org/period/71) (PtJakart2)
+
+
+
+**Important**: revision _PtJakarta…nGw_ of protocol Jakarta contains [two critical bugs](https://research-development.nomadic-labs.com/we-found-two-bugs-in-torus-jakarta.html) that have been corrected in the latest version _PtJakart2…SqY_.
+
+The code can be found in the [src/proto\_013\_PtJakart](https://gitlab.com/tezos/tezos/-/tree/master/src/proto\_013\_PtJakart) directory of the `master` branch of Tezos.\
+\
+The Jakarta protocol proposal includes Transaction Optimistic Rollups, fixes for Sapling integration, a Liquidity Baking toggle as well as:&#x20;
+
+* [New Environment Version (V5)](https://tezos.gitlab.io/protocols/013\_jakarta.html#new-environment-version-v5)
+* [Liquidity Baking](https://tezos.gitlab.io/protocols/013\_jakarta.html#liquidity-baking)
+* [Transaction Optimistic Rollups](https://tezos.gitlab.io/protocols/013\_jakarta.html#transaction-optimistic-rollups)
+* [Smart Contract Optimistic Rollups (ongoing)](https://tezos.gitlab.io/protocols/013\_jakarta.html#smart-contract-optimistic-rollups-ongoing)
+* [Tickets Hardening](https://tezos.gitlab.io/protocols/013\_jakarta.html#tickets-hardening)
+* [Voting procedure](https://tezos.gitlab.io/protocols/013\_jakarta.html#voting-procedure)
+* [Breaking Changes](https://tezos.gitlab.io/protocols/013\_jakarta.html#breaking-changes)
+* [Bug Fixes](https://tezos.gitlab.io/protocols/013\_jakarta.html#bug-fixes)
+* [Minor Changes](https://tezos.gitlab.io/protocols/013\_jakarta.html#minor-changes)
+* [Michelson](https://tezos.gitlab.io/protocols/013\_jakarta.html#michelson)
+* [RPC Changes](https://tezos.gitlab.io/protocols/013\_jakarta.html#rpc-changes)
+* [Internal](https://tezos.gitlab.io/protocols/013\_jakarta.html#internal)
+
+A full changelog can be found[ here](https://tezos.gitlab.io/protocols/013\_jakarta.html).
