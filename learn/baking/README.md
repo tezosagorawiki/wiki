@@ -4,7 +4,7 @@
 
 “Baking” is the act of signing and publishing blocks to the Tezos blockchain. Bakers are a crucial component of the Proof-of-Stake consensus mechanism by ensuring that all transactions in a block are correct, that the order of transactions is agreed upon, and that no double-spending has occurred.
 
-To bake blocks, a baker needs to participate in Proof-of-Stake, which requires a minimum of 6,000 XTZ (1 roll). The more rolls of tez that a baker owns, the higher your chances are at baking blocks and earning baking rewards.
+To bake blocks, a baker needs to participate in Proof-of-Stake. This requires a minimum of 6,000 XTZ (1 roll) serving as a minimal amount for a delegate (baker) to have [baking](https://tezos.gitlab.io/active/glossary.html#baking) and voting rights in a [cycle](https://tezos.gitlab.io/active/glossary.html#cycle). However, rolls are not used as a unit for [baking](https://tezos.gitlab.io/active/glossary.html#baking) or voting rights, these are based on the actual, non-approximated stake.
 
 ## What is delegating?
 
