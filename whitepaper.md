@@ -111,7 +111,7 @@ module Context = sig
 end
 ```
 
-To avoid blocking on disk operations, the functions use the asynchronous monad Lwt\[@LWT\]. Note that the operations on the context are purely functional: **get** uses the **option** monad rather than throwing an exception while **set** and **del** both return a new **Context**. The **Context** module uses a combination of memory caching and disk storage to efficiently provide the appearance of an immutable store.
+To avoid blocking on disk operations, the functions use the asynchronous monad Lwt. Note that the operations on the context are purely functional: **get** uses the **option** monad rather than throwing an exception while **set** and **del** both return a new **Context**. The **Context** module uses a combination of memory caching and disk storage to efficiently provide the appearance of an immutable store.
 
 We can now define the module type of an arbitrary blockchain protocol:
 
@@ -249,7 +249,7 @@ We deliberately chose a conservative approach to amendments. However, stakeholde
 
 #### Overview
 
-Our proof-of-stake mechanism is a mix of several ideas, including Slasher\[@Slasher\], chain-of-activity\[@CoA\], and proof-of-burn. The following is a brief overview of the algorithm, the components of which are explained in more details below.
+Our proof-of-stake mechanism is a mix of several ideas, including [Slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/), [chain-of-activity](http://www.cs.technion.ac.il/~idddo/CoA.pdf), and proof-of-burn. The following is a brief overview of the algorithm, the components of which are explained in more details below.
 
 Each block is mined by a random stakeholder \(the miner\) and includes multiple signatures of the previous block provided by random stakeholders \(the signers\). Mining and signing both offer a small reward but also require making a 5-cycle safety deposit to be forfeited in the event of a double mining or double signing.
 
@@ -413,7 +413,7 @@ Since storage imposes a cost on the network, a minimum fee of ꜩ 1 is assessed 
 
 #### Code
 
-The language is stack based, with high-level data types and primitives and strict static type checking. Its design is insipired by Forth, Scheme, ML and Cat. A full specification of the instruction set is available in\[@language\]. This specification gives the complete instruction set, type system and semantics of the language. It is meant as a precise reference manual, not an easy introduction.
+The language is stack based, with high-level data types and primitives and strict static type checking. Its design is insipired by Forth, Scheme, ML and Cat. A full specification of the instruction set is available in [language](https://tezos.com/pages/tech.html). This specification gives the complete instruction set, type system and semantics of the language. It is meant as a precise reference manual, not an easy introduction.
 
 #### Fees
 
@@ -427,4 +427,9 @@ If the account permits, the signature key may be changed by issuing a signed mes
 
 We feel we've built an appealing seed protocol. However, Tezos's true potential lies in putting the stakeholders in charge of deciding on a protocol that they feel best serves them.  
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
 
